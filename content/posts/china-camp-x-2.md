@@ -12,7 +12,7 @@ title: China Camp x 2
 url: /2013/07/14/china-camp-x-2/
 
 ---
-\[caption id="" align="alignnone" width="400"\]![](https://lh6.googleusercontent.com/-yqaBCwisIbU/UeIoWBEf5RI/AAAAAAAAvGo/2jwSOEL3-KI/s400/IMG_2516.JPG) Preparando el asado\[/caption\]
+![china_camp](/images/2013_07_14_china_camp.jpeg)
 
 Ayer y el 7 de Julio fuimos con Mateo a China Camp. Yo fui con el mono de 36" y Mateo con su MTB.El 7 de Julio fuimos con las chicas y preparamos (en verdad Mateo preparó) un rico asadito.
 
