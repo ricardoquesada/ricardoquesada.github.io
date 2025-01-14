@@ -1,29 +1,37 @@
-baseURL = "http://retro.moe"
+baseURL = "https://retro.moe"
 languageCode = "en"
 copyright = "© Ricardo Quesada"
 title = "RETRO.MOE"
 theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
 
 [taxonomies]
 category = "category"
 tag = "tag"
 
 [params]
-Description = "From Commodore 64 to the present: a developer's journey"
-DefaultTheme = "auto"
-DisableThemeToggle = true
-ShowShareButtons = true
-ShowReadingTime = true
-ShowToc = false
+DateFormat = "January 2, 2006"
+ShowAllPagesInArchive = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-Comments = true
-HideFooter = true
-ShowPostNavLinks = true
-ShowRssButtonInSectionTermList = true
-ShowAllPagesInArchive = true
 ShowPageNums = true
+ShowPostNavLinks = true
+ShowReadingTime = true
+ShowRssButtonInSectionTermList = true
+ShowShareButtons = true
+ShowToc = false
+comments = true
+defaultTheme = "auto"
+description = "From Commodore 64 to the present: a developer's journey"
+disableThemeToggle = true
+env = "production"
+hideFooter = true
 images = [ "images/papermod-cover.png",]
+
 
 [[params.socialIcons]]
 name = "github"
@@ -63,6 +71,11 @@ url = "mailto:unijoysticle@gmail.com"
 [params.homeInfoParams]
 Title = "Welcome to Retro Moe"
 Content = "👋 I'm Ricardo Quesada and I do stuff: Unicycling, retro computing, demo scene, machine embroidery, software and game development, micro controllers and more.\nSome of my work: [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d) (game engine for mobile), [Bluepad32](https://github.com/ricardoquesada/bluepad32) (gamepad host for micro controllers), [Unijoysticle](/unijoysticle2) (use modern gamepads in retro computers), [The Uni Games](http://localhost:1313/unijoysticle/) (video game that must be controlled using a real unicycle), [Tenes Empandas Graciela](https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela) (Risk-clone for Linux), [VChar64](https://github.com/ricardoquesada/vchar64) (font editor), [some intros/demos](https://csdb.dk/scener/?id=27743)."
+
+[params.editPost]
+URL = "https://github.com/ricardoquesada/ricardoquesada.github.io/tree/main/content"
+Text = "Suggest Changes"
+appendFilePath = true
 
 
 [outputs]
@@ -113,3 +126,4 @@ unsafe = true
 [services]
   [services.googleAnalytics]
     id = 'G-WRBM1M6CST'
+
