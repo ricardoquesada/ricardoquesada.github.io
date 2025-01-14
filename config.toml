@@ -104,3 +104,7 @@ baseName = "feed"
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-WRBM1M6CST'
