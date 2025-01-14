@@ -9,25 +9,20 @@ category = "category"
 tag = "tag"
 
 [params]
-description = "From Commodore 64 to the present: a developer's journey"
-defaultTheme = "auto"
-disableThemeToggle = true
-showShareButtons = true
-showReadingTime = true
-showToc = false
-showBreadCrumbs = true
-showCodeCopyButtons = true
-comments = true
-hideFooter = true
+Description = "From Commodore 64 to the present: a developer's journey"
+DefaultTheme = "auto"
+DisableThemeToggle = true
 ShowShareButtons = true
 ShowReadingTime = true
-ShowPostNavLinks = true
+ShowToc = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
+Comments = true
+HideFooter = true
+ShowPostNavLinks = true
 ShowRssButtonInSectionTermList = true
 ShowAllPagesInArchive = true
 ShowPageNums = true
-ShowToc = true
 images = [ "images/papermod-cover.png",]
 
 [[params.socialIcons]]
@@ -51,18 +46,18 @@ title = "Join discord community"
 url = "https://discord.gg/r5aMn6Cw5q"
 
 [[params.socialIcons]]
-name = "KoFi"
-title = "Buy me a Ko-Fi :)"
-url = "https://ko-fi.com/ricardoquesada"
-
-[[params.socialIcons]]
 name = "X"
 title = "X/Twitter"
 url = "https://x.com/ricardoquesada"
 
+[[params.socialIcons]]
+name = "Email"
+title = "email"
+url = "mailto:unijoysticle@gmail.com"
+
 [params.homeInfoParams]
 Title = "Welcome to Retro Moe"
-Content = "👋 I'm Ricardo Quesada. I post about stuff that I do like: Unicycling, retro computing, demo scene, machine embroidery, software and game development, electronics, robotics, micro controllers and more.\nYou might know/used some of my work: Cocos2d (game engine for mobile), Bluepad32 (controller host for micro controllers), Unijoysticle (use modern gamepads in retro computers), Tenes Empandas Graciela (clone-risk for Linux), some of my demos"
+Content = "👋 I'm Ricardo Quesada and I do stuff: Unicycling, retro computing, demo scene, machine embroidery, software and game development, micro controllers and more.\nSome of my work: [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d) (game engine for mobile), [Bluepad32](https://github.com/ricardoquesada/bluepad32) (gamepad host for micro controllers), [Unijoysticle](/unijoysticle2) (use modern gamepads in retro computers), [The Uni Games](http://localhost:1313/unijoysticle/) (video game that must be controlled using a real unicycle), [Tenes Empandas Graciela](https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela) (Risk-clone for Linux), [VChar64](https://github.com/ricardoquesada/vchar64) (font editor), or [some of my intro/demos](https://csdb.dk/scener/?id=27743)."
 
 
 [outputs]
@@ -85,8 +80,8 @@ url = "https://www.tindie.com/stores/riq/"
 weight = 3
 
 [[menu.main]]
-name = "Contact"
-url = "/contact/"
+name = "Archive"
+url = "/all/"
 weight = 4
 
 [[menu.main]]
