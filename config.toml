@@ -1,5 +1,6 @@
 baseURL = "http://retro.moe"
 languageCode = "en"
+copyright = "© Ricardo Quesada"
 title = "RETRO.MOE"
 theme = "PaperMod"
 
@@ -18,6 +19,51 @@ showBreadCrumbs = true
 showCodeCopyButtons = true
 comments = true
 hideFooter = true
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+images = [ "images/papermod-cover.png",]
+
+[[params.socialIcons]]
+name = "github"
+title = "View Source on Github"
+url = "https://github.com/ricardoquesada"
+
+[[params.socialIcons]]
+name = "Mastodon"
+title = "Mastodon"
+url = "https://mastodon.social/@ricardoquesada"
+
+[[params.socialIcons]]
+name = "Bluesky"
+title = "Bluesky"
+url = "https://bsky.app/profile/ricardoquesada.bsky.social"
+
+[[params.socialIcons]]
+name = "Discord"
+title = "Join discord community"
+url = "https://discord.gg/r5aMn6Cw5q"
+
+[[params.socialIcons]]
+name = "KoFi"
+title = "Buy me a Ko-Fi :)"
+url = "https://ko-fi.com/ricardoquesada"
+
+[[params.socialIcons]]
+name = "X"
+title = "X/Twitter"
+url = "https://x.com/ricardoquesada"
+
+[params.homeInfoParams]
+Title = "Welcome to Retro Moe"
+Content = "👋 I'm Ricardo Quesada. I post about stuff that I do like: Unicycling, retro computing, demo scene, machine embroidery, software and game development, electronics, robotics, micro controllers and more.\nYou might know/used some of my work: Cocos2d (game engine for mobile), Bluepad32 (controller host for micro controllers), Unijoysticle (use modern gamepads in retro computers), Tenes Empandas Graciela (clone-risk for Linux), some of my demos"
+
 
 [outputs]
 home = [ "HTML", "RSS", "JSON",]
