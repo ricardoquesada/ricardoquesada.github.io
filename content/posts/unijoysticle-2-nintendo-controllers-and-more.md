@@ -11,7 +11,7 @@ title: 'Unijoysticle 2: Nintendo controllers and more!'
 url: /2019/12/22/unijoysticle-2-nintendo-controllers-and-more/
 
 ---
-https://youtu.be/8X7lPOL6b6A
+{{< youtube 8X7lPOL6b6A >}}
 
 Unijoysticle 2 Christmas 2019 update, with support for:
 

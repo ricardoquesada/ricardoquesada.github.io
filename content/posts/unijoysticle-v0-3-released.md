@@ -5,8 +5,6 @@ category:
 date: "2016-07-29T14:26:23+00:00"
 guid: http://retro.moe/?p=1786
 summary: |-
-  https://youtu.be/w2cdoTU-GJU
-
   Yeaaaaaaaaaah! UniJoystiCle v0.3 was released!
 
   It includes:
@@ -20,7 +18,7 @@ title: UniJoystiCle v0.3 released!
 url: /2016/07/29/unijoysticle-v0-3-released/
 
 ---
-https://youtu.be/w2cdoTU-GJU
+{{< youtube w2cdoTU-GJU >}}
 
 Yeaaaaaaaaaah! UniJoystiCle v0.3 was released!
 

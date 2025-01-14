@@ -16,7 +16,7 @@ I did a quick'n'dirty intro for the C64 to promote [SDKBOX](http://sdkbox.com/) 
 
 I took the scroller+rasterbar effects from the game that I'm doing, I took the music from somewhere, the fonts from somewhere, I added some simple moving bars at the top... and done. I only had one day to do it, and I was very happy with the result.
 
-{{< youtube \_CyhZaj5N8o >}}&feature=youtu.be
+{{< youtube _CyhZaj5N8o >}}
 
 The demo ran during the 1st day of the conference on a NTSC C64-SX.
 

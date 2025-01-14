@@ -5,30 +5,12 @@ category:
 date: "2022-07-11T00:52:50+00:00"
 guid: https://retro.moe/?p=2537
 summary: |-
-  **TL;DR:** Support for Amiga and Atari ST mice, USB console, and re-connect improvements.
-
   I 'm happy to announce that Bluepad32 v3.5 has been released. It contains two new big features:
 
   - Mouse support
   - Console
 
   and many fixes & improvements here and there.
-
-  ### Mouse support
-
-  ![](https://lh3.googleusercontent.com/pw/AM-JKLXCbot-0O4NAF-2BWhf62lrRxDvdhXbfFaWhrWXQ_Hv_mAPRj1e-XF4-SxpoX_sTzBEcr_PDMqlsOz4ePWibi3h7IrfaevQW_jxMRlG2j0wnROhzf37BvG6IRvA1PPveChSrSLBy7yndHY2eMiJB1-NNA=-no)Some of the supported mice
-
-  Mouse support has been added both at the "core" level, and at a "platform" level.
-
-  By "core" level, I mean that all platforms (Unijoysticle, NINA/AirLift, Arduino, etc.) receive the mouse information: x & y movement and the Left, Middle and Right buttons.
-
-  And by "platform" level, I mean that the Unijoysticle platform transforms the mouse data into quadrature events that both Amiga and Atari ST computers can understand.
-
-  https://youtu.be/cE4u50y5TOI?t=49
-
-  Using mouse on the Amiga 500
-
-  See the complete list of supported mice here: [supported mice](https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_mice.md)
 tag:
   - bluepad32
   - esp32
@@ -56,7 +38,7 @@ By "core" level, I mean that all platforms (Unijoysticle, NINA/AirLift, Arduino,
 
 And by "platform" level, I mean that the Unijoysticle platform transforms the mouse data into quadrature events that both Amiga and Atari ST computers can understand.
 
-https://youtu.be/cE4u50y5TOI?t=49
+{{< youtube cE4u50y5TOI >}}
 
 Using mouse on the Amiga 500
 

@@ -6,10 +6,6 @@ date: "2022-10-02T19:29:53+00:00"
 guid: https://retro.moe/?p=2557
 summary: |-
   I discovered a way to send 1-bit of data from the Commodore 64 to the Joysticks. And I use this one-bit of data to turn on/off the rumble in the gamepads through the Unijoysticle.
-
-  https://www.youtube.com/watch?v=vCj45OX43JE
-
-  (Note: [Spanish version of the video is here](https://www.youtube.com/watch?v=0pEDP2tvvQc))
 title: Gamepad rumble support for the Commodore 64
 url: /2022/10/02/gamepad-rumble-support-for-the-commodore-64/
 

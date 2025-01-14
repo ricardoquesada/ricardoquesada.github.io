@@ -16,7 +16,7 @@ url: /2019/04/15/unijoysticle-2-modern-bluetooth-gamepads-for-retro-computers/
 ---
 Announcing Unijoysticle 2:
 
-https://youtu.be/2uakPuSOjZU
+{{< youtube 2uakPuSOjZU >}}
 
 Use modern Bluetooth controllers (gamepads, mice, smart TV remote controllers) in retro computers like the Commodore 64/128, Atari ST, Amiga and more.
 

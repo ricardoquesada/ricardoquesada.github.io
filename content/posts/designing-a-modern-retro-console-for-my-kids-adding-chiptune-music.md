@@ -36,7 +36,7 @@ url: /2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-mu
 ---
 ### The ideal modern-retro video game console
 
-{{< youtube G\_Fzt8RlbFc >}}
+{{< youtube G_Fzt8RlbFc >}}
 
 My goal is to build a video game console for (my) kids. I want to teach them programming in a fun way: fun for them... and also fun for me. The video-game console features are:
 
@@ -57,7 +57,7 @@ In other words, I'm building a **Nintendo Switch killer**. What will happen next
 
 ### Adding music support: the SN76489 chip
 
-https://upload.wikimedia.org/wikipedia/commons/a/a8/SN76489\_01.jpg
+![](https://upload.wikimedia.org/wikipedia/commons/a/a8/SN76489_01.jpg)
 
 The SN76489 is a "chiptune" music chip that was used in many video game consoles and computers back in the 80's. It is the ideal candidate for the "modern retro console" because:
 

@@ -6,20 +6,6 @@ date: "2019-09-29T14:45:14+00:00"
 guid: http://retro.moe/?p=2215
 summary: |-
   Commando 2084 is the mix between Commando and Robotron 2084: it is like the original Commando game, but using the Robotron 2084 controls.
-
-  You play it using the two joysticks at the same time:
-
-  - Joy #2 controls the hero direction
-  - Joy #1 controls the bullets direction
-
-  But better if you play it with a [Unijoysticle 2](https://retro.moe/unijoysticle2) with a Dualshok4 gamepad (or similar).
-
-  https://youtu.be/iXdx9jOd0Ho
-
-  ### Download
-
-  - Download game: [commando-2084.d64](https://gitlab.com/ricardoquesada/c64-commando-2084/raw/master/bin/commando-2084.d64)
-  - Source code, fully commented: [https://gitlab.com/ricardoquesada/c64-commando-2084/](https://gitlab.com/ricardoquesada/c64-commando-2084/)
 tag:
   - c64
   - commando
@@ -39,7 +25,7 @@ You play it using the two joysticks at the same time:
 
 But better if you play it with a [Unijoysticle 2](/unijoysticle2) with a Dualshok4 gamepad (or similar).
 
-https://youtu.be/iXdx9jOd0Ho
+{{< youtube iXdx9jOd0Ho >}}
 
 ### Download
 

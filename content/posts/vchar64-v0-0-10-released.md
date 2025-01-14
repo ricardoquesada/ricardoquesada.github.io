@@ -20,7 +20,7 @@ VChar64 v0.0.10 is available for download: [![logo512](/wp-content/uploads/2015/
 
 {{< figure align=alignnone width=400 src="https://lh3.googleusercontent.com/-cZJk3bEjVTE/VoxwitEGf4I/AAAAAAABc3I/HeFkTAKQra8/s400-Ic42/IMG%5F3489.JPG" alt="" >}}
 
-https://youtu.be/yNCK\_wZbo40
+{{< youtube yNCK_wZbo40 >}}
 
 **Highlights:**
 
