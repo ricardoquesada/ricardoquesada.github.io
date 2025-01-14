@@ -10,13 +10,19 @@ url: /unijoysticle2/
 
 Like the original [Unijoysticle](/unijoysticle), but remove WiFi and add Bluetooth.
 
-https://youtu.be/cE4u50y5TOI
+{{< youtube cE4u50y5TOI >}}
 
 Unijoysticle 2 allows you to use modern Bluetooth controllers, like Sony DualSense or Nintendo Switch controllers (among many others) in old computers like the Commodore 64, Amiga or Atari.
 
 ## Unijoysticle C64 / A500 / 800XL
 
-[C64](https://www.tindie.com/products/riq/unijoysticle-2-c64-gamepad-for-commodore-64/)[A500](https://www.tindie.com/products/riq/unijoysticle-2-a500-gamepadmouse-for-amiga/)[800XL](https://www.tindie.com/products/riq/unijoysticle-2-800xl-gamepad-for-atari-800xl/)![](https://lh3.googleusercontent.com/pw/AIL4fc_Os0bnyvrYRU4efhPlk_rbDbfNV6Nslh2rwlvoQWjLBcV4God8rZml-H1zO_lU0VTb8qKgtYA678jTXKAwxqAjL2hTlyc65i1xFzFnSB_qK1bn65hmkyGyS2ZfDYc4zkreaM6BeanSQdNZGvenWonq8Q=-no?authuser=0)![](https://lh3.googleusercontent.com/pw/AIL4fc8bt-GFBY1WPWdAZPqPSQAr96CzJRCTcLWwkNESkpIhS3avgvq9WyuCiIO8TL9a7FKsouvUPKWazgcZjvwB8Js9n8SZVTXD4c6ffTL-XBjz6vtpNn7WOF3gzMEBv2PC0dWVGg1Cz0e2wJuymbDdZcKdNw=-no?authuser=0)![](https://lh3.googleusercontent.com/pw/AIL4fc9gKcYKGbRv1VupB3c6pnblHmgVlYp1s4pIT5hLFpVmHbxZgLLgVDVjsKfhYoWvkGdOjBY9OodhbJywP8m-c4x4xMfniExAwIPbe49dxBovnLkrbu1V3ftm-L_V7SCzvJxtpYNy8xCR5VQktn6NJ7RGfg=-no?authuser=0)Different models tailored for different computers
+[C64](https://www.tindie.com/products/riq/unijoysticle-2-c64-gamepad-for-commodore-64/) | [A500](https://www.tindie.com/products/riq/unijoysticle-2-a500-gamepadmouse-for-amiga/) | [800XL](https://www.tindie.com/products/riq/unijoysticle-2-800xl-gamepad-for-atari-800xl/)
+
+![](https://lh3.googleusercontent.com/pw/AIL4fc_Os0bnyvrYRU4efhPlk_rbDbfNV6Nslh2rwlvoQWjLBcV4God8rZml-H1zO_lU0VTb8qKgtYA678jTXKAwxqAjL2hTlyc65i1xFzFnSB_qK1bn65hmkyGyS2ZfDYc4zkreaM6BeanSQdNZGvenWonq8Q=-no?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AIL4fc8bt-GFBY1WPWdAZPqPSQAr96CzJRCTcLWwkNESkpIhS3avgvq9WyuCiIO8TL9a7FKsouvUPKWazgcZjvwB8Js9n8SZVTXD4c6ffTL-XBjz6vtpNn7WOF3gzMEBv2PC0dWVGg1Cz0e2wJuymbDdZcKdNw=-no?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AIL4fc9gKcYKGbRv1VupB3c6pnblHmgVlYp1s4pIT5hLFpVmHbxZgLLgVDVjsKfhYoWvkGdOjBY9OodhbJywP8m-c4x4xMfniExAwIPbe49dxBovnLkrbu1V3ftm-L_V7SCzvJxtpYNy8xCR5VQktn6NJ7RGfg=-no?authuser=0)
+
+Different models tailored for different computers
 
 Purchase them from my [Tindie store](https://www.tindie.com/stores/riq):
 
@@ -24,9 +30,10 @@ Purchase them from my [Tindie store](https://www.tindie.com/stores/riq):
 
 I also trade them. One of my products for one of yours. Interested ? Contact me at:
 
-- Email: [unijoysticle@gmail.com](mailto:unijoysticle@gmail.com)
-
-- Twitter: [https://twitter.com/ricardoquesada](https://twitter.com/ricardoquesada)
+- Email: [unijoysticle@gmail.com](mailto:unijoysticle@gmail.com)
+- Blue Sky: [https://bsky.app/profile/ricardoquesada.bsky.social](https://bsky.app/profile/ricardoquesada.bsky.social)
+- Mastodon: [https://mastodon.social/@ricardoquesada](https://mastodon.social/@ricardoquesada)
+- Twitter: [https://twitter.com/ricardoquesada](https://twitter.com/ricardoquesada)
 
 ## Supported Controllers
 
