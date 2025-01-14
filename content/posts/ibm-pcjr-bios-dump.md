@@ -34,4 +34,6 @@ Or just clone the project from github: [https://github.com/ricardoquesada/bios-
 
 This is still Work-in-Progress. I add comments in " _let's see how this portion of the BIOS work_"-basis.
 
-BTW, the Tandy 1000HX BIOS dump is here: [https://github.com/ricardoquesada/bios-8088/tree/master/tandy\_1000hx](https://github.com/ricardoquesada/bios-8088/tree/master/tandy_1000hx) **Update:** Updated links
+BTW, the Tandy 1000HX BIOS dump is here: [https://github.com/ricardoquesada/bios-8088/tree/master/tandy\_1000hx](https://github.com/ricardoquesada/bios-8088/tree/master/tandy_1000hx)
+
+**Update:** Updated links
