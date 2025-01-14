@@ -1,0 +1,65 @@
+baseURL = "http://retro.moe"
+languageCode = "en"
+title = "RETRO.MOE"
+theme = "PaperMod"
+
+[taxonomies]
+category = "category"
+tag = "tag"
+
+[params]
+description = "From Commodore 64 to the present: a developer's journey"
+defaultTheme = "auto"
+disableThemeToggle = true
+showShareButtons = true
+showReadingTime = true
+showToc = false
+showBreadCrumbs = true
+showCodeCopyButtons = true
+comments = true
+hideFooter = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON",]
+
+[menu]
+[[menu.main]]
+name = "Unijoysticle™"
+url = "/unijoysticle/"
+weight = 1
+
+[[menu.main]]
+name = "Unijoysticle™ 2"
+url = "/unijoysticle2/"
+weight = 2
+
+[[menu.main]]
+name = "Store"
+url = "https://www.tindie.com/stores/riq/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+[[menu.main]]
+name = "🔍"
+url = "/search/"
+weight = 5
+
+[params.assets]
+favicon = "/favicon.ico"
+disableHLJS = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+style = "monokai"
+
+[outputFormats.RSS]
+mediaType = "application/rss+xml"
+baseName = "feed"
+
+[markup.goldmark.renderer]
+unsafe = true
