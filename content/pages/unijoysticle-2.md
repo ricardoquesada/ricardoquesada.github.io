@@ -6,7 +6,7 @@ title: Unijoysticle™ 2
 url: /unijoysticle2/
 
 ---
-<img src="https://lh3.googleusercontent.com/pw/AIL4fc89EjAHbRRTwU8UQtjkIA1VIrbs0tp8_lZrkt1vX7O2wmeJFZjlfwTiVnUpB-K52WD1wvAde_XrGChX9qmhgZg0mQC7Gmf1PodIm0trgo8n9OBoFBNSZSDd4_0KpHEORnRv42FmA3qR-vDmMjI4wXh_uQ=-no?authuser=0" alt="Unijoysticle logo" style="width: 100%; max-width: 300px; margin: 0 auto; display: block;" />
+<img src="https://lh3.googleusercontent.com/pw/AIL4fc89EjAHbRRTwU8UQtjkIA1VIrbs0tp8_lZrkt1vX7O2wmeJFZjlfwTiVnUpB-K52WD1wvAde_XrGChX9qmhgZg0mQC7Gmf1PodIm0trgo8n9OBoFBNSZSDd4_0KpHEORnRv42FmA3qR-vDmMjI4wXh_uQ=-no?authuser=0" alt="Unijoysticle logo" style="width: 100%; max-width: 220px; margin: 0 auto; display: block;" />
 
 
 Like the original [Unijoysticle](/unijoysticle), but remove WiFi and add Bluetooth.
@@ -78,9 +78,9 @@ Supports most, if not all, modern Bluetooth controllers:
 
 ## Documentation
 
-- [User Guide](https://gitlab.com/ricardoquesada/unijoysticle2/-/blob/main/docs/user_guide.md)
-- List of [supported gamepads](https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_gamepads.md)
-- List of [supported mice](https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_mice.md)
+- [User Guide](https://unijoysticle.readthedocs.io/en/latest/)
+- List of [supported gamepads](https://bluepad32.readthedocs.io/en/latest/supported_gamepads/)
+- List of [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
 
 ## Open Source / Open Hardware
 
@@ -88,5 +88,5 @@ Supports most, if not all, modern Bluetooth controllers:
 
 The entire project is open source / open hardware:
 
-- [Firmware source code](http://gitlab.com/ricardoquesada/bluepad32) (uses Bluepad32 firmware)
+- [Firmware source code](https://github.com/ricardoquesada/bluepad32) (uses Bluepad32 firmware)
 - [Schematic / Layout](https://gitlab.com/ricardoquesada/unijoysticle2)
