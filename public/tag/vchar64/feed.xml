@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vchar64 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/vchar64/</link>
+    <description>Recent content in Vchar64 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2017 21:31:38 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/vchar64/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VChar64 v0.2.2 released and other news</title>
+      <link>http://localhost:1313/2017/01/08/vchar64-v0-2-2-released-and-other-news/</link>
+      <pubDate>Sun, 08 Jan 2017 21:31:38 +0000</pubDate>
+      <guid>http://localhost:1313/2017/01/08/vchar64-v0-2-2-released-and-other-news/</guid>
+      <description>&lt;h2 id=&#34;vchar64-v022-released&#34;&gt;VChar64 v0.2.2 released&lt;/h2&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.2/vchar64-0.2.2.mac.dmg&#34;&gt;vchar64-0.2.2.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.2/vchar64-0.2.2.win32.zip&#34;&gt;vchar64-0.2.2.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;https://github.com/ricardoquesada/vchar64/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Release notes here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/tag/0.2.2&#34;&gt;https://github.com/ricardoquesada/vchar64/releases/tag/0.2.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unijoysticle-news&#34;&gt;UniJoystiCle news&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/WhrpdiAhtgwmjGQTN3pVO6bDTtDo77s5tTkDMXoWUA08P96vsLMkjNweXlw-_UoFZelzCkZXae6rRuDSPaEYTG5-7sVQAs-BAGh_jiACvRuFQNvFG2BaKkGHO589fXq-lctpcfg=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I started working on the paddle/mouse support. I&amp;rsquo;m using an ESP32 instead of the ESP8266. Progress is documented here (spanish):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://retroinvaders.com/commodoremania/foro/index.php/topic,1708.msg25518/&#34;&gt;UniJoystiCle + Paddle/Mouse support  progress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.2.0 released</title>
+      <link>http://localhost:1313/2016/08/28/vchar64-v0-2-0-released/</link>
+      <pubDate>Mon, 29 Aug 2016 04:34:06 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/28/vchar64-v0-2-0-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.2.0 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.win32.zip&#34;&gt;vchar64-0.2.0.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.mac.dmg&#34;&gt;vchar64-0.2.0.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;425&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/tB3Z3gksYisFmrUL1kE4iANPPsqMGaLrwizc-Ysm3SxFTrUseq-lZgAuB7zDTLayAMlguTSSsY9slw=w1192-h1052-no&#34;&gt; New &amp;ldquo;VICE Import Snapshot&amp;rdquo; dialog[/caption]&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.1.0 released</title>
+      <link>http://localhost:1313/2016/07/15/vchar64-v0-1-0-released/</link>
+      <pubDate>Fri, 15 Jul 2016 13:16:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/07/15/vchar64-v0-1-0-released/</guid>
+      <description>&lt;p&gt;This is mostly a bug-fix release, focused on improving the workflow.&lt;/p&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.1.0/vchar64-0.1.0.mac.dmg&#34;&gt;vchar64-0.1.0.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.1.0/vchar64-0.1.0.win32.zip&#34;&gt;vchar64-0.1.0.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.13 released</title>
+      <link>http://localhost:1313/2016/04/15/vchar64-v0-0-13-released/</link>
+      <pubDate>Fri, 15 Apr 2016 21:35:58 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/15/vchar64-v0-0-13-released/</guid>
+      <description>&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.mac.dmg&#34;&gt;vchar64-0.0.13.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.win32.zip&#34;&gt;vchar64-0.0.13.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lb7UNIhoyoI&#34;&gt;https://www.youtube.com/watch?v=lb7UNIhoyoI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Changelog:&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64: caca powered!</title>
+      <link>http://localhost:1313/2016/03/16/vchar64-caca-powered/</link>
+      <pubDate>Thu, 17 Mar 2016 05:09:04 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/16/vchar64-caca-powered/</guid>
+      <description>&lt;p&gt;Latest VChar64 commit hash:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;commit caca91345d177ded6b9b8f6a8adeaadc3611a29e
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Author: Ricardo Quesada
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Date:   Mon Mar 14 15:31:41 2016 -0700
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fix: use the correct URL to open the documentation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And this is how &lt;code&gt;git describe&lt;/code&gt; shows it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git describe --abbrev=4 --dirty --always --tags
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0.0.12-14-gcaca
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that is the command that I use internally to generate the version number:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/screen-shot-2016-03-16-at-9-59-05-pm.png&#34; width=&#34;412&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.12 released</title>
+      <link>http://localhost:1313/2016/03/01/vchar64-v0-0-12-released/</link>
+      <pubDate>Wed, 02 Mar 2016 07:16:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/01/vchar64-v0-0-12-released/</guid>
+      <description>&lt;p&gt;New version, new features.&lt;/p&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.dmg.zip&#34;&gt;vchar64-0.0.12.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.win32.zip&#34;&gt;vchar64-0.0.12.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[NEW] Koala Import: supports importing subregions. Useful when 256 chars are not enough to import the whole bitmap&lt;/li&gt;
+&lt;li&gt;[NEW] Added unknown font. Ripped from &lt;a href=&#34;http://csdb.dk/release/?id=144857&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[NEW] VICE snapshot import: Default charset address is the one that was used at the moment the snapshot was taken&lt;/li&gt;
+&lt;li&gt;[NEW] Save/Export: Plays one beep on success, two beeps on error&lt;/li&gt;
+&lt;li&gt;[NEW] Main Window: Status Bar shows the coordinates of the different widgets&lt;/li&gt;
+&lt;li&gt;[BUGFIX] Export: shows correct extension when browsing file&lt;/li&gt;
+&lt;li&gt;[BUGFIX] VICE/Koala Import: sets the name of the imported file in the tab&lt;/li&gt;
+&lt;li&gt;[BUGFIX] Koala Import: detects duplicates chars, making the conversion smaller&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2avAMmbQqRA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.11 released</title>
+      <link>http://localhost:1313/2016/02/01/vchar64-v0-0-11-released/</link>
+      <pubDate>Mon, 01 Feb 2016 08:40:35 +0000</pubDate>
+      <guid>http://localhost:1313/2016/02/01/vchar64-v0-0-11-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.11 was released.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.11/vchar64-0.0.11.win32.zip&#34;&gt;vchar64-0.0.11.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.11/vchar64-0.0.11.dmg.zip&#34;&gt;vchar64-0.0.11.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code:  &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2016/02/screen-shot-2016-02-01-at-12-36-42-am.png&#34;&gt;&lt;img alt=&#34;Importing Koala files&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/02/screen-shot-2016-02-01-at-12-36-42-am.png?w=700&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It includes several bug fixes and some important new features like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Koala import support&lt;/li&gt;
+&lt;li&gt;Map support&lt;/li&gt;
+&lt;li&gt;Export to Assembly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.11/CHANGELOG&#34;&gt;Changelog here&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/wIBTINBCngs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.10 released</title>
+      <link>http://localhost:1313/2016/01/05/vchar64-v0-0-10-released/</link>
+      <pubDate>Wed, 06 Jan 2016 01:44:26 +0000</pubDate>
+      <guid>http://localhost:1313/2016/01/05/vchar64-v0-0-10-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.10 is available for download: &lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png&#34;&gt;&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.dmg.zip&#34;&gt;vchar64-0.0.10.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.win32.zip&#34;&gt;vchar64-0.0.10.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-cZJk3bEjVTE/VoxwitEGf4I/AAAAAAABc3I/HeFkTAKQra8/s400-Ic42/IMG%5F3489.JPG&#34; width=&#34;400&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/yNCK&#34;&gt;https://youtu.be/yNCK&lt;/a&gt;_wZbo40&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Live preview with the VChar64 TCP/IP Server for the C64 and C128 (in C128 mode)&lt;/li&gt;
+&lt;li&gt;Minor bug fixes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.10/CHANGELOG&#34;&gt;CHANGELOG v0.0.10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.9 released</title>
+      <link>http://localhost:1313/2015/12/02/vchar64-v0-0-9/</link>
+      <pubDate>Wed, 02 Dec 2015 22:29:49 +0000</pubDate>
+      <guid>http://localhost:1313/2015/12/02/vchar64-v0-0-9/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.9 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.dmg&#34;&gt;vchar64-0.0.9.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.zip&#34;&gt;vchar64-0.0.9.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-iE0eqQymBDk/Vl9f_NOGrII/AAAAAAABcow/0sRHClMkr4U/s400-Ic42/Screen%252520Shot%2525202015-12-02%252520at%2525201.16.32%252520PM.png&#34;&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MDI support: Multiple open documents at the same time&lt;/li&gt;
+&lt;li&gt;Copy &amp;amp; Paste tiles between documents even if they have different interleave options&lt;/li&gt;
+&lt;li&gt;Bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.9/CHANGELOG&#34;&gt;CHANGELOG v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.8 released</title>
+      <link>http://localhost:1313/2015/11/04/vchar64-v0-0-8-released/</link>
+      <pubDate>Thu, 05 Nov 2015 00:14:14 +0000</pubDate>
+      <guid>http://localhost:1313/2015/11/04/vchar64-v0-0-8-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.8 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.8/vchar64-0.0.8-mac.dmg&#34;&gt;vchar64-0.0.8.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.8/vchar64-0.0.8-win32.zip&#34;&gt;vchar64-0.0.8.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-ek5qP9Qnq7w/VjqZJIf3PbI/AAAAAAABUAA/MumlfIxHGk0/s400-Ic42/Screen%252520Shot%2525202015-11-04%252520at%2525203.42.49%252520PM.png&#34; width=&#34;391&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Import snapshots from VICE&lt;/li&gt;
+&lt;li&gt;Tileset mode: Allows to preview all the tiles&lt;/li&gt;
+&lt;li&gt;Better keyboard shortcuts&lt;/li&gt;
+&lt;li&gt;&amp;hellip;and many bug fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.8/CHANGELOG&#34;&gt;CHANGELOG v0.0.8&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.7 released</title>
+      <link>http://localhost:1313/2015/10/05/vchar64-v0-0-7-released/</link>
+      <pubDate>Mon, 05 Oct 2015 07:07:56 +0000</pubDate>
+      <guid>http://localhost:1313/2015/10/05/vchar64-v0-0-7-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.7 released. You can download it from here:&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://www.dropbox.com/s/2yx9axfe3qg19r4/vchar64-0.0.7.zip?dl=1&#34;&gt;vchar64-0.0.7.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://www.dropbox.com/s/5ogv3n9l3poe3ox/vchar64-0.0.7.dmg?dl=1&#34;&gt;vchar64-0.0.7.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tarball: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/archive/release-v0.0.7.zip&#34;&gt;vchar64-release-v0.0.7.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added C64 Palettes: Pepto, VICE, CCS64, Frodo, Grayscale&lt;/li&gt;
+&lt;li&gt;Copy + Paste using block selection&lt;/li&gt;
+&lt;li&gt;Displays selected char on statusbar&lt;/li&gt;
+&lt;li&gt;Ctrl+1, Ctrl+2, Ctrl+3, Ctrl+4 and Ctrl-M to select background, foreground, multicolor1, multicolor2 and Multicolor Mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Complete Changelog: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/release-v0.0.7/CHANGELOG&#34;&gt;CHANGELOG&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/10/screen-shot-2015-10-05-at-12-06-16-am.png?w=294&#34; width=&#34;294&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.6 released</title>
+      <link>http://localhost:1313/2015/08/25/vchar64-v0-0-6-released/</link>
+      <pubDate>Tue, 25 Aug 2015 07:35:31 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/25/vchar64-v0-0-6-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.6 released. You can download it from here:&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://www.dropbox.com/s/npitf789mp5gvsl/vchar-0.0.6.zip?dl=0&#34;&gt;vchar64-0.0.6.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://www.dropbox.com/s/3jrf82edlxvjzn9/vchar64-0.0.6.dmg?dl=0&#34;&gt;vchar64-0.0.6.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tarball: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/archive/release-v0.0.6.zip&#34;&gt;vchar64-release-v0.0.6.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Undo / Redo&lt;/li&gt;
+&lt;li&gt;Dockable panes&lt;/li&gt;
+&lt;li&gt;Saves/Restores the window state and geometry.&lt;/li&gt;
+&lt;li&gt;First release that includes binaries!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Complete Changelog: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/release-v0.0.6/CHANGELOG&#34;&gt;CHANGELOG&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-mVvZaASgcec/Vdyeno%5FjJjI/AAAAAAABTwg/UveprioNQnQ/s640-Ic42/vchar64-0.0.6.png&#34; width=&#34;640&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.5 released</title>
+      <link>http://localhost:1313/2015/08/21/vchar64-v0-0-5-released/</link>
+      <pubDate>Sat, 22 Aug 2015 05:46:28 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/21/vchar64-v0-0-5-released/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;I&amp;rsquo;ve just released VChar64 v0.0.5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt; &lt;strong&gt;Changelog&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Max tile size is 8x8 (previous was 5x5)&lt;/li&gt;
+&lt;li&gt;Right click works as paiting with background color&lt;/li&gt;
+&lt;li&gt;Fixed compiler warnings&lt;/li&gt;
+&lt;li&gt;Better name suggestions when saving and exporting files&lt;/li&gt;
+&lt;li&gt;Added support for importing CharPad 2.0 files&lt;/li&gt;
+&lt;li&gt;If chars were modified, it asks before quitting and before starting a new one&lt;/li&gt;
+&lt;li&gt;Added icon&lt;/li&gt;
+&lt;li&gt;Added option to load lowercase chars&lt;/li&gt;
+&lt;li&gt;Cue in dialog if chars were modified&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.4 released, with xlink support</title>
+      <link>http://localhost:1313/2015/07/20/vchar64-v0-0-4-released-with-xlink-support/</link>
+      <pubDate>Mon, 20 Jul 2015 14:41:24 +0000</pubDate>
+      <guid>http://localhost:1313/2015/07/20/vchar64-v0-0-4-released-with-xlink-support/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;VChar64&lt;/a&gt; v0.0.4 released! And thanks to Henning Bekel, VChar64 now supports &lt;a href=&#34;http://henning-bekel.de/xlink/&#34;&gt;xlink&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZaSR?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Changes since v0.0.2:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added xlink support. For more info: &lt;a href=&#34;http://henning-bekel.de/xlink/&#34;&gt;http://henning-bekel.de/xlink/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added Export As&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Export will export the current project with the previous exported values&lt;/li&gt;
+&lt;li&gt;Added Tile support&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>VChar64: character editor for the Commodore 64</title>
+      <link>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</link>
+      <pubDate>Tue, 10 Feb 2015 20:45:23 +0000</pubDate>
+      <guid>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt; I started to code a unicycle game for the Commodore 64. The first thing that I realized was that I needed an game editor, so I started to code one: VChar64.&lt;/p&gt;
+&lt;p&gt;Today I released v0.0.1 which has basic functionality but the functionality that it has, just work. You can download it from here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Imports raw, PRG and CharPad file formats&lt;/li&gt;
+&lt;li&gt;Exports to raw and PRG&lt;/li&gt;
+&lt;li&gt;Basic editing functionality: Rotate, Invert, Clear, Shift left/right/up/down&lt;/li&gt;
+&lt;li&gt;Multiplatform: Win, Linux and Mac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Screenshot:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

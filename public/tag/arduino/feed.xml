@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Arduino on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/arduino/</link>
+    <description>Recent content in Arduino on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Apr 2023 01:54:18 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/arduino/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluepad32 v3.7.0 released with Arduino IDE support</title>
+      <link>http://localhost:1313/2023/04/23/bluepad32-v3-7-0-released-with-arduino-ide-support/</link>
+      <pubDate>Mon, 24 Apr 2023 01:54:18 +0000</pubDate>
+      <guid>http://localhost:1313/2023/04/23/bluepad32-v3-7-0-released-with-arduino-ide-support/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/0jnY-XXiD8Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;I&amp;rsquo;ve just released Bluepad32 v3.7.0 with two important features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino IDE support&lt;/li&gt;
+&lt;li&gt;In addition to ESP32, it also supports ESP32-S3 and ESP32-C3 (only BLE gamepads supported.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Details and more here: &lt;a href=&#34;https://gitlab.com/ricardoquesada/bluepad32&#34;&gt;https://gitlab.com/ricardoquesada/bluepad32&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bluepad32 support for Arduino and CircuitPython</title>
+      <link>http://localhost:1313/2021/07/25/bluepad32-support-for-arduino-and-circuitpython/</link>
+      <pubDate>Mon, 26 Jul 2021 04:47:39 +0000</pubDate>
+      <guid>http://localhost:1313/2021/07/25/bluepad32-support-for-arduino-and-circuitpython/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2021/07/bluepad32-arduino-circuitpython.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2021/07/bluepad32-arduino-circuitpython.png?w=800&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is now possible to use Bluetooth gamepads both in Arduino and CircuitPython projects.&lt;/p&gt;
+&lt;p&gt;This means that you can use your PlayStation (PS3, PS4, PS5), Nintendo (Wii, Wii U, Switch) and Xbox One S gamepads in your electronics project: control a robot, home-automation, video games, etc&amp;hellip; everything controlled from your favorite gamepad.&lt;/p&gt;
+&lt;p&gt;The catch is that not every Arduino or CircuitPython boards are supported. In fact, only a few of them are supported.&lt;/p&gt;
+&lt;p&gt;For Arduino, the boards that have the &lt;a href=&#34;https://www.u-blox.com/en/product/nina-w10-series-open-cpu&#34;&gt;NINA-W10x&lt;/a&gt; (ESP32) co-processor are supported, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://store.arduino.cc/usa/nano-rp2040-connect-with-headers&#34;&gt;Arduino Nano RP2040 Connect&lt;/a&gt; (great board, get one if you haven&amp;rsquo;t already)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://store.arduino.cc/usa/nano-33-iot&#34;&gt;Arduino Nano 33 IoT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://store.arduino.cc/usa/mkr-wifi-1010&#34;&gt;Arduino MKR WiFi 1010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://store.arduino.cc/usa/mkr-vidor-4000&#34;&gt;Arduino MKR VIDOR 4000 WiFi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://store.arduino.cc/usa/arduino-uno-wifi-rev2&#34;&gt;Arduino Uno WiFi Rev 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;and probably a few more. If it has the NINA-W10x co-processor, it is supported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And similar for CircuitPython, the boards that have the AirLift (ESP32) co-processor are supported, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adafruit.com/product/4745&#34;&gt;Adafruit MatrixPortal M4&lt;/a&gt; (great to create &lt;a href=&#34;https://retro.moe/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/&#34;&gt;a video-game console&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adafruit.com/product/4000&#34;&gt;Adafruit Metro M4 Express AirLift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adafruit.com/product/4116&#34;&gt;Adafruit PyPortal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adafruit.com/product/4200&#34;&gt;Adafruit PyBadge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With the additional benefit that you can use any CircuitPython board by attaching the stand-alone AirLift module:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.adafruit.com/product/4201&#34;&gt;AirLift module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Soldering, what could go wrong?</title>
+      <link>http://localhost:1313/2015/04/11/soldering-what-could-go-wrong/</link>
+      <pubDate>Sun, 12 Apr 2015 05:03:26 +0000</pubDate>
+      <guid>http://localhost:1313/2015/04/11/soldering-what-could-go-wrong/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m good at software engineering, but in electronics, I&amp;rsquo;m a newbie. Nonetheless, I find electronics fascinating.&lt;/p&gt;
+&lt;p&gt;Last year I did the first basic tutorials with Arduino, then I played a little bit with Raspberry Pi and CI20 (technically not really electronics). And this year, I built a very simple circuit to connect the RGBI output of my Commodore 128 to VGA&amp;hellip; I have been using breadboard, so no soldering, no PCB, or anything like that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

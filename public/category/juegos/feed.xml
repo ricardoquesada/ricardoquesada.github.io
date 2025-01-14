@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Juegos on RETRO.MOE</title>
+    <link>http://localhost:1313/category/juegos/</link>
+    <description>Recent content in Juegos on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Jul 2008 13:02:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/juegos/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Echochrome, un juego Escheriano</title>
+      <link>http://localhost:1313/2008/07/31/echochrome-un-juego-escheriano/</link>
+      <pubDate>Thu, 31 Jul 2008 13:02:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/07/31/echochrome-un-juego-escheriano/</guid>
+      <description>&lt;p&gt;Un interesante juego Escheriano&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

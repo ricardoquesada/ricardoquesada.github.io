@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nodemcu on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/nodemcu/</link>
+    <description>Recent content in Nodemcu on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Mar 2016 21:21:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/nodemcu/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C64 Remote Controller: NodeMCU vs. Adafruit Huzzah vs. SparkFun Thing vs...</title>
+      <link>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</link>
+      <pubDate>Sun, 27 Mar 2016 21:21:04 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</guid>
+      <description>&lt;h3 id=&#34;requirements-for-thec64-controller&#34;&gt;Requirements for the c64 controller&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A micro-controller. I doesn&amp;rsquo;t need to be very powerful, just powerful enough to handle some UDP connections and configuring some GPIOs.&lt;/li&gt;
+&lt;li&gt;Flash-able firmware: If possible with support for &lt;a href=&#34;https://www.arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; (or similar). C++ preferred. &lt;a href=&#34;http://micropython.org/&#34;&gt;Micropython&lt;/a&gt; could be a nice backup plan.&lt;/li&gt;
+&lt;li&gt;WiFi&lt;/li&gt;
+&lt;li&gt;Some GPIOs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;which-moduleto-choose&#34;&gt;Which module to choose&lt;/h3&gt;
+&lt;p&gt;There many alternatives, and these are the ones that I evaluated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoBoardUno&#34;&gt;Arduino&lt;/a&gt; + &lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoWiFiShield101&#34;&gt;WiFi shield&lt;/a&gt; or &lt;a href=&#34;http://espressif.com/en/products/hardware/esp8266ex/overview&#34;&gt;ESP8266&lt;/a&gt;: This is the first option that I evaluated thanks to &lt;a href=&#34;http://www.lemon64.com/forum/viewtopic.php?t=60046&#34;&gt;different&lt;/a&gt; &lt;a href=&#34;http://retroinvaders.com/commodoremania/foro/index.php/topic,1525.0.html&#34;&gt;suggestions&lt;/a&gt;. But since the ESP8266 already comes with a flash-able firmware, there was no need to use the Arduino part. I discarded this option, but I liked the ESP8266 part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.adafruit.com/products/2471&#34;&gt;Adafruit Huzzah&lt;/a&gt; breakout ($9.95) / &lt;a href=&#34;https://www.adafruit.com/products/2821&#34;&gt;Adafruit Feather Huzzah&lt;/a&gt; ($15.95): An ESP8266 based module. I like Adafruit products since they are very well tested, they give you support, have very good documentation. But they are usually on the pricy side. All ESP8266 boards are supported by the &lt;a href=&#34;https://github.com/esp8266/Arduino&#34;&gt;Arduino IDE&lt;/a&gt; which is a very good thing.  (I ordered one Feather Huzzah).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sparkfun.com/products/13231&#34;&gt;SparkFun ESP8266 Thing&lt;/a&gt; ($15.95): Similar to the Feather Huzzah.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aliexpress.com/af/nodemcu.html&#34;&gt;NodeMCU&lt;/a&gt; (~$4.00): Very similar too Adafruit Huzzah and SparkFun ESP8266 Thing. I&amp;rsquo;m not sure who built the first module (Adafruit, SparkFun or NodeMCU), although I wouldn&amp;rsquo;t be surprised if NodeMCU was the first one. There is a lot of innovation in China in this area. NodeMCU comes with a firmware that supports Lua, which is nice for faster development. You should know that the Lua firmware could be installed in the other modules as well, and you can run C++ firmwares on NodeMCU as well. There are three different NodeMCU brands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amica: Which seems to be the official one, although I didn&amp;rsquo;t know this when I decided to buy the LoLin.&lt;/li&gt;
+&lt;li&gt;LoLin: It seems that it is no longer produced by WeMos. (I ordered one of this too).&lt;/li&gt;
+&lt;li&gt;DOIT: I know nothing about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.wemos.cc/Products/d1_mini.html&#34;&gt;Mini D1&lt;/a&gt; (~$4.00): Another ESP8266-based module similar to the previous ones. It is produced by &lt;a href=&#34;http://www.wemos.cc/&#34;&gt;WeMos&lt;/a&gt;, the same as the NodeMCU LoLin. My theory is that WeMos realized that there was more money in trying to create &lt;a href=&#34;http://www.wemos.cc/Products/mini_shields.html&#34;&gt;their own ecosystem&lt;/a&gt; rather than just cloning NodeMCU. It has 11 GPIOs, instead of the 9 offered by Adafruit Huzzah, which is good (I ordered a few of this one too).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There were other alternatives, &lt;a href=&#34;https://www.sparkfun.com/products/13774&#34;&gt;like the SparkFun Particle Photon&lt;/a&gt; ($19.00), based on non-ESP8266 micro-controllers. They were a bit more powerful, but also more expensive. And don&amp;rsquo;t support the Arduino IDE. So, for the moment I discarded them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

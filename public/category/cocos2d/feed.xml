@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cocos2d on RETRO.MOE</title>
+    <link>http://localhost:1313/category/cocos2d/</link>
+    <description>Recent content in Cocos2d on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Apr 2017 04:38:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/cocos2d/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The history of Cocos2d in a glimpse</title>
+      <link>http://localhost:1313/2017/04/16/cocos2d-in-a-glimpse/</link>
+      <pubDate>Mon, 17 Apr 2017 04:38:08 +0000</pubDate>
+      <guid>http://localhost:1313/2017/04/16/cocos2d-in-a-glimpse/</guid>
+      <description>&lt;h2 id=&#34;cocos2d-python&#34;&gt;Cocos2d (Python)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/ZXpO9qBoRfmnSsiDZYWjM_SqUhyzJQe6NT3mFDIyo1qeIZbHncgH9SA-RC-TuL8cT92zqP0kTb1JXcb4BLMg3ir_5IssEqEILVxf5xHTCGiBtzpyUaRBVyPcTHDmZJj-hPkxh8w=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In February 2008, at Los Cocos, Córdoba, Argentina, we started the &amp;ldquo;Los Cocos&amp;rdquo; Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for &lt;a href=&#34;https://pyweek.org/&#34;&gt;PyWeek&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;512&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/vhpMrsnv9CAOcbB_ZSSFIxOgP-Soh8FoACuQkQBAk5XU9MN84oekftn9Ai4uvaHTAQBzY4FH0LeDubielKw-iseyHkyv75Z-UmeV_PnzMgsh4WYRqCz9LIBIx0duYzsVpicyCLU=-no&#34;&gt; PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina[/caption]&lt;/p&gt;
+&lt;p&gt;We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of &lt;a href=&#34;http://www.python.org.ar/&#34;&gt;PyAr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Integrating LiquidFun with Cocos2d-x: Part II</title>
+      <link>http://localhost:1313/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/</link>
+      <pubDate>Wed, 30 Jul 2014 20:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;//towp8.com/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/&#34;&gt;Part I&lt;/a&gt; I described to how integrated LiquidFun with Cocos2d-x.
+In this part (part II) I&amp;rsquo;ll describe how to render the particles using a basic water effect.&lt;/p&gt;
+&lt;p&gt;Part I uses just one &lt;code&gt;glDrawArrays(GL_POINTS, 0, total);&lt;/code&gt; to draw the particles. And although that works to draw &amp;ldquo;particles&amp;rdquo;, it is not enough to draw &amp;ldquo;water&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Drawing &amp;ldquo;water&amp;rdquo; requires a more complex rendering algorithm, like the one used in this &lt;a href=&#34;http://www.patrickmatte.com/stuff/physicsLiquid/&#34;&gt;example&lt;/a&gt;. And implementing an algorithm similar that one is what this article describes.&lt;/p&gt;
+&lt;p&gt;The algorithm works more or less like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose a white circle and blur it.
+&lt;ul&gt;
+&lt;li&gt;You can blur the circle at runtime&lt;/li&gt;
+&lt;li&gt;Or you can blur it off-line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create an a new frame-buffer (think of a clean off-screen buffer where you can render whatever you want)&lt;/li&gt;
+&lt;li&gt;Render the particles into the newly created frame-buffer using the blurred circle&lt;/li&gt;
+&lt;li&gt;Now render the frame-buffer into the main color-buffer using a threshold. The threshold could be something like this:
+&lt;ul&gt;
+&lt;li&gt;If pixel.r &amp;lt; 0.1, discard the pixel (the pixel won&amp;rsquo;t be drawn)&lt;/li&gt;
+&lt;li&gt;If pixel.r &amp;lt; 0.2, draw a blue pixel (for the border, although this is optional)&lt;/li&gt;
+&lt;li&gt;else draw a white pixel (the inner part of the water)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-to-do-it-using-cocos2d-x-and-liquidfun&#34;&gt;How to do it using Cocos2d-x and LiquidFun&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s take the &lt;a href=&#34;https://github.com/cocos2d/cocos2d-x-samples/blob/v3.1/samples/LiquidFun-EyeCandy/Classes/LFParticleSystemNode.cpp&#34;&gt;&lt;code&gt;LFParticleSystemNode&lt;/code&gt;&lt;/a&gt; from Part I, and &amp;ldquo;evolve&amp;rdquo; it:&lt;/p&gt;
+&lt;p&gt;The first thing to do is to add the &amp;ldquo;off-screen&amp;rdquo; frame-buffer into the &lt;code&gt;LFParticleSystemNode&lt;/code&gt; class. In Cocos2d-x, the &amp;ldquo;off-screen&amp;rdquo; buffers are created with the &lt;code&gt;RenderTexture&lt;/code&gt; class. Example:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+bool LFParticleSystemNode::init(b2ParticleSystem* particleSystem, float ratio)
+{
+&amp;hellip;
+// create an off-screen frame-buffer with the size of the screen
+auto s = Director::getInstance()-&amp;gt;getWinSize();
+_renderTexture = cocos2d::RenderTexture::create(s.width, s.height, Texture2D::PixelFormat::RGBA8888);
+this-&amp;gt;addChild(_renderTexture);
+_renderTexture-&amp;gt;setAnchorPoint(Point::ANCHOR_MIDDLE);
+_renderTexture-&amp;gt;setPosition(Point(s.width/2, s.height/2));&lt;/p&gt;
+&lt;p&gt;// Change the default shader. Use a the threshold shader
+auto program = GLProgram::createWithByteArrays(_renderTextureShaderVert, _renderTextureShaderFrag);
+auto programState = GLProgramState::getOrCreateWithGLProgram(program);
+programState-&amp;gt;setUniformFloat(&amp;ldquo;u_threshold_discard&amp;rdquo;, 0.15);
+programState-&amp;gt;setUniformFloat(&amp;ldquo;u_threshold_border&amp;rdquo;, 0.3);&lt;/p&gt;
+&lt;p&gt;&amp;hellip;
+}
+[/code]&lt;/p&gt;
+&lt;p&gt;And, as mentioned earlier, the &lt;code&gt;RenderTexture&lt;/code&gt; (the off-screen frame-buffer) needs a shader with a threshold. The threshold shader should look like the following:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+varying vec4 v_fragmentColor;
+varying vec2 v_texCoord;
+uniform float u_threshold_discard;
+uniform float u_threshold_border;&lt;/p&gt;
+&lt;p&gt;void main()
+{
+vec4 color = v_fragmentColor * texture2D(CC_Texture0, v_texCoord);
+if( color.r &amp;lt; u_threshold_discard)
+// black or discard
+color = vec4(0,0,0,0);
+else if( color.r &amp;lt; u_threshold_border)
+// blue for the border
+color = vec4(0.2,0.2,0.9,1);
+else
+// white for the center
+color = vec4(1,1,1,1);
+gl_FragColor = color;
+}
+[/code]&lt;/p&gt;
+&lt;p&gt;The values &lt;code&gt;u_threshold_discard&lt;/code&gt;, and &lt;code&gt;u_threshold_border&lt;/code&gt; are defined at runtime. In the example, they are set at 0.15 and 0.3 respectively.&lt;/p&gt;
+&lt;p&gt;The next thing to do is, to render the particles in the &lt;code&gt;RenderTexture&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]void LFParticleSystemNode::draw(Renderer *renderer, const Mat4 &amp;amp;transform, uint32_t transformFlags)
+{
+// tell RenderTexture to &amp;ldquo;capture&amp;rdquo; the particles
+    _renderTexture-&amp;gt;beginWithClear(0,0,0,0);&lt;/p&gt;
+&lt;p&gt;    _customCommand.init(_globalZOrder);
+    _customCommand.func = CC_CALLBACK_0(LFParticleSystemNode::onDraw, this, transform, transformFlags);
+    renderer-&amp;gt;addCommand(&amp;amp;_customCommand);&lt;/p&gt;
+&lt;p&gt;// tell RenderTexture to stop &amp;ldquo;capturing&amp;rdquo; the particles
+    _renderTexture-&amp;gt;end();
+}
+[/code]&lt;/p&gt;
+&lt;h3 id=&#34;the-result-is-the-following&#34;&gt;The result is the following&lt;/h3&gt;
+</description>
+    </item>
+    <item>
+      <title>WWDC 2014 announcements as a game developer</title>
+      <link>http://localhost:1313/2014/06/03/wwdc-2014-announcements-and-the-game-developers/</link>
+      <pubDate>Tue, 03 Jun 2014 17:59:57 +0000</pubDate>
+      <guid>http://localhost:1313/2014/06/03/wwdc-2014-announcements-and-the-game-developers/</guid>
+      <description>&lt;p&gt;At WWDC 2014, Apple announced new features for iOS and OS X. These are my thoughts:&lt;/p&gt;
+&lt;h2 id=&#34;swift&#34;&gt;&lt;strong&gt;Swift&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/06/swift.jpg&#34;&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/06/swift.jpg?w=610&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; is a new programming language by Apple.&lt;/p&gt;
+&lt;p&gt;At first sight, it seems to be easier to learn and easier to master than Objective-C. Objective-C is not particular difficult to learn and master, but its syntax looks foreign to C# / C++ / Python developers.&lt;/p&gt;
+&lt;p&gt;Swift, on the other hand, has a more conventional design. You can read Swift code the same way you can read C# code, even if you are not a Swift or C# developer.&lt;/p&gt;
+&lt;p&gt;Swift is a compiled language, although it looks like an scripting language. It is strongly typed, it is object-oriented with functional features. It does not have garbage collection. It uses ARC instead.&lt;/p&gt;
+&lt;p&gt;You can call any Objective-C API from Swift (at least Apple&amp;rsquo;s APIs) , and Apple claims it is faster than Objective-C. Objective-C wasn&amp;rsquo;t the fastest language out there, but it wasn&amp;rsquo;t particularly slow either.&lt;/p&gt;
+&lt;p&gt;Perhaps the &lt;strong&gt;killer feature&lt;/strong&gt; for me is Playground, a kind of sandbox for testing ideas / rapid development / rapid prototyping. BTW, Playground seems to be inspired (or copied if you prefer) from &lt;a href=&#34;http://vimeo.com/36579366&#34;&gt;Bret Victor&amp;rsquo;s Inventing on Principle talk&lt;/a&gt;, which is a MUST WATCH video for everybody.&lt;/p&gt;
+&lt;p&gt;Also, Swift has pretty much what John Siracusa asked for in his &lt;a href=&#34;http://arstechnica.com/apple/news/2010/06/copland-2010-revisited.ars&#34;&gt;Copland 2010&lt;/a&gt; article.&lt;/p&gt;
+&lt;p&gt;So, if Swift is easier to learn, easier to master, less error-prone, faster to develop code, performs better than Objective-C and you can call Objective-C code from it, why Apple should keep adding features to Objective-C ?&lt;/p&gt;
+&lt;p&gt;I expect that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objective-C code will be supported on iOS / OS X for the foreseeable future.&lt;/li&gt;
+&lt;li&gt;But new APIs will be added on Swift only. Developers will be forced to migrate to Swift to use the new ones (similar to what happened years ago with Carbon vs. Cocoa APIs ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unknowns:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can you call any Objective-C library from it ? or only Apple&amp;rsquo;s APIs ? Will Apple release the binding generator ? &lt;strong&gt;[UPDATE]&lt;/strong&gt;: Yes, it is possible to call &lt;a href=&#34;http://ericasadun.com/2014/06/03/swift-combining-objc-and-swift-in-one-project/&#34;&gt;3rd party Obj-C libraries from Swift&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Will Apple open source the language ? Or at least submit the language to the standard committee ?&lt;/li&gt;
+&lt;li&gt;Can you call C and/or C++ libraries from it ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Swift is a very attractive language, so if Apple decides to open source it, it has the potential to gain a lot of developers from other platforms as well. I would definitely use it, and would seriously analyze the possibility of porting cocos2d to it.&lt;/li&gt;
+&lt;li&gt;Bret Victor&amp;rsquo;s Inventing on Principle was very inspiring. Since the day I watched that video, I wanted to add similar features to cocos2d. Playground showed us that it is possible to do it with a compiled language.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Integrating LiquidFun with Cocos2d-x: Part I</title>
+      <link>http://localhost:1313/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/</link>
+      <pubDate>Wed, 23 Apr 2014 21:51:26 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img alt=&#34;LiquidFun Testbed + Cocos2d-x&#34; loading=&#34;lazy&#34; src=&#34;https://camo.githubusercontent.com/024bc94a0b655472808a1073611f72bff59f3f50/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d64705a666f5a3776472d512f553153304746486d6879492f41414141414141413735492f574b6e764e7334597069382f733430302f494d475f303031322e6a7067&#34;&gt; LiquidFun Testbed + Cocos2d-x[/caption]&lt;/p&gt;
+&lt;p&gt;From LiquidFun&amp;rsquo;s site:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Based on &lt;a href=&#34;https://github.com/cocos2d/cocos2d-x-samples/blob/v3/box2d.org&#34;&gt;Box2d&lt;/a&gt;, &lt;a href=&#34;http://google.github.io/liquidfun/&#34;&gt;LiquidFun&lt;/a&gt; features particle-based fluid simulation. Game developers can use it for new game mechanics and add realistic physics to game play. Designers can use the library to create beautiful fluid interactive experiences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Basically LiquidFun is Box2d plus an extension to simulate fluids using a particle system. To test it, download and install the official &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.wolff.liquidfun.testbed2&#34;&gt;LiquidFun - Testbed,&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.wolff.EyeCandy&#34;&gt;LiquidFun - EyeCandy&lt;/a&gt; for Android.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cocos2d-x.org&#34;&gt;Cocos2d-x&lt;/a&gt; already has Box2d integration, so in order to integrate Cocos2d-x with LiquidFun, we only need to integrate this new class: &lt;code&gt;b2ParticleSystem&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;liquidfuns-b2particlesystem&#34;&gt;LiquidFun&amp;rsquo;s b2ParticleSystem&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m not going to describe how to use LiquidFun (for that, read &lt;a href=&#34;http://google.github.io/liquidfun/Programmers-Guide/html/index.html&#34;&gt;its programmers guide&lt;/a&gt;). Instead, I&amp;rsquo;m going to describe how to integrate &lt;code&gt;b2ParticleSystem&lt;/code&gt; in Cocos2d-x (also applicable to any other game engine).&lt;/p&gt;
+&lt;p&gt;For the integration, what we need is a Cocos2d-x node that knows how to render a &lt;code&gt;b2ParticleSystem&lt;/code&gt;. And &lt;a href=&#34;https://github.com/google/liquidfun/blob/v1.0.0/liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.h#L189&#34;&gt;b2ParticleSystem&lt;/a&gt; has these 4 useful methods:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+class b2ParticleSystem {
+&amp;hellip;
+// Get the number of particles.
+int32 GetParticleCount() const;&lt;/p&gt;
+&lt;p&gt;// Get the particle radius.
+float32 GetRadius() const;&lt;/p&gt;
+&lt;p&gt;// Get the position of each particle in Box2d&amp;rsquo;s coordinate system
+// Array is length GetParticleCount()
+b2Vec2* GetPositionBuffer();&lt;/p&gt;
+&lt;p&gt;// Get the color of each particle in RGBA Uint8 format.
+// Array is length GetParticleCount()
+b2ParticleColor* GetColorBuffer();
+};
+[/code]&lt;/p&gt;
+&lt;p&gt;Ideally we should be able to reuse &lt;code&gt;cocos2d::ParticleSystemQuad&lt;/code&gt; for the rendering, but we can&amp;rsquo;t because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cocos2d::ParticleSystemQuad&lt;/code&gt; doesn&amp;rsquo;t support changing the attractor (this is a design bug, we need to fix it). A &lt;em&gt;nil&lt;/em&gt; attractor would be needed for this case.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ParticleSystemQuad&lt;/code&gt; works with Quads, and not Points. And even if Points were supported (like in Cocos2d-x v1), it wouldn&amp;rsquo;t work because the points and colors should be in an interleaved array.&lt;/li&gt;
+&lt;li&gt;The other issue is the conversion between Box2d and Cocos2d-x coordinate system, but it would be easy to fix.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Installing git</title>
+      <link>http://localhost:1313/2014/04/10/installing-git/</link>
+      <pubDate>Thu, 10 Apr 2014 19:25:10 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/10/installing-git/</guid>
+      <description>&lt;p&gt;So you have Windows 8.1 + Visual Studio 2013 installed. Now you need to install a git client.&lt;/p&gt;
+&lt;p&gt;My workflow in Mac is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I use git command line about 70% of the time.&lt;/li&gt;
+&lt;li&gt;In the reaming 30% I&amp;rsquo;m using &lt;a href=&#34;http://www.git-tower.com/&#34;&gt;Tower&lt;/a&gt;, &lt;a href=&#34;http://www.kaleidoscopeapp.com/&#34;&gt;Kaleidoscope&lt;/a&gt; and &lt;a href=&#34;http://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7&#34;&gt;Xcode&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, I was looking for something similar for Windows. And so far, this is my current setup:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://msysgit.github.io/&#34;&gt;Mysysgit&lt;/a&gt;, for git command line.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sourcetreeapp.com/&#34;&gt;SourceTree&lt;/a&gt; for GUI&lt;/li&gt;
+&lt;li&gt;I couldn&amp;rsquo;t find a good stand-alone diff-viewer, so I&amp;rsquo;m using SourceTree&amp;rsquo;s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What I like about Mysysgit is that it installs a Unix-like shell, with &lt;a href=&#34;http://code-worrier.com/blog/autocomplete-git/&#34;&gt;git auto-completion&lt;/a&gt; and you can also see the &lt;a href=&#34;http://code-worrier.com/blog/git-branch-in-bash-prompt/&#34;&gt;current branch&lt;/a&gt; in the shell prompt. That is very handy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sapus, cocos2d y ajedrez</title>
+      <link>http://localhost:1313/2008/12/11/sapus-cocos2d-y-ajedrez/</link>
+      <pubDate>Thu, 11 Dec 2008 18:57:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/12/11/sapus-cocos2d-y-ajedrez/</guid>
+      <description>&lt;p&gt;Guau&amp;hellip; ya paso un mes desde el ultimo post ?&lt;br&gt;
+Estuve dandole a &lt;a href=&#34;http://code.google.com/p/cocos2d-iphone&#34;&gt;cocos2d para iPhone&lt;/a&gt;. En este ultimo mes saque 3 version de cocos2d para iPhone, quizas lo mas importante es que empece con la serie v0.6.x que viene con varias mejoras en la API y con el feature de Parallax Scrolling.&lt;br&gt;
+Ademas saque con Sapus Tongue Lite, la version gratis de Sapus Tongue que tiene todos los features salvo el de subir scores al server.&lt;br&gt;
+Y como ultimo, pero no menos importantes, volvi a las pistas de ajedrez. Estoy jugando el torneo del CSM&amp;hellip; las aperturas las tengo medio olvidadas pero lo demas mas o menos lo tengo fresco.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sapus Tongue v1.0 salió a la venta!</title>
+      <link>http://localhost:1313/2008/11/10/sapus-tongue-v1-0-salio-a-la-venta/</link>
+      <pubDate>Mon, 10 Nov 2008 22:31:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/11/10/sapus-tongue-v1-0-salio-a-la-venta/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/SRWg36_NjyI/AAAAAAAAJW0/Z6BjnLCODTs/s400/Icon512x512.jpeg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/SRWg36_NjyI/AAAAAAAAJW0/Z6BjnLCODTs/s400/Icon512x512.jpeg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Si&amp;hellip; Sapito Tongue salió a la venta&amp;hellip; mi 1er producción&amp;hellip; 100% mia&amp;hellip; estoy muy contento!&lt;/p&gt;
+&lt;p&gt;Usa cocos2d v0.5.2 y utiliza casi todos los features de este.&lt;/p&gt;
+&lt;p&gt;Espero que les guste: &lt;a href=&#34;http://www.sapusmedia.com/SapusTongue/Spanish.html&#34;&gt;http://www.sapusmedia.com/SapusTongue/Spanish.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dessert Dilemma: nuevo jueguito</title>
+      <link>http://localhost:1313/2008/11/06/dessert-dilemma-nuevo-jueguito/</link>
+      <pubDate>Thu, 06 Nov 2008 23:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/11/06/dessert-dilemma-nuevo-jueguito/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/Cc-qupVRA4nZlNgOYesWyw&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/_7Tp7oCOlWFE/SRMTOhQNqKI/AAAAAAAAJVc/q6hQFRojzlE/s288/IMG_0004_6.PNG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Además de estar haciendo cocos2d y Sapus Tongue, estas últimas semanas estuve entretenido haciendo otro juego para Cocoa Touch Games: Dessert Dilemma.&lt;/p&gt;
+&lt;p&gt;El juego consiste en llevar el postre a una parte del mantel, esquivando distintos objectos como tenedores, cuchillos, cucharas y platos.&lt;/p&gt;
+&lt;p&gt;El genero es una suerte de puzzle + arcade, ya que el juego mide el tiempo y no los movimientos hechos.&lt;/p&gt;
+&lt;p&gt;Espero que les guste. Hoy o mañana David (de Cocoa Touch Games) lo estará subiendo al App Store y supongo que en 5 o 6 días estará disponible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools usadas para el desarrollo de Sapus Tongue</title>
+      <link>http://localhost:1313/2008/10/30/tools-usadas-para-el-desarrollo-de-sapus-tongue/</link>
+      <pubDate>Fri, 31 Oct 2008 05:06:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/10/30/tools-usadas-para-el-desarrollo-de-sapus-tongue/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/10/0bf3a-tools_sapus_media.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/10/0bf3a-tools_sapus_media.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;a: MacBook, Xcode, cocos2d, pgu tile editor, Simulator, Firefox, Gmail, Gimp, iMovie, Audacity, afconvert, iTunes, Adium, más.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;b: cuaderno cuadriculado y una rollerball roja: prototipos, ideas, cuentas, sketches y más prototipos: 6 hojas de dibujos aprox.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;c: iPod Touch 1g, iPod Touch 2g, iPhone 1g: pruebas, y más pruebas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;d: filmadora (prestada, gracias Mana y Jose): para el video de instrucciones&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;e: iPod 3g: fundamental escuchar a la Mona Jimenez para hacer la parte de bug fixing y tunning mas amena&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Se viene Sapus Tongue</title>
+      <link>http://localhost:1313/2008/10/27/se-viene-sapus-tongue/</link>
+      <pubDate>Tue, 28 Oct 2008 04:32:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/10/27/se-viene-sapus-tongue/</guid>
+      <description>&lt;p&gt;Se viene Sapus Tongue!&lt;br&gt;
+&lt;a href=&#34;http://www.youtube.com/v/fgHPJqR7HtA&amp;amp;hl=en&amp;amp;fs=1&#34; title=&#34;Click here to block this object with Adblock Plus&#34;&gt;Click here to block this object with Adblock Plus&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Se agrandó la familia</title>
+      <link>http://localhost:1313/2008/10/17/se-agrando-la-familia/</link>
+      <pubDate>Fri, 17 Oct 2008 22:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/10/17/se-agrando-la-familia/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/10/dcdcc-img_2106.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/10/dcdcc-img_2106.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Se agrandó la familia. Llegaron mellizos!&lt;br&gt;
+Llegó el nuevo iPod Touch, y un iPhone de 1ra generación.&lt;/p&gt;
+&lt;p&gt;En la foto esta el hijo mayor, de unos 4 años, un iPod 3g (ja ja.. que no tiene nada que ver con el iPhone 3g)&amp;hellip; tambien llamado el &amp;lsquo;calentador&amp;rsquo;&amp;hellip; lo reconocerán por su color blanco teta.&lt;/p&gt;
+&lt;p&gt;Y también esta el hijo que le sigue, llamado Segundón, el que esta a la izquierda.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cloud Girls</title>
+      <link>http://localhost:1313/2008/10/08/cloud-girls/</link>
+      <pubDate>Wed, 08 Oct 2008 17:51:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/10/08/cloud-girls/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/ggPRQGqA1z-HTJ_mfAOsyQ&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/ricardoquesada/SOe6n_n0P-I/AAAAAAAAI9I/OpsyuRy61N8/s288/IMG_0013.PNG&#34;&gt;&lt;/a&gt; Si, ayer salió a la venta otro juego que hice. Se llama &lt;a href=&#34;http://www.cocoatouchgames.com/cloudgirls.shtml&#34;&gt;Cloud Girls&lt;/a&gt; y lo hice junto David Janik-Jones, de &lt;a href=&#34;http://www.cocoatouchgames.com/&#34;&gt;Cocoa Touch Games&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La idea del juego es simple: hay que tratar que las estrellas de color choquen con el escudo del mismo color. Para eso uno tiene que ir rotando el escudo para la izquierda o derecha. Cada tanto caen estrellas bonus las cuales hay que dejarlas pasar.&lt;/p&gt;
+&lt;p&gt;Pusimos mucho esfuerzo para que el juego quede bastante pulido: los graficos y la música esta muy buenos; pulimos bastante los niveles y la interfaz gráfica; y pulimos varios detalles para que el juega sea vea atractivo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cocos2d para iPhone en 3 minutos</title>
+      <link>http://localhost:1313/2008/10/06/cocos2d-para-iphone-en-3-minutos/</link>
+      <pubDate>Tue, 07 Oct 2008 01:58:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/10/06/cocos2d-para-iphone-en-3-minutos/</guid>
+      <description>&lt;p&gt;Hice un nuevo video donde muestro los nuevos features de &lt;a href=&#34;http://code.google.com/p/cocos2d-iphone&#34;&gt;cocos2d para iPhone&lt;/a&gt;.&lt;br&gt;
+Espero que les guste!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forbidden Words</title>
+      <link>http://localhost:1313/2008/09/25/forbidden-words/</link>
+      <pubDate>Thu, 25 Sep 2008 23:37:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/09/25/forbidden-words/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://lh3.ggpht.com/ricardoquesada/SNvCn5dIbSI/AAAAAAAAI2U/4DhEw_0myrs/s400/IMG_0003_4.PNG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/ricardoquesada/SNvCn5dIbSI/AAAAAAAAI2U/4DhEw_0myrs/s400/IMG_0003_4.PNG&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Hace poco hicimos un juego con Alex Smith. Es el juego de adivinar una palabra sin tener que mencionar las palabras que estan en una lista.&lt;br&gt;
+La diferencia que tiene este juego con los otros, es que este es un juego social&amp;hellip; necesitas al menos 4 personas físicas para jugarlas y un iPhone.&lt;/p&gt;
+&lt;p&gt;Lo interesante de este juego, es que es el 1er juego que sale con mi licencia!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El largo camino a la licencia de iPhone</title>
+      <link>http://localhost:1313/2008/09/18/el-largo-camino-a-la-licencia-de-iphone/</link>
+      <pubDate>Thu, 18 Sep 2008 22:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/09/18/el-largo-camino-a-la-licencia-de-iphone/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.fondosiphone.com/images/wmwallpapers/Largo-Camino-1.jpeg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.fondosiphone.com/images/wmwallpapers/Largo-Camino-1.jpeg&#34;&gt;&lt;/a&gt; Finalmente conseguí tener la autorización para vender aplicaciones en el App Store!&amp;hellip; luego de un largo, muy largo camino.&lt;/p&gt;
+&lt;p&gt;Este &amp;ldquo;viaje&amp;rdquo; empezó, aproximadamente, el 10 de marzo cuando envié mi solicitud para ser un iPhone developer. En ese entonces empecé a jugar con la Beta 2 de la SDK, pero mucho no podía hacer ya que no tenía soporte para OpenGL ES.&lt;br&gt;
+En esos días estaba en EE.UU (había ido a &lt;a href=&#34;http://us.pycon.org/2008&#34;&gt;PyCon&lt;/a&gt; con Lucio y Facundo) y ahí compré un iPod Touch en conjunto con Alecu, pero para mi sorpresa no podía correr nada en el iPod Touch sin una licencia&amp;hellip; argh.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Run Forrest, run!</title>
+      <link>http://localhost:1313/2008/09/18/run-forrest-run/</link>
+      <pubDate>Thu, 18 Sep 2008 22:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/09/18/run-forrest-run/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/09/7fc59-img_0001.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/09/7fc59-img_0001.png?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/09/90b16-img_0001.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/09/90b16-img_0001.png?w=300&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/09/6fdce-img_0002.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/09/6fdce-img_0002.png?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Si, recién salió al AppStore el 1er juego que hago como asociado con &lt;a href=&#34;http://www.happyappyinc.com/&#34;&gt;HappyAppy&lt;/a&gt;&amp;hellip; el Athletics!&lt;br&gt;
+Es un simpático juego de olimpíadas. Esta 1er entrega tiene carreras de 200 metros, 200 metros con vallas y 400 metros con vallas.&lt;br&gt;
+La música, la física y los gráficos estan muy buenos :-)&lt;br&gt;
+Obviamente esta hecho con &lt;a href=&#34;http://code.google.com/p/cocos2d-iphone&#34;&gt;cocos2d&lt;/a&gt; para iphone!&lt;br&gt;
+Probalo, esta &lt;a href=&#34;http://www.happyappyinc.com/athletics.php&#34;&gt;aca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jugate una carrerita che!, y enviamos tus sugerencias diciendonos que otro deporte te gustaría ver en el iPhone.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So long - A love story</title>
+      <link>http://localhost:1313/2008/09/15/so-long-a-love-story/</link>
+      <pubDate>Mon, 15 Sep 2008 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/09/15/so-long-a-love-story/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://media.pyweek.org/dl/7/Solo/screenshot-1221299474.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://media.pyweek.org/dl/7/Solo/screenshot-1221299474.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Terminó una &lt;a href=&#34;http://www.pyweek.org/&#34;&gt;pyweek&lt;/a&gt; más. Esta fué la 5ta vez que participo. Las 4 veces anteriores fueron en grupo y esta vez fue mi primera participación solo.&lt;br&gt;
+El juego que hice usa:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pyglet.org&#34;&gt;pyglet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cocos2d.org&#34;&gt;cocos2d&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://code.google.com/p/pymunk/&#34;&gt;pymunk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La idea del juego es la siguiente&lt;br&gt;
+Tocar las pelotas rojas con la cola de tu lombriz. Cada vez que tocas una pelota roja, tu lombriz crece (en este sentido es simlar a nibbles). La diferencia principal es que este juego usa física, y controlar tu cola no es tan sencillo como parece.&lt;br&gt;
+Para pasar de nivel hay que tocar todas las bolas rojas. Los niveles tienen una temática de amor + sexo. Las bolas rojas representan una suerte de personas que se &amp;ldquo;aman&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clock Block</title>
+      <link>http://localhost:1313/2008/09/04/clock-block/</link>
+      <pubDate>Thu, 04 Sep 2008 22:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/09/04/clock-block/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/09/578f8-img_0002.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/09/578f8-img_0002.png?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Eh&amp;hellip; salió al Apple Store el 1er juego hecho con &lt;a href=&#34;http://code.google.com/p/cocos2d-iphone&#34;&gt;cocos2d para iphone&lt;/a&gt; y además este es el 1er juego que yo &amp;ldquo;codié&amp;rdquo; en casi su totalidad en salir al Apple Store.&lt;/p&gt;
+&lt;p&gt;Lo cómico de este juego es que tardó como 1 mes en ser aprobado. Apple lo rechazó varias veces porque no le gustaba el nombre y porque era violento (!?).&lt;/p&gt;
+&lt;p&gt;Si lo queres jugar, apretá aca: &lt;a href=&#34;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=286580049&amp;amp;mt=8&#34;&gt;link del Apple Store&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Expando...</title>
+      <link>http://localhost:1313/2008/08/28/expando/</link>
+      <pubDate>Thu, 28 Aug 2008 09:31:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/08/28/expando/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/08/f920e-img_0001.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/08/f920e-img_0001.png?w=200&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Estuve laburando para 3ros este último mes y medio haciendo aplicaciones y juegos para iPhone.&lt;/p&gt;
+&lt;p&gt;Y ya salió al AppleStore el 1er juego en el que colaboré. Es un entretenido juego que mezcla acelerometro con física.&lt;/p&gt;
+&lt;p&gt;Mi laburo en este juego fue hacer funcionar correctamente el engine de fisica. Ah&amp;hellip; supongo que en los próximos días tienen que estar apareciendo otros juegos que ya terminé / estoy terminando.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maldito cable mini-dvi vga</title>
+      <link>http://localhost:1313/2008/08/22/maldito-cable-mini-dvi-vga/</link>
+      <pubDate>Sat, 23 Aug 2008 06:49:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/08/22/maldito-cable-mini-dvi-vga/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apple-minidvi-vga.JPG/800px-Apple-minidvi-vga.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Apple-minidvi-vga.JPG/800px-Apple-minidvi-vga.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Por Dios,&lt;br&gt;
+Hoy con Lucio dimos una charla sobre &lt;a href=&#34;http://cocos2d.org/&#34;&gt;cocos2d&lt;/a&gt;. Salió bien. Lo que fué cómico fue conseguir que la MacBook (donde corría cocos2d) pueda ser conectada al proyector.&lt;/p&gt;
+&lt;p&gt;Resulta que el miércoles pasado me fui a MacOnline (o MacStore o yo que se como se llame) a comprar el adaptador mini-dvi-vga, pero no lo conseguí. Los llamé por telefono 50 veces pero no se dignaron a atender asi que fuí para allá en vano.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dime cuales son estos juegos y te diré tu edad</title>
+      <link>http://localhost:1313/2008/08/15/dime-cuales-son-estos-juegos-y-te-dire-tu-edad/</link>
+      <pubDate>Sat, 16 Aug 2008 04:14:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/08/15/dime-cuales-son-estos-juegos-y-te-dire-tu-edad/</guid>
+      <description>&lt;p&gt;De que juegos son ? Si adivinas los 10 seguro que tenes 30 años o más :-)&lt;br&gt;
+&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/08/65e71-allshowdowns_small.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/08/65e71-allshowdowns_small.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hay que soñar más</title>
+      <link>http://localhost:1313/2008/08/04/hay-que-sonar-mas/</link>
+      <pubDate>Mon, 04 Aug 2008 21:56:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/08/04/hay-que-sonar-mas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/08/1a1bc-sueno.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/08/1a1bc-sueno.png?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Anoche me quedé tratando de fixear un bug de &lt;a href=&#34;http://code.google.com/p/cocos2d-iphone&#34;&gt;cocos2d-iphone&lt;/a&gt;.&lt;br&gt;
+Estuve más o menos 4 o 5 horas&amp;hellip; probablemente mucho más. El bug consistia en que las partículas se veian desfazadas. Cuando las movia a los bordes, se iban más allá de los bordes, pero cuando las ponía en el medio de la pantalla se quedaban centradas&amp;hellip; a medida que las movia, se movían &amp;ldquo;más&amp;rdquo;. Y cuanto más grande el tamaño de las particulas, más se desfazaba.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>coqueando mucho, monocicleando poco</title>
+      <link>http://localhost:1313/2008/07/29/coqueando-mucho-monocicleando-poco/</link>
+      <pubDate>Tue, 29 Jul 2008 14:42:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/07/29/coqueando-mucho-monocicleando-poco/</guid>
+      <description>&lt;p&gt;Estos últimos meses estuve haciendo varias cosas para cocos2d, tanto la versión de python (para PC) como la versión para iPhone.&lt;br&gt;
+Con un amigo (Lucio) llevamos a cocos2d (python) de paseo hasta Lituania. cocos2d se divertió y la pasó bien.&lt;br&gt;
+cocos2d-iphone también la esta pasando bien. Lo estan usando otras personas a parte de Alecu y yo&amp;hellip; De hecho me contrataron para hacer unos juegos con cocos2d&amp;hellip; vamos coquito2d todavía!&lt;br&gt;
+El mono ? Bien gracias. Por ahora lo llevo de paseo cuando voy a jugar al fútbol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cocos2d en iphone</title>
+      <link>http://localhost:1313/2008/06/10/cocos2d-en-iphone/</link>
+      <pubDate>Tue, 10 Jun 2008 20:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/06/10/cocos2d-en-iphone/</guid>
+      <description>&lt;p&gt;Estoy monocicleando al menos 1 vez por semana&amp;hellip; si, he vuelto al ruedo, y también estoy haciendo cosas para iphone, en particular juegos, y para hacerlos que mejor que cocos2d :-)&lt;/p&gt;
+&lt;p&gt;[youtube 
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/KsFTUCCjFlE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&amp;amp;hl=en]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Supercalifragilistico cocos2d</title>
+      <link>http://localhost:1313/2008/05/14/supercalifragilistico-cocos2d/</link>
+      <pubDate>Wed, 14 May 2008 15:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/05/14/supercalifragilistico-cocos2d/</guid>
+      <description>&lt;p&gt;Ja Ja&amp;hellip; estoy monocicleando poco, pero me estoy divirtiendo con &lt;a href=&#34;http://cocos2d.org/&#34;&gt;cocos2d&lt;/a&gt;.&lt;br&gt;
+Sino, miren este video :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>y el mono ?</title>
+      <link>http://localhost:1313/2008/04/24/y-el-mono/</link>
+      <pubDate>Thu, 24 Apr 2008 16:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/04/24/y-el-mono/</guid>
+      <description>&lt;p&gt;Donde esta el mono, che ?&lt;br&gt;
+Bueno, no tuve mucho tiempo de monociclear&amp;hellip; entre aquello y esto&amp;hellip; en fin&amp;hellip; el domingo pasado iba a salir a andar, pero no pudo ser&amp;hellip; quizás sea el domingo próximo. Ah&amp;hellip; cumpli 2 años de monoclista&amp;hellip; epa!&lt;/p&gt;
+&lt;p&gt;Por cierto, UNIGAMES esta medio muerto, pero ahora que estamos haciendo cocos, puede que lo reviva. Les paso un video promocional de cocos, este lindo framework para hacer juegos:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

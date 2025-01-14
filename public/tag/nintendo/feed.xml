@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nintendo on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/nintendo/</link>
+    <description>Recent content in Nintendo on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Dec 2019 07:19:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/nintendo/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unijoysticle 2: Nintendo controllers and more!</title>
+      <link>http://localhost:1313/2019/12/22/unijoysticle-2-nintendo-controllers-and-more/</link>
+      <pubDate>Mon, 23 Dec 2019 07:19:03 +0000</pubDate>
+      <guid>http://localhost:1313/2019/12/22/unijoysticle-2-nintendo-controllers-and-more/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/8X7lPOL6b6A&#34;&gt;https://youtu.be/8X7lPOL6b6A&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unijoysticle 2 Christmas 2019 update, with support for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nintendo Wii Remote&lt;/li&gt;
+&lt;li&gt;Nintendo Wii U Pro Controller&lt;/li&gt;
+&lt;li&gt;Nintendo Wii Remote + Nunchuk extension&lt;/li&gt;
+&lt;li&gt;Nintendo Wii Remote + Classic Controller extension&lt;/li&gt;
+&lt;li&gt;Nintendo Switch Pro controller&lt;/li&gt;
+&lt;li&gt;8BitDo family: all modes supported (Switch, Windows, Mac, Android).&lt;/li&gt;
+&lt;li&gt;iCade 8-bitty&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It also supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amiga / Atari-St 3-buttons joystick&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it is self-powered!&lt;/p&gt;
+&lt;p&gt;For further info see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/unijoysticle2/blob/master/docs/supported_gamepads.md&#34;&gt;Full list of supported gamepads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/unijoysticle2/blob/master/docs/user_guide.md&#34;&gt;User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/android/</link>
+    <description>Recent content in Android on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 30 May 2015 04:42:44 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/android/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Impressions of Google I/O 2015</title>
+      <link>http://localhost:1313/2015/05/29/impressions-of-google-io-2015/</link>
+      <pubDate>Sat, 30 May 2015 04:42:44 +0000</pubDate>
+      <guid>http://localhost:1313/2015/05/29/impressions-of-google-io-2015/</guid>
+      <description>&lt;p&gt;What was interesting about the Keynote:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developers.google.com/brillo/&#34;&gt;Brillo&lt;/a&gt;: the OS for the IoT&amp;hellip; but but but, there were no talks about it, almost no information about it, nothing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://arstechnica.com/gadgets/2015/05/good-news-for-game-devs-android-studio-1-3-supports-androids-cc-ndk/&#34;&gt;Android Studio with C++ support&lt;/a&gt;: Finally :) The NDK really needs love, and having an IDE that supports it is great. Hey, even Microsoft is supporting the NDK now in &lt;a href=&#34;http://blogs.msdn.com/b/vcblog/archive/2015/04/29/what-s-new-with-c-cross-platform-development-with-vs-2015-rc.aspx&#34;&gt;VS2015&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://photos.google.com/&#34;&gt;Photos&lt;/a&gt; is decoupled from Google+ with free unlimited storage: This is great. I&amp;rsquo;ve been using Picasa since day one and I never used Google+ to store my photos. So basically Photos is the same as Picasa, but with unlimited storage.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theverge.com/2015/5/28/8680345/google-maps-io-2015-offline-search-navigation&#34;&gt;Offline maps&lt;/a&gt;: Yeah&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.chrome.com/multidevice/android/customtabs&#34;&gt;Chrome Custom Tabs&lt;/a&gt;: Interesting alternative to present 3rd party views with the benefits of both the web and native worlds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What was not-that-interesting about the Keynote:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The rest.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I don&amp;rsquo;t care if Android has better permissions or not (yeah, the old permissions-model sucked, but I don&amp;rsquo;t find that news interesting). The Family section for Google Play is good, but not interesting. Android Pay, meh. etc.&lt;/p&gt;
+&lt;p&gt;One thing that I liked, but was not announced on the Keynote, was &lt;a href=&#34;https://www.google.com/atap/project-jacquard/&#34;&gt;Project Jacquard&lt;/a&gt;. They are using conductive threads and other stuff to create &amp;ldquo;smart&amp;rdquo; cloths. Something that &lt;a href=&#34;https://www.adafruit.com/&#34;&gt;Adafruit&lt;/a&gt; and &lt;a href=&#34;https://www.sparkfun.com/&#34;&gt;Sparkfun&lt;/a&gt; have been doing for a while, BTW.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Switching from iOS to Android: My experience</title>
+      <link>http://localhost:1313/2014/12/24/switching-from-ios-to-android-my-experience/</link>
+      <pubDate>Thu, 25 Dec 2014 01:37:57 +0000</pubDate>
+      <guid>http://localhost:1313/2014/12/24/switching-from-ios-to-android-my-experience/</guid>
+      <description>&lt;p&gt;For the past 5 or 6 years, I used iPhones as my default phones. But a few months ago I decided to switch to Android.&lt;/p&gt;
+&lt;p&gt;I tried Android devices before, but never as my &lt;em&gt;default&lt;/em&gt; phone. At the beginning I started using a &lt;a href=&#34;http://www.gsmarena.com/samsung_i9500_galaxy_s4-5125.php&#34;&gt;Samsung Galaxy S4&lt;/a&gt; (a 2013 5&amp;quot; device), but later I switch to a &lt;a href=&#34;http://www.gsmarena.com/xiaomi_mi_4-6518.php&#34;&gt;Xiaomi MI4&lt;/a&gt; (a 2014 5&amp;quot; device with better specs).&lt;/p&gt;
+&lt;p&gt;Without further ado, this is my feedback:&lt;/p&gt;
+&lt;h3 id=&#34;launcher&#34;&gt;&lt;strong&gt;Launcher&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img alt=&#34;Xiaomi MIUI 6&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2014/12/xiaomis-miui-6.png?w=169&#34;&gt;&lt;img alt=&#34;Samsung S4 TouchWiz&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2014/12/samsungs4.png?w=169&#34;&gt;&lt;/p&gt;
+&lt;p&gt;In case you don&amp;rsquo;t know what the launcher is, think of the shell that allows you to launch the applications. It is the first thing that appears when you turn on the phone. In a way, it defines the UX.&lt;/p&gt;
+&lt;p&gt;Each phone maker customize the Android launcher according to its needs. And you can also download 3rd party &lt;a href=&#34;http://www.techradar.com/us/news/software/operating-systems/10-best-android-launchers-amazing-ways-to-supercharge-your-phone-1231553&#34;&gt;launchers&lt;/a&gt;. This is both a good thing and a bad thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The bad thing&lt;/strong&gt; is that every phone maker have a different launcher, making it difficult to switch to other Android devices, since the UX is different. Google has its own launcher called &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.launcher&amp;amp;hl=en&#34;&gt;Google Now Launcher&lt;/a&gt;, and tries hard to make sure that Android makers don&amp;rsquo;t differ too much from it, although that is not always true. Samsung, as an example, ships its phones with a launcher called &lt;a href=&#34;http://en.wikipedia.org/wiki/TouchWiz&#34;&gt;TouchWiz&lt;/a&gt;. It doesn&amp;rsquo;t differ that much from Google Now Launcher, but its changes make it a worse phone, not a better one. Xiaomi, on the other hand, ships its phones with a completely different launcher which makes your Android device behave &lt;a href=&#34;http://www.businessinsider.com/xiaomi-miui-6-looks-like-apple-ios-7-2014-8&#34;&gt;like an iOS device&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The good thing&lt;/strong&gt; is that you can use a different launcher if you don&amp;rsquo;t like the default one (or create your own). This as a good thing because everything that can be configured, changed or replaced is an opportunity for innovation (see below).&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

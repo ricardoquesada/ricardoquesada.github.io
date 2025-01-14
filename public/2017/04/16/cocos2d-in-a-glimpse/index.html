@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>The history of Cocos2d in a glimpse | RETRO.MOE</title>
+<meta name="keywords" content="">
+<meta name="description" content="Cocos2d (Python)
+
+In February 2008, at Los Cocos, Córdoba, Argentina, we started the &ldquo;Los Cocos&rdquo; Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for PyWeek.
+[caption id=&quot;&quot; align=&ldquo;alignnone&rdquo; width=&ldquo;512&rdquo;] PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina[/caption]
+We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of PyAr.
+">
+<meta name="author" content="ricardoquesada">
+<link rel="canonical" href="http://localhost:1313/2017/04/16/cocos2d-in-a-glimpse/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fcb3718b9739f6b39cc36096f68dccc8a7e0d3e24fc6b09c575e0c25ec8f35b2.css" integrity="sha256-/LNxi5c59rOcw2CW9o3MyKfg0&#43;JPxrCcV14MJeyPNbI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/2017/04/16/cocos2d-in-a-glimpse/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="RETRO.MOE (Alt + H)">RETRO.MOE</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/unijoysticle/" title="Unijoysticle™">
+                    <span>Unijoysticle™</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/unijoysticle2/" title="Unijoysticle™ 2">
+                    <span>Unijoysticle™ 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tindie.com/stores/riq/" title="Store">
+                    <span>Store</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="🔍">
+                    <span>🔍</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      The history of Cocos2d in a glimpse
+    </h1>
+    <div class="post-meta"><span title='2017-04-17 04:38:08 +0000 +0000'>April 17, 2017</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;ricardoquesada
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="cocos2d-python">Cocos2d (Python)<a hidden class="anchor" aria-hidden="true" href="#cocos2d-python">#</a></h2>
+<p><img loading="lazy" src="https://lh3.googleusercontent.com/ZXpO9qBoRfmnSsiDZYWjM_SqUhyzJQe6NT3mFDIyo1qeIZbHncgH9SA-RC-TuL8cT92zqP0kTb1JXcb4BLMg3ir_5IssEqEILVxf5xHTCGiBtzpyUaRBVyPcTHDmZJj-hPkxh8w=-no"></p>
+<p>In February 2008, at Los Cocos, Córdoba, Argentina, we started the &ldquo;Los Cocos&rdquo; Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for <a href="https://pyweek.org/">PyWeek</a>.</p>
+<p>[caption id=&quot;&quot; align=&ldquo;alignnone&rdquo; width=&ldquo;512&rdquo;]<img loading="lazy" src="https://lh3.googleusercontent.com/vhpMrsnv9CAOcbB_ZSSFIxOgP-Soh8FoACuQkQBAk5XU9MN84oekftn9Ai4uvaHTAQBzY4FH0LeDubielKw-iseyHkyv75Z-UmeV_PnzMgsh4WYRqCz9LIBIx0duYzsVpicyCLU=-no"> PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina[/caption]</p>
+<p>We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of <a href="http://www.python.org.ar/">PyAr</a>.</p>
+<p>We announced a beta (or was it alpha?) version in a lightning talk at PyCon Chicago in March 2008.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/GCz9OlGCZMHuVauHqN7hoLZ5oZpKNtsJTojnjKkoz26GUGMmqM3x1Q5BVAlMijg4b%5FdD99jJT8EFfbE%5FTAfDcnlyw%5FRTY5eOqw3t-eZfRG0HiXN6wLWmKHdYolZUD%5FQ1HUnDHM8=w1024-h681-no" width="533"/> 
+</figure>
+
+<p>In July 2008, Lucio and I went to Euro Python to present Cocos2d (was it v0.3?).</p>
+<p>[caption id=&quot;&quot; align=&ldquo;alignnone&rdquo; width=&ldquo;512&rdquo;]<img loading="lazy" src="https://lh3.googleusercontent.com/kgl7EbCPt_B-ZN44mSTblpdUN7TSNX9mnIa23QIqbfAv02pMxYoaQvZurHDot7d39bZv7Qh5WoDedxnSs7_iOg0WyXKGKRKFcgBQ_zHVZgSiRBHw5T7vI3IF2icSY-2OzXMsI80=-no"> With Lucio Torre at Euro Python 2008 presenting Cocos2d. Vilnius, Lithuania, July 2008[/caption]</p>
+<p>In addition, Lucio and I presented Cocos2d at <a href="https://twitter.com/pyconar">PyCon Ar</a> 2008 and 2009.</p>
+<p>In 2010 Claudio Canepa became the new Cocos2d developer/maintainer.</p>
+<h2 id="cocos2d-iphone">Cocos2d-iPhone<a hidden class="anchor" aria-hidden="true" href="#cocos2d-iphone">#</a></h2>
+<p><img loading="lazy" src="https://lh3.googleusercontent.com/4Ou3F7RI7FCsvr3R7iFMSmpmWLZYwVJNSxE9LM4vZEt0vwnpUO20eZVDgAl5AkFtHJSaykuq7FbacZK57lTTIrEqNqkq8TLxoQvQUaAndIbTsvYoFuQKb2IjJ0w6L7ucQfrgsOg=-no"></p>
+<p>Somewhere around the beginning of 2008, Apple announced that the iPhone would have a store. Apple would only take 30% of the revenue (back then, carriers were taking around 90%). Furthermore, the iPhone was powered by OpenGL ES and the OS was UNIX based.</p>
+<p>Also, around that time, I wanted to create commercial games. I had previously considered the Web (Flash) and feature phones (J2ME) as possible markets. But after Apple&rsquo;s announcement, I decided to develop games exclusively for iPhone.</p>
+<p>I needed a game engine for my iPhone games, so I re-wrote Cocos2d in Objective-C. The high level design remained the same, but I had to make substantial changes to make it work on the iPhone&hellip;  and that is how &ldquo;cocos2d-iphone&rdquo; was born. The  first cocos2d-iphone version (v0.1) was released in June 2008.</p>
+<p>In March 2008, I applied to get my iPhone Developers license, and <a href="/2008/09/18/el-largo-camino-a-la-licencia-de-iphone/">finally got it in July 2008</a> (it took me 4 months to get one, whereas today you can get one in a few minutes). It was not possible to publish games on the iPhone App without a license. While waiting for my license, I did some contract work, developing some games for 3rd parties using cocos2d-iphone.</p>
+<p>Having gotten my iPhone Developers license, I created my first (and only) game for the iPhone: <a href="https://github.com/sapusmedia/Sapus-Tongue">Sapus Tongue.</a> However, I realized that creating commercial games was not that fun for me; neither did I find it easy. Since cocos2d-iphone was already popular, I decided to work full time on it. The reason I could do this is that I was actually making a living by <a href="https://web-beta.archive.org/web/20110529144259/http://www.sapusmedia.com:80/products/">selling two commercial tools</a> for cocos2d-iphone: <a href="https://github.com/sapusmedia/LevelSVG">LevelSVG</a>: a sort of editor + physics on top of cocos2d, and <a href="https://github.com/sapusmedia/Sapus-Tongue">Sapus Tongue source code</a>.</p>
+<p>At the beginning of 2009 there were already more than 100 games using cocos2d-iphone. The first one to reach #1 at the iPhone App Store was <a href="http://www.erichartzog.com/blog/creating-stickwars">Stick Wars</a>.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/5F8wGUMT8E3nXmVZVbLVK4kG%5FbIBbuQHa0cwI9VAZIN0dm2d8Hd6YkCZK0H2y8Zp8N%5F771QHJunbIJ8vFr5onjx7m-heWEWNdsxKmQ5w16yTJ6wSuF1o9aNlF-A71Dz86bcV4ek=-no" width="480"/> 
+</figure>
+
+<p>After that, many other cocos2d-iphone games reached #1. And most of the time, there was at least one cocos2d-iphone game in the Top #10. I believe this was the case from 2009 until the <a href="http://web.archive.org/web/20130502004847/http://www.cocos2d-iphone.org/archives/1496">end of 2011</a>.</p>
+<p>Not only games were created with cocos2d-iphone, but also animated books, photo applications, and more. Some cocos2d-iphone games and applications were featured at <a href="https://web.archive.org/web/20130502035554/http://www.cocos2d-iphone.org/archives/996">WWDC 2010</a>. Even games that Apple proudly announced as &ldquo;built using Apple libraries&rdquo;, were actually built with cocos2d-iphone.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/0LiIWU6XLeTLX9GpSVnfciX3tVvWv4G9PXpoHISh95vq5z8MQiCBlUNtlnqB-x0tUa0CDjuP1Xp7Nw5eoPz%5Fsh7q8Xv7nR-18UUcSBJEbNUzMm3ONj1F07EpQtzpY9Tcja-hpCU=-no" width="512"/> 
+</figure>
+
+<p>Many cocos2d-iphone <a href="https://web.archive.org/web/20111021045559/http://www.cocos2d-iphone.org/archives/1155">forks/ports/bindings were created</a> as well, such as:</p>
+<ul>
+<li>At least two Java ports: <a href="https://code.google.com/archive/p/cocos2d-android/">cocos2d-android</a> and <a href="https://github.com/ZhouWeikuan/cocos2d">cocos2d-android-1</a></li>
+<li>A C++ port: <a href="http://www.cocos2d-x.org">Cocos2d-x</a></li>
+<li>Two JavaScript ports: <a href="https://github.com/cocos2d/cocos2d-html5">Cocos2d-HTML5</a> and <a href="https://github.com/RyanWilliams/cocos2d-javascript/">Cocos2d-JavaScript</a></li>
+<li>Three C# ports: <a href="https://web.archive.org/web/20100227225817/http://github.com/city41/cocosnet">CocosNet</a>, <a href="https://github.com/Cocos2DXNA/cocos2d-xna">Cocos2d-XNA</a>, <a href="https://github.com/mono/CocosSharp">CocosSharp</a></li>
+<li>A Go port: <a href="https://code.google.com/archive/p/gocos2d/">Gocos2d</a></li>
+<li>Python bindings (bindings for cocos2d-iphone and <a href="https://github.com/seewindcn/pycocos2d">for cocos2d-x</a>) and Python port (a new port based on cocos2d-iphone, and not on the original Cocos2d)</li>
+<li>Ruby bindings: <a href="https://web.archive.org/web/20111021044117/http://www.cocos2d-iphone.org/wiki/doku.php/shinycocos:faq">ShinyCocos</a> and support for <a href="https://github.com/scottymac/rubymotion-cocos-tests">RubyMotion</a></li>
+</ul>
+<p>In July 2011, after working on cocos2d-iphone for more than 3 years, and with the help of the community, I released <a href="https://web.archive.org/web/20111007164432/http://www.cocos2d-iphone.org/archives/1528">cocos2d-iphone v1.0</a>.  Some stats: <a href="https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/AUTHORS#L441">~140 contributors</a>, ~2600 commits and <a href="https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/CHANGELOG#L599">63 internal releases</a>.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/REVtNKHCueWY1eyvzBgQsAHTIV7LKnU2hBy2DEAWY0XVmAZgDv8NipIuYR2cmvBZRfrvUh14f3nFuQonQW8vbFhvyUk0M3JcIlh4WkUstj0-NxYKZM3dk9trZ180vVlX0bZ82MQ=-no" width="247"/> 
+</figure>
+
+<p>The community was very healthy, with many people helping each other, opening bug reports, sending pull requests, suggesting features, etc. The ecosystem around cocos2d-iphone was also very healthy: many cocos2d-iphone books were published, and many editors/tools (both commercial and free/open source) supported cocos2d-iphone, many job positions were looking for cocos2d-iphone developers.</p>
+<p>In May 2011, I joined Zynga. At Zynga we used cocos2d-iphone for some iOS games. To port them to Android, some of them were rewritten using <a href="http://www.andengine.org/">AndEngine</a>, and others were ported using <a href="http://www.apportable.com/">AppPortable</a>&rsquo;s Objective-C/UIKit stack.</p>
+<p>In 2012, Android was already very strong. I wanted to support Android natively (and other platforms as well). I had three options:</p>
+<ol>
+<li>Stop working on cocos2d-iphone, and work on Cocos2d-x (the C++ fork)</li>
+<li>Keep developing cocos2d-iphone, and use 3rd party commercial Objective-C stack (like <a href="http://web.archive.org/web/20130502012020/http://www.cocos2d-iphone.org/archives/2013">StellaSDK</a>, <a href="http://web.archive.org/web/20130502015911/http://www.cocos2d-iphone.org/archives/1774">NoodleCake</a> or <a href="http://www.apportable.com/">AppPortable</a>) to port cocos2d-iphone to Android</li>
+<li>Keep developing cocos2d-iphone, and develop an open source Objective-C stack to port cocos2d-iphone to Android.</li>
+</ol>
+<p>I didn&rsquo;t want to depend on 3rd party commercial tools, and I didn&rsquo;t have the time to write my own Objective-C stack, and Cococs2d-x was already popular. So I decided to help the Cocos2d-x team. We started using Cocos2d-x at Zynga as well.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/K05MOzKn8QE3Vn8s64X1p7CfrWuMfNaQyweNLpwMsa7E%5FJ50l-MFEXYxEV2N0XcsCbFdMQkqCl4L6%5FPDJYc0NNptx3ojm9qkVpDaSfjAN5rfqQwdc5BNwSvlxMkmHtzXvmlDH1E=-no" width="512"/> 
+</figure>
+
+<p>At Zynga, with the help of the Cocos2d-x team, we created a very attractive tooling:</p>
+<ul>
+<li>Cocos2d-x and cocos2d-iphone were feature compatible. The API was almost the same (of course, one in C++ and one in Objective-C)</li>
+<li><a href="https://github.com/cocos2d/CocosBuilder">CocosBuilder</a> (created by Viktor Lidholt) included many good features: Scene editor, key-frame animation editor, JavaScript scripting and more.</li>
+<li>Scenes exported by CocosBuilder were supported both by cocos2d-iphone and Cocos2d-x.</li>
+</ul>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/TCOj1fzRAc9uQVCfFWksM3BFI2SImRIUutG0kJYhJwtZAURrYRsuI0mFdOw5xF3QfMEbCca7icesfykHTIXQ1%5FGMyuY4pw%5FPl1r0JZYjC9skZQBBaBTa4Ss9f0ViTFeVU%5FgPpkA=-no" width="512"/> 
+</figure>
+
+<p>The only drawback was that keeping feature-compatibility between Cocos2d-x and cocos2d-iphone was expensive: we had to write the features twice. And also CocosBuilder was built on top of cocos2d-iphone which meant it was only available for Mac (no Windows version), and also required writing the features twice. Supporting Windows was important for many Cocos2d-x users.</p>
+<p>I kept developing cocos2d-iphone until June 2013, and then <a href="http://web.archive.org/web/20140208064401/http://www.cocos2d-iphone.org/welcome-birkemose-the-new-cocos2d-iphone-lead-developer-maintainer/">I passed the torch to Lars Birkemose</a> (who in 2016 passed it again to Andrei Volodin). In August 2013 I joined Chukong.</p>
+<h2 id="cocos2d-x">Cocos2d-x<a hidden class="anchor" aria-hidden="true" href="#cocos2d-x">#</a></h2>
+<p><img loading="lazy" src="https://lh3.googleusercontent.com/M8T3KLjlbcbJEspL6Ye56OJiD07pAYjF-DwlVt16gYRjYxs5HhO37psec-PLSh-ewTa_PVuzNO0rVh-8Vi3oW7yMZPigAMzKBA4CIqm4nAvIMolVcUODqjnxmEpC8Rg4yaVOKv8=-no"> <em>Note: Chukong, the company behind Cocos2d-x and Cocos Studio, is a Chinese company with its headquarters in Beijing. Cocos Studio was developed at Beijing. Cocos2d-x is being developed in Xiamen (south of China), and I joined their California office were we did a bit of everything.</em></p>
+<p>Cocos2d-x was started by Zhe Wang in July 2010. It was a clone of cocos2d-iphone, but coded in C++ instead of Objective-C. His goal was to create an SDK to facilitate porting cocos2d-iphone games to the uPhone (a phone project that was later cancelled). In order to facilitate the porting, Cocos2d-x included all the Objective-C patterns that were found in cocos2d-iphone. Somewhere in 2012 (or was it 2011?) the Cocos2d-x team joined Chukong.</p>
+<p>Chukong had the resources, the willing, and the position to make Cocos2d-x a world class game engine / tooling. Cocos2d-x, back in 2013, had about between 70%~80% of the Chinese market share.</p>
+<p>At Chukong, we started by designing Cocos2d-x v3, which included the removal of Objective-C patterns from its code, the use of modern C++ APIs, the update of the renderer (Nite), the addition of 3d features (Tony and Harrison) and the writing of a <a href="http://www.cocos2d-x.org/docs/programmers-guide/about/">Programmers Guide</a> (Jason).</p>
+<p>But the most important thing was the editor: We needed one. Chukong had invested a lot of resources in <a href="http://www.cocos2d-x.org/wiki/Cocos_Studio">Cocos Studio</a>. It had many features, but its UX wasn&rsquo;t appealing for the US/Western market, and it was Windows only.</p>
+<p>So, in the US office, we (Justin, Nite and Kai) started working from scratch on an editor for Cocos2d-x both for the Chinese and US/Western markets (something similar to CocosBuilder, but built on top of Cocos2d-x and compatible with Windows and Mac. <a href="https://www.qt.io/">Qt</a> was used for this).</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/DDR2MQcx7Q1NUbubS4IliNRXrXAImRmSjDAD-5en6vPfM9-2kzy8Jq86bSlg4%5FN6Dt7xAoJ8ngrN5pKF30t8-qC1kVO7rXPfiEF6RdNVpGVSQnmpF7Qyp9eOlA-2FrjaXC2keyU=-no" width="512"/> 
+</figure>
+
+<p>Unfortunately the new editor was cancelled. As hard as we tried to improve Cocos Studio&rsquo;s UX, it failed to attract the US/Western market.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/aTN3pClyIDTAaVbwomLmeQ5U96U0dIJfjIES8mywJBZGZLIRk-vFJq77u5EiHcxVGeAE7PtHhaFkrSvHY2Efe-Trp%5F9fuWxOloFaDZVd5pZ8AuqiErf9rRpUaVLqBnQCYZo8kL8=-no" width="512"/> 
+</figure>
+
+<p>Other projects were cancelled as well, such as Cocos2d-HTML5 v4, Cocos2d-x v4 renderer + HAL, Cocos2d-x launcher, Cocos IDE. Even Cocos Studio got cancelled.</p>
+<figure>
+    <img loading="lazy" src="https://lh3.googleusercontent.com/jjFLcUgkM9VN8-%5FCsruQmdju4aBZ-HPDjYGCKQSodQa%5FXD1SsPJvx331-mBf-FrzAjLwOjGyMO1O3SmvI8T3xD49G1rIh1Cg0g8Nc0fp0heR2hr5TnEValfZiZe9gljxVR7igzU=-no" width="512"/> 
+</figure>
+
+<p>Cancelling projects, specially when they are almost ready, can be frustrating. But our main challenge was finding a good business model. We tried different things, but we couldn&rsquo;t find a good one.</p>
+<p>In hindsight, this is what I think we should have done:</p>
+<ul>
+<li>Work on just one editor: the Qt editor that was supposed to be the Cocos Studio replacement.</li>
+<li>Offer services within the editor: <a href="http://www.cocos2d-x.org/sdkbox">SDKBOX</a>, and other services.</li>
+<li>Focus: Only work on casual/mid-core features (no VR or other distracting features). Try to be the best ones in that category.</li>
+</ul>
+<p>After working 9 years on Cocos2d, <a href="http://discuss.cocos2d-x.org/t/farewell-to-our-friends-chukong-u-s-office-is-closing-march-31-2017/34809">and due to the development of recent events</a>, the time has come for me to work on something else. What should I do next? Some people say that the future is IoT, others say it is Machine Learning, while the rest say it is VR/AR. They are all wrong: The future is the Commodore 64. See you soon.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on x"
+            href="https://x.com/intent/tweet/?text=The%20history%20of%20Cocos2d%20in%20a%20glimpse&amp;url=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f&amp;title=The%20history%20of%20Cocos2d%20in%20a%20glimpse&amp;summary=The%20history%20of%20Cocos2d%20in%20a%20glimpse&amp;source=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f&title=The%20history%20of%20Cocos2d%20in%20a%20glimpse">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on whatsapp"
+            href="https://api.whatsapp.com/send?text=The%20history%20of%20Cocos2d%20in%20a%20glimpse%20-%20http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on telegram"
+            href="https://telegram.me/share/url?text=The%20history%20of%20Cocos2d%20in%20a%20glimpse&amp;url=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share The history of Cocos2d in a glimpse on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=The%20history%20of%20Cocos2d%20in%20a%20glimpse&u=http%3a%2f%2flocalhost%3a1313%2f2017%2f04%2f16%2fcocos2d-in-a-glimpse%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

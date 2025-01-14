@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tamarancho on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/tamarancho/</link>
+    <description>Recent content in Tamarancho on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Aug 2015 21:20:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/tamarancho/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tamarancho con la barra</title>
+      <link>http://localhost:1313/2015/08/03/tramarrancho-con-la-barra/</link>
+      <pubDate>Mon, 03 Aug 2015 21:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/03/tramarrancho-con-la-barra/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/08/img_3479.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/img_3479.jpg&#34;&gt;&lt;/a&gt;
+Yo, Ashley, Tom y Dragon en Tarrancho.  Muy lindo paseo con el Flow Trail como highlight. El segundo &amp;ldquo;Flow Trail&amp;rdquo; todavía no esta abierto.&lt;/p&gt;
+&lt;p&gt;Más detalles y fotos acá: &lt;a href=&#34;http://berkeleyunicycling.org/2015/08/04/pretending-to-train/&#34;&gt;Pretending to Train&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

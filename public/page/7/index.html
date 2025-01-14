@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.140.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>RETRO.MOE</title>
+
+<meta name="description" content="From Commodore 64 to the present: a developer&#39;s journey">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fcb3718b9739f6b39cc36096f68dccc8a7e0d3e24fc6b09c575e0c25ec8f35b2.css" integrity="sha256-/LNxi5c59rOcw2CW9o3MyKfg0&#43;JPxrCcV14MJeyPNbI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/feed.xml">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="RETRO.MOE (Alt + H)">RETRO.MOE</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/unijoysticle/" title="Unijoysticle™">
+                    <span>Unijoysticle™</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/unijoysticle2/" title="Unijoysticle™ 2">
+                    <span>Unijoysticle™ 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tindie.com/stores/riq/" title="Store">
+                    <span>Store</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="🔍">
+                    <span>🔍</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Repairing the Commodore 1581 floppy disk drive. Part 1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+I got my 1581 like one year ago. It worked for 2 or 3 weeks and it stopped working. The stepper and the motor weren’t moving. So I guessed that the “floppy drive” was broken.
+Quick introduction: the Commodore floppy disk drives have 2 major components:
+The controller board: which has the 6502, RAM, ROM and other ICs to control the drive The floppy disk drive: which is the “thing” that has the header, the stepper, the motor to spin the floppy disk, etc. So, in my case, my quick guess was that the “floppy disk drive” was broken because the stepper and the motor were not moving.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2016-03-14 16:52:29 +0000 +0000'>March 14, 2016</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Repairing the Commodore 1581 floppy disk drive. Part 1" href="http://localhost:1313/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VChar64 v0.0.12 released
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>New version, new features.
+Download Mac: vchar64-0.0.12.dmg.zip Win32: vchar64-0.0.12.win32.zip Changes [NEW] Koala Import: supports importing subregions. Useful when 256 chars are not enough to import the whole bitmap [NEW] Added unknown font. Ripped from here [NEW] VICE snapshot import: Default charset address is the one that was used at the moment the snapshot was taken [NEW] Save/Export: Plays one beep on success, two beeps on error [NEW] Main Window: Status Bar shows the coordinates of the different widgets [BUGFIX] Export: shows correct extension when browsing file [BUGFIX] VICE/Koala Import: sets the name of the imported file in the tab [BUGFIX] Koala Import: detects duplicates chars, making the conversion smaller </p>
+  </div>
+  <footer class="entry-footer"><span title='2016-03-02 07:16:41 +0000 +0000'>March 2, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to VChar64 v0.0.12 released" href="http://localhost:1313/2016/03/01/vchar64-v0-0-12-released/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VChar64 v0.0.11 released
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>VChar64 v0.0.11 was released.
+Win32: vchar64-0.0.11.win32.zip Mac: vchar64-0.0.11.dmg.zip Source code: github It includes several bug fixes and some important new features like:
+Koala import support Map support Export to Assembly Full Changelog here.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2016-02-01 08:40:35 +0000 +0000'>February 1, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to VChar64 v0.0.11 released" href="http://localhost:1313/2016/02/01/vchar64-v0-0-11-released/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">The SX-64, as it should be
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Spot the difference.
+Before:
+After:
+The former owner replaced the original SX-64 KERNAL (251104-04) with a C64 one (901227-02), most probably to be 100% compatible with all the games.
+But an SX-64 doesn’t feel like an SX-64 without its unique colors. That’s why I replaced the KERNAL chip again, this time with the original one. Actually I couldn’t find the original chip (the MOS 251104-04) anywhere, so instead, I installed an EPROM chip with the original SX-64 KERNAL programmed into it.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2016-01-29 06:50:40 +0000 +0000'>January 29, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to The SX-64, as it should be" href="http://localhost:1313/2016/01/28/the-sx-64-as-it-should-be/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VChar64 v0.0.10 released
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>VChar64 v0.0.10 is available for download: Mac: vchar64-0.0.10.dmg.zip Win32: vchar64-0.0.10.win32.zip Source code: Github repo https://youtu.be/yNCK_wZbo40
+Highlights:
+Live preview with the VChar64 TCP/IP Server for the C64 and C128 (in C128 mode) Minor bug fixes Full changelog: CHANGELOG v0.0.10 </p>
+  </div>
+  <footer class="entry-footer"><span title='2016-01-06 01:44:26 +0000 +0000'>January 6, 2016</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to VChar64 v0.0.10 released" href="http://localhost:1313/2016/01/05/vchar64-v0-0-10-released/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Fixing the Commodore SX-64: Replacing the MOS 6526
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>MOS 6526: The CIA chip You turn on your beloved SX-64 and you don’t see the blinking cursor. Don’t panic. Most probably one of the CIA chips (MOS 6526) is not working correctly.
+[caption id=&#34;&#34; align=“alignnone” width=“400”] No blinking cursor[/caption]
+The Commodore 64 has two CIA chips. What you need to do is to replace the one that controls the keyboard, the CIA 1. But if you don’t know which one is CIA 1 and which is CIA 2, then you can either replace both, or do trial-and-error, or look at the IO schematics (hint: it is the one with the UB3 legend).
+As far as I know any MOS 6526 should work:
+MOS 6526 (found in the very first C64s) MOS 6526 R4 (found in newer C64s) MOS 6526A (the 2Mhz version, and I read somewhere that it works Ok) So, in order to get the replacement chip, you can get it on eBay, or extract it from another another C64 or SX-64. The MOS 6526 chips on a regular C64, are located at the top-left corner.
+[caption id=&#34;&#34; align=“alignnone” width=“400”] I removed the 6526 from a regular C64[/caption]
+I suggest using a chip extractor to extract the chips, although a flat screwdriver can work as well.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2015-12-13 08:28:26 +0000 +0000'>December 13, 2015</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Fixing the Commodore SX-64: Replacing the MOS 6526" href="http://localhost:1313/2015/12/13/fixing-the-commodore-sx-64-replacing-the-mos-6526/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Disassembling 6502 code with Radare - Part II
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Let’s crack a simple game. If you are not familiar with Radare, read Part I first.
+Creating and opening a VICE Snapshot file Let’s crack BC’s Quest For Tires since its copy-protection is easy to bypass.
+Unzip this file: http://tapes.c64.no/tapes/BCsQuestForTires.zip
+Open the tap file with VICE (the most popular Commodore 64 emulator), and..
+…the game has some kind of copy-protection. If we enter invalid codes, we won’t be able to play the game.
+Since Radare supports VICE Snapshot File format, we can save an snapshot of the game, and analyze it with Radare.
+In VICE, go to the menu, Snapshot -&gt; Save Snapshot Image… If we select “Save ROMs”, then the BASIC ROM and the KERNAL ROM will be saved inside the Snapshot file, and will be included as Radare sections. Radare VICE Snapshot File (VSF) support lets us inspect:
+The 64k RAM of the computer at the moment the snapshot was saved The BASIC and KERNAL ROMs in case they were saved. To open a VSF file, just pass the VSF file as the first argument:
+$ r2 bc_copy_protection_screen.vsf [0x00005689]&gt; 0x00005689 is the PC (program counter) at the moment the snapshot was saved.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2015-12-10 02:54:47 +0000 +0000'>December 10, 2015</span>&nbsp;·&nbsp;8 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Disassembling 6502 code with Radare - Part II" href="http://localhost:1313/2015/12/09/disassembling-6502-core-with-radare-part-ii/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cutting edge coding &amp;amp; debugging techniques during my early days
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>[caption id=&#34;&#34; align=“alignnone” width=“582”] Cutting edge coding &amp; debugging techniques[/caption]
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2015-12-05 01:55:10 +0000 +0000'>December 5, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Cutting edge coding &amp; debugging techniques during my early days" href="http://localhost:1313/2015/12/04/cutting-edge-coding-debugging-techniques-during-my-early-days/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">VChar64 v0.0.9 released
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>VChar64 v0.0.9 is available for download:
+Mac: vchar64-0.0.9.dmg Win32: vchar64-0.0.9.zip Source code: Github repo Highlights:
+MDI support: Multiple open documents at the same time Copy &amp; Paste tiles between documents even if they have different interleave options Bug fixes Full changelog: CHANGELOG v0.0.9
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2015-12-02 22:29:49 +0000 +0000'>December 2, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to VChar64 v0.0.9 released" href="http://localhost:1313/2015/12/02/vchar64-v0-0-9/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Constelación Commodore
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+El amigo @SirArthur72 tiene un podcast de Commodore llamado Constelación Commodore. Es un podcast lleno de información de aquella época. En particular la sección “Bunkerpedia” es para escucharla varias veces, con toda la historia de Commodore, desde sus primeros inicios, hasta el final, lleno de detalles.
+Una particularidad del podcast, es que cada episodio dura más de 5 horas. En el último episodio (#8), se toca el tema de la C128, y aparezco yo en el podcast contando mis aventuras que tuve con esta linda computadora durante mi juventud. Aparezco alrededor de la hora 4:12 del podcast.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2015-11-25 19:13:19 +0000 +0000'>November 25, 2015</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Constelación Commodore" href="http://localhost:1313/2015/11/25/constelacion-commodore/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/page/6/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/page/8/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>

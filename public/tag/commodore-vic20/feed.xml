@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commodore-Vic20 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/commodore-vic20/</link>
+    <description>Recent content in Commodore-Vic20 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Aug 2017 18:54:42 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/commodore-vic20/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Long time no see: UniJoystiCle for all platforms</title>
+      <link>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</link>
+      <pubDate>Sun, 06 Aug 2017 18:54:42 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/YNOZkex9PROw5l8pGIwrAWA2RE3vYt1j-31sYAXbk0pU5yMq6cI2O1znrzMUAyTzMbdkQx10WjUDNABmfOfj-s_85ldzobASKUWUW76mC7L4PK_rqgsAGAXdmgLsARj7g43NBCIrF8I=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/7ObCeQB39QOQwI6mqawpKxf-N5y3SksHZy9lxgDBh9QJfqha32TOoRFcTX4Loitjf2WHvB4hD6xyIuqeYJguiTk_1nyYkkPvegld4Dv_j9OVnZqqrXGm4vrD5hNuar-1SERsyBsge0c=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/3uib3k0HTHcFGQ1BBnDVzxknkZzz5okg6B4B1OheFQxjpvTL7L7N_3ywg7kWWVMl3V0llJ1iePreP1gt0Y8APVpN5A-IrKHPhOEJA58_Gh_P7ogfzvYSRxeCruOJ0tGn4QxRooTHUtM=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/8LAfHfREC7JcZv8DkhqOXR0j0Mjn-BUKk8xpWhJ8nG9A3We-ZCuspkqdmo-AyGZrUPFCjVm1M2aH1Zp56VjFRE08tIQcPN9ZqozNtH0qmDTVh1dtFKMC1ObeuYGhV5W5ptAb8xGD8tc=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been busy. I still have no spare time to work on my retro projects, but I have a plan. And it can&amp;rsquo;t fail. I plan to port the UniJoystiCle + The Uni Games to the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commodore VIC 20: UniJoystiCle (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore PET: UniJoystiCle in expansion port (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore 128: UniJoystiCle (same as the C64) + The Uni Games in VCD mode using the Z80 CPU&lt;/li&gt;
+&lt;li&gt;Tandy 1000: UniJoystiCle + The Uni Games (graphics mode 320x200 16 colors)&lt;/li&gt;
+&lt;li&gt;Commodore 64: Add paddle support to the UniJoystiCle&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

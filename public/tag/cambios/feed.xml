@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cambios on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/cambios/</link>
+    <description>Recent content in Cambios on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Nov 2012 17:34:20 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/cambios/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diferente tipos de cambios para el mono</title>
+      <link>http://localhost:1313/2012/11/27/diferente-tipos-de-cambios-para-el-mono/</link>
+      <pubDate>Tue, 27 Nov 2012 17:34:20 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/27/diferente-tipos-de-cambios-para-el-mono/</guid>
+      <description>&lt;p&gt;Muy buen post que explica los diferentes tipos de cambio en el monociclo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://randomascii.wordpress.com/2012/11/25/riding-faster-on-one-wheel-geared-unicycles/&#34; title=&#34;Riding Faster on One Wheel: Geared Unicycles&#34;&gt;Riding Faster on One Wheel: Geared Unicycles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Breakpoint on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/breakpoint/</link>
+    <description>Recent content in Breakpoint on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Apr 2014 02:50:07 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/breakpoint/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vistual Studio: First steps</title>
+      <link>http://localhost:1313/2014/04/10/vistual-studio-first-steps/</link>
+      <pubDate>Fri, 11 Apr 2014 02:50:07 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/10/vistual-studio-first-steps/</guid>
+      <description>&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Compile and run cocos2d-x tests on the emulator&lt;/li&gt;
+&lt;li&gt;Set a breakpoint in Visual Studio.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;running-cpp-test-on-the-emulator&#34;&gt;Running cpp-test on the Emulator&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Download &lt;a href=&#34;http://www.cocos2d-x.org/download&#34;&gt;cocos2d-x v3.0&lt;/a&gt; &lt;strong&gt;2.&lt;/strong&gt; Unzip it and then go to &lt;em&gt;cocos2d-x/build&lt;/em&gt; directory&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd cocos2d-x/build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Open &lt;em&gt;cocos2d-wp8.vc2012.sln&lt;/em&gt; with Visual Studio&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ start cocos2d-wp8.vc2012.sln
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Set &lt;em&gt;cpp-tests (Windows Phone Silverlight 8)&lt;/em&gt; as the default project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the &lt;em&gt;Solution Explorer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Right click on &lt;em&gt;cpp-tests (Windows Phone Silverlight 8)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;em&gt;Set as StartUp Project&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/vs_default_project.png&#34;&gt;&lt;img alt=&#34;vs_default_project&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/vs_default_project.png?w=676&#34;&gt;&lt;/a&gt;&lt;strong&gt;5.&lt;/strong&gt; Run cpp-tests on the Emulator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press the &lt;em&gt;Emulator 8.1 WVGA 4 inch button&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;run-emulator&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/run-emulator.png?w=529&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If an Hyper-V error appears, then you have to enable Hyper-V:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windowsphone/develop/jj863509%28v=vs.105%29.aspx&#34;&gt;Enable Hyper-V on the BIOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://windows.microsoft.com/en-us/windows-8/hyper-v-run-virtual-machines&#34;&gt;And then enable Hyper-V on Windows 8.1 Pro&lt;/a&gt; (it won&amp;rsquo;t work on the &amp;lsquo;Regular&amp;rsquo; edition).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; If the following Dialog pops-up, just press &lt;em&gt;Retry&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/hypervisor.png&#34;&gt;&lt;img alt=&#34;hypervisor&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/hypervisor.png?w=676&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s all. You should see the cpp-tests running on the Emulator:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/cocos2d-emulator.png&#34;&gt;&lt;img alt=&#34;cocos2d-emulator&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/cocos2d-emulator.png?w=676&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

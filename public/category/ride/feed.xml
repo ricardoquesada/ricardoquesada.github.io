@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ride on RETRO.MOE</title>
+    <link>http://localhost:1313/category/ride/</link>
+    <description>Recent content in Ride on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Feb 2007 16:05:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/ride/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mono-ser o no mono-ser, esa es la cuestión</title>
+      <link>http://localhost:1313/2007/02/06/mono-ser-o-no-mono-ser-esa-es-la-cuestion/</link>
+      <pubDate>Tue, 06 Feb 2007 16:05:00 +0000</pubDate>
+      <guid>http://localhost:1313/2007/02/06/mono-ser-o-no-mono-ser-esa-es-la-cuestion/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2007/02/b56a0-gser_bici_07_web.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2007/02/b56a0-gser_bici_07_web.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Parece que la marca Ser (de yogures, agua saborizada y esas cosas) estuvo organizando algunas bici-rides por Mar del Plata y Pinamar durante enero. La noticia interesante es que el domingo 18 de febrero organizará otra bici-ride (supongo que no habrá problemas en que para algunos sea una mono-ride) en Buenos Aires por la Av. 9 de Julio, San Telmo y Puerto Madero. Empieza a las 9 hs. de la matina desde el obelisco.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

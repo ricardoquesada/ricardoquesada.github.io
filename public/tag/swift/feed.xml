@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Swift on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/swift/</link>
+    <description>Recent content in Swift on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Jun 2014 17:59:57 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/swift/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WWDC 2014 announcements as a game developer</title>
+      <link>http://localhost:1313/2014/06/03/wwdc-2014-announcements-and-the-game-developers/</link>
+      <pubDate>Tue, 03 Jun 2014 17:59:57 +0000</pubDate>
+      <guid>http://localhost:1313/2014/06/03/wwdc-2014-announcements-and-the-game-developers/</guid>
+      <description>&lt;p&gt;At WWDC 2014, Apple announced new features for iOS and OS X. These are my thoughts:&lt;/p&gt;
+&lt;h2 id=&#34;swift&#34;&gt;&lt;strong&gt;Swift&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/06/swift.jpg&#34;&gt;&lt;img alt=&#34;Image&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/06/swift.jpg?w=610&#34;&gt;&lt;/a&gt; &lt;a href=&#34;https://developer.apple.com/swift/&#34;&gt;Swift&lt;/a&gt; is a new programming language by Apple.&lt;/p&gt;
+&lt;p&gt;At first sight, it seems to be easier to learn and easier to master than Objective-C. Objective-C is not particular difficult to learn and master, but its syntax looks foreign to C# / C++ / Python developers.&lt;/p&gt;
+&lt;p&gt;Swift, on the other hand, has a more conventional design. You can read Swift code the same way you can read C# code, even if you are not a Swift or C# developer.&lt;/p&gt;
+&lt;p&gt;Swift is a compiled language, although it looks like an scripting language. It is strongly typed, it is object-oriented with functional features. It does not have garbage collection. It uses ARC instead.&lt;/p&gt;
+&lt;p&gt;You can call any Objective-C API from Swift (at least Apple&amp;rsquo;s APIs) , and Apple claims it is faster than Objective-C. Objective-C wasn&amp;rsquo;t the fastest language out there, but it wasn&amp;rsquo;t particularly slow either.&lt;/p&gt;
+&lt;p&gt;Perhaps the &lt;strong&gt;killer feature&lt;/strong&gt; for me is Playground, a kind of sandbox for testing ideas / rapid development / rapid prototyping. BTW, Playground seems to be inspired (or copied if you prefer) from &lt;a href=&#34;http://vimeo.com/36579366&#34;&gt;Bret Victor&amp;rsquo;s Inventing on Principle talk&lt;/a&gt;, which is a MUST WATCH video for everybody.&lt;/p&gt;
+&lt;p&gt;Also, Swift has pretty much what John Siracusa asked for in his &lt;a href=&#34;http://arstechnica.com/apple/news/2010/06/copland-2010-revisited.ars&#34;&gt;Copland 2010&lt;/a&gt; article.&lt;/p&gt;
+&lt;p&gt;So, if Swift is easier to learn, easier to master, less error-prone, faster to develop code, performs better than Objective-C and you can call Objective-C code from it, why Apple should keep adding features to Objective-C ?&lt;/p&gt;
+&lt;p&gt;I expect that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objective-C code will be supported on iOS / OS X for the foreseeable future.&lt;/li&gt;
+&lt;li&gt;But new APIs will be added on Swift only. Developers will be forced to migrate to Swift to use the new ones (similar to what happened years ago with Carbon vs. Cocoa APIs ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unknowns:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Can you call any Objective-C library from it ? or only Apple&amp;rsquo;s APIs ? Will Apple release the binding generator ? &lt;strong&gt;[UPDATE]&lt;/strong&gt;: Yes, it is possible to call &lt;a href=&#34;http://ericasadun.com/2014/06/03/swift-combining-objc-and-swift-in-one-project/&#34;&gt;3rd party Obj-C libraries from Swift&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Will Apple open source the language ? Or at least submit the language to the standard committee ?&lt;/li&gt;
+&lt;li&gt;Can you call C and/or C++ libraries from it ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Swift is a very attractive language, so if Apple decides to open source it, it has the potential to gain a lot of developers from other platforms as well. I would definitely use it, and would seriously analyze the possibility of porting cocos2d to it.&lt;/li&gt;
+&lt;li&gt;Bret Victor&amp;rsquo;s Inventing on Principle was very inspiring. Since the day I watched that video, I wanted to add similar features to cocos2d. Playground showed us that it is possible to do it with a compiled language.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

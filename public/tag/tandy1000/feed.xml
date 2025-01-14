@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tandy1000 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/tandy1000/</link>
+    <description>Recent content in Tandy1000 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Mar 2018 05:34:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/tandy1000/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance of the 8088 on PC, PCjr and Tandy 1000</title>
+      <link>http://localhost:1313/2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/</link>
+      <pubDate>Mon, 05 Mar 2018 05:34:26 +0000</pubDate>
+      <guid>http://localhost:1313/2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/Qm6Ynexbr8lJUggbCcZoKQaPX-qKyrA5Ef4_Feu7mju1M6vVhiN86NjNpmXBZlO_AdAu0KWVWACqK_oWMEPGkgeSSwOBsSV804i3WS0dFML6LqpMY7o3dwlV6oBs0dSJfjM1D5vnjYQ=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s well-known that you should &lt;a href=&#34;https://github.com/jagregory/abrash-zen-of-asm/blob/master/src/chapter-04.md&#34;&gt;measure the performance of your code&lt;/a&gt;, and not rely only on the opcode&amp;rsquo;s &amp;ldquo;cycle counts&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;But how fast is an IBM PC 5150 compared to a PCjr ? or to a Tandy 1000? or how fast is the Tandy 1000 HX in fast mode (7.16Mhz) compared to the slow mode (4.77Mhz) ? Or how fast is a &lt;code&gt;nop&lt;/code&gt; compared to a &lt;code&gt;cwd&lt;/code&gt; ?&lt;/p&gt;
+&lt;p&gt;I created a test ( &lt;a href=&#34;https://github.com/ricardoquesada/pc-8088-misc/blob/master/opcodes_perf/perf.asm&#34;&gt;perf.asm&lt;/a&gt;) that measures the performance of different opcodes and run it on different Intel 8088 machines. I run the test multiple times just to make sure the results were stable enough. All interrupts were disabled, except the Timer (of course). And on the PCjr the NMI is disabled as well.&lt;/p&gt;
+&lt;p&gt;Without further ado, here are the results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1geGxh76SVFHNi3xR6HEKpHHVckLLz9DsK3JNdPi6pBA/edit?usp=sharing&#34;&gt;Intel 8088 opcodes performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Tandy 64, and intro for the Tandy 1000 and more</title>
+      <link>http://localhost:1313/2017/12/03/tandy-64-and-intro-for-the-tandy-1000-and-more/</link>
+      <pubDate>Sun, 03 Dec 2017 16:39:48 +0000</pubDate>
+      <guid>http://localhost:1313/2017/12/03/tandy-64-and-intro-for-the-tandy-1000-and-more/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;http://pungas.space&#34;&gt;PVM&lt;/a&gt; with released an intro for the Tandy 1000 HX.&lt;/p&gt;
+&lt;p&gt;The Tandy 1000 HX uses the Intel 8088-2 CPU. Which is a suuuuper slow CPU (slower than the 8086). With all its wait states and its limitations on the video card (no hardware sprites, no charset redefinition) it makes it comparable with a Commodore 64. In fact, for certain things a Commodore 64 if way faster.&lt;/p&gt;
+&lt;p&gt;Without further ado, this is the Tandy intro:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Long time no see: UniJoystiCle for all platforms</title>
+      <link>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</link>
+      <pubDate>Sun, 06 Aug 2017 18:54:42 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/YNOZkex9PROw5l8pGIwrAWA2RE3vYt1j-31sYAXbk0pU5yMq6cI2O1znrzMUAyTzMbdkQx10WjUDNABmfOfj-s_85ldzobASKUWUW76mC7L4PK_rqgsAGAXdmgLsARj7g43NBCIrF8I=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/7ObCeQB39QOQwI6mqawpKxf-N5y3SksHZy9lxgDBh9QJfqha32TOoRFcTX4Loitjf2WHvB4hD6xyIuqeYJguiTk_1nyYkkPvegld4Dv_j9OVnZqqrXGm4vrD5hNuar-1SERsyBsge0c=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/3uib3k0HTHcFGQ1BBnDVzxknkZzz5okg6B4B1OheFQxjpvTL7L7N_3ywg7kWWVMl3V0llJ1iePreP1gt0Y8APVpN5A-IrKHPhOEJA58_Gh_P7ogfzvYSRxeCruOJ0tGn4QxRooTHUtM=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/8LAfHfREC7JcZv8DkhqOXR0j0Mjn-BUKk8xpWhJ8nG9A3We-ZCuspkqdmo-AyGZrUPFCjVm1M2aH1Zp56VjFRE08tIQcPN9ZqozNtH0qmDTVh1dtFKMC1ObeuYGhV5W5ptAb8xGD8tc=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been busy. I still have no spare time to work on my retro projects, but I have a plan. And it can&amp;rsquo;t fail. I plan to port the UniJoystiCle + The Uni Games to the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commodore VIC 20: UniJoystiCle (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore PET: UniJoystiCle in expansion port (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore 128: UniJoystiCle (same as the C64) + The Uni Games in VCD mode using the Z80 CPU&lt;/li&gt;
+&lt;li&gt;Tandy 1000: UniJoystiCle + The Uni Games (graphics mode 320x200 16 colors)&lt;/li&gt;
+&lt;li&gt;Commodore 64: Add paddle support to the UniJoystiCle&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

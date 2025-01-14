@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commodore-64 on RETRO.MOE</title>
+    <link>http://localhost:1313/category/commodore-64/</link>
+    <description>Recent content in Commodore-64 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Jul 2022 19:34:39 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/commodore-64/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Unijoysticle 2 A500</title>
+      <link>http://localhost:1313/2022/07/11/introducing-unijoysticle-2-a500/</link>
+      <pubDate>Mon, 11 Jul 2022 19:34:39 +0000</pubDate>
+      <guid>http://localhost:1313/2022/07/11/introducing-unijoysticle-2-a500/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/cE4u50y5TOI&#34;&gt;https://youtu.be/cE4u50y5TOI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unijoysticle 2 A500 is a device that enables Bluetooth gamepads and mice on the Commodore Amiga.&lt;/p&gt;
+&lt;p&gt;It is similar in functionality to the &lt;a href=&#34;https://retro.moe/2021/10/20/introducing-unijoysticle-2/&#34;&gt;Unijoysticle 2+&lt;/a&gt;, but with some additional features tailored for the Amiga, like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fits in the Amiga 500 / 1200 joystick port without additional cables&lt;/li&gt;
+&lt;li&gt;New buttons:
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;mode&amp;rdquo; button: To easily cycle between &amp;ldquo;normal&amp;rdquo;, &amp;ldquo;mouse&amp;rdquo; and &amp;ldquo;enhanced&amp;rdquo; modes&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;swap&amp;rdquo; button: To easily swap joystick ports. Useful in many scenarios, specially in the Amiga 4000 where the joystick ports are swapped.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Additional LED for status: Tells whether Bluetooth pair is enabled, and in which gamepad mode is selected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to that, the firmware (Bluepad32) was updated to support:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mouse support: this was #1 feature request!
+&lt;ul&gt;
+&lt;li&gt;List of supported mice is here: &lt;a href=&#34;https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_mice.md&#34;&gt;supported mice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Supports up to two mice connected at the same time. Finally you can play &lt;a href=&#34;https://lemmings.fandom.com/wiki/Lemmings_two-player&#34;&gt;Lemmings in two-player mode&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Console support: useful to change settings in runtime like:
+&lt;ul&gt;
+&lt;li&gt;change mouse resolution&lt;/li&gt;
+&lt;li&gt;change autofire clicks-per-second&lt;/li&gt;
+&lt;li&gt;debug commands&lt;/li&gt;
+&lt;li&gt;and other &lt;a href=&#34;https://github.com/ricardoquesada/unijoysticle2/blob/main/docs/user_guide.md#console&#34;&gt;useful settings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Improved re-connection on PlayStation and Switch gamepads.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See all the new Bluepad32 v3.5 features here: &lt;a href=&#34;https://retro.moe/2022/07/10/bluepad32-v3-5-released/&#34;&gt;Bluepad32 v3.5 released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And last, but not least, the User Guide has been updated with new content, photos and videos to make it easier to read for the user:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/unijoysticle2/-/blob/main/docs/user_guide.md&#34;&gt;Unijoysticle User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Unijoysticle 2: Nintendo controllers and more!</title>
+      <link>http://localhost:1313/2019/12/22/unijoysticle-2-nintendo-controllers-and-more/</link>
+      <pubDate>Mon, 23 Dec 2019 07:19:03 +0000</pubDate>
+      <guid>http://localhost:1313/2019/12/22/unijoysticle-2-nintendo-controllers-and-more/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/8X7lPOL6b6A&#34;&gt;https://youtu.be/8X7lPOL6b6A&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unijoysticle 2 Christmas 2019 update, with support for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nintendo Wii Remote&lt;/li&gt;
+&lt;li&gt;Nintendo Wii U Pro Controller&lt;/li&gt;
+&lt;li&gt;Nintendo Wii Remote + Nunchuk extension&lt;/li&gt;
+&lt;li&gt;Nintendo Wii Remote + Classic Controller extension&lt;/li&gt;
+&lt;li&gt;Nintendo Switch Pro controller&lt;/li&gt;
+&lt;li&gt;8BitDo family: all modes supported (Switch, Windows, Mac, Android).&lt;/li&gt;
+&lt;li&gt;iCade 8-bitty&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It also supports:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amiga / Atari-St 3-buttons joystick&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it is self-powered!&lt;/p&gt;
+&lt;p&gt;For further info see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/unijoysticle2/blob/master/docs/supported_gamepads.md&#34;&gt;Full list of supported gamepads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/unijoysticle2/blob/master/docs/user_guide.md&#34;&gt;User Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Commando disassembled - fully commented code</title>
+      <link>http://localhost:1313/2019/10/02/commando-disassembled-fully-commented-code/</link>
+      <pubDate>Wed, 02 Oct 2019 15:51:34 +0000</pubDate>
+      <guid>http://localhost:1313/2019/10/02/commando-disassembled-fully-commented-code/</guid>
+      <description>&lt;p&gt;In order to create &lt;a href=&#34;https://retro.moe/2019/09/29/commando-2084-a-game-for-the-commodore-64/&#34;&gt;Commando 2084&lt;/a&gt;, I had to disassemble Commando. My original intention was to patch what was only needed and stop there. But I got carried away and I ended up analyzing and commenting the entire Commando code.&lt;/p&gt;
+&lt;p&gt;The commented code (that can be recompiled to generate the exact original binary) is here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.com/ricardoquesada/c64-commando-2084/tree/orig&#34;&gt;https://gitlab.com/ricardoquesada/c64-commando-2084/tree/orig&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Commando 2084 - a game for the Commodore 64</title>
+      <link>http://localhost:1313/2019/09/29/commando-2084-a-game-for-the-commodore-64/</link>
+      <pubDate>Sun, 29 Sep 2019 14:45:14 +0000</pubDate>
+      <guid>http://localhost:1313/2019/09/29/commando-2084-a-game-for-the-commodore-64/</guid>
+      <description>&lt;p&gt;Commando 2084 is the mix between Commando and Robotron 2084: it is like the original Commando game, but using the Robotron 2084 controls.&lt;/p&gt;
+&lt;p&gt;You play it using the two joysticks at the same time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Joy #2 controls the hero direction&lt;/li&gt;
+&lt;li&gt;Joy #1 controls the bullets direction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But better if you play it with a &lt;a href=&#34;https://retro.moe/unijoysticle2&#34;&gt;Unijoysticle 2&lt;/a&gt; with a Dualshok4 gamepad (or similar).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/iXdx9jOd0Ho&#34;&gt;https://youtu.be/iXdx9jOd0Ho&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download game: &lt;a href=&#34;https://gitlab.com/ricardoquesada/c64-commando-2084/raw/master/bin/commando-2084.d64&#34;&gt;commando-2084.d64&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code, fully commented: &lt;a href=&#34;https://gitlab.com/ricardoquesada/c64-commando-2084/&#34;&gt;https://gitlab.com/ricardoquesada/c64-commando-2084/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Atari ST: First impressions</title>
+      <link>http://localhost:1313/2018/11/08/atari-st-first-impressions/</link>
+      <pubDate>Thu, 08 Nov 2018 14:49:26 +0000</pubDate>
+      <guid>http://localhost:1313/2018/11/08/atari-st-first-impressions/</guid>
+      <description>&lt;p&gt;A few months ago I got an Atari 1040 STF. I knew nothing about it when I got it, except that it was a similar to the Amiga.&lt;/p&gt;
+&lt;p&gt;The Atari ST, the Amiga and the Macintosh were computers released in the mid 80&amp;rsquo;s, all of them based on the Motorola 68k, and all of them came with a windows-based GUI.  This was a &lt;em&gt;revolutionary&lt;/em&gt; step compared to the 8-bit machines which were CLI text-driven.&lt;/p&gt;
+&lt;p&gt;The base &amp;ldquo;ST&amp;rdquo; model includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;8 Mhz Motorola 68000 CPU&lt;/li&gt;
+&lt;li&gt;Yamaha YM2149 3-voice square-wave plus 1-voice white noise (mono)&lt;/li&gt;
+&lt;li&gt;512Kb or 1Mb RAM (520 vs 1040 models)&lt;/li&gt;
+&lt;li&gt;3 video modes:
+&lt;ul&gt;
+&lt;li&gt;320 x 200 x 16 colors (from a 512 color palette).&lt;/li&gt;
+&lt;li&gt;640 x 200 x 4 colors (from a 512 color palette)&lt;/li&gt;
+&lt;li&gt;640 x 400 x 2 colors (I believe this is only B/W)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Midi In / Out: Apparently a &lt;a href=&#34;http://daily.redbullmusicacademy.com/2017/10/atari-st-instrumental-instruments&#34;&gt;killer feature for musicians&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Compared with the 8-bit home computers like the C64/C128, the Atari ST is a good improvement. From only 64K/128K RAM to 512K (or 1024K) RAM, an 8 Mhz CPU (vs. 1 or 2 Mhz) and Midi. But there are no hardware sprites (no blitter), and the music is chiptune, like in the C64. The C64 SID chip might be even better. The video modes are OKish. Having a 320x200 @ 16 colors from a palette of 512 is nice, but not that impressive. It is worth noting that the Atari ST (like the Amiga and the Macintosh) don&amp;rsquo;t have &amp;ldquo;text video modes&amp;rdquo;, they only have &amp;ldquo;graphic&amp;rdquo; ones.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>64K RAM Ought to be Enough: a demo for the PCjr</title>
+      <link>http://localhost:1313/2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/</link>
+      <pubDate>Thu, 27 Sep 2018 06:25:17 +0000</pubDate>
+      <guid>http://localhost:1313/2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Updated 2018–10–08&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uakDpJns9LA&#34;&gt;https://www.youtube.com/watch?v=uakDpJns9LA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A demo for the IBM PCjr by &lt;a href=&#34;http://pungas.space&#34;&gt;Pungas de Villa Martelli&lt;/a&gt;. It was presented at &lt;a href=&#34;http://flashparty.dx.am/&#34;&gt;Flashparty 2018&lt;/a&gt; and &lt;a href=&#34;http://flashparty.dx.am/index.php?option=com_content&amp;amp;view=article&amp;amp;id=37:results-fp-2018&amp;amp;catid=2&amp;amp;lang=en&amp;amp;Itemid=134&#34;&gt;won the Demo&lt;/a&gt; category.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;An IBM PCjr with at least 64k RAM.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://gitlab.com/ricardoquesada/pcjr-flashparty-2018&#34;&gt;https://gitlab.com/ricardoquesada/pcjr-flashparty–2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Binary: &lt;a href=&#34;http://pungas.space/pvm-64ko.zip&#34;&gt;pvm-64ko.zip&lt;/a&gt; (does not run on emulators)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;technical-description&#34;&gt;Technical description&lt;/h1&gt;
+&lt;p&gt;The demo is divided in the boot loader and demo 3 parts&lt;/p&gt;
+&lt;h2 id=&#34;boot-loader&#34;&gt;Boot loader&lt;/h2&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;512&amp;rdquo;]&lt;img alt=&#34;Boot loader&#34; loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/CAMqnjSjk-8f_gX2LvfrUq4QMQm8wgKtd-1Vhcmza4OcEiNYvKb7LJWMKNjcpUcaTUWXRfl8e6oz3bJcRXHTBdIjzTrELpX9eBGzYVSC9Rj4PsjbJqKBh0TfAoRnT-8JBFnNprd7xUs=-no&#34;&gt; Boot loader[/caption]
+The demo is intended to work with a 64K RAM (or more) PCjr. Booting from its own boot loader is needed to save precious memory. DOS alone takes ~20K of RAM. That is 30% of the total memory. You don’t want to waste that memory.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Cromemco System 3 computer</title>
+      <link>http://localhost:1313/2018/03/07/cromemco-system-3-computer/</link>
+      <pubDate>Wed, 07 Mar 2018 18:10:35 +0000</pubDate>
+      <guid>http://localhost:1313/2018/03/07/cromemco-system-3-computer/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://oldcomputers.net/cromemco-system-three.html&#34;&gt;Cromemco System Three&lt;/a&gt; is a Z-80 based computer. Which is nice, because I always wanted to learn Z-80 (this is my second Z-80 computer, the other one is a MSX2).&lt;/p&gt;
+&lt;p&gt;But What I like about the Cromemco is how well-built it is. I love it.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zz7FH5TeOzs&#34;&gt;https://www.youtube.com/watch?v=zz7FH5TeOzs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The computer is that not big, but it is a very heavy computer.&lt;/p&gt;
+&lt;p&gt;At the moment I don&amp;rsquo;t have the needed cables to test it. If I can&amp;rsquo;t find them, I might be able to build them myself (or not). If manage to get the cables, and provided that the computer works, I promise to write a game or something for it :)&lt;/p&gt;
+&lt;p&gt;Photos:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;512&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/ToCVTmPWKraaXmwmit-SNKqto8lDcMRKRWlokP2tLbtjcGTsbqJSCn2N-b4av1zbKlNDGxYXTMa4C1K7QieSfFSpSOjQuwL637VmHFXbzPp8Ev-4mdtYiLL3XswApLEAfXlZVgKx8mI=-no&#34;&gt; Cromemco System Three[/caption]&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Commodore 64 Assembly Tutorial - Part II</title>
+      <link>http://localhost:1313/2017/08/10/commodore-64-assembly-tutorial-part-ii/</link>
+      <pubDate>Thu, 10 Aug 2017 15:48:10 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/10/commodore-64-assembly-tutorial-part-ii/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/HtBOx9EhEiCzMQIG_bsl8CjLTXdukLYsXXFSM-QumrBZo0I-4jIT5I9Lu6HwZw_OtnteiEIVDieexuryqRqtEeXzoJUwD-l2KK_e1UOUfdXR1AoNIMWd-01w_G4JXxrr_ky9SfyAib4=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A few months ago we ( &lt;a href=&#34;http://pungas.space/&#34;&gt;Pungas de Villa Martelli&lt;/a&gt;) released the &lt;a href=&#34;http://csdb.dk/release/?id=156895&#34;&gt;4Kindness,&lt;/a&gt; a 4K intro for &lt;a href=&#34;http://csdb.dk/event/?id=2527&#34;&gt;Silesia Party 8&lt;/a&gt;. And recently we released its source and a tutorial detailing how we built it.&lt;/p&gt;
+&lt;p&gt;Without further ado, here it is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/4kindness/blob/master/4kindness_internals.en.rst&#34;&gt;C64 Assembly Tutorial - Part II (english)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/4kindness/blob/master/4kindness_internals.es.rst&#34;&gt;C64 cursito de asembler - Parte II (castellano)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/4kindness/&#34;&gt;Full source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/4kindness/raw/master/bin/4kindness.d64&#34;&gt;Binaries: 4kindness.d64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have doubts/questions about it, &lt;a href=&#34;http://pungas.space/&#34;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actualizo: Ya no se que es lo que quiere Dios</title>
+      <link>http://localhost:1313/2017/08/09/actualizo-ya-no-se-que-es-lo-que-quiere-dios/</link>
+      <pubDate>Thu, 10 Aug 2017 05:31:58 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/09/actualizo-ya-no-se-que-es-lo-que-quiere-dios/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/WUQq8rJkjiruulX_wJ6J30pI38MIjJRq-jAbGV-FmfXG4F1dPxWc0iBYV_DdtIyq4ZCT7nhsNsIoTq_x_lyyDzsaYKMCAO1Vox3mUS7RkYR4D60w4-uOhW_lDxLA_zUxTxcLgVp6Ie4=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Me encuentro confundido, perdido espiritualmente.&lt;/p&gt;
+&lt;p&gt;Pensé que Dios me estaba dando mensajes claros y simples, para que una persona como yo los entienda sin ambigüedad alguna, mensajes claros como:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Hacé el UniJoystiCle para la PET. No pierdas tiempo en la Plus/4&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pero hoy el vecino me entregó un paquete&amp;hellip; ¿qué paquete?
+El paquete con la Commodore Plus/4 que yo pensé que algún ladronzuelo se había apoderado (yo el mal pensado, perdón ladronzuelo que no fuiste)&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/I0T74yPJ2HtMZTTBebMNDOkjysZfmYjGFVR9Seq2sKtJE5P-8FwEyonD1ohIpneI5cz2DMlaa4lCDdQYqpkqm9U9vG7EaCUMEDCTZiIcLXZyDtTYvwQ8j3x22DpUerDXumw6g-k_nCk=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Lo primero que hice es agradecer al vecino. Claro esta.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Dios las prefiere PETs</title>
+      <link>http://localhost:1313/2017/08/06/dios-las-prefiere-pets/</link>
+      <pubDate>Sun, 06 Aug 2017 22:49:55 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/06/dios-las-prefiere-pets/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/lGe-10DyH0jls02EK_XDouc-7BKhLBIt67llKCVSFpL-lMZX-Lb11DeWZMOZdOTc4YUCN_6xViqfQD_DDCFrEGAuTCZgewh27fjcfaY9vhCChNDZ9wyAtoZe-ZvmuveO_76PCooMqMM=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Volví de viaje. Llego a casa con ansias de encontrarme con la &lt;a href=&#34;https://en.wikipedia.org/wiki/Commodore_Plus/4&#34;&gt;Commodore Plus/4&lt;/a&gt; que había pedido por Ebay. El email decía que la habían dejado en la puerta de casa el viernes a las 3:54pm. Yo llegué a casa el sábado a las 11:58am.&lt;/p&gt;
+&lt;p&gt;La busqué pero no la encontré. Ni en la puerta de casa. Ni en ningún lado.&lt;/p&gt;
+&lt;p&gt;(Vaya sorpresa se habrá llevado el ladronzuelo al abrir la caja).&lt;/p&gt;
+&lt;p&gt;Una tristeza enorme se apoderó de mi.&lt;/p&gt;
+&lt;p&gt;Para ahogar mis penas me fui al &lt;a href=&#34;http://vcfed.org/wp/festivals/vintage-computer-festival-west/&#34;&gt;Vintage Computer Festival&lt;/a&gt;. Fui a escuchar la charla de Commodore. Iban a estar &lt;a href=&#34;https://en.wikipedia.org/wiki/Bil_Herd&#34;&gt;Bil Herd&lt;/a&gt;, Leonard Tramiel, &lt;a href=&#34;https://en.wikipedia.org/wiki/Chuck_Peddle&#34;&gt;Chuck Peddle&lt;/a&gt; y demás commodorianos de la época 8-bit.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.2.2 released and other news</title>
+      <link>http://localhost:1313/2017/01/08/vchar64-v0-2-2-released-and-other-news/</link>
+      <pubDate>Sun, 08 Jan 2017 21:31:38 +0000</pubDate>
+      <guid>http://localhost:1313/2017/01/08/vchar64-v0-2-2-released-and-other-news/</guid>
+      <description>&lt;h2 id=&#34;vchar64-v022-released&#34;&gt;VChar64 v0.2.2 released&lt;/h2&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.2/vchar64-0.2.2.mac.dmg&#34;&gt;vchar64-0.2.2.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.2/vchar64-0.2.2.win32.zip&#34;&gt;vchar64-0.2.2.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;https://github.com/ricardoquesada/vchar64/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Release notes here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/tag/0.2.2&#34;&gt;https://github.com/ricardoquesada/vchar64/releases/tag/0.2.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;unijoysticle-news&#34;&gt;UniJoystiCle news&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/WhrpdiAhtgwmjGQTN3pVO6bDTtDo77s5tTkDMXoWUA08P96vsLMkjNweXlw-_UoFZelzCkZXae6rRuDSPaEYTG5-7sVQAs-BAGh_jiACvRuFQNvFG2BaKkGHO589fXq-lctpcfg=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I started working on the paddle/mouse support. I&amp;rsquo;m using an ESP32 instead of the ESP8266. Progress is documented here (spanish):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://retroinvaders.com/commodoremania/foro/index.php/topic,1708.msg25518/&#34;&gt;UniJoystiCle + Paddle/Mouse support  progress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>The UniJoystiCle v0.4 released</title>
+      <link>http://localhost:1313/2016/11/28/the-unijoysticle-v0-4-released/</link>
+      <pubDate>Mon, 28 Nov 2016 14:45:26 +0000</pubDate>
+      <guid>http://localhost:1313/2016/11/28/the-unijoysticle-v0-4-released/</guid>
+      <description>&lt;p&gt;Christmas is coming. Treat yourself with The UniJoystiCle v0.4, and be the cool kid in the block by playing &lt;a href=&#34;https://github.com/ricardoquesada/c64-the-uni-games&#34;&gt;The Uni Games&lt;/a&gt; like a pro (that&amp;rsquo;s it with real unicycles!):&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=ZLAgooXx4bo&#34;&gt;https://www.youtube.com/watch?v=ZLAgooXx4bo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;highlights-of-v04&#34;&gt;Highlights of v0.4&lt;/h3&gt;
+&lt;h4 id=&#34;wifi-device&#34;&gt;WiFi Device&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Smaller real estate: Fits in all C64/128 models, including the C128D / SX-64 machines&lt;/li&gt;
+&lt;li&gt;Using Wemos D1 Mini instead of NodeMCU&lt;/li&gt;
+&lt;li&gt;Blue instead of red&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.4.0-RC released!</title>
+      <link>http://localhost:1313/2016/11/08/unijoysticle-v0-4-0-rc-released/</link>
+      <pubDate>Tue, 08 Nov 2016 08:52:02 +0000</pubDate>
+      <guid>http://localhost:1313/2016/11/08/unijoysticle-v0-4-0-rc-released/</guid>
+      <description>&lt;p&gt;UniJoystiCle v0.4.0-RC (Release Candidate) released. Mega update!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iOS client v0.4.6: &lt;a href=&#34;https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8&#34;&gt;App Store&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Android client v0.4.10: &lt;a href=&#34;https://play.google.com/store/apps/details?id=moe.retro.unijoysticle&#34;&gt;Google Play&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;macOS client v0.4.0: &lt;a href=&#34;http://ricardoquesada.github.io/unijoysticle/bin/UniJoystiCle%20Controller-v0.4.0.dmg&#34;&gt;UniJoystiCle Controller.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;win32 client v0.4.0: &lt;a href=&#34;http://ricardoquesada.github.io/unijoysticle/bin/unijoysticle_controller-v0.4.0.win32.zip&#34;&gt;unijoysticle_controller.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Firmware v0.4.5: &lt;a href=&#34;http://ricardoquesada.github.io/unijoysticle/bin/unijoysticle_firmware.bin&#34;&gt;unijoysticle_firmware.bin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code + schematic + layout: &lt;a href=&#34;https://github.com/ricardoquesada/unijoysticle&#34;&gt;https://github.com/ricardoquesada/unijoysticle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Latest versions can be downloaded from here:  &lt;a href=&#34;http://ricardoquesada.github.io/unijoysticle/&#34;&gt;http://ricardoquesada.github.io/unijoysticle/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Retro Challenge: announcing Commodore Home</title>
+      <link>http://localhost:1313/2016/10/31/retro-challenge-commodore-home/</link>
+      <pubDate>Mon, 31 Oct 2016 20:13:49 +0000</pubDate>
+      <guid>http://localhost:1313/2016/10/31/retro-challenge-commodore-home/</guid>
+      <description>&lt;h3 id=&#34;home-automation-for-the-masses-not-the-classes&#34;&gt;&lt;strong&gt;Home automation for the masses, not the classes&lt;/strong&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We need to build computers for the masses, not the classes - Jack Tramiel, Commodore founder&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;commodore_homehttpsretromoewp-contentuploads201610commodore_homepnghttpsretromoewp-contentuploads201610commodore_homepng&#34;&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2016/10/commodore_home.png&#34;&gt;&lt;img alt=&#34;commodore_home&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2016/10/commodore_home.png&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A: Commodore 64 computer running the &amp;ldquo;Commodore Home&amp;rdquo; application&lt;/li&gt;
+&lt;li&gt;B: &lt;a href=&#34;https://retro.moe/unijoysticle/&#34;&gt;UniJoystiCle WiFi device&lt;/a&gt; connected to the joystick ports&lt;/li&gt;
+&lt;li&gt;C: Alarm sensor using a WiFi device&lt;/li&gt;
+&lt;li&gt;D: Smartphone running the UniJoystiCle Controller app with the Commodore Home plugin&lt;/li&gt;
+&lt;li&gt;E: Commodore MPS 803 printer&lt;/li&gt;
+&lt;li&gt;F: Pulleys + gears connected to the printer header + dimmer knot&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>RetroChallenge: Update #3</title>
+      <link>http://localhost:1313/2016/10/21/retrochallenge-update-3/</link>
+      <pubDate>Fri, 21 Oct 2016 18:34:51 +0000</pubDate>
+      <guid>http://localhost:1313/2016/10/21/retrochallenge-update-3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=Xu7uzjWlCcM&#34;&gt;https://www.youtube.com/watch?v=Xu7uzjWlCcM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s new since last update:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gears to control the dimmer kind of working. They are somewhat fragile ATM.&lt;/li&gt;
+&lt;li&gt;Desktop UniJoystiCle Controller working.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>RetroChallenge: C64 I.D.IoT.R Update #2</title>
+      <link>http://localhost:1313/2016/10/14/retrochallenge-c64-i-d-iot-r-update-2/</link>
+      <pubDate>Sat, 15 Oct 2016 00:40:58 +0000</pubDate>
+      <guid>http://localhost:1313/2016/10/14/retrochallenge-c64-i-d-iot-r-update-2/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Ordered a rubber belt + pulley to control the dimmer from the printer header&lt;/li&gt;
+&lt;li&gt;New UniJoystiCle PCB arrived (v0.4.0). I assembled one and works Ok both on the SX64 and the C128D. I just need to create a &amp;ldquo;user port&amp;rdquo; power cable for the SX64 since it doesn&amp;rsquo;t have a datasette port.&lt;/li&gt;
+&lt;li&gt;Started the UniJoystiCle desktop client in order to control the dimmer from the PC/Mac.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Retrochallenge: Building the C64 I.D.IoT.R</title>
+      <link>http://localhost:1313/2016/10/06/retrochallenge-building-the-c64-i-d-iot-r/</link>
+      <pubDate>Fri, 07 Oct 2016 00:23:22 +0000</pubDate>
+      <guid>http://localhost:1313/2016/10/06/retrochallenge-building-the-c64-i-d-iot-r/</guid>
+      <description>&lt;p&gt;I started building the C64 I.D.IoT.R a few months ago, but never finished it. What better than to finish it for the &lt;a href=&#34;http://www.wickensonline.co.uk/retrochallenge-2012sc/&#34;&gt;Retro Challenge&lt;/a&gt; contest.&lt;/p&gt;
+&lt;p&gt;C64 I.D.IoT.R is a smart light controlled from a C64. Its name means:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;C64: Commodore 64&lt;/li&gt;
+&lt;li&gt;I: Intelligent&lt;/li&gt;
+&lt;li&gt;D: Dimmer&lt;/li&gt;
+&lt;li&gt;IoT: Internet Of Things:&lt;/li&gt;
+&lt;li&gt;R: RRRRR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What I have done so far is this: (and is not part of the contest since I built it two months ago):&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=eKlaUfoTuYQ&#34;&gt;https://www.youtube.com/watch?v=eKlaUfoTuYQ&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle update #2</title>
+      <link>http://localhost:1313/2016/09/27/unijoysticle-update-2/</link>
+      <pubDate>Tue, 27 Sep 2016 18:18:00 +0000</pubDate>
+      <guid>http://localhost:1313/2016/09/27/unijoysticle-update-2/</guid>
+      <description>&lt;h3 id=&#34;tldr&#34;&gt;TL;DR&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Station Mode (with or without WPS)&lt;/li&gt;
+&lt;li&gt;Inactivity timeout  &amp;amp; Joystick statistics&lt;/li&gt;
+&lt;li&gt;Auto-firmware upgrade&lt;/li&gt;
+&lt;li&gt;Better ways to power the WiFi device&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;station-mode-and-other-features&#34;&gt;Station mode and other features&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/0IWKb6TdvqIj-p_fx7QMHMIiL7Zt-AuS_-vOG0K9o_J2ievuhhanZz7u3fnAkPSwNHbvCJD-K_M94w=w1047-h1320-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One thing that bothered me was that I needed to switch WiFi networks every time that I wanted to use the UniJoystiCle. Not a major issue, but not ideal specially if you use your phone both for the UniJoystiCle and for &amp;ldquo;regular&amp;rdquo; stuff.&lt;/p&gt;
+&lt;p&gt;To solve that issue, I added WiFi Station mode support (Access Point mode is still supported). Basically the UniJoystiCle WiFi device, when in Station mode, can connect to any WiFi network. It also supports &lt;a href=&#34;https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup&#34;&gt;WPS&lt;/a&gt; (an auto-auth way to connect to a network). If Station mode fails, it will default to Access Point mode.&lt;/p&gt;
+&lt;p&gt;In order to switch to Station mode you have to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install firmware v0.4.3 (see below for more info)&lt;/li&gt;
+&lt;li&gt;Boot the UniJoystiCle WiFi device (it will boot in Access Point mode)&lt;/li&gt;
+&lt;li&gt;Connect to the unijoysticle-xxyyzz WiFi Network&lt;/li&gt;
+&lt;li&gt;Open the web page: &lt;a href=&#34;http://unijoysticle.local&#34;&gt;http://unijoysticle.local&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Station&amp;rdquo; mode, put the credential (SSID and password) and reboot!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From &lt;a href=&#34;http://unijoysticle.local&#34;&gt;http://unijoysticle.local&lt;/a&gt; you can also configure the &amp;ldquo;Inactivity timeout&amp;rdquo;: how many seconds without activity should elapse before all the joystick lines are set to Low (simulates no joystick movements).&lt;/p&gt;
+&lt;p&gt;I also added statistics: It tells you how many seconds you spent on the different joystick positions, and how many movements you did. Useful, right? :)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle Commando Mode, Game Controllers and other news</title>
+      <link>http://localhost:1313/2016/09/12/unijoysticle-commando-mode-game-controllers-and-other-news/</link>
+      <pubDate>Tue, 13 Sep 2016 01:17:53 +0000</pubDate>
+      <guid>http://localhost:1313/2016/09/12/unijoysticle-commando-mode-game-controllers-and-other-news/</guid>
+      <description>&lt;p&gt;Since UniJoystiCle v0.3 was released back in July many things were added.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android client:&lt;/strong&gt;  It has all the iOS features, except Gyruss mode which will be added soon.
+&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/nUm_upw_pznWfcD9pp71LPhpwdTMd6L7LVBK2Bw3UoAaiD0AFkTc1P6Gfl1MXiy7mOaApxVLdUMWXA=w564-h168-no&#34;&gt;&lt;strong&gt;iOS client:&lt;/strong&gt; It is available on the App Store.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://camo.githubusercontent.com/5839a4b9d404dc9cd8d2a193c73b6eb6de0651f1/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f573838637a2d304831586574317a48784e7172676a5473466a4f4d647875743949774b517a4f41307972676a6a477436654770324e3372713341616e576f6a6a666679494566436573597a364f31383d77353736302d68333630302d6e6f&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle news #1</title>
+      <link>http://localhost:1313/2016/09/12/unijoysticle-news-1/</link>
+      <pubDate>Tue, 13 Sep 2016 01:14:14 +0000</pubDate>
+      <guid>http://localhost:1313/2016/09/12/unijoysticle-news-1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve just released a new firmware version for the UniJoystiCle (v0.4.0). It supports the new Commando Mode.&lt;/p&gt;
+&lt;p&gt;The new Android client with Commando mode can be downloaded from here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=moe.retro.unijoysticle&#34;&gt;https://play.google.com/store/apps/details?id=moe.retro.unijoysticle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The iOS client will be available as soon as Apple approves it (usually a few days) and will be available here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8&#34;&gt;https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to upgrade the firmware, please follow these steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md#installing-the-firmware&#34;&gt;DOCUMENTATION.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.2.0 released</title>
+      <link>http://localhost:1313/2016/08/28/vchar64-v0-2-0-released/</link>
+      <pubDate>Mon, 29 Aug 2016 04:34:06 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/28/vchar64-v0-2-0-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.2.0 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.win32.zip&#34;&gt;vchar64-0.2.0.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.mac.dmg&#34;&gt;vchar64-0.2.0.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;425&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/tB3Z3gksYisFmrUL1kE4iANPPsqMGaLrwizc-Ysm3SxFTrUseq-lZgAuB7zDTLayAMlguTSSsY9slw=w1192-h1052-no&#34;&gt; New &amp;ldquo;VICE Import Snapshot&amp;rdquo; dialog[/caption]&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>More UniJoystiCle videos</title>
+      <link>http://localhost:1313/2016/08/21/more-unijoysticle-videos/</link>
+      <pubDate>Sun, 21 Aug 2016 20:16:59 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/21/more-unijoysticle-videos/</guid>
+      <description>&lt;p&gt;Here are more UniJoystiCle videos:&lt;/p&gt;
+&lt;p&gt;Showing how to play C64 games using a real Game Controller via the UniJoystiCle:
+&lt;a href=&#34;https://www.youtube.com/watch?v=s9Q-Nlp2e44&#34;&gt;https://www.youtube.com/watch?v=s9Q-Nlp2e44&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Showing how to play Gyruss using the UniJoystiCle Gyruss mode:
+&lt;a href=&#34;https://www.youtube.com/watch?v=n2YHoj1pXB8&#34;&gt;https://www.youtube.com/watch?v=n2YHoj1pXB8&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.3 released!</title>
+      <link>http://localhost:1313/2016/07/29/unijoysticle-v0-3-released/</link>
+      <pubDate>Fri, 29 Jul 2016 14:26:23 +0000</pubDate>
+      <guid>http://localhost:1313/2016/07/29/unijoysticle-v0-3-released/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/w2cdoTU-GJU&#34;&gt;https://youtu.be/w2cdoTU-GJU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Yeaaaaaaaaaah! UniJoystiCle v0.3 was released!&lt;/p&gt;
+&lt;p&gt;It includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A beautifully designed PCB&lt;/li&gt;
+&lt;li&gt;A realistic Unicycle game for the Commodore 64&lt;/li&gt;
+&lt;li&gt;A the iPhone application which can be downloaded from the App Store&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.1.0 released</title>
+      <link>http://localhost:1313/2016/07/15/vchar64-v0-1-0-released/</link>
+      <pubDate>Fri, 15 Jul 2016 13:16:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/07/15/vchar64-v0-1-0-released/</guid>
+      <description>&lt;p&gt;This is mostly a bug-fix release, focused on improving the workflow.&lt;/p&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.1.0/vchar64-0.1.0.mac.dmg&#34;&gt;vchar64-0.1.0.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.1.0/vchar64-0.1.0.win32.zip&#34;&gt;vchar64-0.1.0.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.2.1 released</title>
+      <link>http://localhost:1313/2016/06/30/unijoysticle-v0-2-1-released/</link>
+      <pubDate>Thu, 30 Jun 2016 23:05:01 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/30/unijoysticle-v0-2-1-released/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;480&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-wbKhFizysbk/V3Wh7rzaKoI/AAAAAAABetg/CS2OlIXzJz4Vx_dCfFOB3GAbViJf_wCCACCo/s640/IMG_0207.jpg&#34;&gt; v0.2.1 powered from a battery. Can be powered from USB as well[/caption]&lt;/p&gt;
+&lt;p&gt;Changes in v0.2.1:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commodore 64 works Ok when the UniJoystiCle board is unpowered. The issue was that the 4066 chips were in an unknown state when they were unpowered. In v0.2.1 the 4066 ICs get power from the C64 Joy #2 port&lt;/li&gt;
+&lt;li&gt;Smaller holes for the DC Jack making it compatible with &amp;ldquo;common&amp;rdquo; DC Jacks.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Repairing the Commodore 1581 floppy disk drive. Part 2</title>
+      <link>http://localhost:1313/2016/06/19/repairing-the-commodore-1581-floppy-disk-drive-part-2/</link>
+      <pubDate>Sun, 19 Jun 2016 11:20:16 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/19/repairing-the-commodore-1581-floppy-disk-drive-part-2/</guid>
+      <description>&lt;p&gt;I assumed that the Commodore 1581 was failing because of a bad WD1772 IC (as documented in &lt;a href=&#34;https://retro.moe/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/&#34;&gt;Part I&lt;/a&gt;). So I ordered a WD1772 replacement + the IC socket, I developed some basic desoldering skills, watched some &lt;a href=&#34;https://www.youtube.com/watch?v=239okViumdA&#34;&gt;desoldering&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=t2j_8LvpTNk&#34;&gt;videos&lt;/a&gt;, and also got a cheap &lt;a href=&#34;https://www.radioshack.com/products/radioshack-45-watt-desoldering-iron?variant=5717855877&#34;&gt;desoldering iron from Radio Shack&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;So, I removed the board from the Commodore 1581 and started to desolder the IC. To my surprise the $11-buck desolder iron worked pretty well. I was able to remove all the solder from the the pins in a few minutes. The desolder iron just takes some time to reach the needed temperature, but besides that, it seems to be a great tool for occasional desoldering tasks (a hobbyist desoldering iron &lt;a href=&#34;https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4&#34;&gt;cost more than $250&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.2 released</title>
+      <link>http://localhost:1313/2016/06/12/unijoysticle-v0-2-released/</link>
+      <pubDate>Mon, 13 Jun 2016 00:31:38 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/12/unijoysticle-v0-2-released/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-OjX88hA0O9I/V12OOZiJjpI/AAAAAAABeXo/0AZYzH5x3xIiYRy--uza0qhJhuFwW18NACCo/s400/IMG_4523.jpg&#34;&gt;&lt;strong&gt;Download&lt;/strong&gt;(firmware, iOS client and schematics + board):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/unijoysticle&#34;&gt;https://github.com/ricardoquesada/unijoysticle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>The quest for the sacred diskettes</title>
+      <link>http://localhost:1313/2016/06/06/the-quest-for-the-sacred-diskettes/</link>
+      <pubDate>Mon, 06 Jun 2016 13:30:18 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/06/the-quest-for-the-sacred-diskettes/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-CyiUR_uBCvA/V1L3tHln8yI/AAAAAAABeQI/RUPbfTFPjHolle6UMjTUpgpJXK_y3SUNACCo/s400/IMG_4481.jpg&#34;&gt; My Sacred Diskettes[/caption]&lt;/p&gt;
+&lt;p&gt;In 1986 (or was it 1987?) I got my first computer, a Commodore 64. I started learning BASIC and during &amp;lsquo;87 and &amp;lsquo;88 I created some very simple games. Somewhere in &amp;lsquo;88 I started learning assembly language ( &lt;a href=&#34;http://www.webopedia.com/TERM/M/machine_language.html&#34;&gt;machine language&lt;/a&gt; to be precise), but I don&amp;rsquo;t recall coding any game using this language. If so, it must have probably been due to the fact that I lacked a good &lt;a href=&#34;https://www.c64-wiki.com/index.php/Machine_Code_Monitor&#34;&gt;monitor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Somewhere in 1989,  I switched to the Commodore 128. Whereas I continued creating games using BASIC, I also started coding some games in assembly language, profiting from the built-in C128 monitor, which was pretty decent.&lt;/p&gt;
+&lt;p&gt;In 1990 I started coding intros, doing some trainers, and re-cracking some games for a local computer shop (SADOI). And I kept doing that until 1992.&lt;/p&gt;
+&lt;p&gt;I stored all that sacred info (my games, intros, re-cracks, trainers) in my diskettes. At the time, my diskettes were &lt;strong&gt;my most valuable possession.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>¡Arriba las Manos! (Hands up!) music disk for the c64</title>
+      <link>http://localhost:1313/2016/05/30/arriba-las-manos-hands-up-music-disk-for-the-c64/</link>
+      <pubDate>Mon, 30 May 2016 15:37:07 +0000</pubDate>
+      <guid>http://localhost:1313/2016/05/30/arriba-las-manos-hands-up-music-disk-for-the-c64/</guid>
+      <description>&lt;p&gt;A few weeks ago, we,  the &lt;a href=&#34;http://pungas.space/&#34;&gt;Pungas de Villa Martelli&lt;/a&gt;, released &amp;ldquo;¡Arriba las Manos!&amp;rdquo;, a music disk for the Commodore 64.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ls-WDuvTTaQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;It includes ten 8-bit songs, an animated hi-res graphic, an easter-egg, and you can control it with a joystick, or a mouse or the keyboard! Not even Apple puts so much love in the UX like us (the future is the c64!)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.2 coming soon</title>
+      <link>http://localhost:1313/2016/04/22/unijoysticle-v0-2-coming-soon/</link>
+      <pubDate>Sat, 23 Apr 2016 01:37:29 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/22/unijoysticle-v0-2-coming-soon/</guid>
+      <description>&lt;p&gt;UniJoystiCle v0.2 coming soon.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=4d8Ow-SmCmM&#34;&gt;https://www.youtube.com/watch?v=4d8Ow-SmCmM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Changes in v0.2:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[NEW] - ESP8266 device: supports 2 joysticks (uses three 4066 ICs instead of two&lt;/li&gt;
+&lt;li&gt;[NEW] - ESP8266 firmware uses AP mode by default. Uses SSID &amp;ldquo;unijosyticle&amp;rdquo; + last 2 bytes of mac address&lt;/li&gt;
+&lt;li&gt;[NEW] - iOS Client: Can be configured to use either joystick port&lt;/li&gt;
+&lt;li&gt;[NEW] - iOS Client: Auto-discover ESP8266 firmware using mDNS&lt;/li&gt;
+&lt;li&gt;[NEW] - iOS Client: UniJoystiCle mode also supports up, down and fire (jump)&lt;/li&gt;
+&lt;li&gt;[FIX] - Name: Renamed project from Uni-Joysti-Cle to UniJoystiCle (easier to search, shorter to type)&lt;/li&gt;
+&lt;li&gt;[FIX] - ESP8266 device: replaced NodeMCU LoLin with NodeMCU Amica&lt;/li&gt;
+&lt;li&gt;[FIX] - Sophisticated Glue Material: Uses gaffer tape, instead of duct tape&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.13 released</title>
+      <link>http://localhost:1313/2016/04/15/vchar64-v0-0-13-released/</link>
+      <pubDate>Fri, 15 Apr 2016 21:35:58 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/15/vchar64-v0-0-13-released/</guid>
+      <description>&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.mac.dmg&#34;&gt;vchar64-0.0.13.mac.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.win32.zip&#34;&gt;vchar64-0.0.13.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lb7UNIhoyoI&#34;&gt;https://www.youtube.com/watch?v=lb7UNIhoyoI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Changelog:&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Announcing the Uni-Joysti-Cle™</title>
+      <link>http://localhost:1313/2016/04/06/announcing-the-uni-joysti-cle/</link>
+      <pubDate>Wed, 06 Apr 2016 16:02:10 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/06/announcing-the-uni-joysti-cle/</guid>
+      <description>&lt;p&gt;The Uni-Joysti-Cle™: The first and only solution to play Commodore 64 video games with your unicycle. Unique immersive experience, much better than VR.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/q43euD1pTp0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;It consists of five beautifully designed parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;Uni Games&lt;/em&gt; video game for the Commodore 64&lt;/li&gt;
+&lt;li&gt;The Uni-Joysti-Cle™ WiFi receiver, and its firmware&lt;/li&gt;
+&lt;li&gt;The Uni-Joysti-Cle™ smartphone application&lt;/li&gt;
+&lt;li&gt;A unicycle&lt;/li&gt;
+&lt;li&gt;Sophisticated glue material&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find all the information about this revolutionary device here: &lt;a href=&#34;http://localhost:1313/unijoysticle/&#34;&gt;/unijoysticle/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C64 Remote Controller: Prototype v0.1 works!...</title>
+      <link>http://localhost:1313/2016/04/01/c64-remote-controller-prototype-v0-1-works/</link>
+      <pubDate>Fri, 01 Apr 2016 08:38:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/01/c64-remote-controller-prototype-v0-1-works/</guid>
+      <description>&lt;p&gt;&amp;hellip;or How to use a 64-bit machine to control a Commodore 64.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/L?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;No schematics or PCBs yet. But at least I have the materials that I&amp;rsquo;m using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One &lt;a href=&#34;http://www.ebay.com/sch/i.html?_from=R40&amp;amp;_trksid=p2050601.m570.l1313.TR0.TRC0.H0.Xlolin+nodemcu.TRS0&amp;amp;_nkw=lolin+nodemcu&amp;amp;_sacat=0&#34;&gt;Lolin NodeMCU&lt;/a&gt; (should work with any other ESP8266 that have at least five GPIOs)&lt;/li&gt;
+&lt;li&gt;Two 4066 ICs. I&amp;rsquo;m using &lt;a href=&#34;http://www.ti.com/lit/ds/symlink/sn74hc4066.pdf&#34;&gt;this one&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;and this is the software that I&amp;rsquo;m using both for the NodeMCU firmware and the iOS client:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Growing the 8 Bit Generation</title>
+      <link>http://localhost:1313/2016/03/30/growing-the-8-bit-generation/</link>
+      <pubDate>Thu, 31 Mar 2016 06:07:23 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/30/growing-the-8-bit-generation/</guid>
+      <description>&lt;p&gt;Today was the premier of the &lt;a href=&#34;http://www.8bitgeneration.com/&#34;&gt;&lt;em&gt;Growing the 8 Bit Generation&lt;/em&gt;&lt;/a&gt; movie at the Computer History Museum. Great documentary about the 8-bit computers, focused on Commodore although it talks about Apple, Sinclair and Atari as well.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2016/03/img_4018.jpg&#34;&gt;&lt;img alt=&#34;IMG_4018&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/img_4018.jpg?w=700&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Chuck_Peddle&#34;&gt;Chuck Peddle&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bil_Herd&#34;&gt;Bil Herd&lt;/a&gt;, Leonard Tramiel were there. And &lt;a href=&#34;https://en.wikipedia.org/wiki/Jeri_Ellsworth&#34;&gt;Jeri Ellsworth&lt;/a&gt; was there too.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/img%5F4020.jpg&#34; width=&#34;463&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;I went with my Commodore mug and I was able to to get Jeri&amp;rsquo;s and Bil&amp;rsquo;s autographs. Yeah!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;IMG_4022.jpg&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/img_4022.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C64 Remote Controller: NodeMCU vs. Adafruit Huzzah vs. SparkFun Thing vs...</title>
+      <link>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</link>
+      <pubDate>Sun, 27 Mar 2016 21:21:04 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</guid>
+      <description>&lt;h3 id=&#34;requirements-for-thec64-controller&#34;&gt;Requirements for the c64 controller&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A micro-controller. I doesn&amp;rsquo;t need to be very powerful, just powerful enough to handle some UDP connections and configuring some GPIOs.&lt;/li&gt;
+&lt;li&gt;Flash-able firmware: If possible with support for &lt;a href=&#34;https://www.arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; (or similar). C++ preferred. &lt;a href=&#34;http://micropython.org/&#34;&gt;Micropython&lt;/a&gt; could be a nice backup plan.&lt;/li&gt;
+&lt;li&gt;WiFi&lt;/li&gt;
+&lt;li&gt;Some GPIOs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;which-moduleto-choose&#34;&gt;Which module to choose&lt;/h3&gt;
+&lt;p&gt;There many alternatives, and these are the ones that I evaluated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoBoardUno&#34;&gt;Arduino&lt;/a&gt; + &lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoWiFiShield101&#34;&gt;WiFi shield&lt;/a&gt; or &lt;a href=&#34;http://espressif.com/en/products/hardware/esp8266ex/overview&#34;&gt;ESP8266&lt;/a&gt;: This is the first option that I evaluated thanks to &lt;a href=&#34;http://www.lemon64.com/forum/viewtopic.php?t=60046&#34;&gt;different&lt;/a&gt; &lt;a href=&#34;http://retroinvaders.com/commodoremania/foro/index.php/topic,1525.0.html&#34;&gt;suggestions&lt;/a&gt;. But since the ESP8266 already comes with a flash-able firmware, there was no need to use the Arduino part. I discarded this option, but I liked the ESP8266 part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.adafruit.com/products/2471&#34;&gt;Adafruit Huzzah&lt;/a&gt; breakout ($9.95) / &lt;a href=&#34;https://www.adafruit.com/products/2821&#34;&gt;Adafruit Feather Huzzah&lt;/a&gt; ($15.95): An ESP8266 based module. I like Adafruit products since they are very well tested, they give you support, have very good documentation. But they are usually on the pricy side. All ESP8266 boards are supported by the &lt;a href=&#34;https://github.com/esp8266/Arduino&#34;&gt;Arduino IDE&lt;/a&gt; which is a very good thing.  (I ordered one Feather Huzzah).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sparkfun.com/products/13231&#34;&gt;SparkFun ESP8266 Thing&lt;/a&gt; ($15.95): Similar to the Feather Huzzah.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aliexpress.com/af/nodemcu.html&#34;&gt;NodeMCU&lt;/a&gt; (~$4.00): Very similar too Adafruit Huzzah and SparkFun ESP8266 Thing. I&amp;rsquo;m not sure who built the first module (Adafruit, SparkFun or NodeMCU), although I wouldn&amp;rsquo;t be surprised if NodeMCU was the first one. There is a lot of innovation in China in this area. NodeMCU comes with a firmware that supports Lua, which is nice for faster development. You should know that the Lua firmware could be installed in the other modules as well, and you can run C++ firmwares on NodeMCU as well. There are three different NodeMCU brands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amica: Which seems to be the official one, although I didn&amp;rsquo;t know this when I decided to buy the LoLin.&lt;/li&gt;
+&lt;li&gt;LoLin: It seems that it is no longer produced by WeMos. (I ordered one of this too).&lt;/li&gt;
+&lt;li&gt;DOIT: I know nothing about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.wemos.cc/Products/d1_mini.html&#34;&gt;Mini D1&lt;/a&gt; (~$4.00): Another ESP8266-based module similar to the previous ones. It is produced by &lt;a href=&#34;http://www.wemos.cc/&#34;&gt;WeMos&lt;/a&gt;, the same as the NodeMCU LoLin. My theory is that WeMos realized that there was more money in trying to create &lt;a href=&#34;http://www.wemos.cc/Products/mini_shields.html&#34;&gt;their own ecosystem&lt;/a&gt; rather than just cloning NodeMCU. It has 11 GPIOs, instead of the 9 offered by Adafruit Huzzah, which is good (I ordered a few of this one too).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There were other alternatives, &lt;a href=&#34;https://www.sparkfun.com/products/13774&#34;&gt;like the SparkFun Particle Photon&lt;/a&gt; ($19.00), based on non-ESP8266 micro-controllers. They were a bit more powerful, but also more expensive. And don&amp;rsquo;t support the Arduino IDE. So, for the moment I discarded them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>The Uni Games - Part II. Reboot</title>
+      <link>http://localhost:1313/2016/03/27/the-uni-games-part-ii-reboot/</link>
+      <pubDate>Sun, 27 Mar 2016 15:46:20 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/27/the-uni-games-part-ii-reboot/</guid>
+      <description>&lt;p&gt;A reboot was needed. I rewrote most of the code. The game is no longer called &amp;ldquo;The Muni Race&amp;rdquo;. Instead it is called &amp;ldquo;The Uni Games&amp;rdquo; since it will have more than one event (think of &amp;ldquo;Summer Games&amp;rdquo; but for unicycles. &lt;a href=&#34;http://eng.unicon18.com/&#34;&gt;UNICON&lt;/a&gt; basically).&lt;/p&gt;
+&lt;p&gt;The game will have a more-retro look and feel than before. It will only use PETSCII chars, plus sprites. No redefined characters, no bitmaps. Pure PETSCII. Pure retro effects.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-u6cUHJ6Fg9A/VvfhKfa9ctI/AAAAAAABdm4/t8b5283PpzUtEmfZuy0xCN6-2W2pflOSwCCo/s640-Ic42/Screen%2BShot%2B2016-03-27%2Bat%2B6.31.23%2BAM.png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64: caca powered!</title>
+      <link>http://localhost:1313/2016/03/16/vchar64-caca-powered/</link>
+      <pubDate>Thu, 17 Mar 2016 05:09:04 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/16/vchar64-caca-powered/</guid>
+      <description>&lt;p&gt;Latest VChar64 commit hash:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;commit caca91345d177ded6b9b8f6a8adeaadc3611a29e
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Author: Ricardo Quesada
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Date:   Mon Mar 14 15:31:41 2016 -0700
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fix: use the correct URL to open the documentation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And this is how &lt;code&gt;git describe&lt;/code&gt; shows it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git describe --abbrev=4 --dirty --always --tags
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0.0.12-14-gcaca
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that is the command that I use internally to generate the version number:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/screen-shot-2016-03-16-at-9-59-05-pm.png&#34; width=&#34;412&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Repairing the Commodore 1581 floppy disk drive. Part 1</title>
+      <link>http://localhost:1313/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/</link>
+      <pubDate>Mon, 14 Mar 2016 16:52:29 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2016/03/img_3905.jpg&#34;&gt;&lt;img alt=&#34;IMG_3905&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/03/img_3905.jpg?w=700&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I got my 1581 like one year ago. It worked for 2 or 3 weeks and it stopped working. The stepper and the motor weren&amp;rsquo;t moving. So I guessed that the &amp;ldquo;floppy drive&amp;rdquo; was broken.&lt;/p&gt;
+&lt;p&gt;Quick introduction: the Commodore floppy disk drives have 2 major components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The controller board: which has the 6502, RAM, ROM and other ICs to control the drive&lt;/li&gt;
+&lt;li&gt;The floppy disk drive: which is the &amp;ldquo;thing&amp;rdquo; that has the header, the stepper, the motor to spin the floppy disk, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, in my case, my quick guess was that the &amp;ldquo;floppy disk drive&amp;rdquo; was broken because the stepper and the motor were not moving.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.12 released</title>
+      <link>http://localhost:1313/2016/03/01/vchar64-v0-0-12-released/</link>
+      <pubDate>Wed, 02 Mar 2016 07:16:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/01/vchar64-v0-0-12-released/</guid>
+      <description>&lt;p&gt;New version, new features.&lt;/p&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.dmg.zip&#34;&gt;vchar64-0.0.12.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.win32.zip&#34;&gt;vchar64-0.0.12.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;changes&#34;&gt;Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[NEW] Koala Import: supports importing subregions. Useful when 256 chars are not enough to import the whole bitmap&lt;/li&gt;
+&lt;li&gt;[NEW] Added unknown font. Ripped from &lt;a href=&#34;http://csdb.dk/release/?id=144857&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[NEW] VICE snapshot import: Default charset address is the one that was used at the moment the snapshot was taken&lt;/li&gt;
+&lt;li&gt;[NEW] Save/Export: Plays one beep on success, two beeps on error&lt;/li&gt;
+&lt;li&gt;[NEW] Main Window: Status Bar shows the coordinates of the different widgets&lt;/li&gt;
+&lt;li&gt;[BUGFIX] Export: shows correct extension when browsing file&lt;/li&gt;
+&lt;li&gt;[BUGFIX] VICE/Koala Import: sets the name of the imported file in the tab&lt;/li&gt;
+&lt;li&gt;[BUGFIX] Koala Import: detects duplicates chars, making the conversion smaller&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2avAMmbQqRA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.11 released</title>
+      <link>http://localhost:1313/2016/02/01/vchar64-v0-0-11-released/</link>
+      <pubDate>Mon, 01 Feb 2016 08:40:35 +0000</pubDate>
+      <guid>http://localhost:1313/2016/02/01/vchar64-v0-0-11-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.11 was released.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.11/vchar64-0.0.11.win32.zip&#34;&gt;vchar64-0.0.11.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.11/vchar64-0.0.11.dmg.zip&#34;&gt;vchar64-0.0.11.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code:  &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2016/02/screen-shot-2016-02-01-at-12-36-42-am.png&#34;&gt;&lt;img alt=&#34;Importing Koala files&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2016/02/screen-shot-2016-02-01-at-12-36-42-am.png?w=700&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It includes several bug fixes and some important new features like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Koala import support&lt;/li&gt;
+&lt;li&gt;Map support&lt;/li&gt;
+&lt;li&gt;Export to Assembly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Full &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.11/CHANGELOG&#34;&gt;Changelog here&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/wIBTINBCngs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>The SX-64, as it should be</title>
+      <link>http://localhost:1313/2016/01/28/the-sx-64-as-it-should-be/</link>
+      <pubDate>Fri, 29 Jan 2016 06:50:40 +0000</pubDate>
+      <guid>http://localhost:1313/2016/01/28/the-sx-64-as-it-should-be/</guid>
+      <description>&lt;p&gt;Spot the difference.&lt;/p&gt;
+&lt;p&gt;Before:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-MF1kSO83zr4/Vm0Vsppqc2I/AAAAAAABcwQ/b0jjYSaIl80/s800-Ic42/WP%5F20151212%5F001.jpg&#34; width=&#34;800&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;After:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-Ckn0UV%5F0xME/VqsIC3EZ1gI/AAAAAAABdaY/oK7CTJGP%5FHk/s800-Ic42/20160128223322.jpg&#34; width=&#34;800&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;The former owner replaced the original SX-64 KERNAL (251104-04) with a C64 one (901227-02), most probably to be 100% compatible with all the games.&lt;/p&gt;
+&lt;p&gt;But an SX-64 doesn&amp;rsquo;t feel like an SX-64 without its unique colors. That&amp;rsquo;s why I replaced the KERNAL chip again, this time with the original one. Actually I couldn&amp;rsquo;t find the original chip (the MOS 251104-04) anywhere, so instead, I installed an EPROM chip with the original SX-64 KERNAL programmed into it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.10 released</title>
+      <link>http://localhost:1313/2016/01/05/vchar64-v0-0-10-released/</link>
+      <pubDate>Wed, 06 Jan 2016 01:44:26 +0000</pubDate>
+      <guid>http://localhost:1313/2016/01/05/vchar64-v0-0-10-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.10 is available for download: &lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png&#34;&gt;&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.dmg.zip&#34;&gt;vchar64-0.0.10.dmg.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.win32.zip&#34;&gt;vchar64-0.0.10.win32.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-cZJk3bEjVTE/VoxwitEGf4I/AAAAAAABc3I/HeFkTAKQra8/s400-Ic42/IMG%5F3489.JPG&#34; width=&#34;400&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/yNCK&#34;&gt;https://youtu.be/yNCK&lt;/a&gt;_wZbo40&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Live preview with the VChar64 TCP/IP Server for the C64 and C128 (in C128 mode)&lt;/li&gt;
+&lt;li&gt;Minor bug fixes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.10/CHANGELOG&#34;&gt;CHANGELOG v0.0.10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Disassembling 6502 code with Radare - Part II</title>
+      <link>http://localhost:1313/2015/12/09/disassembling-6502-core-with-radare-part-ii/</link>
+      <pubDate>Thu, 10 Dec 2015 02:54:47 +0000</pubDate>
+      <guid>http://localhost:1313/2015/12/09/disassembling-6502-core-with-radare-part-ii/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s crack a simple game. If you are not familiar with Radare, read &lt;a href=&#34;http://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/&#34;&gt;Part I&lt;/a&gt; first.&lt;/p&gt;
+&lt;h3 id=&#34;creating-and-opening-a-vice-snapshot-file&#34;&gt;Creating and opening a VICE Snapshot file&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s crack BC&amp;rsquo;s Quest For Tires since its copy-protection is easy to bypass.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Unzip this file: &lt;a href=&#34;http://tapes.c64.no/tapes/BCsQuestForTires.zip&#34;&gt;http://tapes.c64.no/tapes/BCsQuestForTires.zip&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the tap file with &lt;a href=&#34;http://vice-emu.sourceforge.net/&#34;&gt;VICE&lt;/a&gt; (the most popular Commodore 64 emulator), and..&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;hellip;the game has some kind of copy-protection. If we enter invalid codes, we won&amp;rsquo;t be able to play the game.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since Radare supports VICE Snapshot File format, we can save an snapshot of the game, and analyze it with Radare.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In VICE, go to the menu, Snapshot -&amp;gt; Save Snapshot Image&amp;hellip;
+&lt;ul&gt;
+&lt;li&gt;If we select &amp;ldquo;Save ROMs&amp;rdquo;, then the BASIC ROM and the KERNAL ROM will be saved inside the Snapshot file, and will be included as Radare sections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2015/12/save_snapshot_dialog.png&#34;&gt;&lt;img alt=&#34;save_snapshot_dialog&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2015/12/save_snapshot_dialog.png?w=700&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Radare VICE Snapshot File (VSF) support lets us inspect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The 64k RAM of the computer at the moment the snapshot was saved&lt;/li&gt;
+&lt;li&gt;The BASIC and KERNAL ROMs in case they were saved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To open a VSF file, just pass the VSF file as the first argument:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ r2 bc_copy_protection_screen.vsf
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[0x00005689]&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;0x00005689&lt;/code&gt; is the PC (program counter) at the moment the snapshot was saved.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Cutting edge coding &amp;amp; debugging techniques during my early days</title>
+      <link>http://localhost:1313/2015/12/04/cutting-edge-coding-debugging-techniques-during-my-early-days/</link>
+      <pubDate>Sat, 05 Dec 2015 01:55:10 +0000</pubDate>
+      <guid>http://localhost:1313/2015/12/04/cutting-edge-coding-debugging-techniques-during-my-early-days/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;582&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-Pn2PcGz1h98/VmJDVGqRwnI/AAAAAAABcpQ/-K06HEVRphA/s800-Ic42/debugging.jpeg&#34;&gt; Cutting edge coding &amp;amp; debugging techniques[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.9 released</title>
+      <link>http://localhost:1313/2015/12/02/vchar64-v0-0-9/</link>
+      <pubDate>Wed, 02 Dec 2015 22:29:49 +0000</pubDate>
+      <guid>http://localhost:1313/2015/12/02/vchar64-v0-0-9/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.9 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.dmg&#34;&gt;vchar64-0.0.9.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.zip&#34;&gt;vchar64-0.0.9.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;Github repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-iE0eqQymBDk/Vl9f_NOGrII/AAAAAAABcow/0sRHClMkr4U/s400-Ic42/Screen%252520Shot%2525202015-12-02%252520at%2525201.16.32%252520PM.png&#34;&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MDI support: Multiple open documents at the same time&lt;/li&gt;
+&lt;li&gt;Copy &amp;amp; Paste tiles between documents even if they have different interleave options&lt;/li&gt;
+&lt;li&gt;Bug fixes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.9/CHANGELOG&#34;&gt;CHANGELOG v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Constelación Commodore</title>
+      <link>http://localhost:1313/2015/11/25/constelacion-commodore/</link>
+      <pubDate>Wed, 25 Nov 2015 19:13:19 +0000</pubDate>
+      <guid>http://localhost:1313/2015/11/25/constelacion-commodore/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;concomm&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/11/concomm.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El amigo &lt;a href=&#34;https://twitter.com/SirArthur72&#34;&gt;@SirArthur72&lt;/a&gt; tiene un podcast de Commodore llamado &lt;a href=&#34;http://constelacioncommodore.com/&#34;&gt;Constelación Commodore&lt;/a&gt;. Es un podcast lleno de información de aquella época. En particular la sección &amp;ldquo;Bunkerpedia&amp;rdquo; es para escucharla varias veces, con toda la historia de Commodore, desde sus primeros inicios, hasta el final, lleno de detalles.&lt;/p&gt;
+&lt;p&gt;Una particularidad del podcast, es que cada episodio dura más de 5 horas.
+En el &lt;a href=&#34;http://constelacioncommodore.com/constelacion-commodore-0008-2t-piratas/&#34;&gt;último episodio (#8)&lt;/a&gt;, se toca el tema de la C128, y aparezco yo en el podcast contando mis aventuras que tuve con esta linda computadora durante mi juventud. Aparezco alrededor de la hora 4:12 del podcast.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Disassembling 6502 code with Radare - Part I</title>
+      <link>http://localhost:1313/2015/11/18/disassembling-6502-code-with-radare-part-i/</link>
+      <pubDate>Thu, 19 Nov 2015 06:52:23 +0000</pubDate>
+      <guid>http://localhost:1313/2015/11/18/disassembling-6502-code-with-radare-part-i/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://radare.org/&#34;&gt;Radare&lt;/a&gt; is an open source portable reversing framework that can do many things, among those things it can disassemble 6502 code.&lt;/p&gt;
+&lt;h3 id=&#34;download-and-install-radare&#34;&gt;Download and install radare&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;First, download &lt;a href=&#34;https://github.com/radare/radare2&#34;&gt;radare from github&lt;/a&gt;. You need a recent version in order to disassemble 6502 code.&lt;/li&gt;
+&lt;li&gt;And then install it by running &lt;em&gt;sys/install.sh&lt;/em&gt; (or &lt;em&gt;sys/user.sh&lt;/em&gt; for local installation):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ git clone https://github.com/radare/radare2.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd radare2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ ./sys/install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;loading-a-c64-prg&#34;&gt;Loading a c64 .prg&lt;/h3&gt;
+&lt;p&gt;Radare has many command line options. But in order to load 6502 programs we need just two:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;-a6502&lt;/em&gt; to specify the 6502 architecture.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;-mMemoryAddress&lt;/em&gt; to map the file to a certain memory address. Use 2047 for &amp;ldquo;normal&amp;rdquo; programs. Usually they start at $0801 (2049), but we have to subtract 2 from the .prg header.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ r2 -a6502 -m2047 mygame.prg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;disassembling&#34;&gt;Disassembling&lt;/h3&gt;
+&lt;p&gt;Radare doesn&amp;rsquo;t have a GUI, like IDA. Instead is has a powerful command line interface (think of GDB). Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ r2 -a6502 -m2047 musicplayer.prg
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[0x000007ff]&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And &lt;em&gt;0x7ff&lt;/em&gt; (2047) is the seek address, meaning that all commands will use that address as the base address. Let&amp;rsquo;s print the first 32 bytes. ( &lt;em&gt;px&lt;/em&gt; = print hexa):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[0x000007ff]&amp;gt; px 32
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;offset   0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0x07ff  0108 0b08 3905 9e32 3036 3100 0000 78ad  ....9..2061...x.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0x080f  0ddc a212 a000 b9d4 1a99 f020 c8d0 f7ce  ........... ....
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &amp;ldquo;2061&amp;rdquo; that we see, is part of the BASIC &amp;ldquo;SYS 2061&amp;rdquo; command that usually appears in all C64 programs. So, let&amp;rsquo;s disassemble the first 12 instructions from 2061. ( &lt;em&gt;pd&lt;/em&gt; = print disassemble):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[0x000007ff]&amp;gt; pd 12 @ 2061
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            0x0000080d    78             sei
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            0x0000080e    ad0ddc         lda 0xdc0d
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            0x00000811    a212           ldx #0x12
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            0x00000813    a000           ldy #0x00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       ┌┌─&amp;gt; 0x00000815    b9d41a         lda 0x1ad4,y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       ││   0x00000818    99f020         sta 0x20f0,y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       ││   0x0000081b    c8             iny
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       └──&amp;lt; 0x0000081c    d0f7           bne 0xf7
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │   0x0000081e    ce1708         dec 0x0817
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │   0x00000821    ce1a08         dec 0x081a
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │   0x00000824    ca             dex
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        └─&amp;lt; 0x00000825    d0ee           bne 0xee
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In case we don&amp;rsquo;t know the meaning of a certain opcode, we can print its description with &lt;em&gt;?d&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[0x00000815]&amp;gt; ?d sei
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;set interrupt disable status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or if we want to print the description in every disassembled line, we can do:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;e asm.describe=true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And then disassemble again:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;0x0000080e&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; pd &lt;span style=&#34;color:#ae81ff&#34;&gt;12&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2061&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x080d&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;78&lt;/span&gt;        sei           ; set interrupt disable status
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x080e&lt;/span&gt;  ad0ddc    lda &lt;span style=&#34;color:#ae81ff&#34;&gt;0xdc0d&lt;/span&gt;    ; load accumulator with memory
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0811&lt;/span&gt;  a212      ldx &lt;span style=&#34;color:#75715e&#34;&gt;#0x12     ; load index x with memory&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0813&lt;/span&gt;  a000      ldy &lt;span style=&#34;color:#75715e&#34;&gt;#0x00     ; load index y with memory&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;┌─&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0815&lt;/span&gt;  b9d41a    lda &lt;span style=&#34;color:#ae81ff&#34;&gt;0x1ad4&lt;/span&gt;,y  ; load accumulator with memory
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;│&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0818&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;99&lt;/span&gt;f020    sta &lt;span style=&#34;color:#ae81ff&#34;&gt;0x20f0&lt;/span&gt;,y  ; store accumulator &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; memory
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;│&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;0x081b&lt;/span&gt;  c8        iny           ; increment index y by one
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;└─&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0x081c&lt;/span&gt;  d0f7      bne &lt;span style=&#34;color:#ae81ff&#34;&gt;0xf7&lt;/span&gt;      ; branch on result &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; zero
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x081e&lt;/span&gt;  ce1708    dec &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0817&lt;/span&gt;    ; decrement memory by one
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0821&lt;/span&gt;  ce1a08    dec &lt;span style=&#34;color:#ae81ff&#34;&gt;0x081a&lt;/span&gt;    ; decrement memory by one
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0824&lt;/span&gt;  ca        dex           ; decrement index x by one
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0825&lt;/span&gt;  d0ee      bne &lt;span style=&#34;color:#ae81ff&#34;&gt;0xee&lt;/span&gt;      ; branch on result &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; zero
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more disassembling options just type &lt;code&gt;p?&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.8 released</title>
+      <link>http://localhost:1313/2015/11/04/vchar64-v0-0-8-released/</link>
+      <pubDate>Thu, 05 Nov 2015 00:14:14 +0000</pubDate>
+      <guid>http://localhost:1313/2015/11/04/vchar64-v0-0-8-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.8 is available for download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.8/vchar64-0.0.8-mac.dmg&#34;&gt;vchar64-0.0.8.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/releases/download/0.0.8/vchar64-0.0.8-win32.zip&#34;&gt;vchar64-0.0.8.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-ek5qP9Qnq7w/VjqZJIf3PbI/AAAAAAABUAA/MumlfIxHGk0/s400-Ic42/Screen%252520Shot%2525202015-11-04%252520at%2525203.42.49%252520PM.png&#34; width=&#34;391&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Highlights:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Import snapshots from VICE&lt;/li&gt;
+&lt;li&gt;Tileset mode: Allows to preview all the tiles&lt;/li&gt;
+&lt;li&gt;Better keyboard shortcuts&lt;/li&gt;
+&lt;li&gt;&amp;hellip;and many bug fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Full changelog&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/0.0.8/CHANGELOG&#34;&gt;CHANGELOG v0.0.8&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.7 released</title>
+      <link>http://localhost:1313/2015/10/05/vchar64-v0-0-7-released/</link>
+      <pubDate>Mon, 05 Oct 2015 07:07:56 +0000</pubDate>
+      <guid>http://localhost:1313/2015/10/05/vchar64-v0-0-7-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.7 released. You can download it from here:&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://www.dropbox.com/s/2yx9axfe3qg19r4/vchar64-0.0.7.zip?dl=1&#34;&gt;vchar64-0.0.7.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://www.dropbox.com/s/5ogv3n9l3poe3ox/vchar64-0.0.7.dmg?dl=1&#34;&gt;vchar64-0.0.7.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tarball: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/archive/release-v0.0.7.zip&#34;&gt;vchar64-release-v0.0.7.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added C64 Palettes: Pepto, VICE, CCS64, Frodo, Grayscale&lt;/li&gt;
+&lt;li&gt;Copy + Paste using block selection&lt;/li&gt;
+&lt;li&gt;Displays selected char on statusbar&lt;/li&gt;
+&lt;li&gt;Ctrl+1, Ctrl+2, Ctrl+3, Ctrl+4 and Ctrl-M to select background, foreground, multicolor1, multicolor2 and Multicolor Mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Complete Changelog: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/release-v0.0.7/CHANGELOG&#34;&gt;CHANGELOG&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/10/screen-shot-2015-10-05-at-12-06-16-am.png?w=294&#34; width=&#34;294&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>The Muni Race - Part I</title>
+      <link>http://localhost:1313/2015/09/07/the-muni-race-part-i/</link>
+      <pubDate>Mon, 07 Sep 2015 16:01:16 +0000</pubDate>
+      <guid>http://localhost:1313/2015/09/07/the-muni-race-part-i/</guid>
+      <description>&lt;p&gt;A while ago, in 2008, I started coding a &lt;a href=&#34;https://github.com/ricardoquesada/unigames&#34;&gt;unicycle video game&lt;/a&gt; for the PC. I never finished it, but I always wanted to code one. And a few months ago I started coding the game again, but instead of coding it for the PC, I decided to code it for the Commodore 64.&lt;/p&gt;
+&lt;p&gt;I want to code the game in a retro style. Coding a Commodore 64 game is already retro, and I want to create a retro game for the Commodore 64, like if this game were coded in 1982 instead of 2015. So it would be something like a retro-retro game.&lt;/p&gt;
+&lt;p&gt;Developing code for the Commodore 64 takes a lot of time, and taking into account that my free time is almost null, my progress is very slow. But so far I managed to code the Intro and About scenes, and I started coding the game mechanics.&lt;/p&gt;
+&lt;p&gt;If you want try the game, you can download it from here: &lt;a href=&#34;https://github.com/ricardoquesada/c64-the-muni-race&#34;&gt;https://github.com/ricardoquesada/c64-the-muni-race&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some screenshots:&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.6 released</title>
+      <link>http://localhost:1313/2015/08/25/vchar64-v0-0-6-released/</link>
+      <pubDate>Tue, 25 Aug 2015 07:35:31 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/25/vchar64-v0-0-6-released/</guid>
+      <description>&lt;p&gt;VChar64 v0.0.6 released. You can download it from here:&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Win32: &lt;a href=&#34;https://www.dropbox.com/s/npitf789mp5gvsl/vchar-0.0.6.zip?dl=0&#34;&gt;vchar64-0.0.6.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac: &lt;a href=&#34;https://www.dropbox.com/s/3jrf82edlxvjzn9/vchar64-0.0.6.dmg?dl=0&#34;&gt;vchar64-0.0.6.dmg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tarball: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/archive/release-v0.0.6.zip&#34;&gt;vchar64-release-v0.0.6.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/&#34;&gt;github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Undo / Redo&lt;/li&gt;
+&lt;li&gt;Dockable panes&lt;/li&gt;
+&lt;li&gt;Saves/Restores the window state and geometry.&lt;/li&gt;
+&lt;li&gt;First release that includes binaries!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Complete Changelog: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64/blob/release-v0.0.6/CHANGELOG&#34;&gt;CHANGELOG&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-mVvZaASgcec/Vdyeno%5FjJjI/AAAAAAABTwg/UveprioNQnQ/s640-Ic42/vchar64-0.0.6.png&#34; width=&#34;640&#34;/&gt; 
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.5 released</title>
+      <link>http://localhost:1313/2015/08/21/vchar64-v0-0-5-released/</link>
+      <pubDate>Sat, 22 Aug 2015 05:46:28 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/21/vchar64-v0-0-5-released/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;logo512&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/08/logo512.png?w=150&#34;&gt;I&amp;rsquo;ve just released VChar64 v0.0.5.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt; &lt;strong&gt;Changelog&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Max tile size is 8x8 (previous was 5x5)&lt;/li&gt;
+&lt;li&gt;Right click works as paiting with background color&lt;/li&gt;
+&lt;li&gt;Fixed compiler warnings&lt;/li&gt;
+&lt;li&gt;Better name suggestions when saving and exporting files&lt;/li&gt;
+&lt;li&gt;Added support for importing CharPad 2.0 files&lt;/li&gt;
+&lt;li&gt;If chars were modified, it asks before quitting and before starting a new one&lt;/li&gt;
+&lt;li&gt;Added icon&lt;/li&gt;
+&lt;li&gt;Added option to load lowercase chars&lt;/li&gt;
+&lt;li&gt;Cue in dialog if chars were modified&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>C64 SDKBOX intro at Casual Connect 2015 SF</title>
+      <link>http://localhost:1313/2015/08/16/c64-sdkbox-intro-at-casual-connect-2015-sf/</link>
+      <pubDate>Sun, 16 Aug 2015 16:57:24 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/16/c64-sdkbox-intro-at-casual-connect-2015-sf/</guid>
+      <description>&lt;p&gt;I did a quick&amp;rsquo;n&amp;rsquo;dirty intro for the C64 to promote &lt;a href=&#34;http://sdkbox.com/&#34;&gt;SDKBOX&lt;/a&gt; at &lt;a href=&#34;http://usa.casualconnect.org/&#34;&gt;Casual Connect 2015 SF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I took the scroller+rasterbar effects from the game that I&amp;rsquo;m doing, I took the music from somewhere, the fonts from somewhere, I added some simple moving bars at the top&amp;hellip; and done. I only had one day to do it, and I was very happy with the result.&lt;/p&gt;
+&lt;p&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/_CyhZaj5N8o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&amp;amp;feature=youtu.be&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VChar64 v0.0.4 released, with xlink support</title>
+      <link>http://localhost:1313/2015/07/20/vchar64-v0-0-4-released-with-xlink-support/</link>
+      <pubDate>Mon, 20 Jul 2015 14:41:24 +0000</pubDate>
+      <guid>http://localhost:1313/2015/07/20/vchar64-v0-0-4-released-with-xlink-support/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;VChar64&lt;/a&gt; v0.0.4 released! And thanks to Henning Bekel, VChar64 now supports &lt;a href=&#34;http://henning-bekel.de/xlink/&#34;&gt;xlink&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ZaSR?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Changes since v0.0.2:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added xlink support. For more info: &lt;a href=&#34;http://henning-bekel.de/xlink/&#34;&gt;http://henning-bekel.de/xlink/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added Export As&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Export will export the current project with the previous exported values&lt;/li&gt;
+&lt;li&gt;Added Tile support&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Coding for the Commodore 64: What changed in the last 25 years</title>
+      <link>http://localhost:1313/2015/02/01/coding-for-the-commodore-64-what-happened-in-the-last-25-years/</link>
+      <pubDate>Mon, 02 Feb 2015 06:17:03 +0000</pubDate>
+      <guid>http://localhost:1313/2015/02/01/coding-for-the-commodore-64-what-happened-in-the-last-25-years/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I stopped developing for the Commodore 64 in 1993. Since then a lot has happened:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Back in late 80&amp;rsquo;s ~ beginning of 90&amp;rsquo;s:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I did all my coding using the Commodore 128&amp;rsquo;s &lt;a href=&#34;http://www.commodore.ca/manuals/128_system_guide/app-j.htm&#34;&gt;MONITOR&lt;/a&gt; command&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That means no text editor, no compiler, no linker. Similar to the &lt;a href=&#34;http://en.wikipedia.org/wiki/Debug_%28command%29&#34;&gt;debug.com&lt;/a&gt; command that used to be in DOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since I didn&amp;rsquo;t use a text editor, I put all my comments in a notepad (I still have that notepad somewhere)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I used the Commodore 128&amp;rsquo;s &lt;a href=&#34;http://www.commodore.ca/manuals/128_system_guide/sect-06b.htm&#34;&gt;SPRDEF&lt;/a&gt; as the Sprite editor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I used my own character editor called vchar&amp;hellip; (later I created a similar one for &lt;a href=&#34;https://github.com/ricardoquesada/vintage/blob/master/progs/dos/vchar/vchar333.asm&#34;&gt;DOS&lt;/a&gt; and &lt;a href=&#34;https://github.com/ricardoquesada/vintage/tree/master/progs/linux/vchar/vchar-1.01&#34;&gt;Linux&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I did some basic graphics using a graphics editor&amp;hellip; but I can&amp;rsquo;t remember which one&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I didn&amp;rsquo;t know any other C64 developer, so I did everything kind of isolated&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My sources of information were &lt;a href=&#34;http://www.bombjack.org/commodore/magazines/commodore-magazine/commodore-magazine.htm&#34;&gt;Commodore Magazine&lt;/a&gt;, &lt;a href=&#34;http://scans.bytemaniacos.com/es/tu_micro_commodore/1-semanal/&#34;&gt;Tu Micro Commodore&lt;/a&gt; and some books&lt;/li&gt;
+&lt;li&gt;I reversed engineer some games / demos in order to learn tricks&lt;/li&gt;
+&lt;li&gt;I had a 300 bps modem but I didn&amp;rsquo;t find any good C64 BBS&lt;/li&gt;
+&lt;li&gt;I did some cracks for a local company that was &amp;ldquo;publishing&amp;rdquo; (AKA pirating) games. In exchange they were providing me games. To put things into perspective it was impossible (I mean IMPOSSIBLE) to get original games in Argentina back then.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I knew some basic tricks like how to use more than 8 sprites, how to open the top and bottom borders, some raster effects&amp;hellip; but nothing very advanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I loaded all my programs / games using the &lt;a href=&#34;http://en.wikipedia.org/wiki/Commodore_1571&#34;&gt;disk drive&lt;/a&gt;, which was much faster than the &lt;a href=&#34;http://en.wikipedia.org/wiki/Commodore_Datasette&#34;&gt;datasette&lt;/a&gt;, but still very slow&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I had a fast-loader cartridge to accelerate the disk drive loading times. It also had a rudimentary MONITOR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Although Argentina was using the PAL-N standard I had a NTSC Commodore 128. In Argentina we also had the Argentinean Commodore, called &lt;a href=&#34;http://es.wikipedia.org/wiki/Commodore_64#Clones_de_Commodore_64&#34;&gt;Drean Commodore&lt;/a&gt;, which was a PAL-N machine assembled in Argentina&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

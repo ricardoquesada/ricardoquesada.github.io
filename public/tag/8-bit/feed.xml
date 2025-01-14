@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>8-Bit on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/8-bit/</link>
+    <description>Recent content in 8-Bit on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Sep 2015 16:01:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/8-bit/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Muni Race - Part I</title>
+      <link>http://localhost:1313/2015/09/07/the-muni-race-part-i/</link>
+      <pubDate>Mon, 07 Sep 2015 16:01:16 +0000</pubDate>
+      <guid>http://localhost:1313/2015/09/07/the-muni-race-part-i/</guid>
+      <description>&lt;p&gt;A while ago, in 2008, I started coding a &lt;a href=&#34;https://github.com/ricardoquesada/unigames&#34;&gt;unicycle video game&lt;/a&gt; for the PC. I never finished it, but I always wanted to code one. And a few months ago I started coding the game again, but instead of coding it for the PC, I decided to code it for the Commodore 64.&lt;/p&gt;
+&lt;p&gt;I want to code the game in a retro style. Coding a Commodore 64 game is already retro, and I want to create a retro game for the Commodore 64, like if this game were coded in 1982 instead of 2015. So it would be something like a retro-retro game.&lt;/p&gt;
+&lt;p&gt;Developing code for the Commodore 64 takes a lot of time, and taking into account that my free time is almost null, my progress is very slow. But so far I managed to code the Intro and About scenes, and I started coding the game mechanics.&lt;/p&gt;
+&lt;p&gt;If you want try the game, you can download it from here: &lt;a href=&#34;https://github.com/ricardoquesada/c64-the-muni-race&#34;&gt;https://github.com/ricardoquesada/c64-the-muni-race&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some screenshots:&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64: character editor for the Commodore 64</title>
+      <link>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</link>
+      <pubDate>Tue, 10 Feb 2015 20:45:23 +0000</pubDate>
+      <guid>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt; I started to code a unicycle game for the Commodore 64. The first thing that I realized was that I needed an game editor, so I started to code one: VChar64.&lt;/p&gt;
+&lt;p&gt;Today I released v0.0.1 which has basic functionality but the functionality that it has, just work. You can download it from here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Imports raw, PRG and CharPad file formats&lt;/li&gt;
+&lt;li&gt;Exports to raw and PRG&lt;/li&gt;
+&lt;li&gt;Basic editing functionality: Rotate, Invert, Clear, Shift left/right/up/down&lt;/li&gt;
+&lt;li&gt;Multiplatform: Win, Linux and Mac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Screenshot:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coding for the Commodore 64: What changed in the last 25 years</title>
+      <link>http://localhost:1313/2015/02/01/coding-for-the-commodore-64-what-happened-in-the-last-25-years/</link>
+      <pubDate>Mon, 02 Feb 2015 06:17:03 +0000</pubDate>
+      <guid>http://localhost:1313/2015/02/01/coding-for-the-commodore-64-what-happened-in-the-last-25-years/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I stopped developing for the Commodore 64 in 1993. Since then a lot has happened:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Back in late 80&amp;rsquo;s ~ beginning of 90&amp;rsquo;s:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I did all my coding using the Commodore 128&amp;rsquo;s &lt;a href=&#34;http://www.commodore.ca/manuals/128_system_guide/app-j.htm&#34;&gt;MONITOR&lt;/a&gt; command&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;That means no text editor, no compiler, no linker. Similar to the &lt;a href=&#34;http://en.wikipedia.org/wiki/Debug_%28command%29&#34;&gt;debug.com&lt;/a&gt; command that used to be in DOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since I didn&amp;rsquo;t use a text editor, I put all my comments in a notepad (I still have that notepad somewhere)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I used the Commodore 128&amp;rsquo;s &lt;a href=&#34;http://www.commodore.ca/manuals/128_system_guide/sect-06b.htm&#34;&gt;SPRDEF&lt;/a&gt; as the Sprite editor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I used my own character editor called vchar&amp;hellip; (later I created a similar one for &lt;a href=&#34;https://github.com/ricardoquesada/vintage/blob/master/progs/dos/vchar/vchar333.asm&#34;&gt;DOS&lt;/a&gt; and &lt;a href=&#34;https://github.com/ricardoquesada/vintage/tree/master/progs/linux/vchar/vchar-1.01&#34;&gt;Linux&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I did some basic graphics using a graphics editor&amp;hellip; but I can&amp;rsquo;t remember which one&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I didn&amp;rsquo;t know any other C64 developer, so I did everything kind of isolated&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My sources of information were &lt;a href=&#34;http://www.bombjack.org/commodore/magazines/commodore-magazine/commodore-magazine.htm&#34;&gt;Commodore Magazine&lt;/a&gt;, &lt;a href=&#34;http://scans.bytemaniacos.com/es/tu_micro_commodore/1-semanal/&#34;&gt;Tu Micro Commodore&lt;/a&gt; and some books&lt;/li&gt;
+&lt;li&gt;I reversed engineer some games / demos in order to learn tricks&lt;/li&gt;
+&lt;li&gt;I had a 300 bps modem but I didn&amp;rsquo;t find any good C64 BBS&lt;/li&gt;
+&lt;li&gt;I did some cracks for a local company that was &amp;ldquo;publishing&amp;rdquo; (AKA pirating) games. In exchange they were providing me games. To put things into perspective it was impossible (I mean IMPOSSIBLE) to get original games in Argentina back then.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I knew some basic tricks like how to use more than 8 sprites, how to open the top and bottom borders, some raster effects&amp;hellip; but nothing very advanced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I loaded all my programs / games using the &lt;a href=&#34;http://en.wikipedia.org/wiki/Commodore_1571&#34;&gt;disk drive&lt;/a&gt;, which was much faster than the &lt;a href=&#34;http://en.wikipedia.org/wiki/Commodore_Datasette&#34;&gt;datasette&lt;/a&gt;, but still very slow&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I had a fast-loader cartridge to accelerate the disk drive loading times. It also had a rudimentary MONITOR.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Although Argentina was using the PAL-N standard I had a NTSC Commodore 128. In Argentina we also had the Argentinean Commodore, called &lt;a href=&#34;http://es.wikipedia.org/wiki/Commodore_64#Clones_de_Commodore_64&#34;&gt;Drean Commodore&lt;/a&gt;, which was a PAL-N machine assembled in Argentina&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

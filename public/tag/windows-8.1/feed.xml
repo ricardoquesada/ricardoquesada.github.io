@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows-8.1 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/windows-8.1/</link>
+    <description>Recent content in Windows-8.1 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 04 Apr 2014 07:25:26 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/windows-8.1/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Windows 8.1</title>
+      <link>http://localhost:1313/2014/04/04/use-windows-8-1/</link>
+      <pubDate>Fri, 04 Apr 2014 07:25:26 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/use-windows-8-1/</guid>
+      <description>&lt;p&gt;You need Windows 8 in order to develop for Windows Phone 8. Windows 7 won’t work.&lt;/p&gt;
+&lt;p&gt;But avoid Windows 8, &lt;a href=&#34;https://www.google.com/search?q=windows+8+confusing&#34;&gt;it is confusing&lt;/a&gt;. Use Windows 8.1 instead. And &lt;a href=&#34;http://www.pcworld.com/article/2043243/how-to-boot-to-desktop-mode-in-windows-8-1.html&#34;&gt;boot directly into the “Desktop”&lt;/a&gt;. Avoid the annoying “Start” thing.  Good news: the upgrade from 8 to 8.1 is &lt;a href=&#34;http://windows.microsoft.com/en-us/windows-8/update-from-windows-8-tutorial&#34;&gt;free&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should  know that &lt;a href=&#34;http://www.microsoft.com/en-us/windows/enterprise/products-and-technologies/windows-8-1/compare/default.aspx&#34;&gt;there are many “flavors” of Windows&lt;/a&gt;: “RT”, “Regular”, “Pro”, “Enterprise”… just get the “Pro”.  &lt;em&gt;RT&lt;/em&gt; (Runtime) is the new name for &lt;em&gt;&lt;a href=&#34;http://www.theverge.com/2012/8/2/3216545/microsoft-metro-branding-memo-european-partner&#34;&gt;Metro&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

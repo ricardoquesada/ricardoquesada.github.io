@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Esp8266 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/esp8266/</link>
+    <description>Recent content in Esp8266 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Oct 2016 20:13:49 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/esp8266/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retro Challenge: announcing Commodore Home</title>
+      <link>http://localhost:1313/2016/10/31/retro-challenge-commodore-home/</link>
+      <pubDate>Mon, 31 Oct 2016 20:13:49 +0000</pubDate>
+      <guid>http://localhost:1313/2016/10/31/retro-challenge-commodore-home/</guid>
+      <description>&lt;h3 id=&#34;home-automation-for-the-masses-not-the-classes&#34;&gt;&lt;strong&gt;Home automation for the masses, not the classes&lt;/strong&gt;&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We need to build computers for the masses, not the classes - Jack Tramiel, Commodore founder&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;commodore_homehttpsretromoewp-contentuploads201610commodore_homepnghttpsretromoewp-contentuploads201610commodore_homepng&#34;&gt;&lt;a href=&#34;https://retro.moe/wp-content/uploads/2016/10/commodore_home.png&#34;&gt;&lt;img alt=&#34;commodore_home&#34; loading=&#34;lazy&#34; src=&#34;https://retro.moe/wp-content/uploads/2016/10/commodore_home.png&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A: Commodore 64 computer running the &amp;ldquo;Commodore Home&amp;rdquo; application&lt;/li&gt;
+&lt;li&gt;B: &lt;a href=&#34;https://retro.moe/unijoysticle/&#34;&gt;UniJoystiCle WiFi device&lt;/a&gt; connected to the joystick ports&lt;/li&gt;
+&lt;li&gt;C: Alarm sensor using a WiFi device&lt;/li&gt;
+&lt;li&gt;D: Smartphone running the UniJoystiCle Controller app with the Commodore Home plugin&lt;/li&gt;
+&lt;li&gt;E: Commodore MPS 803 printer&lt;/li&gt;
+&lt;li&gt;F: Pulleys + gears connected to the printer header + dimmer knot&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>UniJoystiCle v0.2 released</title>
+      <link>http://localhost:1313/2016/06/12/unijoysticle-v0-2-released/</link>
+      <pubDate>Mon, 13 Jun 2016 00:31:38 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/12/unijoysticle-v0-2-released/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-OjX88hA0O9I/V12OOZiJjpI/AAAAAAABeXo/0AZYzH5x3xIiYRy--uza0qhJhuFwW18NACCo/s400/IMG_4523.jpg&#34;&gt;&lt;strong&gt;Download&lt;/strong&gt;(firmware, iOS client and schematics + board):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/unijoysticle&#34;&gt;https://github.com/ricardoquesada/unijoysticle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Announcing the Uni-Joysti-Cle™</title>
+      <link>http://localhost:1313/2016/04/06/announcing-the-uni-joysti-cle/</link>
+      <pubDate>Wed, 06 Apr 2016 16:02:10 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/06/announcing-the-uni-joysti-cle/</guid>
+      <description>&lt;p&gt;The Uni-Joysti-Cle™: The first and only solution to play Commodore 64 video games with your unicycle. Unique immersive experience, much better than VR.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/q43euD1pTp0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;It consists of five beautifully designed parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;Uni Games&lt;/em&gt; video game for the Commodore 64&lt;/li&gt;
+&lt;li&gt;The Uni-Joysti-Cle™ WiFi receiver, and its firmware&lt;/li&gt;
+&lt;li&gt;The Uni-Joysti-Cle™ smartphone application&lt;/li&gt;
+&lt;li&gt;A unicycle&lt;/li&gt;
+&lt;li&gt;Sophisticated glue material&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Find all the information about this revolutionary device here: &lt;a href=&#34;http://localhost:1313/unijoysticle/&#34;&gt;/unijoysticle/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C64 Remote Controller: Prototype v0.1 works!...</title>
+      <link>http://localhost:1313/2016/04/01/c64-remote-controller-prototype-v0-1-works/</link>
+      <pubDate>Fri, 01 Apr 2016 08:38:41 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/01/c64-remote-controller-prototype-v0-1-works/</guid>
+      <description>&lt;p&gt;&amp;hellip;or How to use a 64-bit machine to control a Commodore 64.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/L?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;No schematics or PCBs yet. But at least I have the materials that I&amp;rsquo;m using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One &lt;a href=&#34;http://www.ebay.com/sch/i.html?_from=R40&amp;amp;_trksid=p2050601.m570.l1313.TR0.TRC0.H0.Xlolin+nodemcu.TRS0&amp;amp;_nkw=lolin+nodemcu&amp;amp;_sacat=0&#34;&gt;Lolin NodeMCU&lt;/a&gt; (should work with any other ESP8266 that have at least five GPIOs)&lt;/li&gt;
+&lt;li&gt;Two 4066 ICs. I&amp;rsquo;m using &lt;a href=&#34;http://www.ti.com/lit/ds/symlink/sn74hc4066.pdf&#34;&gt;this one&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;hellip;and this is the software that I&amp;rsquo;m using both for the NodeMCU firmware and the iOS client:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>C64 Remote Controller: NodeMCU vs. Adafruit Huzzah vs. SparkFun Thing vs...</title>
+      <link>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</link>
+      <pubDate>Sun, 27 Mar 2016 21:21:04 +0000</pubDate>
+      <guid>http://localhost:1313/2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-thing-vs/</guid>
+      <description>&lt;h3 id=&#34;requirements-for-thec64-controller&#34;&gt;Requirements for the c64 controller&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A micro-controller. I doesn&amp;rsquo;t need to be very powerful, just powerful enough to handle some UDP connections and configuring some GPIOs.&lt;/li&gt;
+&lt;li&gt;Flash-able firmware: If possible with support for &lt;a href=&#34;https://www.arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; (or similar). C++ preferred. &lt;a href=&#34;http://micropython.org/&#34;&gt;Micropython&lt;/a&gt; could be a nice backup plan.&lt;/li&gt;
+&lt;li&gt;WiFi&lt;/li&gt;
+&lt;li&gt;Some GPIOs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;which-moduleto-choose&#34;&gt;Which module to choose&lt;/h3&gt;
+&lt;p&gt;There many alternatives, and these are the ones that I evaluated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoBoardUno&#34;&gt;Arduino&lt;/a&gt; + &lt;a href=&#34;http://www.arduino.cc/en/Main/ArduinoWiFiShield101&#34;&gt;WiFi shield&lt;/a&gt; or &lt;a href=&#34;http://espressif.com/en/products/hardware/esp8266ex/overview&#34;&gt;ESP8266&lt;/a&gt;: This is the first option that I evaluated thanks to &lt;a href=&#34;http://www.lemon64.com/forum/viewtopic.php?t=60046&#34;&gt;different&lt;/a&gt; &lt;a href=&#34;http://retroinvaders.com/commodoremania/foro/index.php/topic,1525.0.html&#34;&gt;suggestions&lt;/a&gt;. But since the ESP8266 already comes with a flash-able firmware, there was no need to use the Arduino part. I discarded this option, but I liked the ESP8266 part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.adafruit.com/products/2471&#34;&gt;Adafruit Huzzah&lt;/a&gt; breakout ($9.95) / &lt;a href=&#34;https://www.adafruit.com/products/2821&#34;&gt;Adafruit Feather Huzzah&lt;/a&gt; ($15.95): An ESP8266 based module. I like Adafruit products since they are very well tested, they give you support, have very good documentation. But they are usually on the pricy side. All ESP8266 boards are supported by the &lt;a href=&#34;https://github.com/esp8266/Arduino&#34;&gt;Arduino IDE&lt;/a&gt; which is a very good thing.  (I ordered one Feather Huzzah).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sparkfun.com/products/13231&#34;&gt;SparkFun ESP8266 Thing&lt;/a&gt; ($15.95): Similar to the Feather Huzzah.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.aliexpress.com/af/nodemcu.html&#34;&gt;NodeMCU&lt;/a&gt; (~$4.00): Very similar too Adafruit Huzzah and SparkFun ESP8266 Thing. I&amp;rsquo;m not sure who built the first module (Adafruit, SparkFun or NodeMCU), although I wouldn&amp;rsquo;t be surprised if NodeMCU was the first one. There is a lot of innovation in China in this area. NodeMCU comes with a firmware that supports Lua, which is nice for faster development. You should know that the Lua firmware could be installed in the other modules as well, and you can run C++ firmwares on NodeMCU as well. There are three different NodeMCU brands:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amica: Which seems to be the official one, although I didn&amp;rsquo;t know this when I decided to buy the LoLin.&lt;/li&gt;
+&lt;li&gt;LoLin: It seems that it is no longer produced by WeMos. (I ordered one of this too).&lt;/li&gt;
+&lt;li&gt;DOIT: I know nothing about it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.wemos.cc/Products/d1_mini.html&#34;&gt;Mini D1&lt;/a&gt; (~$4.00): Another ESP8266-based module similar to the previous ones. It is produced by &lt;a href=&#34;http://www.wemos.cc/&#34;&gt;WeMos&lt;/a&gt;, the same as the NodeMCU LoLin. My theory is that WeMos realized that there was more money in trying to create &lt;a href=&#34;http://www.wemos.cc/Products/mini_shields.html&#34;&gt;their own ecosystem&lt;/a&gt; rather than just cloning NodeMCU. It has 11 GPIOs, instead of the 9 offered by Adafruit Huzzah, which is good (I ordered a few of this one too).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There were other alternatives, &lt;a href=&#34;https://www.sparkfun.com/products/13774&#34;&gt;like the SparkFun Particle Photon&lt;/a&gt; ($19.00), based on non-ESP8266 micro-controllers. They were a bit more powerful, but also more expensive. And don&amp;rsquo;t support the Arduino IDE. So, for the moment I discarded them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+  </channel>
+</rss>

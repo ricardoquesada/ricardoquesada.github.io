@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cocos2d-X on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/cocos2d-x/</link>
+    <description>Recent content in Cocos2d-X on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 30 Jul 2014 20:45:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/cocos2d-x/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating LiquidFun with Cocos2d-x: Part II</title>
+      <link>http://localhost:1313/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/</link>
+      <pubDate>Wed, 30 Jul 2014 20:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;//towp8.com/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/&#34;&gt;Part I&lt;/a&gt; I described to how integrated LiquidFun with Cocos2d-x.
+In this part (part II) I&amp;rsquo;ll describe how to render the particles using a basic water effect.&lt;/p&gt;
+&lt;p&gt;Part I uses just one &lt;code&gt;glDrawArrays(GL_POINTS, 0, total);&lt;/code&gt; to draw the particles. And although that works to draw &amp;ldquo;particles&amp;rdquo;, it is not enough to draw &amp;ldquo;water&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Drawing &amp;ldquo;water&amp;rdquo; requires a more complex rendering algorithm, like the one used in this &lt;a href=&#34;http://www.patrickmatte.com/stuff/physicsLiquid/&#34;&gt;example&lt;/a&gt;. And implementing an algorithm similar that one is what this article describes.&lt;/p&gt;
+&lt;p&gt;The algorithm works more or less like this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Choose a white circle and blur it.
+&lt;ul&gt;
+&lt;li&gt;You can blur the circle at runtime&lt;/li&gt;
+&lt;li&gt;Or you can blur it off-line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create an a new frame-buffer (think of a clean off-screen buffer where you can render whatever you want)&lt;/li&gt;
+&lt;li&gt;Render the particles into the newly created frame-buffer using the blurred circle&lt;/li&gt;
+&lt;li&gt;Now render the frame-buffer into the main color-buffer using a threshold. The threshold could be something like this:
+&lt;ul&gt;
+&lt;li&gt;If pixel.r &amp;lt; 0.1, discard the pixel (the pixel won&amp;rsquo;t be drawn)&lt;/li&gt;
+&lt;li&gt;If pixel.r &amp;lt; 0.2, draw a blue pixel (for the border, although this is optional)&lt;/li&gt;
+&lt;li&gt;else draw a white pixel (the inner part of the water)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-to-do-it-using-cocos2d-x-and-liquidfun&#34;&gt;How to do it using Cocos2d-x and LiquidFun&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s take the &lt;a href=&#34;https://github.com/cocos2d/cocos2d-x-samples/blob/v3.1/samples/LiquidFun-EyeCandy/Classes/LFParticleSystemNode.cpp&#34;&gt;&lt;code&gt;LFParticleSystemNode&lt;/code&gt;&lt;/a&gt; from Part I, and &amp;ldquo;evolve&amp;rdquo; it:&lt;/p&gt;
+&lt;p&gt;The first thing to do is to add the &amp;ldquo;off-screen&amp;rdquo; frame-buffer into the &lt;code&gt;LFParticleSystemNode&lt;/code&gt; class. In Cocos2d-x, the &amp;ldquo;off-screen&amp;rdquo; buffers are created with the &lt;code&gt;RenderTexture&lt;/code&gt; class. Example:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+bool LFParticleSystemNode::init(b2ParticleSystem* particleSystem, float ratio)
+{
+&amp;hellip;
+// create an off-screen frame-buffer with the size of the screen
+auto s = Director::getInstance()-&amp;gt;getWinSize();
+_renderTexture = cocos2d::RenderTexture::create(s.width, s.height, Texture2D::PixelFormat::RGBA8888);
+this-&amp;gt;addChild(_renderTexture);
+_renderTexture-&amp;gt;setAnchorPoint(Point::ANCHOR_MIDDLE);
+_renderTexture-&amp;gt;setPosition(Point(s.width/2, s.height/2));&lt;/p&gt;
+&lt;p&gt;// Change the default shader. Use a the threshold shader
+auto program = GLProgram::createWithByteArrays(_renderTextureShaderVert, _renderTextureShaderFrag);
+auto programState = GLProgramState::getOrCreateWithGLProgram(program);
+programState-&amp;gt;setUniformFloat(&amp;ldquo;u_threshold_discard&amp;rdquo;, 0.15);
+programState-&amp;gt;setUniformFloat(&amp;ldquo;u_threshold_border&amp;rdquo;, 0.3);&lt;/p&gt;
+&lt;p&gt;&amp;hellip;
+}
+[/code]&lt;/p&gt;
+&lt;p&gt;And, as mentioned earlier, the &lt;code&gt;RenderTexture&lt;/code&gt; (the off-screen frame-buffer) needs a shader with a threshold. The threshold shader should look like the following:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+varying vec4 v_fragmentColor;
+varying vec2 v_texCoord;
+uniform float u_threshold_discard;
+uniform float u_threshold_border;&lt;/p&gt;
+&lt;p&gt;void main()
+{
+vec4 color = v_fragmentColor * texture2D(CC_Texture0, v_texCoord);
+if( color.r &amp;lt; u_threshold_discard)
+// black or discard
+color = vec4(0,0,0,0);
+else if( color.r &amp;lt; u_threshold_border)
+// blue for the border
+color = vec4(0.2,0.2,0.9,1);
+else
+// white for the center
+color = vec4(1,1,1,1);
+gl_FragColor = color;
+}
+[/code]&lt;/p&gt;
+&lt;p&gt;The values &lt;code&gt;u_threshold_discard&lt;/code&gt;, and &lt;code&gt;u_threshold_border&lt;/code&gt; are defined at runtime. In the example, they are set at 0.15 and 0.3 respectively.&lt;/p&gt;
+&lt;p&gt;The next thing to do is, to render the particles in the &lt;code&gt;RenderTexture&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]void LFParticleSystemNode::draw(Renderer *renderer, const Mat4 &amp;amp;transform, uint32_t transformFlags)
+{
+// tell RenderTexture to &amp;ldquo;capture&amp;rdquo; the particles
+    _renderTexture-&amp;gt;beginWithClear(0,0,0,0);&lt;/p&gt;
+&lt;p&gt;    _customCommand.init(_globalZOrder);
+    _customCommand.func = CC_CALLBACK_0(LFParticleSystemNode::onDraw, this, transform, transformFlags);
+    renderer-&amp;gt;addCommand(&amp;amp;_customCommand);&lt;/p&gt;
+&lt;p&gt;// tell RenderTexture to stop &amp;ldquo;capturing&amp;rdquo; the particles
+    _renderTexture-&amp;gt;end();
+}
+[/code]&lt;/p&gt;
+&lt;h3 id=&#34;the-result-is-the-following&#34;&gt;The result is the following&lt;/h3&gt;
+</description>
+    </item>
+    <item>
+      <title>Integrating LiquidFun with Cocos2d-x: Part I</title>
+      <link>http://localhost:1313/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/</link>
+      <pubDate>Wed, 23 Apr 2014 21:51:26 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img alt=&#34;LiquidFun Testbed + Cocos2d-x&#34; loading=&#34;lazy&#34; src=&#34;https://camo.githubusercontent.com/024bc94a0b655472808a1073611f72bff59f3f50/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d64705a666f5a3776472d512f553153304746486d6879492f41414141414141413735492f574b6e764e7334597069382f733430302f494d475f303031322e6a7067&#34;&gt; LiquidFun Testbed + Cocos2d-x[/caption]&lt;/p&gt;
+&lt;p&gt;From LiquidFun&amp;rsquo;s site:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Based on &lt;a href=&#34;https://github.com/cocos2d/cocos2d-x-samples/blob/v3/box2d.org&#34;&gt;Box2d&lt;/a&gt;, &lt;a href=&#34;http://google.github.io/liquidfun/&#34;&gt;LiquidFun&lt;/a&gt; features particle-based fluid simulation. Game developers can use it for new game mechanics and add realistic physics to game play. Designers can use the library to create beautiful fluid interactive experiences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Basically LiquidFun is Box2d plus an extension to simulate fluids using a particle system. To test it, download and install the official &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.wolff.liquidfun.testbed2&#34;&gt;LiquidFun - Testbed,&lt;/a&gt; and &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.wolff.EyeCandy&#34;&gt;LiquidFun - EyeCandy&lt;/a&gt; for Android.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cocos2d-x.org&#34;&gt;Cocos2d-x&lt;/a&gt; already has Box2d integration, so in order to integrate Cocos2d-x with LiquidFun, we only need to integrate this new class: &lt;code&gt;b2ParticleSystem&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;liquidfuns-b2particlesystem&#34;&gt;LiquidFun&amp;rsquo;s b2ParticleSystem&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m not going to describe how to use LiquidFun (for that, read &lt;a href=&#34;http://google.github.io/liquidfun/Programmers-Guide/html/index.html&#34;&gt;its programmers guide&lt;/a&gt;). Instead, I&amp;rsquo;m going to describe how to integrate &lt;code&gt;b2ParticleSystem&lt;/code&gt; in Cocos2d-x (also applicable to any other game engine).&lt;/p&gt;
+&lt;p&gt;For the integration, what we need is a Cocos2d-x node that knows how to render a &lt;code&gt;b2ParticleSystem&lt;/code&gt;. And &lt;a href=&#34;https://github.com/google/liquidfun/blob/v1.0.0/liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.h#L189&#34;&gt;b2ParticleSystem&lt;/a&gt; has these 4 useful methods:&lt;/p&gt;
+&lt;p&gt;[code language=&amp;ldquo;cpp&amp;rdquo;]
+class b2ParticleSystem {
+&amp;hellip;
+// Get the number of particles.
+int32 GetParticleCount() const;&lt;/p&gt;
+&lt;p&gt;// Get the particle radius.
+float32 GetRadius() const;&lt;/p&gt;
+&lt;p&gt;// Get the position of each particle in Box2d&amp;rsquo;s coordinate system
+// Array is length GetParticleCount()
+b2Vec2* GetPositionBuffer();&lt;/p&gt;
+&lt;p&gt;// Get the color of each particle in RGBA Uint8 format.
+// Array is length GetParticleCount()
+b2ParticleColor* GetColorBuffer();
+};
+[/code]&lt;/p&gt;
+&lt;p&gt;Ideally we should be able to reuse &lt;code&gt;cocos2d::ParticleSystemQuad&lt;/code&gt; for the rendering, but we can&amp;rsquo;t because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cocos2d::ParticleSystemQuad&lt;/code&gt; doesn&amp;rsquo;t support changing the attractor (this is a design bug, we need to fix it). A &lt;em&gt;nil&lt;/em&gt; attractor would be needed for this case.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ParticleSystemQuad&lt;/code&gt; works with Quads, and not Points. And even if Points were supported (like in Cocos2d-x v1), it wouldn&amp;rsquo;t work because the points and colors should be in an interleaved array.&lt;/li&gt;
+&lt;li&gt;The other issue is the conversion between Box2d and Cocos2d-x coordinate system, but it would be easy to fix.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Vistual Studio: First steps</title>
+      <link>http://localhost:1313/2014/04/10/vistual-studio-first-steps/</link>
+      <pubDate>Fri, 11 Apr 2014 02:50:07 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/10/vistual-studio-first-steps/</guid>
+      <description>&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Compile and run cocos2d-x tests on the emulator&lt;/li&gt;
+&lt;li&gt;Set a breakpoint in Visual Studio.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;running-cpp-test-on-the-emulator&#34;&gt;Running cpp-test on the Emulator&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt; Download &lt;a href=&#34;http://www.cocos2d-x.org/download&#34;&gt;cocos2d-x v3.0&lt;/a&gt; &lt;strong&gt;2.&lt;/strong&gt; Unzip it and then go to &lt;em&gt;cocos2d-x/build&lt;/em&gt; directory&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ cd cocos2d-x/build
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;3.&lt;/strong&gt; Open &lt;em&gt;cocos2d-wp8.vc2012.sln&lt;/em&gt; with Visual Studio&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ start cocos2d-wp8.vc2012.sln
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;4.&lt;/strong&gt; Set &lt;em&gt;cpp-tests (Windows Phone Silverlight 8)&lt;/em&gt; as the default project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the &lt;em&gt;Solution Explorer&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Right click on &lt;em&gt;cpp-tests (Windows Phone Silverlight 8)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Click on &lt;em&gt;Set as StartUp Project&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/vs_default_project.png&#34;&gt;&lt;img alt=&#34;vs_default_project&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/vs_default_project.png?w=676&#34;&gt;&lt;/a&gt;&lt;strong&gt;5.&lt;/strong&gt; Run cpp-tests on the Emulator&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Press the &lt;em&gt;Emulator 8.1 WVGA 4 inch button&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;run-emulator&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/run-emulator.png?w=529&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If an Hyper-V error appears, then you have to enable Hyper-V:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/windowsphone/develop/jj863509%28v=vs.105%29.aspx&#34;&gt;Enable Hyper-V on the BIOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://windows.microsoft.com/en-us/windows-8/hyper-v-run-virtual-machines&#34;&gt;And then enable Hyper-V on Windows 8.1 Pro&lt;/a&gt; (it won&amp;rsquo;t work on the &amp;lsquo;Regular&amp;rsquo; edition).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;6.&lt;/strong&gt; If the following Dialog pops-up, just press &lt;em&gt;Retry&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/hypervisor.png&#34;&gt;&lt;img alt=&#34;hypervisor&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/hypervisor.png?w=676&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s all. You should see the cpp-tests running on the Emulator:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://retro.moe/wp-content/uploads/2014/04/cocos2d-emulator.png&#34;&gt;&lt;img alt=&#34;cocos2d-emulator&#34; loading=&#34;lazy&#34; src=&#34;http://retro.moe/wp-content/uploads/2014/04/cocos2d-emulator.png?w=676&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

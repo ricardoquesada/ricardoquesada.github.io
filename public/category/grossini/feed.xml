@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Grossini on RETRO.MOE</title>
+    <link>http://localhost:1313/category/grossini/</link>
+    <description>Recent content in Grossini on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 May 2008 20:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/grossini/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grossini touch</title>
+      <link>http://localhost:1313/2008/05/08/grossini-touch/</link>
+      <pubDate>Thu, 08 May 2008 20:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/05/08/grossini-touch/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2008/05/60cfc-grossini_in_ipod_touch.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2008/05/60cfc-grossini_in_ipod_touch.jpg?w=222&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Finalmente me decidí a instalar el toolchain&amp;hellip; mientras tanto sigo en la lista de espera para ser un iphone developer (espera que puede ser muy larga). Así que por un lado voy probando cosas con el Simulator usando la SDK oficial, y por otro lado voy desarrollando cosas con el toolchain para correrlas en el iPod Touch.&lt;br&gt;
+Este es mi 1er programita: Hello Great Grossini&lt;/p&gt;
+&lt;p&gt;Y que tiene que ver con monos ? que esto es una monada.. cuak&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>y el mono ?</title>
+      <link>http://localhost:1313/2008/04/24/y-el-mono/</link>
+      <pubDate>Thu, 24 Apr 2008 16:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/04/24/y-el-mono/</guid>
+      <description>&lt;p&gt;Donde esta el mono, che ?&lt;br&gt;
+Bueno, no tuve mucho tiempo de monociclear&amp;hellip; entre aquello y esto&amp;hellip; en fin&amp;hellip; el domingo pasado iba a salir a andar, pero no pudo ser&amp;hellip; quizás sea el domingo próximo. Ah&amp;hellip; cumpli 2 años de monoclista&amp;hellip; epa!&lt;/p&gt;
+&lt;p&gt;Por cierto, UNIGAMES esta medio muerto, pero ahora que estamos haciendo cocos, puede que lo reviva. Les paso un video promocional de cocos, este lindo framework para hacer juegos:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

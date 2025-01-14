@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Commodore-64 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/commodore-64/</link>
+    <description>Recent content in Commodore-64 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Jun 2023 01:55:46 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/commodore-64/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Unijoysticle 2 C64</title>
+      <link>http://localhost:1313/2023/06/21/introducing-unijoysticle-2-c64/</link>
+      <pubDate>Thu, 22 Jun 2023 01:55:46 +0000</pubDate>
+      <guid>http://localhost:1313/2023/06/21/introducing-unijoysticle-2-c64/</guid>
+      <description>&lt;p&gt;Unijoysticle 2 C64 add Bluetooth gamepad functionality to the Commodore 64/128.&lt;/p&gt;
+&lt;p&gt;For those familiar with the &lt;a href=&#34;http://localhost:1313/2021/10/20/introducing-unijoysticle-2/&#34;&gt;Unijoysticle 2+&lt;/a&gt;, this is the evolution of it.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/5vqmYmO8Du0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One gamepad controls one Joystick&lt;/li&gt;
+&lt;li&gt;or two gamepads control two Joystick&lt;/li&gt;
+&lt;li&gt;or one gamepad controls two Joysticks (for Dual Stick games)&lt;/li&gt;
+&lt;li&gt;or use Wii Steering Wheel&lt;/li&gt;
+&lt;li&gt;or use Wii Balance Board&lt;/li&gt;
+&lt;li&gt;Supports gamepad rumble for certain games&lt;/li&gt;
+&lt;li&gt;Supports C64 GS buttons (2nd and 3rd button) for C64 GS games&lt;/li&gt;
+&lt;li&gt;Supports additional 4th and 5th buttons (Select + Start) button for certain games&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2023/06/uni-c64.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2023/06/uni-c64.png?w=512&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing Unijoysticle 2&#43;</title>
+      <link>http://localhost:1313/2021/10/20/introducing-unijoysticle-2/</link>
+      <pubDate>Wed, 20 Oct 2021 17:10:17 +0000</pubDate>
+      <guid>http://localhost:1313/2021/10/20/introducing-unijoysticle-2/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/pw/AM-JKLUXjtgKSpJq7tH98-28yuaWiBRLN9y0tF5wdYgk4cfPPnoVxpX2astdSZLqT5JVz2Sddw7OIjZ4xDtDL2yf04rxHvgVgu_m74OlERyXDkTKn1VnrxQWaQpGT-xA0ydgKCcCqVGhh9a_0VpfasM_PGLnOg=-no?authuser=0&#34;&gt;Unijoysticle 2+&lt;/p&gt;
+&lt;p&gt;For those not familiar with Unijoysticle 2, it is a device that allows you to use modern Bluetooth gamepads like &lt;a href=&#34;https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/&#34;&gt;Sony DualSense&lt;/a&gt; or &lt;a href=&#34;https://store.nintendo.com/nintendo-switch/joy-con-controllers.html&#34;&gt;Nintendo Switch controllers&lt;/a&gt; (to name just a few) on old computers like the Commodore 64 or Amiga.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s new in version 2+:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Case friendly: lower profile, LEDs &amp;amp; buttons are close the border and has mounting holes.&lt;/li&gt;
+&lt;li&gt;Looks nicer: Uses SMD components for almost everything&lt;/li&gt;
+&lt;li&gt;Supports buttons 2 &amp;amp; 3 in port #2. Some Amiga games might use them.&lt;/li&gt;
+&lt;li&gt;Cheaper to manufacture. I reduced the price from $60 to $35&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>A multi-platform 256-byte intro</title>
+      <link>http://localhost:1313/2021/09/05/a-multi-platform-256-byte-intro/</link>
+      <pubDate>Sun, 05 Sep 2021 21:35:04 +0000</pubDate>
+      <guid>http://localhost:1313/2021/09/05/a-multi-platform-256-byte-intro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nCzAlfXOOXo&#34;&gt;https://www.youtube.com/watch?v=nCzAlfXOOXo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Amor para Dos&amp;rdquo; is a multi-platform 256-byte intro. The binary, without any kind of modification, can run both on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a 80386 (or better) + DOS&lt;/li&gt;
+&lt;li&gt;and on a Commodore 64.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We ( &lt;a href=&#34;http://lia.rebelion.digital/&#34;&gt;L.I.A&lt;/a&gt;) released it at &lt;a href=&#34;https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021&#34;&gt;Flashparty 2021&lt;/a&gt;. I did the coding.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Unijoysticle 2: modern bluetooth gamepads for retro computers</title>
+      <link>http://localhost:1313/2019/04/15/unijoysticle-2-modern-bluetooth-gamepads-for-retro-computers/</link>
+      <pubDate>Tue, 16 Apr 2019 05:23:01 +0000</pubDate>
+      <guid>http://localhost:1313/2019/04/15/unijoysticle-2-modern-bluetooth-gamepads-for-retro-computers/</guid>
+      <description>&lt;p&gt;Announcing Unijoysticle 2:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/2uakPuSOjZU&#34;&gt;https://youtu.be/2uakPuSOjZU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Use modern Bluetooth controllers (gamepads, mice, smart TV remote controllers) in retro computers like the Commodore 64/128, Atari ST, Amiga and more.&lt;/p&gt;
+&lt;p&gt;For further info go here: &lt;a href=&#34;http://localhost:1313/unijoysticle2&#34;&gt;/unijoysticle2&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tandy 64, and intro for the Tandy 1000 and more</title>
+      <link>http://localhost:1313/2017/12/03/tandy-64-and-intro-for-the-tandy-1000-and-more/</link>
+      <pubDate>Sun, 03 Dec 2017 16:39:48 +0000</pubDate>
+      <guid>http://localhost:1313/2017/12/03/tandy-64-and-intro-for-the-tandy-1000-and-more/</guid>
+      <description>&lt;p&gt;With &lt;a href=&#34;http://pungas.space&#34;&gt;PVM&lt;/a&gt; with released an intro for the Tandy 1000 HX.&lt;/p&gt;
+&lt;p&gt;The Tandy 1000 HX uses the Intel 8088-2 CPU. Which is a suuuuper slow CPU (slower than the 8086). With all its wait states and its limitations on the video card (no hardware sprites, no charset redefinition) it makes it comparable with a Commodore 64. In fact, for certain things a Commodore 64 if way faster.&lt;/p&gt;
+&lt;p&gt;Without further ado, this is the Tandy intro:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Long time no see: UniJoystiCle for all platforms</title>
+      <link>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</link>
+      <pubDate>Sun, 06 Aug 2017 18:54:42 +0000</pubDate>
+      <guid>http://localhost:1313/2017/08/06/long-time-no-see-unijoysticle-for-all-platforms/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/YNOZkex9PROw5l8pGIwrAWA2RE3vYt1j-31sYAXbk0pU5yMq6cI2O1znrzMUAyTzMbdkQx10WjUDNABmfOfj-s_85ldzobASKUWUW76mC7L4PK_rqgsAGAXdmgLsARj7g43NBCIrF8I=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/7ObCeQB39QOQwI6mqawpKxf-N5y3SksHZy9lxgDBh9QJfqha32TOoRFcTX4Loitjf2WHvB4hD6xyIuqeYJguiTk_1nyYkkPvegld4Dv_j9OVnZqqrXGm4vrD5hNuar-1SERsyBsge0c=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/3uib3k0HTHcFGQ1BBnDVzxknkZzz5okg6B4B1OheFQxjpvTL7L7N_3ywg7kWWVMl3V0llJ1iePreP1gt0Y8APVpN5A-IrKHPhOEJA58_Gh_P7ogfzvYSRxeCruOJ0tGn4QxRooTHUtM=-no&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/8LAfHfREC7JcZv8DkhqOXR0j0Mjn-BUKk8xpWhJ8nG9A3We-ZCuspkqdmo-AyGZrUPFCjVm1M2aH1Zp56VjFRE08tIQcPN9ZqozNtH0qmDTVh1dtFKMC1ObeuYGhV5W5ptAb8xGD8tc=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been busy. I still have no spare time to work on my retro projects, but I have a plan. And it can&amp;rsquo;t fail. I plan to port the UniJoystiCle + The Uni Games to the following platforms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Commodore VIC 20: UniJoystiCle (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore PET: UniJoystiCle in expansion port (single joystick) + The Uni Games&lt;/li&gt;
+&lt;li&gt;Commodore 128: UniJoystiCle (same as the C64) + The Uni Games in VCD mode using the Z80 CPU&lt;/li&gt;
+&lt;li&gt;Tandy 1000: UniJoystiCle + The Uni Games (graphics mode 320x200 16 colors)&lt;/li&gt;
+&lt;li&gt;Commodore 64: Add paddle support to the UniJoystiCle&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Commodore 64 Assembly Tutorial</title>
+      <link>http://localhost:1313/2017/03/16/commodore-64-assembly-tutorial/</link>
+      <pubDate>Thu, 16 Mar 2017 23:10:14 +0000</pubDate>
+      <guid>http://localhost:1313/2017/03/16/commodore-64-assembly-tutorial/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://camo.githubusercontent.com/d8e565244aa48cc9a5bd0649d339f4baa250b99d/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f736b5a55527a5053764357463237526b44565551723955747875416370324738797876315453357151673543703172745f544658794d504378416f766571525367696b4f3667374f365a61744a4a6d5f53336d2d5533753564344f2d6765345857536e6e44516d51484342755f6237596a4b59344c445f495f776f43717253704f7365584e4c55&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A few months ago we released the &lt;a href=&#34;http://csdb.dk/release/?id=153497&#34;&gt;Argentine Songbook Vol. 1&lt;/a&gt; chipdisk. And recently we released its source code including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full source code (the assembly files + makefiles + everything&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Full audio sources (the SidWizard files)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And we also wrote a tutorial about how write a chipdisk, including all the tricks that we used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/chipdisk-nac-vol.1/blob/master/chipdisk_internals.en.rst&#34;&gt;C64 Assembly Tutorial (english)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/chipdisk-nac-vol.1/blob/master/chipdisk_internals.es.rst&#34;&gt;C64 Assembly Tutorial (spanish)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/c64scene-ar/chipdisk-nac-vol.1&#34;&gt;Full source code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have doubts/questions about it, &lt;a href=&#34;http://pungas.space/&#34;&gt;let us know&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CommVEx XII and VCF West XI recap</title>
+      <link>http://localhost:1313/2016/08/15/commvex-xii-and-vcf-west-xi-recap/</link>
+      <pubDate>Tue, 16 Aug 2016 02:20:54 +0000</pubDate>
+      <guid>http://localhost:1313/2016/08/15/commvex-xii-and-vcf-west-xi-recap/</guid>
+      <description>&lt;p&gt;Two weeks ago I attended the &lt;a href=&#34;http://www.portcommodore.com/dokuwiki/doku.php?id=commvex:start&#34;&gt;Commodore Vegas Expo XII&lt;/a&gt;, and last week I&amp;rsquo;ve been at the &lt;a href=&#34;http://vcfed.org/wp/festivals/vintage-computer-festival-west-xi/&#34;&gt;Vintage Computer Festival West XI&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;commvex-xii&#34;&gt;CommVEx XII&lt;/h2&gt;
+&lt;p&gt;As the name describes it, it was a Commodore Expo in Las Vegas. But the format is a mix between conference and expo. It is a real expo, but with the social part of a conference. It is friendly and casual.&lt;/p&gt;
+&lt;p&gt;People give talks in a very informal way. I gave a talk + live demo about the UniJoystiCle. Everything went well except that in the middle of the demo my phone&amp;rsquo;s glass broke. But that wasn&amp;rsquo;t an issue since the accelerometer kept working.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Finally, a Drean Commodore 64c</title>
+      <link>http://localhost:1313/2016/06/01/finally-a-drean-commodore-64c/</link>
+      <pubDate>Thu, 02 Jun 2016 05:35:11 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/01/finally-a-drean-commodore-64c/</guid>
+      <description>&lt;p&gt;As a kid, I always avoided the Drean Commodore. I didn&amp;rsquo;t like them because they were not compatible with the NTSC software.&lt;/p&gt;
+&lt;p&gt;As an adult, I really wanted one basically because I&amp;rsquo;m from Argentina, and the Drean was produced in Argentina. And I want to make sure that all the software that I develop works on a Drean.&lt;/p&gt;
+&lt;p&gt;And in my lastest trip to Argentina I was able to get one :-) The condition of the computer is Ok, neither great nor terrible. It works, although I need to do more tests. Here are some photos:&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Fixing the Commodore SX-64: Replacing the MOS 6526</title>
+      <link>http://localhost:1313/2015/12/13/fixing-the-commodore-sx-64-replacing-the-mos-6526/</link>
+      <pubDate>Sun, 13 Dec 2015 08:28:26 +0000</pubDate>
+      <guid>http://localhost:1313/2015/12/13/fixing-the-commodore-sx-64-replacing-the-mos-6526/</guid>
+      <description>&lt;h3 id=&#34;mos-6526-the-cia-chip&#34;&gt;MOS 6526: The CIA chip&lt;/h3&gt;
+&lt;p&gt;You turn on your beloved SX-64 and you don&amp;rsquo;t see the blinking cursor. Don&amp;rsquo;t panic. Most probably one of the &lt;a href=&#34;https://en.wikipedia.org/wiki/MOS_Technology_CIA&#34;&gt;CIA chips (MOS 6526)&lt;/a&gt; is not working correctly.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-MF1kSO83zr4/Vm0Vsppqc2I/AAAAAAABcwQ/b0jjYSaIl80/s400-Ic42/WP_20151212_001.jpg&#34;&gt; No blinking cursor[/caption]&lt;/p&gt;
+&lt;p&gt;The Commodore 64 has two CIA chips. What you need to do is to replace the one that controls the keyboard, the CIA 1. But if you don&amp;rsquo;t know which one is CIA 1 and which is CIA 2, then you can either replace both, or do trial-and-error, or look at the &lt;a href=&#34;http://personalpages.tds.net/~rcarlsen/cbm/sx64/SCHEMATICS/IO.gif&#34;&gt;IO schematics&lt;/a&gt; (hint: it is the one with the &lt;code&gt;UB3&lt;/code&gt; legend).&lt;/p&gt;
+&lt;p&gt;As far as I know any MOS 6526 should work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MOS 6526 (found in the very first C64s)&lt;/li&gt;
+&lt;li&gt;MOS 6526 R4 (found in newer C64s)&lt;/li&gt;
+&lt;li&gt;MOS 6526A (the 2Mhz version, and I read somewhere that it works Ok)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, in order to get the replacement chip, you can get it on &lt;a href=&#34;http://www.ebay.com/sch/i.html?_from=R40&amp;amp;_trksid=p2050601.m570.l1313.TR0.TRC0.H0.XMOS+6526.TRS0&amp;amp;_nkw=MOS+6526&amp;amp;_sacat=0&#34;&gt;eBay&lt;/a&gt;, or extract it from another another C64 or SX-64. The MOS 6526 chips on a regular C64, are located at the top-left corner.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-LV9IKHaXhzI/Vm0mJFmCDLI/AAAAAAABcyU/nUfu6Y-9F2s/s400-Ic42/WP_20151212_007.jpg&#34;&gt; I removed the 6526 from a regular C64[/caption]&lt;/p&gt;
+&lt;p&gt;I suggest using a &lt;a href=&#34;https://www.google.com/search?q=chip+extractor&amp;amp;oq=chip+ext&amp;amp;aqs=chrome.0.69i59j69i57.2495j0j8&amp;amp;sourceid=chrome&amp;amp;es_sm=91&amp;amp;ie=UTF-8#tbm=shop&amp;amp;q=IC+extractor&#34;&gt;chip extractor&lt;/a&gt; to extract the chips, although a flat screwdriver can work as well.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>VChar64: character editor for the Commodore 64</title>
+      <link>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</link>
+      <pubDate>Tue, 10 Feb 2015 20:45:23 +0000</pubDate>
+      <guid>http://localhost:1313/2015/02/10/vchar64-character-editor-for-the-commodore-64/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;img alt=&#34;c64logo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2015/02/c64logo.png&#34;&gt;&lt;/a&gt; I started to code a unicycle game for the Commodore 64. The first thing that I realized was that I needed an game editor, so I started to code one: VChar64.&lt;/p&gt;
+&lt;p&gt;Today I released v0.0.1 which has basic functionality but the functionality that it has, just work. You can download it from here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download: &lt;a href=&#34;https://github.com/ricardoquesada/vchar64&#34;&gt;https://github.com/ricardoquesada/vchar64&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Imports raw, PRG and CharPad file formats&lt;/li&gt;
+&lt;li&gt;Exports to raw and PRG&lt;/li&gt;
+&lt;li&gt;Basic editing functionality: Rotate, Invert, Clear, Shift left/right/up/down&lt;/li&gt;
+&lt;li&gt;Multiplatform: Win, Linux and Mac&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Screenshot:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

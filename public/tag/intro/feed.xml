@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Intro on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/intro/</link>
+    <description>Recent content in Intro on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Sep 2021 21:35:04 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/intro/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A multi-platform 256-byte intro</title>
+      <link>http://localhost:1313/2021/09/05/a-multi-platform-256-byte-intro/</link>
+      <pubDate>Sun, 05 Sep 2021 21:35:04 +0000</pubDate>
+      <guid>http://localhost:1313/2021/09/05/a-multi-platform-256-byte-intro/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=nCzAlfXOOXo&#34;&gt;https://www.youtube.com/watch?v=nCzAlfXOOXo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Amor para Dos&amp;rdquo; is a multi-platform 256-byte intro. The binary, without any kind of modification, can run both on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a 80386 (or better) + DOS&lt;/li&gt;
+&lt;li&gt;and on a Commodore 64.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We ( &lt;a href=&#34;http://lia.rebelion.digital/&#34;&gt;L.I.A&lt;/a&gt;) released it at &lt;a href=&#34;https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021&#34;&gt;Flashparty 2021&lt;/a&gt;. I did the coding.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Tandy 64 Jr. - an intro for the IBM PCjr</title>
+      <link>http://localhost:1313/2018/01/02/tandy-64-jr-an-intro-for-the-ibm-pcjr/</link>
+      <pubDate>Wed, 03 Jan 2018 02:19:51 +0000</pubDate>
+      <guid>http://localhost:1313/2018/01/02/tandy-64-jr-an-intro-for-the-ibm-pcjr/</guid>
+      <description>&lt;p&gt;Happy new year!&lt;/p&gt;
+&lt;p&gt;We ( &lt;a href=&#34;http://pungas.space&#34;&gt;PVM&lt;/a&gt;) ported our Tandy 64 intro (originally designed for the Tandy 1000HX) to the IBM PCjr.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/phtEFwJu0AM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Requirements: IBM PCjr. with 256k RAM&lt;/p&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Binary: &lt;a href=&#34;https://github.com/c64scene-ar/tandy64/raw/ibm_pcjr/tandy64jr.zip&#34;&gt;tandy64jr.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/c64scene-ar/tandy64/tree/ibm_pcjr&#34;&gt;https://github.com/c64scene-ar/tandy64/tree/ibm_pcjr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Worth mentioning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runs flicker-free&lt;/li&gt;
+&lt;li&gt;Stable raster-bar, without garbage (world-first?)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>C64 SDKBOX intro at Casual Connect 2015 SF</title>
+      <link>http://localhost:1313/2015/08/16/c64-sdkbox-intro-at-casual-connect-2015-sf/</link>
+      <pubDate>Sun, 16 Aug 2015 16:57:24 +0000</pubDate>
+      <guid>http://localhost:1313/2015/08/16/c64-sdkbox-intro-at-casual-connect-2015-sf/</guid>
+      <description>&lt;p&gt;I did a quick&amp;rsquo;n&amp;rsquo;dirty intro for the C64 to promote &lt;a href=&#34;http://sdkbox.com/&#34;&gt;SDKBOX&lt;/a&gt; at &lt;a href=&#34;http://usa.casualconnect.org/&#34;&gt;Casual Connect 2015 SF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I took the scroller+rasterbar effects from the game that I&amp;rsquo;m doing, I took the music from somewhere, the fonts from somewhere, I added some simple moving bars at the top&amp;hellip; and done. I only had one day to do it, and I was very happy with the result.&lt;/p&gt;
+&lt;p&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/_CyhZaj5N8o?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+&amp;amp;feature=youtu.be&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

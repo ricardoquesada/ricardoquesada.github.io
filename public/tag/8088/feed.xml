@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>8088 on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/8088/</link>
+    <description>Recent content in 8088 on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Sep 2018 06:25:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/8088/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>64K RAM Ought to be Enough: a demo for the PCjr</title>
+      <link>http://localhost:1313/2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/</link>
+      <pubDate>Thu, 27 Sep 2018 06:25:17 +0000</pubDate>
+      <guid>http://localhost:1313/2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Updated 2018–10–08&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uakDpJns9LA&#34;&gt;https://www.youtube.com/watch?v=uakDpJns9LA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A demo for the IBM PCjr by &lt;a href=&#34;http://pungas.space&#34;&gt;Pungas de Villa Martelli&lt;/a&gt;. It was presented at &lt;a href=&#34;http://flashparty.dx.am/&#34;&gt;Flashparty 2018&lt;/a&gt; and &lt;a href=&#34;http://flashparty.dx.am/index.php?option=com_content&amp;amp;view=article&amp;amp;id=37:results-fp-2018&amp;amp;catid=2&amp;amp;lang=en&amp;amp;Itemid=134&#34;&gt;won the Demo&lt;/a&gt; category.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;An IBM PCjr with at least 64k RAM.&lt;/p&gt;
+&lt;h2 id=&#34;download&#34;&gt;Download&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://gitlab.com/ricardoquesada/pcjr-flashparty-2018&#34;&gt;https://gitlab.com/ricardoquesada/pcjr-flashparty–2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Binary: &lt;a href=&#34;http://pungas.space/pvm-64ko.zip&#34;&gt;pvm-64ko.zip&lt;/a&gt; (does not run on emulators)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;technical-description&#34;&gt;Technical description&lt;/h1&gt;
+&lt;p&gt;The demo is divided in the boot loader and demo 3 parts&lt;/p&gt;
+&lt;h2 id=&#34;boot-loader&#34;&gt;Boot loader&lt;/h2&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;512&amp;rdquo;]&lt;img alt=&#34;Boot loader&#34; loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/CAMqnjSjk-8f_gX2LvfrUq4QMQm8wgKtd-1Vhcmza4OcEiNYvKb7LJWMKNjcpUcaTUWXRfl8e6oz3bJcRXHTBdIjzTrELpX9eBGzYVSC9Rj4PsjbJqKBh0TfAoRnT-8JBFnNprd7xUs=-no&#34;&gt; Boot loader[/caption]
+The demo is intended to work with a 64K RAM (or more) PCjr. Booting from its own boot loader is needed to save precious memory. DOS alone takes ~20K of RAM. That is 30% of the total memory. You don’t want to waste that memory.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Performance of the 8088 on PC, PCjr and Tandy 1000</title>
+      <link>http://localhost:1313/2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/</link>
+      <pubDate>Mon, 05 Mar 2018 05:34:26 +0000</pubDate>
+      <guid>http://localhost:1313/2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/Qm6Ynexbr8lJUggbCcZoKQaPX-qKyrA5Ef4_Feu7mju1M6vVhiN86NjNpmXBZlO_AdAu0KWVWACqK_oWMEPGkgeSSwOBsSV804i3WS0dFML6LqpMY7o3dwlV6oBs0dSJfjM1D5vnjYQ=-no&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s well-known that you should &lt;a href=&#34;https://github.com/jagregory/abrash-zen-of-asm/blob/master/src/chapter-04.md&#34;&gt;measure the performance of your code&lt;/a&gt;, and not rely only on the opcode&amp;rsquo;s &amp;ldquo;cycle counts&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;But how fast is an IBM PC 5150 compared to a PCjr ? or to a Tandy 1000? or how fast is the Tandy 1000 HX in fast mode (7.16Mhz) compared to the slow mode (4.77Mhz) ? Or how fast is a &lt;code&gt;nop&lt;/code&gt; compared to a &lt;code&gt;cwd&lt;/code&gt; ?&lt;/p&gt;
+&lt;p&gt;I created a test ( &lt;a href=&#34;https://github.com/ricardoquesada/pc-8088-misc/blob/master/opcodes_perf/perf.asm&#34;&gt;perf.asm&lt;/a&gt;) that measures the performance of different opcodes and run it on different Intel 8088 machines. I run the test multiple times just to make sure the results were stable enough. All interrupts were disabled, except the Timer (of course). And on the PCjr the NMI is disabled as well.&lt;/p&gt;
+&lt;p&gt;Without further ado, here are the results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1geGxh76SVFHNi3xR6HEKpHHVckLLz9DsK3JNdPi6pBA/edit?usp=sharing&#34;&gt;Intel 8088 opcodes performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>IBM PCjr BIOS dump</title>
+      <link>http://localhost:1313/2018/01/03/ibm-pcjr-bios-dump/</link>
+      <pubDate>Wed, 03 Jan 2018 15:29:57 +0000</pubDate>
+      <guid>http://localhost:1313/2018/01/03/ibm-pcjr-bios-dump/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/QwPdCQFbS4grTTTnEg0aZ1cxE2p2RzSpIH14RtQnXLq9mvLWZoXWBrOtN%5FWNUs10ocaQ-gvGGSAkjTsx78%5FRBw0NoiBoYXTEu6hV8MJ68vxkkysJznNz7yVmCDFmdc5h3xHmy23HnPM=-no&#34; width=&#34;512&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;The IBM PCjr BIOS is very well documented in the &lt;a href=&#34;https://archive.org/details/IbmPcjrTechnicalReference&#34;&gt;IBM PCjr Technical Reference manual&lt;/a&gt; (a must read for every PCjr developer).&lt;/p&gt;
+&lt;p&gt;The only problem is that navigating that code is not easy. It has all the problems from scanned books:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the fonts don&amp;rsquo;t look good&lt;/li&gt;
+&lt;li&gt;no hyper-links&lt;/li&gt;
+&lt;li&gt;and difficult to search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So I dumped the BIOS and started analyzing it with &lt;a href=&#34;https://www.hex-rays.com/products/ida/support/download_freeware.shtml&#34;&gt;IDA Pro - Free version&lt;/a&gt;. I added some of the original comments from the Technical Reference manual, and added some comments of my own.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tandy 64 Jr. - an intro for the IBM PCjr</title>
+      <link>http://localhost:1313/2018/01/02/tandy-64-jr-an-intro-for-the-ibm-pcjr/</link>
+      <pubDate>Wed, 03 Jan 2018 02:19:51 +0000</pubDate>
+      <guid>http://localhost:1313/2018/01/02/tandy-64-jr-an-intro-for-the-ibm-pcjr/</guid>
+      <description>&lt;p&gt;Happy new year!&lt;/p&gt;
+&lt;p&gt;We ( &lt;a href=&#34;http://pungas.space&#34;&gt;PVM&lt;/a&gt;) ported our Tandy 64 intro (originally designed for the Tandy 1000HX) to the IBM PCjr.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/phtEFwJu0AM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Requirements: IBM PCjr. with 256k RAM&lt;/p&gt;
+&lt;p&gt;Download:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Binary: &lt;a href=&#34;https://github.com/c64scene-ar/tandy64/raw/ibm_pcjr/tandy64jr.zip&#34;&gt;tandy64jr.zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Source code: &lt;a href=&#34;https://github.com/c64scene-ar/tandy64/tree/ibm_pcjr&#34;&gt;https://github.com/c64scene-ar/tandy64/tree/ibm_pcjr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Worth mentioning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Runs flicker-free&lt;/li&gt;
+&lt;li&gt;Stable raster-bar, without garbage (world-first?)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Soldering on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/soldering/</link>
+    <description>Recent content in Soldering on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jun 2016 11:20:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/soldering/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Repairing the Commodore 1581 floppy disk drive. Part 2</title>
+      <link>http://localhost:1313/2016/06/19/repairing-the-commodore-1581-floppy-disk-drive-part-2/</link>
+      <pubDate>Sun, 19 Jun 2016 11:20:16 +0000</pubDate>
+      <guid>http://localhost:1313/2016/06/19/repairing-the-commodore-1581-floppy-disk-drive-part-2/</guid>
+      <description>&lt;p&gt;I assumed that the Commodore 1581 was failing because of a bad WD1772 IC (as documented in &lt;a href=&#34;https://retro.moe/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/&#34;&gt;Part I&lt;/a&gt;). So I ordered a WD1772 replacement + the IC socket, I developed some basic desoldering skills, watched some &lt;a href=&#34;https://www.youtube.com/watch?v=239okViumdA&#34;&gt;desoldering&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/watch?v=t2j_8LvpTNk&#34;&gt;videos&lt;/a&gt;, and also got a cheap &lt;a href=&#34;https://www.radioshack.com/products/radioshack-45-watt-desoldering-iron?variant=5717855877&#34;&gt;desoldering iron from Radio Shack&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;So, I removed the board from the Commodore 1581 and started to desolder the IC. To my surprise the $11-buck desolder iron worked pretty well. I was able to remove all the solder from the the pins in a few minutes. The desolder iron just takes some time to reach the needed temperature, but besides that, it seems to be a great tool for occasional desoldering tasks (a hobbyist desoldering iron &lt;a href=&#34;https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4&#34;&gt;cost more than $250&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Soldering, what could go wrong?</title>
+      <link>http://localhost:1313/2015/04/11/soldering-what-could-go-wrong/</link>
+      <pubDate>Sun, 12 Apr 2015 05:03:26 +0000</pubDate>
+      <guid>http://localhost:1313/2015/04/11/soldering-what-could-go-wrong/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m good at software engineering, but in electronics, I&amp;rsquo;m a newbie. Nonetheless, I find electronics fascinating.&lt;/p&gt;
+&lt;p&gt;Last year I did the first basic tutorials with Arduino, then I played a little bit with Raspberry Pi and CI20 (technically not really electronics). And this year, I built a very simple circuit to connect the RGBI output of my Commodore 128 to VGA&amp;hellip; I have been using breadboard, so no soldering, no PCB, or anything like that.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

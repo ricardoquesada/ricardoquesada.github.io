@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Unigames on RETRO.MOE</title>
+    <link>http://localhost:1313/category/unigames/</link>
+    <description>Recent content in Unigames on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Apr 2008 16:21:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/unigames/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>y el mono ?</title>
+      <link>http://localhost:1313/2008/04/24/y-el-mono/</link>
+      <pubDate>Thu, 24 Apr 2008 16:21:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/04/24/y-el-mono/</guid>
+      <description>&lt;p&gt;Donde esta el mono, che ?&lt;br&gt;
+Bueno, no tuve mucho tiempo de monociclear&amp;hellip; entre aquello y esto&amp;hellip; en fin&amp;hellip; el domingo pasado iba a salir a andar, pero no pudo ser&amp;hellip; quizás sea el domingo próximo. Ah&amp;hellip; cumpli 2 años de monoclista&amp;hellip; epa!&lt;/p&gt;
+&lt;p&gt;Por cierto, UNIGAMES esta medio muerto, pero ahora que estamos haciendo cocos, puede que lo reviva. Les paso un video promocional de cocos, este lindo framework para hacer juegos:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UNIGAMES</title>
+      <link>http://localhost:1313/2007/05/05/unigames/</link>
+      <pubDate>Sat, 05 May 2007 17:07:00 +0000</pubDate>
+      <guid>http://localhost:1313/2007/05/05/unigames/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2007/05/43583-screenshot-1.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2007/05/43583-screenshot-1.png?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Durante estas últimas semanas estuve monocicleando poco y nada, pero en cambio, estuve programando un jueguito basado en monociclo. La idea original es hacer algo tipo &lt;a href=&#34;http://www.unicon13.ch/&#34;&gt;UNICON,&lt;/a&gt; pero veremos que sale. Por ahora lo estoy haciendo en &lt;a href=&#34;http://www.python.org/&#34;&gt;Python&lt;/a&gt; con &lt;a href=&#34;http://opioid-interactive.com/%7Eshang/projects/pygext/&#34;&gt;pygext&lt;/a&gt; (que a su vez usa &lt;a href=&#34;http://www.pygame.org/&#34;&gt;pygame&lt;/a&gt; y &lt;a href=&#34;http://pyopengl.sourceforge.net/&#34;&gt;pyopengl).&lt;/a&gt; Quizás use &lt;a href=&#34;http://pyode.sourceforge.net/&#34;&gt;pyode&lt;/a&gt; también.&lt;/p&gt;
+&lt;p&gt;Los gráficos los esta haciendo wfx, y yo estoy haciendo el código. Por ahora no hay nada jugable. El otro día tenía un monociclo que iba saltando por un nivel, pero ahora estoy en el medio de un refactoring general. Cuando tenga algo jugable aviso por aca.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

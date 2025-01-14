@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Uncategorized on RETRO.MOE</title>
+    <link>http://localhost:1313/category/uncategorized/</link>
+    <description>Recent content in Uncategorized on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Feb 2024 01:32:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/category/uncategorized/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bluepad32 v4.0</title>
+      <link>http://localhost:1313/2024/02/04/bluepad32-v4-0/</link>
+      <pubDate>Mon, 05 Feb 2024 01:32:54 +0000</pubDate>
+      <guid>http://localhost:1313/2024/02/04/bluepad32-v4-0/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/pw/ABLVV86GotbxyeDjCi843Lmxv9q09pqVtkIEMufR3p9ihxNxtOlt6KY-Zed43iwqcgX3sCmnjBtYwWeyMd3rrQ425gU6vwpZDE42b-NQ2PsUKqXOa202h_mezbPdTHlxA20Hczui2XjphvzMKHoRJiGEkqPQWw=w998-h706-s-no-gm?authuser=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Bluepad32 v4.0-beta.0 is released and contains many new features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.raspberrypi.com/products/raspberry-pi-pico/&#34;&gt;Raspberry Pi Pico W&lt;/a&gt; support.&lt;/li&gt;
+&lt;li&gt;BLE Service that allows a BLE client (mobile application) to configure Bluepad32. (BLE Client is still WIP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bluepad32.readthedocs.io/&#34;&gt;More polished documentation&lt;/a&gt;, hosted in readthedocs&lt;/li&gt;
+&lt;li&gt;Better directory structure (easier to find files)&lt;/li&gt;
+&lt;li&gt;Easier way to create your own platform.&lt;/li&gt;
+&lt;li&gt;Examples for raw ESP-IDF, Pico W and Linux, which use the new way of creating platform.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ricardoquesada/bluepad32&#34;&gt;Github&lt;/a&gt; is not the official repo, and &lt;a href=&#34;http://gitlab.com/ricardoquesada/bluepad32&#34;&gt;Gitlab&lt;/a&gt; is the backup (before it was the other way round).&lt;/li&gt;
+&lt;li&gt;Some minor improvements in different places, and many bug fixes, that were discovered by just switching to &lt;a href=&#34;https://www.jetbrains.com/clion/&#34;&gt;CLion IDE.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Bluepad32 v3.7.0 released with Arduino IDE support</title>
+      <link>http://localhost:1313/2023/04/23/bluepad32-v3-7-0-released-with-arduino-ide-support/</link>
+      <pubDate>Mon, 24 Apr 2023 01:54:18 +0000</pubDate>
+      <guid>http://localhost:1313/2023/04/23/bluepad32-v3-7-0-released-with-arduino-ide-support/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/0jnY-XXiD8Q?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;I&amp;rsquo;ve just released Bluepad32 v3.7.0 with two important features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Arduino IDE support&lt;/li&gt;
+&lt;li&gt;In addition to ESP32, it also supports ESP32-S3 and ESP32-C3 (only BLE gamepads supported.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Details and more here: &lt;a href=&#34;https://gitlab.com/ricardoquesada/bluepad32&#34;&gt;https://gitlab.com/ricardoquesada/bluepad32&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gamepad rumble support for the Commodore 64</title>
+      <link>http://localhost:1313/2022/10/02/gamepad-rumble-support-for-the-commodore-64/</link>
+      <pubDate>Sun, 02 Oct 2022 19:29:53 +0000</pubDate>
+      <guid>http://localhost:1313/2022/10/02/gamepad-rumble-support-for-the-commodore-64/</guid>
+      <description>&lt;p&gt;I discovered a way to send 1-bit of data from the Commodore 64 to the Joysticks. And I use this one-bit of data to turn on/off the rumble in the gamepads through the Unijoysticle.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=vCj45OX43JE&#34;&gt;https://www.youtube.com/watch?v=vCj45OX43JE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(Note: &lt;a href=&#34;https://www.youtube.com/watch?v=0pEDP2tvvQc&#34;&gt;Spanish version of the video is here&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Bluepad32 v3.5 released!</title>
+      <link>http://localhost:1313/2022/07/10/bluepad32-v3-5-released/</link>
+      <pubDate>Mon, 11 Jul 2022 00:52:50 +0000</pubDate>
+      <guid>http://localhost:1313/2022/07/10/bluepad32-v3-5-released/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Support for Amiga and Atari ST mice, USB console, and re-connect improvements.&lt;/p&gt;
+&lt;p&gt;I &amp;rsquo;m happy to announce that Bluepad32 v3.5 has been released. It contains two new big features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mouse support&lt;/li&gt;
+&lt;li&gt;Console&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and many fixes &amp;amp; improvements here and there.&lt;/p&gt;
+&lt;h3 id=&#34;mouse-support&#34;&gt;Mouse support&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/pw/AM-JKLXCbot-0O4NAF-2BWhf62lrRxDvdhXbfFaWhrWXQ_Hv_mAPRj1e-XF4-SxpoX_sTzBEcr_PDMqlsOz4ePWibi3h7IrfaevQW_jxMRlG2j0wnROhzf37BvG6IRvA1PPveChSrSLBy7yndHY2eMiJB1-NNA=-no&#34;&gt;Some of the supported mice&lt;/p&gt;
+&lt;p&gt;Mouse support has been added both at the &amp;ldquo;core&amp;rdquo; level, and at a &amp;ldquo;platform&amp;rdquo; level.&lt;/p&gt;
+&lt;p&gt;By &amp;ldquo;core&amp;rdquo; level, I mean that all platforms (Unijoysticle, NINA/AirLift, Arduino, etc.) receive the mouse information: x &amp;amp; y movement and the Left, Middle and Right buttons.&lt;/p&gt;
+&lt;p&gt;And by &amp;ldquo;platform&amp;rdquo; level, I mean that the Unijoysticle platform transforms the mouse data into quadrature events that both Amiga and Atari ST computers can understand.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/cE4u50y5TOI?t=49&#34;&gt;https://youtu.be/cE4u50y5TOI?t=49&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using mouse on the Amiga 500&lt;/p&gt;
+&lt;p&gt;See the complete list of supported mice here: &lt;a href=&#34;https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_mice.md&#34;&gt;supported mice&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>UniJoystiCle: Giving Eagle a try</title>
+      <link>http://localhost:1313/2016/04/26/unijoysticle-giving-eagle-a-try/</link>
+      <pubDate>Tue, 26 Apr 2016 19:57:46 +0000</pubDate>
+      <guid>http://localhost:1313/2016/04/26/unijoysticle-giving-eagle-a-try/</guid>
+      <description>&lt;p&gt;I like &lt;a href=&#34;http://fritzing.org/home/&#34;&gt;Fritzing&lt;/a&gt;. I think it is great for small projects and it is very easy to use. But it has its limitations when creating the PCB, mostly because its component library is not very complete.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cadsoftusa.com/&#34;&gt;Eagle&lt;/a&gt;, on the other hand, is more difficult to use. But its component library is very polished. Also, companies like &lt;a href=&#34;https://www.adafruit.com/&#34;&gt;Adafruit&lt;/a&gt; and &lt;a href=&#34;https://www.sparkfun.com/&#34;&gt;SparkFun&lt;/a&gt; create components for Eagle, so that is a big plus if you purchase components from them.&lt;/p&gt;
+&lt;p&gt;So, I re-wrote the schematic again in Eagle, and then created this PCB:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-qKyn_dhdhas/Vx_FBz09y8I/AAAAAAABd60/9Wn3IuWfPWoS6Y2xNsOB2Xm0yKRn8L5tgCCo/s800/unijoysticle_board.png&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>To MSDN or not to MSDN</title>
+      <link>http://localhost:1313/2014/04/04/to-msdn-or-not-to-msdn/</link>
+      <pubDate>Fri, 04 Apr 2014 08:47:45 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/to-msdn-or-not-to-msdn/</guid>
+      <description>&lt;p&gt;A long time ago I was a Windows developer. I developed for user mode, kernel mode, win32 stuff, etc. And having a &lt;a href=&#34;http://msdn.microsoft.com/en-us/default.aspx&#34;&gt;MSDN subscription&lt;/a&gt; was a &lt;em&gt;must-have&lt;/em&gt;. Not only because Visual Studio was included, but also because you were able to download &amp;ldquo;debug&amp;rdquo; builds of the whole Operating System; and also you had access to all the Microsoft products in different localizations.&lt;/p&gt;
+&lt;p&gt;The MSDN subscription was expensive, but it was worth it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing Visual Studio</title>
+      <link>http://localhost:1313/2014/04/04/installing-visual-studio/</link>
+      <pubDate>Fri, 04 Apr 2014 07:26:00 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/installing-visual-studio/</guid>
+      <description>&lt;p&gt;So, by now you should have Windows 8.1 up and running.&lt;/p&gt;
+&lt;p&gt;The next thing is to install the &lt;a href=&#34;https://dev.windowsphone.com/en-us/downloadsdk&#34;&gt;Windows Phone SDK.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A few days ago I tried the Windows Phone 8.0 SDK (it comes with Visual Studio Express 2012) and it works OK.&lt;/p&gt;
+&lt;p&gt;But &lt;a href=&#34;http://support.microsoft.com/kb/2927432/en-us&#34;&gt;VS 2013 Update 2 RC&lt;/a&gt; (announced 2 days ago) already comes with the Windows Phone SDK 8.1 (which also allows you to develop for WP 8). This is good, because you don&amp;rsquo;t need to have two versions of VS installed in your machine in order to develop for Windows and Windows Phone 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use Windows 8.1</title>
+      <link>http://localhost:1313/2014/04/04/use-windows-8-1/</link>
+      <pubDate>Fri, 04 Apr 2014 07:25:26 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/use-windows-8-1/</guid>
+      <description>&lt;p&gt;You need Windows 8 in order to develop for Windows Phone 8. Windows 7 won’t work.&lt;/p&gt;
+&lt;p&gt;But avoid Windows 8, &lt;a href=&#34;https://www.google.com/search?q=windows+8+confusing&#34;&gt;it is confusing&lt;/a&gt;. Use Windows 8.1 instead. And &lt;a href=&#34;http://www.pcworld.com/article/2043243/how-to-boot-to-desktop-mode-in-windows-8-1.html&#34;&gt;boot directly into the “Desktop”&lt;/a&gt;. Avoid the annoying “Start” thing.  Good news: the upgrade from 8 to 8.1 is &lt;a href=&#34;http://windows.microsoft.com/en-us/windows-8/update-from-windows-8-tutorial&#34;&gt;free&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You should  know that &lt;a href=&#34;http://www.microsoft.com/en-us/windows/enterprise/products-and-technologies/windows-8-1/compare/default.aspx&#34;&gt;there are many “flavors” of Windows&lt;/a&gt;: “RT”, “Regular”, “Pro”, “Enterprise”… just get the “Pro”.  &lt;em&gt;RT&lt;/em&gt; (Runtime) is the new name for &lt;em&gt;&lt;a href=&#34;http://www.theverge.com/2012/8/2/3216545/microsoft-metro-branding-memo-european-partner&#34;&gt;Metro&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First tip</title>
+      <link>http://localhost:1313/2014/04/04/first-tip/</link>
+      <pubDate>Fri, 04 Apr 2014 07:05:44 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/first-tip/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;361&amp;rdquo;]&lt;img alt=&#34;First tip&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2014/04/tumblr_n3ijgp32fb1txa55no1_1280.jpg&#34;&gt; My dual boot Linux/Win machine. Not powerful enough for serious Win Phone development.[/caption]&lt;/p&gt;
+&lt;p&gt;Get a good, dedicated Windows machine. Not like this one. VMWare / Parallels is OKish… but I wouldn’t recommend it.&lt;/p&gt;
+&lt;p&gt;My current notebook has 2 big issues: Low performance and a low-quality trackpad. I remember when I switched from a Dell XPS 12&amp;quot; to a MacBook 13&amp;quot; around 2008. One thing that called my attention was the size of the MacBook&amp;rsquo;s trackpad: it was huge. And now it is the opposite: I find that most Windows notebooks have a crappy  trackpad: too small and unresponsive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First post</title>
+      <link>http://localhost:1313/2014/04/04/first-post/</link>
+      <pubDate>Fri, 04 Apr 2014 07:02:46 +0000</pubDate>
+      <guid>http://localhost:1313/2014/04/04/first-post/</guid>
+      <description>&lt;p&gt;My background:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I’ve been developing &lt;a href=&#34;http://www.cocos2d-x.org/&#34;&gt;game&lt;/a&gt; &lt;a href=&#34;http://www.cocos2d-iphone.org/&#34;&gt;engines&lt;/a&gt; &amp;amp; games for iOS for the past 6 years&lt;/li&gt;
+&lt;li&gt;Two years ago I started developing for Android&lt;/li&gt;
+&lt;li&gt;And this week I started developing for Windows Phone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;…and so my journey begins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vuelta al Muni</title>
+      <link>http://localhost:1313/2013/09/14/vuelta-al-muni/</link>
+      <pubDate>Sat, 14 Sep 2013 04:10:19 +0000</pubDate>
+      <guid>http://localhost:1313/2013/09/14/vuelta-al-muni/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-VdkxYnsQueU/UjSwc3f5rXI/AAAAAAAAvjg/1ld4yq62hr4/s400/IMG_2544.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El viernes volví a hacer muni después de 5 semanas.&lt;/p&gt;
+&lt;p&gt;Fuimos con Tom y An So a Dimond Canyon + Joaquin Miller. Fue un ride tranquilo, pero me sentí seguro y no tuve problema con la costilla.&lt;/p&gt;
+&lt;p&gt;Tom rompió su palanca luego de 8 años de uso.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerConTomYAnSo#&#34;&gt;Fotos que saqué yo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157635700393234/&#34;&gt;Fotos que sacó Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Vuelta al ruedo</title>
+      <link>http://localhost:1313/2013/09/08/vuelta-al-ruedo-4/</link>
+      <pubDate>Sun, 08 Sep 2013 17:21:09 +0000</pubDate>
+      <guid>http://localhost:1313/2013/09/08/vuelta-al-ruedo-4/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/StefanBirthday#5921301070408297362&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-6vX7BYix7-c/Uiyv833Tq5I/AAAAAAAAvfA/vVD9UEtnqto/s400/IMG_2507.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Stefan festejó su cumpleaños, y que mejor manera que hacerlo con un paseo alrededor de San Francisco. Fue una suerte de Uni SF Tour, pero un poco más chico, con un día espectacular. De los mejores días de San Francisco. Muy soleado, sin una nube, con mucho calor.&lt;/p&gt;
+&lt;p&gt;Yo había estado 4 semanas parado por el problema de la costilla, pero este cumpleaños fue una gran oportunidad para volver al ruedo. Casi no senti el dolor en la costilla. Aunque tuve otro problema: estaba andando cuando el hub del monociclo pasó a &amp;ldquo;neutro&amp;rdquo; y me di una flor de paliza. Me caí para atras y me hice bola la nalga. Pero por suerte no me pasó nada con las costilla.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Big party en Joaquin Miller</title>
+      <link>http://localhost:1313/2013/08/19/big-party-en-joaquin-miller/</link>
+      <pubDate>Mon, 19 Aug 2013 20:21:10 +0000</pubDate>
+      <guid>http://localhost:1313/2013/08/19/big-party-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;Chris Labonte, a quién yo no conocía antes de este ride, volvio a vivir en la bahía, y para festejarlo Tom organizó un ride (fue el sábado 10 de agosto)&amp;hellip; y fué un mega ride. Fuimos 8 monociclistas (Tom, Josh, Chris, Beban, Nathan, Stepan,  Jimbo y yo), más 2 hikers (Nancy y Grace).&lt;/p&gt;
+&lt;p&gt;Fue un ride con muchas partes tecnicas divertidas (limpié por primera vez Chaparalla + Diving Board e hice mi record en 2 dollar hill llegando al &amp;rsquo;log&amp;rsquo; largo)&amp;hellip; pero lo peor de todo fue que me hice bola la costilla tratando de bajar &amp;ldquo;The Wall&amp;rdquo;.  Y por &amp;ldquo;hacer bola&amp;rdquo; me refiero a que estoy entre 4 y 6 semanas de no hacer deportes. Ya pasó una semana y me puedo levantar de la cama sin dolor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vacaciones en Joaquin Miller</title>
+      <link>http://localhost:1313/2013/08/04/vacaciones-en-joaquin-miller/</link>
+      <pubDate>Sun, 04 Aug 2013 17:46:06 +0000</pubDate>
+      <guid>http://localhost:1313/2013/08/04/vacaciones-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerWithTomAndDivar#5908671120315561602&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-NqiO6LtK7K8/Uf_RFBUEtoI/AAAAAAAAvWc/yAEWZABzDf4/s400/IMG_2618.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Me tome una semanita de vacaciones. Y que mejor que hacer muni durante las vacaciones. Asi que el Jueves me fui a Joaquin Miller (solo), y ayer Sabado nuevamente a Joaquin Miller, pero esta vez con Tom y Vidar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerWithTomAndDivar&#34;&gt;Fotos con Tom y Vidar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Santa Cruz Muni Weekend</title>
+      <link>http://localhost:1313/2013/07/28/santa-cruz-muni-weekend/</link>
+      <pubDate>Sun, 28 Jul 2013 17:38:42 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/28/santa-cruz-muni-weekend/</guid>
+      <description>&lt;p&gt;Michele organizo un Muni Weekend. El sabado el ride fue en Soquel Demo Forest, y el Domingo en UCSC. Yo solo pude el ir Domingo, y estuvo muy muy bueno.&lt;/p&gt;
+&lt;p&gt;De izq. a der (arriba): Josh, yo, Michele, Keneth, Sidney, Novio de Sidney, Amigo de Novio de Sidney.  (abajo): Geoffrey, Rob.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2013/08/unofficial_cal_muni_weekend.jpg&#34;&gt;&lt;img alt=&#34;unofficial_cal_muni_weekend&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2013/08/unofficial_cal_muni_weekend-1024x768.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cumle en Joaquin Miller</title>
+      <link>http://localhost:1313/2013/07/22/cumle-en-joaquin-miller/</link>
+      <pubDate>Mon, 22 Jul 2013 17:28:40 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/22/cumle-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;Llegaron los 40, y los festejamos en Joaquin Miller con un Muni ride, y luego con empanadas y demas. Estuvo muy bueno.&lt;/p&gt;
+&lt;p&gt;Y para mi cumple, Mary me regalo un KH 20&amp;quot;.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-AvwJ1RwOuGU/Ue-KWnmrMnI/AAAAAAAAvO0/wSv7I6IkBvA/s400/IMG_2564.JPG&#34;&gt; KH 20&amp;quot;[/caption]&lt;/p&gt;
+&lt;p&gt;Fotos y reporte de Tom: &lt;a href=&#34;http://berkeleyunicycling.org/2013/08/18/ricardos-birthday-ride/#comment-142&#34;&gt;Ricardo&amp;rsquo;s birthday ride&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>China Camp x 2</title>
+      <link>http://localhost:1313/2013/07/14/china-camp-x-2/</link>
+      <pubDate>Sun, 14 Jul 2013 07:52:13 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/14/china-camp-x-2/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-yqaBCwisIbU/UeIoWBEf5RI/AAAAAAAAvGo/2jwSOEL3-KI/s400/IMG_2516.JPG&#34;&gt; Preparando el asado[/caption]&lt;/p&gt;
+&lt;p&gt;Ayer y el 7 de Julio fuimos con Mateo a China Camp. Yo fui con el mono de 36&amp;quot; y Mateo con su MTB.El 7 de Julio fuimos con las chicas y preparamos (en verdad Mateo preparó) un rico asadito.&lt;/p&gt;
+&lt;p&gt;Estuvo muy bueno, un lindo tiempo, y China Camp siempre es divertido con monos de rueda grande. La subida es un buen desafío y la badaja es muy divertida hacerla en velocidad.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller de nuevo</title>
+      <link>http://localhost:1313/2013/07/06/joaquin-miller-de-nuevo-3/</link>
+      <pubDate>Sat, 06 Jul 2013 19:41:06 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/06/joaquin-miller-de-nuevo-3/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMiller5DeJulio#5897379047499476178&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-ZCrA0eC8aLI/Udey_4AJrNI/AAAAAAAAvDo/WP-MoHCozyg/s400/IMG_2503-PANO.jpg&#34;&gt;&lt;/a&gt; Me encontré con George Pavlov en J.Miller[/caption]&lt;/p&gt;
+&lt;p&gt;Hace poco menos de un año y medio que empecé con esto del Muni. Me acuerdo en una de las primeras salidas con Tom, Josh y demás que hicimos Big Trees en Joaquin Miller. Y esa primera subida de Big Trees me parecia imposible. Creo que caminé casi todo.&lt;/p&gt;
+&lt;p&gt;Luego, con el pasar del tiempo, fui poco a poco logrando subir algunas partes; y antes de ayer logré hacer toda la primera parte de Big Trees de un tirón,  por primer vez.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprovechando el feriado</title>
+      <link>http://localhost:1313/2013/07/05/aprovechando-el-feriado/</link>
+      <pubDate>Fri, 05 Jul 2013 19:56:08 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/05/aprovechando-el-feriado/</guid>
+      <description>&lt;p&gt;Ayer fue 4 de Julio, y aca en EE.UU fue feriado. Así que aproveché para hacer un poco de muni. Fui a Joaquin Miller y estuve un buen tiempo haciendo muni en el parque. Pequeños logros:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pude hacer la 1ra parte de Big Trees en un solo tramo.&lt;/li&gt;
+&lt;li&gt;La subida grande que esta en Sunset Loop, casi casi la hago. Me falto un metro nomas.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller x 2</title>
+      <link>http://localhost:1313/2013/07/01/joaquin-miller-x-2-2/</link>
+      <pubDate>Mon, 01 Jul 2013 04:12:27 +0000</pubDate>
+      <guid>http://localhost:1313/2013/07/01/joaquin-miller-x-2-2/</guid>
+      <description>&lt;p&gt;El pasado Domingo fuimos con Mateo (con su bici de 29&amp;quot;) a Joaquin Miller. Había muchisima niebla y eso provoco un poco de lluvia. A Mateo de le rompió la cadena.&lt;/p&gt;
+&lt;p&gt;Y ayer Sábado, fuimos a Joaquin Miller unos cuantos: Josh, Lance, Nicolas, Gaeton, Mateo (en bici), yo. Fue también Didier, y su hermana, pero ellos no hicieron monociclo. Fue un día con mucho calor.&lt;/p&gt;
+&lt;p&gt;Fotos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerConMateo&#34;&gt;Domingo 23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerConMateoDidierYDemas&#34;&gt;Sábado 29&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Muni Soquel Demo Forest</title>
+      <link>http://localhost:1313/2013/06/20/muni-soquel-demo-forest/</link>
+      <pubDate>Thu, 20 Jun 2013 03:12:10 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/20/muni-soquel-demo-forest/</guid>
+      <description>&lt;p&gt;El Domingo pasado fue un gran día de muni. Fuimos: Sydney, Michelle, Tom, Josh, Jimbo, Christo (en MTB)  y yo a hacer muni a Santa Cruz, al parque Soquel Demo Forest.&lt;/p&gt;
+&lt;p&gt;Hicimos el trail Braille. Que gran trail. Lleno de saltos, rampas, sube-y-bajas y demas. Excelente lugar, excelente trail.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157634194901755/&#34;&gt;Fotos que sacó Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller de nuevo</title>
+      <link>http://localhost:1313/2013/06/11/joaquin-miller-de-nuevo-2/</link>
+      <pubDate>Tue, 11 Jun 2013 04:04:51 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/11/joaquin-miller-de-nuevo-2/</guid>
+      <description>&lt;p&gt;El Domingo me lenvanté con ganas de hacer deporte asi que me fui a Joaquin Miller. Hice casi el mismo recorrido del otro día. Notas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;En Chaparral traté de tomar el camino más dificil posible: raices antes de las rocas, el camino del medio en la rocas, y luego los saltos más grandes.&lt;/li&gt;
+&lt;li&gt;En sunset loop logré subir casi hasta la 3er madera. Antes nunca había pasado la 1ra.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Chaparral, cleared</title>
+      <link>http://localhost:1313/2013/06/03/chaparral-cleared/</link>
+      <pubDate>Mon, 03 Jun 2013 05:34:01 +0000</pubDate>
+      <guid>http://localhost:1313/2013/06/03/chaparral-cleared/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2013/06/IMG_2454.jpg&#34;&gt;&lt;img alt=&#34;IMG_2454&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2013/06/IMG_2454-e1370237546226.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hoy fui a Joaquin Miller con el objetivo de &amp;ldquo;limpiar&amp;rdquo; Chaparral. Recién en el sexto intento lo pude &amp;ldquo;limpiar&amp;rdquo;. Me constó más de lo que esperaba. En los 5 intentos fallidos, me caí en lugares donde generalmente no me caigo, no eran lugares fáciles, pero tampoco los más dificiles del trail.&lt;/p&gt;
+&lt;p&gt;Limpié la ruta fácil, sin el diving board. No pude limpiarlo con el diving board. Será la próxima vez.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monociclo en Santa Barbara</title>
+      <link>http://localhost:1313/2013/05/27/monociclo-en-santa-barbara/</link>
+      <pubDate>Mon, 27 May 2013 05:08:21 +0000</pubDate>
+      <guid>http://localhost:1313/2013/05/27/monociclo-en-santa-barbara/</guid>
+      <description>&lt;p&gt;Aprovechamos el fin de semana largo y nos fuimos a Santa Barbara. Y para mi sorpresa, me encontré con algunas sorpresas relacionadas al monociclo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;La bicicleteria de al lado del hotel vendia monociclos Torker: la Jirafa, el de montaña, el &amp;ldquo;starter&amp;rdquo;, el &amp;ldquo;starter&amp;rdquo; de 16&amp;quot; y otros. Y estaban ahí, en la vidriera. Nunca antes había visto una bicicletería que vendiera monociclos de más o menos buena calidad.&lt;/li&gt;
+&lt;li&gt;En el skate park me encontré con un monociclista (Brian Hanson) que estaba haciendo &amp;ldquo;trial&amp;rdquo; en el skate park. Probé hacer algo de mono en el Skate Park con mi mono de basket (24&amp;quot;), pero no puedo hacer mucho&lt;/li&gt;
+&lt;li&gt;El chico que estacionaba los autos en el hotel quizo aprender monociclo, asi que le enseñé lo básico.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notas diversas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Strawberry Fields Forever: 100k en mono</title>
+      <link>http://localhost:1313/2013/05/22/strawberry-fields-forever-100k-en-mono/</link>
+      <pubDate>Thu, 23 May 2013 02:33:19 +0000</pubDate>
+      <guid>http://localhost:1313/2013/05/22/strawberry-fields-forever-100k-en-mono/</guid>
+      <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_524&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;375&amp;rdquo;] &lt;a href=&#34;http://www.flickr.com/photos/tholub/8763592322/in/set-72157633567318028/&#34;&gt;&lt;img alt=&#34;8763592322_edc10b3bfc&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2013/05/8763592322_edc10b3bfc.jpg&#34;&gt;&lt;/a&gt; Stefan y yo en mono, Geof a la izquierda en bici.[/caption]&lt;/p&gt;
+&lt;p&gt;El domingo pasado fue el paseo &lt;a href=&#34;http://www.strawberryfields.org/about-the-ride/routes/&#34;&gt;Strawberry Fields Forever.&lt;/a&gt; Se podian elegir 3 posibles rutas: de 30 millas, de 100km o de 100 millas. Con otros 3 monociclistas y otros ciclistas elegimos la de 100km.&lt;/p&gt;
+&lt;p&gt;El paseo duró un poco menos 8 horas incluyendo el tiempo de las paradas. Habran sido 6 horas de pedaleo y casi 2 horas en las paradas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrenando para Strawberry Fields</title>
+      <link>http://localhost:1313/2013/05/15/entrenando-para-strawberry-fields/</link>
+      <pubDate>Thu, 16 May 2013 02:33:54 +0000</pubDate>
+      <guid>http://localhost:1313/2013/05/15/entrenando-para-strawberry-fields/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/EntrenamientoParaSrawberryFields#5877664328250946258&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-7IsCmH0NcY8/UZGokLph8tI/AAAAAAAAumY/2x_3pjXXgPs/s400/IMG_2362.JPG&#34;&gt;&lt;/a&gt; Nos encontramos con un Avestruz en el paseo[/caption]&lt;/p&gt;
+&lt;p&gt;El Domingo que viene es la &amp;ldquo;paseo&amp;rdquo; de &lt;a href=&#34;http://www.strawberryfields.org/about-the-ride/&#34;&gt;Strawberry Fields Forever&lt;/a&gt;. Yo voy a participar en los 100 k en monociclo, y como se imaginan, necesito entrenar.&lt;/p&gt;
+&lt;p&gt;Por eso, este Domingo que pasó con Tom, Nancy, Aileen y Dave hicimos el &amp;ldquo;East Bay Dead End tour (intermediate)&amp;rdquo;, que es un paseo de unos 68 km.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://snippets.mapmycdn.com/routes/view/embedded/91527263?width=560&amp;amp;height=400&amp;amp;elevation=true&amp;amp;info=true&amp;amp;line_color=E60f0bdb&amp;amp;rgbhex=DB0B0E&amp;amp;distance_markers=0&amp;amp;unit_type=metric&amp;amp;map_mode=ROADMAP&amp;amp;last_updated=2012-09-03T11:12:43-07:00&#34;&gt;http://snippets.mapmycdn.com/routes/view/embedded/91527263?width=560&amp;amp;height=400&amp;amp;elevation=true&amp;amp;info=true&amp;amp;line_color=E60f0bdb&amp;amp;rgbhex=DB0B0E&amp;amp;distance_markers=0&amp;amp;unit_type=metric&amp;amp;map_mode=ROADMAP&amp;amp;last_updated=2012-09-03T11:12:43-07:00&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Más info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fotos que saqué &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/EntrenamientoParaSrawberryFields&#34;&gt;yo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reporte de &lt;a href=&#34;http://inl.org/cycling/rides/the-east-bay-dead-end-tour/&#34;&gt;Tom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fotos de &lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157633476418563/&#34;&gt;Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hey Monster, Hands Off My City</title>
+      <link>http://localhost:1313/2013/05/12/hey-monster-hands-off-my-city/</link>
+      <pubDate>Sun, 12 May 2013 05:04:38 +0000</pubDate>
+      <guid>http://localhost:1313/2013/05/12/hey-monster-hands-off-my-city/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity#5876950491646923634&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG&#34;&gt;&lt;/a&gt; En plena persecución[/caption]&lt;/p&gt;
+&lt;p&gt;Mike Meehan, un productor / director / actor / escritor de peliculas indies me contactó para filmar una escena de una persecución en monociclo!&lt;/p&gt;
+&lt;p&gt;Asi que hoy a la mañana estuvimos como 3 horas haciendo distintas tomas de la persecución. Muy divertido.&lt;/p&gt;
+&lt;p&gt;La pelicula se trata de un monstruo que esta en San Francisco matando personas. El monstruo ya esta viejo y se esta mueriendo y no mata tanto como antes. Pero un detective quiere venganza porque este monstruo mato a sus padres cuando él era chiquito. Asi que lo esta persiguiendo por todo San Francisco :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller, Rob&#39;s Ride y demás</title>
+      <link>http://localhost:1313/2013/05/06/joaquin-miller-robs-ride-y-demas/</link>
+      <pubDate>Mon, 06 May 2013 16:51:36 +0000</pubDate>
+      <guid>http://localhost:1313/2013/05/06/joaquin-miller-robs-ride-y-demas/</guid>
+      <description>&lt;p&gt;Resumen de las salidas monociclisticas de las últimas semanas.&lt;/p&gt;
+&lt;h3 id=&#34;sábado-20-de-abril---ocean-beach&#34;&gt;&lt;strong&gt;Sábado 20 de Abril - Ocean Beach&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Recorrido en el mono de 36&amp;quot;, de casa hasta Ocean Beach, atravesando el Golden Gate park.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;288&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-I20yg2lo4vE/UYfchnkejMI/AAAAAAAAuHI/ZuX4gmCZ04s/s288/IMG_2311.JPG&#34;&gt; Ocean Beach[/caption]&lt;/p&gt;
+&lt;h3 id=&#34;domingo-21-de-abril---joaquin-miller&#34;&gt;&lt;strong&gt;Domingo 21 de Abril - Joaquin Miller&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Fuimos con Tom y Josh a Joaquin Miller. Intenté &amp;ldquo;limpiar&amp;rdquo; Chaparral. Hice todo menos el &lt;em&gt;diving board&lt;/em&gt; del final. Así que tecnicamente no lo &amp;ldquo;limpié&amp;rdquo; pero estuve muy cerca. Será en otra oportunidad. Luego me dí muchos palos tratando de pasar por una roca.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moab 2013</title>
+      <link>http://localhost:1313/2013/04/09/moab-2013/</link>
+      <pubDate>Tue, 09 Apr 2013 04:51:29 +0000</pubDate>
+      <guid>http://localhost:1313/2013/04/09/moab-2013/</guid>
+      <description>&lt;h2 id=&#34;jueves&#34;&gt;Jueves&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://lh4.googleusercontent.com/-2h2N5dQNCHI/UWLcMZIECJI/AAAAAAAAtnQ/Rrz_d4v1zDU/s400/P1000474.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-2h2N5dQNCHI/UWLcMZIECJI/AAAAAAAAtnQ/Rrz_d4v1zDU/s400/P1000474.JPG&#34;&gt;&lt;/a&gt;
+Y llegó el día esperado. El Jueves por la mañana, con Tom, tomamos un vuelo desde Oakland a Salt Lake City (SLC). Ahí alquilamos auto y fuimos hasta Moab, previo almuerzo en Price (pueblo que queda a mitad de camino). El camino desde SLC hasta Moab es muy pintoresco: montañitas, curvas, subidas, bajadas, algo de nieve, desierto, frio, calor&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Antes de llegar a Moab, entramos en el Arches National Park y fuimos a ver el Delicate Arch. Simpatica roca. Ahí nos encontramos con Tomas y Landon. Sacamos varias fotos y de ahí al condo, donde nos encontramos con Rolf.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>China Camp: Ultimo entrenamiento previo a Moab</title>
+      <link>http://localhost:1313/2013/03/31/china-camp-ultimo-entrenamiento-previo-a-moab/</link>
+      <pubDate>Sun, 31 Mar 2013 17:48:09 +0000</pubDate>
+      <guid>http://localhost:1313/2013/03/31/china-camp-ultimo-entrenamiento-previo-a-moab/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/_0OsJR1?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Se viene Moab, y ayer hice mi último entrenamiento para ir allá. Fui a China Camp con el mono de 24&amp;quot;. Hice el loop entero con el bonus trail que sube arriba de todo, en 3h 30m.&lt;/p&gt;
+&lt;p&gt;Toda la subida la hice bastante rápido, mucho más rápido que con el mono de 36&amp;quot;, y casi sin cansarme. Pero la bajada se hizo eterna.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Napa Skyline Park</title>
+      <link>http://localhost:1313/2013/03/26/muni-en-napa-skyline-park/</link>
+      <pubDate>Tue, 26 Mar 2013 03:16:56 +0000</pubDate>
+      <guid>http://localhost:1313/2013/03/26/muni-en-napa-skyline-park/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-Mw3gq8_lX6Y/UVEPpj28BFI/AAAAAAAAss0/62kAXHgEF9E/s640/IMG_2200.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y siguiendo con los entrenamientos para Moab, este pasado Domingo fuimos con Josh, Tom, Beau, Nathan y John a hacer muni a Napa Skyline Park (en Napa Valley). Nancy y Grace también nos acompañaron haciendo hiking.&lt;/p&gt;
+&lt;p&gt;La agenda fue simple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Muni a la mañana&lt;/li&gt;
+&lt;li&gt;Luego picnic&lt;/li&gt;
+&lt;li&gt;Luego disc golf (soy bastante malo en el disc golf)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Heridas de guerra:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Codo izquierdo&lt;/li&gt;
+&lt;li&gt;Cadera izquierda&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fotos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/NapaSkylinePark20130324&#34;&gt;Las fotos que saqué&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Video que hizo Nathan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Rockville</title>
+      <link>http://localhost:1313/2013/03/17/muni-en-rockville/</link>
+      <pubDate>Mon, 18 Mar 2013 02:33:45 +0000</pubDate>
+      <guid>http://localhost:1313/2013/03/17/muni-en-rockville/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-a5MqTFvGlNU/UUZntFYBf0I/AAAAAAAAseQ/licmbhzvYJw/s400/IMG_2187.JPG&#34;&gt; Vista desde Rockvile[/caption]&lt;/p&gt;
+&lt;p&gt;Se viene Moab, y es por eso que estamos yendo todos los fines de semana a un lugar &amp;ldquo;duro&amp;rdquo; para entrenar. Ayer fuimos con Tom, Josh y Olaf a Rockville. Estuvimos haciendo muni durante 5 horas. Fue bastante duro, ya que hizo calor y los trails que hicimos eran difíciles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/Rockville20130316&#34;&gt;Fotos que saqué yo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/with/8564953795/#photo_8564953795&#34;&gt;Fotos que sacó Tom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://berkeleyunicycling.org/2013/03/17/back-to-rockville/&#34;&gt;Reporte de Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Heridas de guerra: ¡Ninguna!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Annadel</title>
+      <link>http://localhost:1313/2013/03/14/muni-en-annadel/</link>
+      <pubDate>Thu, 14 Mar 2013 03:56:48 +0000</pubDate>
+      <guid>http://localhost:1313/2013/03/14/muni-en-annadel/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-DTNRkQQacA4/UT2CSbRBp8I/AAAAAAAAsSU/_sVfEOfDa18/s640/IMG_2180.JPG&#34;&gt; En la sombra, descansando en Annadel[/caption]&lt;/p&gt;
+&lt;p&gt;El sábado pasado fuimos con Tom, Ashley, Josh, Kevin y John a Annadel, en Santa Rosa. Es un parque bastante extenso con muy buenos trails. Creo que estuvimos haciendo muni por 5 horas más o menos. Fue bastante duro, sumado a que hizo bastante calor.&lt;/p&gt;
+&lt;p&gt;Más info:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/Annadel20130309&#34;&gt;Fotos mias&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://berkeleyunicycling.org/2013/03/12/annadel-muni/&#34;&gt;Reporte de Tom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157632978337610/&#34;&gt;Fotos de Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Heridas de guerra:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-Rud5wwg6Kvc/UUFJ6zEz6HI/AAAAAAAAscU/FKlrDvouDYw/s400/heridas-2013-03-09.jpg&#34;&gt; Heridas de guerra[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Santa Cruz</title>
+      <link>http://localhost:1313/2013/03/05/muni-en-santa-cruz-2/</link>
+      <pubDate>Tue, 05 Mar 2013 07:09:45 +0000</pubDate>
+      <guid>http://localhost:1313/2013/03/05/muni-en-santa-cruz-2/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-bXw5xNoILRY/UTQLW25iI1I/AAAAAAAAsL4/-mJ90evuzh0/s640/IMG_2158.JPG&#34;&gt; Con Tim, Michelle, Christo y otros ciclistas[/caption]&lt;/p&gt;
+&lt;p&gt;Santa Cruz es un excelente lugar para hacer muni. El parque de UCSC (Univercity of Santa Cruz) es muy completo: lleno de arboles, lleno de trails, con subidas y bajadas. Tiene tantos trails que ni los locales saben los nombres de todos los trails.&lt;/p&gt;
+&lt;p&gt;Y el Domingo fui para allá para hacer muni. Eramos Michelle (con muni), Tim (con bici), Christo (con bici) y yo con muni. Hicimos varios trails, pero no recuerdo el nombre de ninguno. Estuvo muy bueno. Hicimos subidas,  bajadas con mucha pendiente, saltitos y demás.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni nuevamente, y por 2</title>
+      <link>http://localhost:1313/2013/02/25/muni-nuevamente-y-por-2/</link>
+      <pubDate>Mon, 25 Feb 2013 16:44:22 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/25/muni-nuevamente-y-por-2/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-RubnSNQloEo/USuNr-CvCrI/AAAAAAAAsJg/FSBCBC4h04M/s640/IMG_2152.JPG&#34;&gt; Tom, haciendo muni en Berkeley[/caption]&lt;/p&gt;
+&lt;p&gt;De vuelta en San Francisco y eso significa que volvi a hacer muni, y para compensar por los 2 fines de semana que no hice muni, hice el Sábado y el Domingo.&lt;/p&gt;
+&lt;p&gt;El Sábado fuimos con Tom, Josh y Yu a Joaquin Miller. Era la primera vez que Yu hacía muni, y lo hizo muy bien.&lt;/p&gt;
+&lt;p&gt;El Domingo fuimos con Tom a Berkeley a hacer muni. Excelente lugar.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fin de semana sin mono...</title>
+      <link>http://localhost:1313/2013/02/18/fin-de-semana-sin-mono/</link>
+      <pubDate>Mon, 18 Feb 2013 21:04:56 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/18/fin-de-semana-sin-mono/</guid>
+      <description>&lt;p&gt;&amp;hellip;pero encontré este graffiti cerca de casa:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/BuenosAiresRandom20130217#5846397639929313378&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-zxlsOiSroJo/USKTrY-rOGI/AAAAAAAAr6s/sSDG8VEBLWg/s400/P1000309.JPG&#34;&gt;&lt;/a&gt; Graffiti de monociclo[/caption]&lt;/p&gt;
+&lt;p&gt;Supongo que el que lo pintó, lo hizo a las apuradas, pero se parece mucho a los monociclos de montaña que hacia Geoffrey Faraghan. Comparen las similitudes:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;269&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-3juhY4Z1GTA/USKWhFQcKnI/AAAAAAAAsFA/z3SkgfMi4ZQ/s400/telford%2520-%252026_1_w.jpg&#34;&gt; Monociclo hecho por Geoffrey Faraghan[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando en Buenos Aires III</title>
+      <link>http://localhost:1313/2013/02/09/monociclenado-en-buenos-aires-iii/</link>
+      <pubDate>Sun, 10 Feb 2013 00:44:59 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/09/monociclenado-en-buenos-aires-iii/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/Palermo20130209#5843115652428648194&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-a02THdqWCO4/URbqukyIzwI/AAAAAAAAr44/D9g89dZ3MgM/s400/IMG_2125.JPG&#34;&gt;&lt;/a&gt; Pancho haciendo &amp;ldquo;skinnys&amp;rdquo; en el Rosedal[/caption]&lt;/p&gt;
+&lt;p&gt;Hoy salimos con Pancho a pasear con Nuñez y Palermo. Estuvo bien el paseo. Tranquilo, con calor, pero no tanto ya que salimos a la tardecita. Hicimos algunos &amp;ldquo;skinnys&amp;rdquo; en el Rosedal. Pancho anduvo en su mono de &amp;ldquo;36, y yo en mi ex-mono de 28&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/Palermo20130209&#34;&gt;Palermo 2013-02-09&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Y Joaquin Miller otra vez &#43; Super Bowl</title>
+      <link>http://localhost:1313/2013/02/04/y-joaquin-miller-otra-vez-super-bowl/</link>
+      <pubDate>Mon, 04 Feb 2013 05:12:46 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/04/y-joaquin-miller-otra-vez-super-bowl/</guid>
+      <description>&lt;p&gt;Hoy a la mañana hubo más MUni. Fuimos con Joaquin Miller con Tom, Kevin, Wyatt, el padre de Wyatt y Jeremy. Fue tranqui, pero estuvo muy divertido.  Hicimos Big Trees y el  Bonus Trail que esta en frente. No tuve heridas de guerra.&lt;/p&gt;
+&lt;p&gt;Y luego fuimos a ver el Super Bowl a lo de Paul.   &lt;em&gt;Go 49ners&lt;/em&gt; :) Perdieron por 3 puntos, pero el partido estuvo bueno (quien hubiese dicho que algún día iba a disfrutar un Super Bowl).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3 videos 3</title>
+      <link>http://localhost:1313/2013/02/04/3-videos-3/</link>
+      <pubDate>Mon, 04 Feb 2013 05:06:52 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/04/3-videos-3/</guid>
+      <description>&lt;p&gt;Tres videos de MUni y trial:&lt;/p&gt;
+&lt;p&gt;MUni: Excelentes palos que se da el pibe (que se parece fisicamente a mi)&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/bxvKdJTADC8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Pibe que la tiene muy clara en trial&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/GooNOBpCpJ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Pibe que domina el mono de 36&amp;quot;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ciderella: 8 - Yo: 1</title>
+      <link>http://localhost:1313/2013/02/02/ciderella-8-yo-1/</link>
+      <pubDate>Sat, 02 Feb 2013 23:51:16 +0000</pubDate>
+      <guid>http://localhost:1313/2013/02/02/ciderella-8-yo-1/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;] &lt;a href=&#34;https://picasaweb.google.com/lh/photo/BiQ0CgYE0n06DvtIJ3GhstMTjNZETYmyPJy0liipFm0?feat=directlink&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-3zpZlwQat-Y/UQ2kxg1b7FI/AAAAAAAAr0s/UREfP_wLO4A/s400/IMG_2105.JPG&#34;&gt;&lt;/a&gt; Persona loca cruzando el trail sobre la rama en &lt;em&gt;Two Dollars Hill&lt;/em&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;Siiiii, por fin pude &lt;em&gt;limpiar&lt;/em&gt; Cinderella. Fue en el segundo intento del día. Lo hice bien despacio, tranquilo y no tuve mayores problemas. En total creo que hice 9 intentos a lo largo de 3 meses (aprox.).&lt;/p&gt;
+&lt;p&gt;Luego hice Chaparral, y me fue bastante bien. Lo &lt;em&gt;linquié&lt;/em&gt; en 2 partes, y con una sola caida, justo antes de empezar las rocas tratando de esquivar a unos transeuntes. El truco es que no hice el &lt;em&gt;&amp;ldquo;diving board&amp;rdquo;.&lt;/em&gt;¡Pero bastante bien!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller x 2</title>
+      <link>http://localhost:1313/2013/01/29/joaquin-miller-x-2/</link>
+      <pubDate>Tue, 29 Jan 2013 06:04:51 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/29/joaquin-miller-x-2/</guid>
+      <description>&lt;p&gt;Este fin de semana que paso fue a puro MUni.&lt;/p&gt;
+&lt;p&gt;El sábado fuimos con Tom a Joaquin Miller e hicimos varios trails por los cuales no había andado antes. Y el Domingo fuimos con Tom, Josh y Ashley e hicimos varios trails divertidos. Me di unos buenos palos, como para no perder la costumbre. El Domingo también fueron Ray y Paul, pero no nos vimos.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/S-HaxoPX430?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-crKnf_A3SPs/UQdjEfi_CHI/AAAAAAAAry4/C8WRDaMCSH8/s400/8422612150_e3e84fee9a_z.jpg&#34;&gt; Vista a la bahía desde Joaquin Miller[/caption]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cinderella: 7 - Ricardo: 0</title>
+      <link>http://localhost:1313/2013/01/22/cinderella-7-ricardo-0/</link>
+      <pubDate>Tue, 22 Jan 2013 03:47:31 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/22/cinderella-7-ricardo-0/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WMH514pcFlU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Hace varios meses que yo creo que estoy listo para &amp;ldquo;limpiar&amp;rdquo; Cinderella, pero siempre por H o por B, me caigo. Creo que ya van 7 intentos&amp;hellip; y todos fallidos.&lt;/p&gt;
+&lt;p&gt;Hoy fui a Joaquin Miller exclusivamente a &amp;ldquo;limpiar&amp;rdquo; Cinderella, pero me caí por distraido en una parte muy fácil. Todo lo difícil lo hice sin problemas :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dimond Canyon - Joaquin Miller</title>
+      <link>http://localhost:1313/2013/01/22/dimond-canyon-joaquin-miller/</link>
+      <pubDate>Tue, 22 Jan 2013 03:43:18 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/22/dimond-canyon-joaquin-miller/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-WLBoRGTH3lQ/UP2EZ9DG_FI/AAAAAAAArt4/NFbQSpS4xrk/s400/IMG_2074.JPG&#34;&gt; Kevin, tratando de bajar por la baranda[/caption]&lt;/p&gt;
+&lt;p&gt;El sábado pasado, con Kevin y Tom hicimos Dimond Canyon y Joaquin Miller. Empezamos desde abajo, en Dimond Canyon, lo subimos todo, y cruzamos para Joaquin Miller. Subimos todo Joaquin  Miller, y luego toda la vuelta. Un lindo paseo con muchas subidas (y bajadas).&lt;/p&gt;
+&lt;p&gt;Tom y Kevin fueron con 29&amp;quot;, y yo fui con 24&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Mis fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/DimondCanyonJoaquinMiller20120119&#34;&gt;Fotos de Dimond Canyon  - Joaquin Miller&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MUni en Pacifica</title>
+      <link>http://localhost:1313/2013/01/16/muni-en-pacifica/</link>
+      <pubDate>Wed, 16 Jan 2013 07:35:35 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/16/muni-en-pacifica/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/8382139635/&#34;&gt;&lt;img alt=&#34;The Mile&#34; loading=&#34;lazy&#34; src=&#34;http://farm9.staticflickr.com/8327/8382139635_dd0eac5a7b_z.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El Domingo pasado fuimos con Tom y Josh a hacer MUni a Pacifica. Me habían dicho que era un lugar difícil para hacer MUni, pero no esperaba que era tanto. No solamente era difícil tecnicamente, si no que también era peligroso por la pendiente que tenía, porque estaba lleno de piedras y saltos. Más alla de los buenos palos que me di, fue un muy lindo paseo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fotos que sacó Tom: &lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157632523869041/&#34;&gt;Fotos MUni en Pacifica&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reporte de Tom: &lt;a href=&#34;http://berkeleyunicycling.org/2013/01/15/pacifica-muni-2/&#34;&gt;Pacifica MUni&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Estrenando 2013 en Joaquin Miller</title>
+      <link>http://localhost:1313/2013/01/06/estrenando-2013-en-joaquin-miller/</link>
+      <pubDate>Mon, 07 Jan 2013 02:20:10 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/06/estrenando-2013-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;360&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/--7_ctVWP8h0/UOorKkTiFAI/AAAAAAAArnw/fUkZv2IDXI0/s640/P1000200.JPG&#34;&gt; Hombre mono saltando[/caption]&lt;/p&gt;
+&lt;p&gt;Y como no podía ser de otra manera, con Mary inauguramos 2013 yendo a Joaquin Miller. Ella hizo hiking y yo muni.
+Fue un muy lindo paseo de unos 3 horas y media. El tiempo acompaño, ya que no llovió.&lt;/p&gt;
+&lt;p&gt;Yo traté de &amp;ldquo;limpiar&amp;rdquo; (hacerlo entero sin caerme)  Cinderella, pero me caí justo al final final&amp;hellip; una pena. Será la próxima vez.&lt;/p&gt;
+&lt;p&gt;Aca estan las fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerJanuary2013&#34; title=&#34;Joaquin Miller - Enero 2013&#34;&gt;Joaquin Miller - Enero 2013&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Excelente compilación de trucos en monociclo</title>
+      <link>http://localhost:1313/2013/01/03/excelente-compilacion-de-trucos-en-monociclo/</link>
+      <pubDate>Thu, 03 Jan 2013 17:47:18 +0000</pubDate>
+      <guid>http://localhost:1313/2013/01/03/excelente-compilacion-de-trucos-en-monociclo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.youtube.com/watch?feature=player&#34;&gt;http://www.youtube.com/watch?feature=player&lt;/a&gt;_detailpage&amp;amp;v=LM8WOuTHxBM&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tom&#39;s Robish Ride</title>
+      <link>http://localhost:1313/2012/12/31/toms-robish-ride/</link>
+      <pubDate>Mon, 31 Dec 2012 22:14:34 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/31/toms-robish-ride/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/2012/12/toms-robish-ride/738264_4071102492792_373977016_o/&#34;&gt;&lt;img alt=&#34;738264_4071102492792_373977016_o&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/12/738264_4071102492792_373977016_o.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Y ayer, un días después de ir Rockville Hills, hicimos un Tom&amp;rsquo;s Robish Ride. Fuimos Tom (29&amp;quot;),  Nathan (36&amp;quot;), Jimbo (29&amp;quot;), Ashley (29&amp;quot;), Geoffrey (36&amp;quot;), Grace (en una bici reclinada) y yo (36&amp;quot;). Fui un lindo paseo.&lt;/p&gt;
+&lt;p&gt;Aca estan algunas fotos que sacó Nathan: &lt;a href=&#34;http://www.facebook.com/media/set/?set=a.4071101692772.139428.1139270509&amp;amp;type=1&#34;&gt;Fotos en Facebook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Y no se pierdan este video que saco Nathan: &lt;a href=&#34;http://www.facebook.com/photo.php?v=4071093292562&amp;amp;set=vb.1139270509&#34;&gt;Video en Facebook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Acá esta el reporte de Tom: &lt;a href=&#34;http://berkeleyunicycling.org/2013/01/01/toms-rob-ish-ride-2/&#34; title=&#34;Permalink to Tom’s Rob-ish Ride&#34;&gt;Tom’s Rob-ish Ride&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rockville Hills</title>
+      <link>http://localhost:1313/2012/12/31/rockville-hills/</link>
+      <pubDate>Mon, 31 Dec 2012 18:52:05 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/31/rockville-hills/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/2012/12/rockville-hills/8324231883_4dc2410800_b/&#34;&gt;&lt;img alt=&#34;8324231883_4dc2410800_b&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/12/8324231883_4dc2410800_b.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El Sábado fuimos con Tom a Rockville Hills. Es un parque que no es muy grande en extensión, pero si muy intenso. Habremos hecho 4 o 5 trails muy cortos, pero todos muy difíciles, llenos de saltos y rocas. Fue muy divertido. Creo que llegamos a eso de las 11:00 de la mañana y nos fuimos a las 5:00 de la tarde. 6 horas haciendo muni!  Y en el medio de los trails nos encontramos con Bill y Ashley.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller de nuevo</title>
+      <link>http://localhost:1313/2012/12/28/joaquin-miller-de-nuevo/</link>
+      <pubDate>Fri, 28 Dec 2012 21:39:44 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/28/joaquin-miller-de-nuevo/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;640&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-OB_-AOpm5g0/UN4F-WYabEI/AAAAAAAArTM/JyovWclJDiY/s640/P1000115.JPG&#34;&gt; En Joaquin Miller[/caption]&lt;/p&gt;
+&lt;p&gt;Y ayer nuevamente fui a Joaquin Miller. Fuimos con Mary e hicimos el paseo que hice yo antes de ayer: Big Trees, Chaparral, Sunset y subir por Palos Colorados.&lt;/p&gt;
+&lt;p&gt;Llegamos a eso de las 2:00pm así que hacia un poco de frio al final. Lindo paseo, tranquilo, con un día soleado.&lt;/p&gt;
+&lt;p&gt;Fotos aca: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMillerDec2012Enconre#&#34;&gt;Joaquin Miller - encore.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Joaquin Miller con barro</title>
+      <link>http://localhost:1313/2012/12/26/joaquin-miller-con-barro/</link>
+      <pubDate>Thu, 27 Dec 2012 01:43:24 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/26/joaquin-miller-con-barro/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;400&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-Cq8-PR8-xTg/UNumsAnz03I/AAAAAAAArAw/VDC0iLxNczw/s400/IMG_2058.JPG&#34;&gt; Arbol caido en Joaquin Miller[/caption]&lt;/p&gt;
+&lt;p&gt;Hoy fui otra vez a Joaquin Miller. Fui solo, y tranquilo. Hice Big Trees, Chaparral y bajé un poco Palos Colorados. No mucho más. Lo hice todo muy despacio, con calma y tranquilidad.&lt;/p&gt;
+&lt;p&gt;Estaba todo bastante barroso, ya que estuvo lloviendo los últimos días. Y a causa de la lluvia, algunos árboles estaban caidos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Joaquin Miller bajo lluvia</title>
+      <link>http://localhost:1313/2012/12/25/muni-en-joaquin-miller-bajo-lluvia/</link>
+      <pubDate>Wed, 26 Dec 2012 02:49:15 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/25/muni-en-joaquin-miller-bajo-lluvia/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-UTkBHqIeuus/UNumsxA4OoI/AAAAAAAArAo/3U7S9eVIu4Q/s400/IMG_2055.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El Domingo, bajo una intensa lluvia, fuimos con Tom, Nathan, Beau, Ashley a hacer muni a Joaquin Miller. Grace, la mujer de Natha, fue también pero hizo hiking nomás.&lt;/p&gt;
+&lt;p&gt;No hicimos mucho ya la lluvia era molesta.  Solo hicimos los senderos Chaparral y Castle Park. Estuvo muy divertido y mojado. Lamentablemente no sacamos ninguna foto, pero hubiese sido muy divertido vernos todos embarrados.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Con gripe y reparando monos</title>
+      <link>http://localhost:1313/2012/12/14/con-gripe-y-reparando-monos/</link>
+      <pubDate>Fri, 14 Dec 2012 07:35:18 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/14/con-gripe-y-reparando-monos/</guid>
+      <description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;216&amp;rdquo;]&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-YzOUEhfki0s/UMrVSRfElYI/AAAAAAAAq_g/iW7l3v3rR5E/s288/IMG_2045.JPG&#34;&gt; Seat post en reparación[/caption]&lt;/p&gt;
+&lt;p&gt;Desde el Martes que estoy con gripe. Así que en un momento en el cual me sentía bien me puse a reparar los monos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Al de 36&amp;quot; le &amp;ldquo;arreglé&amp;rdquo; el &lt;em&gt;seat post.&lt;/em&gt; Mi seat post, en vez de ser de una sola pieza como varios, es de 2 (ver imagen). Y puede que la parte de arriba de afloje, y el asiento gire, lo cual es incomodo y peligroso. Así que lo pegué con J-B Welder. Veamos cuando duro el parche.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aniversario de Mono Basket</title>
+      <link>http://localhost:1313/2012/12/12/aniversario-de-mono-basket/</link>
+      <pubDate>Wed, 12 Dec 2012 20:27:33 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/12/aniversario-de-mono-basket/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-OE-DizH_UOY/UMjocGVfAQI/AAAAAAAAq_E/hwZ0T37x870/s400/IMG_2043.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ayer, como todos los martes, jugamos mono basket. Y hace un año que empecé a jugar así que llevé torta para festejar mi 1er aniversario :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Muni en Santa Cruz</title>
+      <link>http://localhost:1313/2012/12/10/muni-en-santa-cruz/</link>
+      <pubDate>Mon, 10 Dec 2012 03:48:07 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/10/muni-en-santa-cruz/</guid>
+      <description>&lt;p&gt;Michele, Geoffrey y yo hicimos un muni en Santa Cruz, en el parque estatal Henry Cowell Redwoods (creo). Fue un excelente paseo. Mucha subida al principio, y luego todo bajada con rampas, caminos sobre troncos y demás.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/o3qHR5McFsM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Fotos del paseo: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/SantaCruzMuniRideDic2012&#34;&gt;https://picasaweb.google.com/111588202880883771967/SantaCruzMuniRideDic2012&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>China Camp y el barro</title>
+      <link>http://localhost:1313/2012/12/07/china-camp-y-el-barro/</link>
+      <pubDate>Fri, 07 Dec 2012 23:52:16 +0000</pubDate>
+      <guid>http://localhost:1313/2012/12/07/china-camp-y-el-barro/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://farm9.staticflickr.com/8486/8240882950_c50696db43_n.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El Domingo pasado, con Ashley, Ray y Tom fuimos a China Camp luego de que haya llovido todo la semana. Fue un día de muni excelente. Mucho barro, charcos, caminos resbaladizos&amp;hellip; condimentos necesarios para que sea un fantastico día de muni.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fotos que saqué yo: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/ChinaCampDec2012&#34;&gt;https://picasaweb.google.com/111588202880883771967/ChinaCampDec2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fotos que sacó Tom: &lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157632160353582/&#34;&gt;http://www.flickr.com/photos/tholub/sets/72157632160353582/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reporte de Tom: &lt;a href=&#34;http://berkeleyunicycling.org/2012/12/03/underwater-at-china-camp/&#34;&gt;http://berkeleyunicycling.org/2012/12/03/underwater-at-china-camp/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Diferente tipos de cambios para el mono</title>
+      <link>http://localhost:1313/2012/11/27/diferente-tipos-de-cambios-para-el-mono/</link>
+      <pubDate>Tue, 27 Nov 2012 17:34:20 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/27/diferente-tipos-de-cambios-para-el-mono/</guid>
+      <description>&lt;p&gt;Muy buen post que explica los diferentes tipos de cambio en el monociclo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://randomascii.wordpress.com/2012/11/25/riding-faster-on-one-wheel-geared-unicycles/&#34; title=&#34;Riding Faster on One Wheel: Geared Unicycles&#34;&gt;Riding Faster on One Wheel: Geared Unicycles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Paseo de 4 horas en Joaquin Miller</title>
+      <link>http://localhost:1313/2012/11/26/paseo-de-4-horas-en-joaquin-miller/</link>
+      <pubDate>Mon, 26 Nov 2012 19:11:53 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/26/paseo-de-4-horas-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;Y ayer, con Ashley y Bill fuimos a Joaquin Miller (como antes de ayer.). Fue un largo paseo de 4 horas donde creo que hicimos todos los trails posibles de Joaquin Miller.&lt;/p&gt;
+&lt;p&gt;Pasamos por Cinderella otra vez, y como el Sábado, me caí en una parte muy boba, así que no lo pude &amp;ldquo;limpiar&amp;rdquo;. Yo que pensaba que iba a ser un paseo tranquilo, fue bastante movido.&lt;/p&gt;
+&lt;p&gt;Cosas que quiero probar:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cinderella: casi casi</title>
+      <link>http://localhost:1313/2012/11/25/cinderella-casi-casi/</link>
+      <pubDate>Sun, 25 Nov 2012 19:10:22 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/25/cinderella-casi-casi/</guid>
+      <description>&lt;p&gt;Ayer fui a Joaquin Miller con el objetivo de &amp;ldquo;limpiar&amp;rdquo; la pista Cinderella. Pero no pudo ser. La 2 veces me cai una vez. Y la última vez me casi justo llegando al final, en una parte muy fácil. Por distraido me paso. Será la próxima vez&amp;hellip; (quizás hoy)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando en Buenos Aires II</title>
+      <link>http://localhost:1313/2012/11/19/monocicleando-en-buenos-aires-ii/</link>
+      <pubDate>Tue, 20 Nov 2012 00:17:40 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/19/monocicleando-en-buenos-aires-ii/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-uwcvML4qMkQ/UKhW7jSnqGI/AAAAAAAAqSY/OcXUPwDgXGw/s400/IMG_1978.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y el sábado pasado, como el anterior, monocicleamos con Pancho por Buenos Aires. Esta vez el paseo fue más largo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ida: de Nuñez hasta la Catedral de San Isidro bordeando el tren de la Costa&lt;/li&gt;
+&lt;li&gt;vuelta: de la Catedral hasta Nuñez bordeando el tren Mitre&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Muy lindo paseo. Fueron alrededor de 24km.&lt;/p&gt;
+&lt;p&gt;Notas de color:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;En la catedral nos encontramos con una &amp;ldquo;novia monociclista&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pasamos por el festival del viento, donde estaba Q-Bert&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando en Buenos Aires</title>
+      <link>http://localhost:1313/2012/11/11/monocicleando-en-buenos-aires/</link>
+      <pubDate>Mon, 12 Nov 2012 00:03:06 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/11/monocicleando-en-buenos-aires/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-Sljhs-M_E_k/UKrJ9x0eUpI/AAAAAAAAqU4/QZ5vRWpkzv0/s400/IMG_5592.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ayer, Pablin (en bici), Pancho (estrenando su nuevo mono de 36&amp;quot;) y yo (en &lt;a href=&#34;http://www.monociclo.com.ar/2009/04/nuevo-monociclo-ajata-marathon-28/&#34;&gt;este mono de 28&amp;quot;&lt;/a&gt; que ahora es de Pancho) nos fuimos desde Nuñez hasta Vicente Lopez. Fue lindo paseo, tranquilo, con un día soleado.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/NunezVicenteLopez&#34; title=&#34;Fotos del Paseo&#34;&gt;Fotos del paseo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>China Camp</title>
+      <link>http://localhost:1313/2012/11/05/china-camp/</link>
+      <pubDate>Mon, 05 Nov 2012 04:24:11 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/05/china-camp/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/11/8158357472_a174739ae3_z.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/11/8158357472_a174739ae3_z.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hoy fuimos con  Tom y Limbert a China Camp. Estuvo muy bueno. Pude hacer muchas más cosas que la vez pasada tanto en subida como en bajada.&lt;/p&gt;
+&lt;p&gt;¿La nota de color? Mi mono de calló por el barranco unos 10 metros.&lt;/p&gt;
+&lt;p&gt;Ah, y nuevamente en China Camp perdí el boton para hacer los cambios. Por suerte la otra vez compré 2 botones.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157631935600521/&#34;&gt;Fotos que sacó Tom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Chaparral, Cinderella y más</title>
+      <link>http://localhost:1313/2012/11/03/chaparral-cinderella-y-mas/</link>
+      <pubDate>Sun, 04 Nov 2012 02:51:26 +0000</pubDate>
+      <guid>http://localhost:1313/2012/11/03/chaparral-cinderella-y-mas/</guid>
+      <description>&lt;p&gt;Hoy fuimos nuevamente a Joaquin Miller con Tom, Lance y Josh.&lt;/p&gt;
+&lt;p&gt;En esta ocasión pude linkear Chaparral en 4 fases:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Inicio - Poco antes de la rocas: 1 intento&lt;/li&gt;
+&lt;li&gt;Rocas - Poco antes del arbol caido: 5 intentos aprox&lt;/li&gt;
+&lt;li&gt;Poco antes del arbol caido - Diving Board: 1 intento&lt;/li&gt;
+&lt;li&gt;Diving Board: 5 intentos aprox&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Y antes de Chaparallal hicimos Cindirella. La cual la pude linkear, y estuve muy cerca de hacerla &amp;ldquo;clear&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chaparral 2 y nuevas zapatillas</title>
+      <link>http://localhost:1313/2012/10/28/chaparral-2-y-nuevas-zapatillas/</link>
+      <pubDate>Sun, 28 Oct 2012 22:08:19 +0000</pubDate>
+      <guid>http://localhost:1313/2012/10/28/chaparral-2-y-nuevas-zapatillas/</guid>
+      <description>&lt;p&gt;Hoy volví a ir a Joaquin Miller a intentar linker Chaparral en menos etapas. Tenía en mente hacerlo en 3 o 4 etapas, pero finalmente lo hice en 6 etapas.  La etapa difícil (la de las rocas y saltos) me llevó como 8 o 9 intentos. LLevé conmigo la camara de filmar para documentar el recorrido, pero las partes interesante no quedaron guardadas :( Intentaré de nuevo el fin de semana que viene. Mi objetivo es hacerlo en menos de 6 etapas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Más muni en Joaquin Miller</title>
+      <link>http://localhost:1313/2012/10/28/mas-muni-en-joaquin-miller/</link>
+      <pubDate>Sun, 28 Oct 2012 04:52:10 +0000</pubDate>
+      <guid>http://localhost:1313/2012/10/28/mas-muni-en-joaquin-miller/</guid>
+      <description>&lt;p&gt;El Domingo pasado fuimos con Mary, Tom y Nancy a Joaquin Miller. Con Tom hicimos muni mientras que Mary y Nancy hicieron trekking.&lt;/p&gt;
+&lt;p&gt;Llevé nuevamente el nuevo muni KH 24 y la diferencia con el otro es impresionante.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/sfdem-hI-kg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fotos y videos que saqué:  &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JoaquinMiller21Oct2012&#34;&gt;JoaquinMiller21Oct2012&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reporte que escribió Tom: T &lt;a href=&#34;http://berkeleyunicycling.org/2012/10/21/trying-out-the-new-uni/&#34;&gt;rying-out-the-new-uni/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y el Sábado anterior probé un mono de 12&amp;quot; en el cumpleaños de Lance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mis primeros pasos en trial</title>
+      <link>http://localhost:1313/2012/10/16/mis-primeros-pasos-en-trial/</link>
+      <pubDate>Tue, 16 Oct 2012 03:54:14 +0000</pubDate>
+      <guid>http://localhost:1313/2012/10/16/mis-primeros-pasos-en-trial/</guid>
+      <description>&lt;p&gt;Mis primeros pasos en trial&amp;hellip;&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/h-37bYKFWQo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Ayer fuimos con Mary a Joaquin Miller. Yo fui ver como estaba mi pie izquierdo (que por suerte respondió bien), y a estrenar mi nuevo mono (KH 24&amp;quot;). Fue un paseo &amp;ldquo;medio&amp;rdquo;: no fue tranquilo, pero tampoco hice los caminos más difíciles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La famiglia unita</title>
+      <link>http://localhost:1313/2012/10/06/la-famiglia-unita/</link>
+      <pubDate>Sun, 07 Oct 2012 02:30:26 +0000</pubDate>
+      <guid>http://localhost:1313/2012/10/06/la-famiglia-unita/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-hkCkEO8Bjr0/UHDgXNXydkI/AAAAAAAApzg/11BhoYQ77Ag/s800/monos_con_nombre.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Miembros de la familia:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;David: Nimbus Ultimate Wheel 28&amp;quot;: La usé poco y nada. Todavía no la puedo usar. Llegó a la familia en Octubre 2011&lt;/li&gt;
+&lt;li&gt;Fosforito: Torker DX 24&amp;quot;. Lo usé bastante, pero sobre todo este ultimo año haciendo muni. Ahora lo estoy jubilando, ya que esta medio viejito y pesado. Llego a la familia en Agosto 2006&lt;/li&gt;
+&lt;li&gt;Herbert: Torker CX 20&amp;quot;. Starter que remplazó a &amp;ldquo;ABC&amp;rdquo;. Es usado por Mary para aprender a andar. Llegó a la familia en Agosto 2012&lt;/li&gt;
+&lt;li&gt;Zé pequeño: KM 36&amp;quot;. Es el mono que más usé. Lo usé para paseos, largas distancias, carreras, y el que uso todos los días para ir al trabajo. Llegó a la familia en Mayo 2009&lt;/li&gt;
+&lt;li&gt;Speedy Gonzales: QU-AX 28&amp;quot;. Lo usé para el maratón de Düsseldorf 2010, y después poco y nada. Ahora lo voy a empezar a usar para ir al trabajo, para probar. Llegó a la familia en Abril 2010.&lt;/li&gt;
+&lt;li&gt;Jordan: Nimbus Sport-E Basketball 24&amp;quot;. Lo uso para jugar al basketball. Llegó a la familia en Noviembre (o Diciembre) 2011.&lt;/li&gt;
+&lt;li&gt;Tractor: KM 24&amp;quot;. Mono de montaña que remplaza a Fosforito. Todavía no tuve oportunidad de estrenarlo. Llegó a la familia la semana pasada (Septiembre 2012)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Miembros anteriores de la familia:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi sobrino, futuro monociclista</title>
+      <link>http://localhost:1313/2012/09/30/mi-sobrino-futuro-monociclista/</link>
+      <pubDate>Mon, 01 Oct 2012 01:42:09 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/30/mi-sobrino-futuro-monociclista/</guid>
+      <description>&lt;p&gt;Mi sobrino, futuro monociclista&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/xSMaDYH9y-0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Como evitar que te roben la bici en San Francisco</title>
+      <link>http://localhost:1313/2012/09/30/como-evitar-que-te-roben-la-bici-en-san-francisco/</link>
+      <pubDate>Sun, 30 Sep 2012 18:47:57 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/30/como-evitar-que-te-roben-la-bici-en-san-francisco/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-Om1QmruCv7k/UCvvuWcO-3I/AAAAAAAApEE/IIAFxHAdkbI/s800/IMG_1907.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Es importante encadenar lo siguiente:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rueda de adelante&lt;/li&gt;
+&lt;li&gt;Rueda de atrás&lt;/li&gt;
+&lt;li&gt;Cuadro&lt;/li&gt;
+&lt;li&gt;Asiento (por eso esta bueno tener asiento con agujero en el medio)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>20 años de masa critica en San Francisco</title>
+      <link>http://localhost:1313/2012/09/30/20-anos-de-masa-critica-en-san-francisco/</link>
+      <pubDate>Sun, 30 Sep 2012 18:25:57 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/30/20-anos-de-masa-critica-en-san-francisco/</guid>
+      <description>&lt;p&gt;La 1er Masa Critica fue hace 20 años, y fue aca en San Francisco.&lt;/p&gt;
+&lt;p&gt;Lamentablemente yo no pude participar del 20 aniversario de la Masa Critica (por lesión), pero unos amigos monociclistas fueron.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-S7Zgxox1jAw/UGdLvrh8hhI/AAAAAAAApak/uYjGYOVeE6g/s800/IMG_1792.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aca dejo algunas fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/MasaCritica20Aniversario#&#34;&gt;https://picasaweb.google.com/111588202880883771967/MasaCritica20Aniversario#&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi viejo, gran monociclista</title>
+      <link>http://localhost:1313/2012/09/29/mi-viejo-gran-monociclista/</link>
+      <pubDate>Sat, 29 Sep 2012 20:00:33 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/29/mi-viejo-gran-monociclista/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-0CbpmKJ6B0c/UGdSe3WaHSI/AAAAAAAApdA/s8jhProDG2E/s796/IMG_3963.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Mi viejo, el monociclista.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tom&#39;s Ride II</title>
+      <link>http://localhost:1313/2012/09/23/toms-ride-ii/</link>
+      <pubDate>Sun, 23 Sep 2012 18:42:27 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/23/toms-ride-ii/</guid>
+      <description>&lt;p&gt;Ayer fue la 2da edición del Tom&amp;rsquo;s Ride. Fuimos de la casa de Tom hasta Joaquin Miller, y luego fuimos al festival &amp;ldquo;Eat Real&amp;rdquo; en Oakland. Estuvo muy bueno.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-d_l2YwIQ43g/UGdLMynaVuI/AAAAAAAApbA/rBYnMZqXG44/s800/IMG_1773.JPG&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diamond Canyon</title>
+      <link>http://localhost:1313/2012/09/17/diamond-canyon/</link>
+      <pubDate>Mon, 17 Sep 2012 18:28:21 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/17/diamond-canyon/</guid>
+      <description>&lt;p&gt;Ayer fuimos con Tom y Josh a hacer muni al Diamond Canyon. Estuvo muy bueno, salvo que me di un lindo palo al final de todo. Y después hicimos Disc Golf.&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/XFSOOipcdCY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-CueJeBqZfHs/UGiQ-rlm9KI/AAAAAAAApe0/IrxSWwC7qI4/s800/7995077311_2139a53142_o.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Más fotos y videos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/Muni2012916&#34;&gt;https://picasaweb.google.com/111588202880883771967/Muni2012916&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.flickr.com/photos/tholub/sets/72157631555828801/with/7995116696/&#34;&gt;http://www.flickr.com/photos/tholub/sets/72157631555828801/with/7995116696/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mi mujer, aprendiendo a monociclear</title>
+      <link>http://localhost:1313/2012/09/16/mi-mujer-aprendiendo-a-monociclear/</link>
+      <pubDate>Sun, 16 Sep 2012 18:04:33 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/16/mi-mujer-aprendiendo-a-monociclear/</guid>
+      <description>&lt;p&gt;Mi mujer, ayer, anduvo sus primeros 10 metros en monociclo!&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/QfOcWQUs61U?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>San Francisco - Uni Tour X edición</title>
+      <link>http://localhost:1313/2012/09/10/san-francisco-uni-tour-x-edicion/</link>
+      <pubDate>Mon, 10 Sep 2012 20:27:24 +0000</pubDate>
+      <guid>http://localhost:1313/2012/09/10/san-francisco-uni-tour-x-edicion/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-r8pHfQLcUt4/UGiU72fvkxI/AAAAAAAApfM/xyUsVqqAbbc/s800/unitour_map.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-zrXCv-YohRc/UGdU8Jp4X_I/AAAAAAAApdg/07GTC4T_ymo/s800/561474_10152123859445121_1489456728_n.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-DbvrB-4tq7I/UGdVFGKQWNI/AAAAAAAApds/ot7HmFBn3fU/s800/475047_10152123850120121_1773017759_o.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ayer, 9 de Septiembre 2012, fue la 10ma edición del &amp;ldquo;San Francisco Uni Tour&amp;rdquo;. Fueron aproximadamente 65km alrededor de todo San Francisco, incluyendo subidas y bajadas.&lt;/p&gt;
+&lt;p&gt;Aca estan las fotos:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/SFUniTour2012&#34;&gt;https://picasaweb.google.com/111588202880883771967/SFUniTour2012&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Berkeley Juggling and Unicycle Festival</title>
+      <link>http://localhost:1313/2012/08/19/berkeley-juggling-and-unicycle-festival/</link>
+      <pubDate>Sun, 19 Aug 2012 19:11:24 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/19/berkeley-juggling-and-unicycle-festival/</guid>
+      <description>&lt;p&gt;Ayer fue el &lt;a href=&#34;http://berkeleyjuggling.org/festival2012/&#34;&gt;Juggling and Unicycle Festival&lt;/a&gt; en en Berkeley. El viernes participé del basket, y el sábado del Big Wheel tour.&lt;/p&gt;
+&lt;p&gt;En el Tour, no recuerdo bien a quien se le rompió la palanca del monociclo.  Y Beau intercambió monociclo porque, como pueden ver él no tiene problema en andar con una palanca sola en un mono de 36:&lt;/p&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/TRFOpnSTQPY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Más fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/JugglingAndUniFestivalBerkeley&#34;&gt;https://picasaweb.google.com/111588202880883771967/JugglingAndUniFestivalBerkeley&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>China Camp II</title>
+      <link>http://localhost:1313/2012/08/13/china-camp-ii/</link>
+      <pubDate>Mon, 13 Aug 2012 18:18:19 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/13/china-camp-ii/</guid>
+      <description>&lt;p&gt;Ayer fuimos con Tom y Nancy a China Camp. Fue un evento organizado por una asociación de bicis de montaña.&lt;/p&gt;
+&lt;p&gt;Estuvo muy bueno.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-48tWTZFkMfg/UCvvzcT067I/AAAAAAAAn0k/_g6cttCPMc0/s800/IMG_1924-001.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Así viajó mi mono :)&lt;/p&gt;
+&lt;p&gt;Más fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/ChinaCamp&#34;&gt;https://picasaweb.google.com/111588202880883771967/ChinaCamp&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paseo a Sausalito</title>
+      <link>http://localhost:1313/2012/08/11/paseo-a-sausalito/</link>
+      <pubDate>Sat, 11 Aug 2012 19:25:06 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/11/paseo-a-sausalito/</guid>
+      <description>&lt;p&gt;Con Mary hoy fuimos a Sausalito. Lindo paseo, aunque con un poco de viento y niebla en San Francisco. Cuando cruzamos el puente, apareció el sol.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-BC7r9tb5jvk/UCvvxYCvNyI/AAAAAAAAoKA/kwNpAOq7DZs/s800/IMG_1917.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Más fotos, &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/ASausalitoConLaBombi?authkey=Gv1sRgCMj45rvetqne_gE#&#34;&gt;acá&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otro paseo más por San Francisco</title>
+      <link>http://localhost:1313/2012/08/06/otro-paseo-mas-por-san-francisco/</link>
+      <pubDate>Mon, 06 Aug 2012 03:40:41 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/06/otro-paseo-mas-por-san-francisco/</guid>
+      <description>&lt;p&gt;Otro lindo paseo por San Francisco: Market, Embarcadero, Fisherman&amp;rsquo;s Wharf, Crissy Field, Presidio, Land&amp;rsquo;s End, Golden Gate Park, y vuelta a Market. 30 km en total.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-QjTqylEp1RA/UB86YT60HZI/AAAAAAAAnu0/0RAsxDX-eyQ/s640/IMG_1894.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh4.googleusercontent.com/-UraRKG2Oswk/UB87HK9YpZI/AAAAAAAAnvo/RQeZr6o0k7o/s288/Screen%2520Shot%25202012-08-05%2520at%25208.29.42%2520PM.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Aca las fotos del paseo: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/MasMonocicloEnSanFrancisco#&#34;&gt;https://picasaweb.google.com/111588202880883771967/MasMonocicloEnSanFrancisco#&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Twin Peaks &#43; Golden Gate Park</title>
+      <link>http://localhost:1313/2012/08/05/twin-peaks-golden-gate-park/</link>
+      <pubDate>Sun, 05 Aug 2012 19:16:30 +0000</pubDate>
+      <guid>http://localhost:1313/2012/08/05/twin-peaks-golden-gate-park/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/-ADcruVR4-q8/UB7GDMsUuII/AAAAAAAAnp4/tcRuPI1SN48/s640/IMG_1872.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh5.googleusercontent.com/-5LatI0VicIc/UB89xZooEOI/AAAAAAAAnwA/o9Tv3vx430g/s288/Screen%2520Shot%25202012-08-05%2520at%25208.43.58%2520PM.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El fin de semana pasado monociclié por Twin Peaks y Golden Gate Park. Fue un lindo paseo. Fueron unos 25km.&lt;/p&gt;
+&lt;p&gt;Mapa: &lt;a href=&#34;http://www.gmap-pedometer.com/?r=5595975&#34;&gt;http://www.gmap-pedometer.com/?r=5595975&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/TwinPeaksGoldenGatePark&#34;&gt;https://picasaweb.google.com/111588202880883771967/TwinPeaksGoldenGatePark&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exhibición de Mono Basket con la gente de Berkeley Revolution</title>
+      <link>http://localhost:1313/2012/07/17/exhibicion-de-mono-basket-con-la-gente-de-berkeley-revolution/</link>
+      <pubDate>Tue, 17 Jul 2012 03:48:13 +0000</pubDate>
+      <guid>http://localhost:1313/2012/07/17/exhibicion-de-mono-basket-con-la-gente-de-berkeley-revolution/</guid>
+      <description>&lt;p&gt;El 16 de Julio, previo al viaje a Unicon de la gente de Berkeley Revolution, hicimos una exhibición de Mono Basket en Berkeley. Yo era de los más chotos del los que jugaban, pero de a  poco voy mejorando.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://lh6.googleusercontent.com/-fH8MXUmasyg/UBIFZJnL5bI/AAAAAAAAnm8/qLPWwoM2qDo/s400/IMG_1851.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Fotos: &lt;a href=&#34;https://picasaweb.google.com/111588202880883771967/BerkeleyRevolutionExhibitionGame#&#34;&gt;https://picasaweb.google.com/111588202880883771967/BerkeleyRevolutionExhibitionGame#&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mono con cambios</title>
+      <link>http://localhost:1313/2012/05/21/mono-con-cambios/</link>
+      <pubDate>Mon, 21 May 2012 03:21:47 +0000</pubDate>
+      <guid>http://localhost:1313/2012/05/21/mono-con-cambios/</guid>
+      <description>&lt;p&gt;Finalmente, casi 2 años después de tener cambios para el mono, lo instalé.&lt;/p&gt;
+&lt;p&gt;Tarde como 6 horas en instalarlo, y todavía no terminé&amp;hellip; la rueda me quedó desbalanceada así que mañana o durante la semana la voy a tener que balancear para que el mono quede bien.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/05/mono_con_cambios.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/05/mono_con_cambios-e1337570498736.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mucho mono en estos últimos meses</title>
+      <link>http://localhost:1313/2012/05/05/mucho-mono-en-estos-ultimos-meses/</link>
+      <pubDate>Sat, 05 May 2012 15:41:10 +0000</pubDate>
+      <guid>http://localhost:1313/2012/05/05/mucho-mono-en-estos-ultimos-meses/</guid>
+      <description>&lt;p&gt;Estos últimos meses estuve monocicleando bastante, como nunca diría.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los martes, estoy yendo a jugar al mono basket con la gente de &lt;a href=&#34;http://www.unibball.net/&#34;&gt;Berkeley Revolution&lt;/a&gt;. Lo cierto es que mi nivel es de principiante, mientras que los de Berkeley Revolution tienen un nivel muy alto. Asi que ultimamente estamos armando 2 partidos simultaneos. Los principiantes por un lado, y los que juegan mejor por otro. De esta manera todos nos divertimos más :)&lt;/li&gt;
+&lt;li&gt;Muni: Cada 2 semanas estoy haciendo un poco de Mountain Unicycling (Muni). Este deportes es espectacular. Mucha adrenalina, en medio de la naturaleza, con mucho ejercicio fisico.&lt;/li&gt;
+&lt;li&gt;Trabajo: Todos los días estoy yendo a trabajar con el mono de 36. Si bien el recorrido son aproximadamente 3 Km, cuando estoy con ganas y tiempo, trato de ir por caminos son subidas pronunciadas.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>San Francisco - San Rafael (45km)</title>
+      <link>http://localhost:1313/2012/02/20/san-francisco-san-rafael-45km/</link>
+      <pubDate>Mon, 20 Feb 2012 03:59:44 +0000</pubDate>
+      <guid>http://localhost:1313/2012/02/20/san-francisco-san-rafael-45km/</guid>
+      <description>&lt;p&gt;Hoy fui desde San Francisco (casa), hasta San Rafael, a la casa de Peter, luego fui hasta el Ferry, y del Ferry a casa.&lt;/p&gt;
+&lt;p&gt;En total fueron cerca de 45km en monociclo con varias subidas y bajadas. Lindo ejercicio.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/02/Screen-shot-2012-02-19-at-7.52.13-PM.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2012/02/Screen-shot-2012-02-19-at-7.52.13-PM.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Salida número 6 en San Francisco</title>
+      <link>http://localhost:1313/2011/11/19/salida-numero-6-en-san-francisco/</link>
+      <pubDate>Sat, 19 Nov 2011 20:43:56 +0000</pubDate>
+      <guid>http://localhost:1313/2011/11/19/salida-numero-6-en-san-francisco/</guid>
+      <description>&lt;p&gt;Finalmente llegué a la playa de la costa oeste!&lt;/p&gt;
+&lt;p&gt;Fue un recorrido de unos 24km, con algunas lindas subidas y bajadas.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM-1024x431.png&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/FILE0019.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/FILE0019-300x225.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unicycle Tour San Francisco</title>
+      <link>http://localhost:1313/2011/10/28/unicycle-tour-san-francisco/</link>
+      <pubDate>Fri, 28 Oct 2011 17:54:47 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/28/unicycle-tour-san-francisco/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/%25!s%28int=5%29?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Salida número 3 en San Francisco</title>
+      <link>http://localhost:1313/2011/10/24/salida-numero-3-en-san-francisco/</link>
+      <pubDate>Mon, 24 Oct 2011 04:59:34 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/24/salida-numero-3-en-san-francisco/</guid>
+      <description>&lt;p&gt;Domingo soleado. Que mejor que salir a recorrer la ciudad con el mono. Fueron 31,5 km.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-23-at-9.52.34-PM.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-23-at-9.52.34-PM-1024x777.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Salida número 2</title>
+      <link>http://localhost:1313/2011/10/17/salida-numero-2/</link>
+      <pubDate>Mon, 17 Oct 2011 03:05:27 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/17/salida-numero-2/</guid>
+      <description>&lt;p&gt;Hoy sali a dar otro paseo. Estuvo muy entretenido con subida, bajadas, distintos barrios, parques, plazas, personajes y demás. Fueron en total 20,4 km.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-16-at-3.44.32-PM.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-16-at-3.44.32-PM-1024x650.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vuelta al ruedo</title>
+      <link>http://localhost:1313/2011/10/10/vuelta-al-ruedo-3/</link>
+      <pubDate>Mon, 10 Oct 2011 19:53:28 +0000</pubDate>
+      <guid>http://localhost:1313/2011/10/10/vuelta-al-ruedo-3/</guid>
+      <description>&lt;p&gt;Durante este año estuve lesionado (y sigo todavía), pero eso no impidió que salga a monociclear un poco. Ahora, viviendo en nueva ciudad donde hay muchas subidas y bajadas, monociclear es todavía más interesante.&lt;/p&gt;
+&lt;p&gt;Me traje con migo el mono de 36&amp;quot;, y voy todos los días al trabajo en mono.&lt;/p&gt;
+&lt;p&gt;Ayer dí un linda vuelta a la ciudad en mono. Mapa de ayer:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-09-at-7.12.47-PM.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2011/10/Screen-shot-2011-10-09-at-7.12.47-PM-1024x643.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi pierna en el taller mecánico</title>
+      <link>http://localhost:1313/2010/10/27/mi-pierna-en-el-taller-mecanico/</link>
+      <pubDate>Wed, 27 Oct 2010 15:21:23 +0000</pubDate>
+      <guid>http://localhost:1313/2010/10/27/mi-pierna-en-el-taller-mecanico/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/nIlcWjKsWJuH0wKZKxqqwA?feat=embedwebsite&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/TMg8BV5ITHI/AAAAAAAAdRU/KwGsMr_rZ9M/s400/IMG_5525.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mi pierna en reparación.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nuevos deportes</title>
+      <link>http://localhost:1313/2010/10/07/nuevos-deportes/</link>
+      <pubDate>Thu, 07 Oct 2010 15:29:03 +0000</pubDate>
+      <guid>http://localhost:1313/2010/10/07/nuevos-deportes/</guid>
+      <description>&lt;p&gt;Después de correr el maratón de monociclo en Düsseldorf, con Wolfgang subimos una nueva montañita cerca de Heidelberg. Luego en Ginebra hice un poco más de monociclo, pero tuve algunos problemas con las palancas y los pedales.&lt;/p&gt;
+&lt;p&gt;En Junio me empecé a entrenar duro para correr (correr con pies, no monociclo) los 42k de Buenos Aires, pero me lesioné: periostitis tibial. Hice kinesiologia, reposo, compré plantillas para correr, pero todavía sigo teniendo algunos dolores. Voy a ir a ver a un acupunturista.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entonces... ¿quién esta más loco?</title>
+      <link>http://localhost:1313/2010/06/01/entonces-quien-esta-mas-loco/</link>
+      <pubDate>Tue, 01 Jun 2010 10:21:45 +0000</pubDate>
+      <guid>http://localhost:1313/2010/06/01/entonces-quien-esta-mas-loco/</guid>
+      <description>&lt;p&gt;Unos horas después de terminar el maratón nos quedamos charlando con otros monociclistas acerca de la carrera, y de paso paseamos un poco por Düsseldorf&amp;hellip; y ahí surgió la pregunta.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;- &lt;em&gt;&amp;quot;¿Y te vas a preparar para alguna otra carrera este año?&amp;quot;&lt;/em&gt;, me preguntaron.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Mmm&amp;hellip; no creo&amp;hellip; ya que en Octubre quiero correr (con los pies, y no con monociclo) un maratón&amp;rdquo;&lt;/em&gt;, contesto yo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Pero ¿vos estas loco? ¿Querés correr 42k corriendo?&amp;rdquo;&lt;/em&gt;, me preguntan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fotos y videos del maratón Düsseldorf 2010</title>
+      <link>http://localhost:1313/2010/05/07/fotos-y-videos-del-maraton-dusseldorf-2010/</link>
+      <pubDate>Fri, 07 May 2010 08:02:37 +0000</pubDate>
+      <guid>http://localhost:1313/2010/05/07/fotos-y-videos-del-maraton-dusseldorf-2010/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;SmilyMarco: &lt;a href=&#34;http://picasaweb.google.de/fstschmidt/DusseldorfMarathon2010Einrad#&#34;&gt;Fotos&lt;/a&gt; (MUY BUENAS FOTOS!)&lt;/li&gt;
+&lt;li&gt;RMSV: &lt;a href=&#34;http://www.rmsv-duesseldorf.de/1doimage/vorschau.php?cat=46&#34;&gt;Fotos1&lt;/a&gt; y &lt;a href=&#34;http://picasaweb.google.de/106525771648370940701/Einradmarathon201002#&#34;&gt;Fotos2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Metro Group: &lt;a href=&#34;http://www.marathon-photos.com/scripts/event_entry.py?event=Sports/GKDE/2010/METRO+Group+Marathon+Dusseldorf&amp;amp;new_search=1&amp;amp;match=5036&#34;&gt;Fotos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jockel: &lt;a href=&#34;http://picasaweb.google.de/103914983471379325431/PicasaDusseldorf#&#34;&gt;Fotos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chris216: &lt;a href=&#34;http://picasaweb.google.de/chrisR216/Marathon2010FurWebalbum?authkey=Gv1sRgCOPIzd2hj7rCKg#&#34;&gt;Foto&lt;/a&gt; &lt;a href=&#34;http://picasaweb.google.de/chrisR216/Marathon2010FurWebalbum?authkey=Gv1sRgCOPIzd2hj7rCKg#&#34;&gt;s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fotos mias: &lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/DusseldorfMarathon2010?authkey=Gv1sRgCKjFtN2KyIusqwE#&#34;&gt;Fotos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Video: &lt;a href=&#34;http://www.finisherclip.de/en/previews/index/56/5036/DSL/links&#34;&gt;Video de mi llegada a la meta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Unicycle Bastards</title>
+      <link>http://localhost:1313/2010/05/05/unicycle-bastards/</link>
+      <pubDate>Wed, 05 May 2010 08:09:10 +0000</pubDate>
+      <guid>http://localhost:1313/2010/05/05/unicycle-bastards/</guid>
+      <description>&lt;p&gt;Unicycle Bastards: La última esperanza de la humanidad contra los infames Zombies!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://vimeo.com/moogaloop.swf?clip_id=9370997&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=&amp;amp;fullscreen=1&#34;&gt;http://vimeo.com/moogaloop.swf?clip_id=9370997&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=&amp;amp;fullscreen=1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Página de Unicycle Bastards: &lt;a href=&#34;http://www.unicyclebastards.com/&#34;&gt;http://www.unicyclebastards.com/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El nuevo mono de 28&#34;</title>
+      <link>http://localhost:1313/2010/04/29/el-nuevo-mono-de-28/</link>
+      <pubDate>Thu, 29 Apr 2010 09:10:58 +0000</pubDate>
+      <guid>http://localhost:1313/2010/04/29/el-nuevo-mono-de-28/</guid>
+      <description>&lt;p&gt;Increible&amp;hellip; este nuevo mono de 28&amp;quot; es el día y la noche comparado con el viejo mono de 28&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/_7Tp7oCOlWFE/S9lKdUjAvOI/AAAAAAAAaLU/FMZCn5y0JrU/s400/IMG_4599.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh5.ggpht.com/_7Tp7oCOlWFE/Sec28pujmrI/AAAAAAAARIM/Z7jiAeDrdDI/s400/IMG_2757.JPG&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Diferencias:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Asiento: El nuevo tiene un muy buen asiento (KH Freeride 2009). Creo que el viejo asiento es el peor asiento que tuve.&lt;/li&gt;
+&lt;li&gt;Rueda: La nueva es de 28&amp;quot; x1.75&amp;quot;, mientras que la vieja es de 28&amp;quot;x1.35&amp;quot;. Significa que el nuevo, si bien es un poco más pesado, es más fácil de maniobrar.&lt;/li&gt;
+&lt;li&gt;Cámara: La nueva tiene pico de auto, por lo cual soporta mucho mejor la presión. Mayor presión significa menor resistencia.&lt;/li&gt;
+&lt;li&gt;Palancas: Las nuevas son de aluminio, mientras que las viejas eran de hierro(?)&amp;hellip; estas son mucho más livianas&lt;/li&gt;
+&lt;li&gt;Pedales: Los 2 tienen pedales medios chotos, aunque me quedo con los nuevos porque tienen un poco más agarre.&lt;/li&gt;
+&lt;li&gt;Cuadro: El nuevo cuadro es mucho más canchero&amp;hellip;. ja ja ja&amp;hellip; tiene llamas a su alrededor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ayer lo estuve probando, y la verdad que es como comparar un Ford Falcon del año 73, con un BMW.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preparando los últimos detalles</title>
+      <link>http://localhost:1313/2010/04/27/preparando-los-ultimos-detalles/</link>
+      <pubDate>Tue, 27 Apr 2010 23:10:09 +0000</pubDate>
+      <guid>http://localhost:1313/2010/04/27/preparando-los-ultimos-detalles/</guid>
+      <description>&lt;p&gt;Todavía faltan algunos detalles (o no tan detalles) para el maratón, pero esta todo bastante encaminado:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monociclo 28&amp;quot;. El monociclo que usé el año pasado estaba bien para andar algunos kilometros, pero para 42km era mucho, sobretodo por el asiento que era de bastante mala calidad. La semana pasada (y la anterior) estuve entrenando con ese monociclo y la verdad que fue un sufrimiento. Asi que esta año voy a competir con la misma rueda, pero con un asiento mejor y unas palancas más livianas. Mañana armo el monociclo de la carrera, y el Jueves y Viernes lo pruebo&amp;hellip; espero que no haya sorpresas (me traje todas las herramientas)&lt;/li&gt;
+&lt;li&gt;Calzas: Voy a ver si consigo una calza que tenga una badana un poco más confortable.&lt;/li&gt;
+&lt;li&gt;Geles: Solo pude traerme 1 gel de Buenos Aires, pero en la feria del maratón venden&amp;hellip; asi que el sábado voy a comprar 4 geles. Voy a llevar 2 caramañolas y una mochilas de 2 litros de agua. c/caramañola va a estar pre-mezclada con 2 geles. Si tomo 1 gel c/40 minutos, entonces tengo para 5x40min = 3h 20m de carrera, pero espero terminar la carrera en menos de 2h 45. Por la dudas que se me caiga y rompa alguna caramañola,  voy a llevar 1 sobre cerrado de gel en la mochila.&lt;/li&gt;
+&lt;li&gt;Cronometro: Tengo cronometro! Esta vez no me va a pasar lo del maratón de Trelew. Me llevo un cronometro que tiene para 100 vueltas. La idea es cronometrar cada kilometro. Mi objetivo es hacer 3m 45s por km (2h 38m los 42k)&lt;/li&gt;
+&lt;li&gt;Música: Sin música. Las 2 maratones que corrí en monociclo las hice con música, pero no tuve el efecto &amp;ldquo;motivador&amp;rdquo;, asi que voy a hacer lo que estuve haciendo en los entrenamientos: sin música&lt;/li&gt;
+&lt;li&gt;Guantes: Voy a usar los guantes cortos, y no los largos con extra protección, ya que son muy incomodos, sobre todo si quiero sacar algo de la mochila por alguna urgencia.&lt;/li&gt;
+&lt;li&gt;Rodilleras: Sin rodilleras&amp;hellip; si me caigo, espero no caerme con las rodillas :) La veces que me cai del mono de 28&amp;quot;, siempre caí parado.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y bueno, creo que es todo&amp;hellip;al menos por ahora.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cuenta regresiva</title>
+      <link>http://localhost:1313/2010/04/09/cuenta-regresiva/</link>
+      <pubDate>Fri, 09 Apr 2010 18:22:05 +0000</pubDate>
+      <guid>http://localhost:1313/2010/04/09/cuenta-regresiva/</guid>
+      <description>&lt;p&gt;Faltan 22 días, 17 horas y 40 minutos para el maratón!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Se viene el Metro Marathon 2010</title>
+      <link>http://localhost:1313/2010/03/24/se-viene-el-metro-marathon-2010/</link>
+      <pubDate>Wed, 24 Mar 2010 04:38:23 +0000</pubDate>
+      <guid>http://localhost:1313/2010/03/24/se-viene-el-metro-marathon-2010/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://d1.scribdassets.com/ScribdViewer.swf&#34;&gt;http://d1.scribdassets.com/ScribdViewer.swf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se viene el maratón en monociclo en Düsseldorf 2010. Yo estoy anotado con el número &lt;strong&gt;5036&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otro buen video de Monociclos Antartic</title>
+      <link>http://localhost:1313/2010/02/22/otro-buen-video-de-monociclos-antartic/</link>
+      <pubDate>Mon, 22 Feb 2010 15:11:39 +0000</pubDate>
+      <guid>http://localhost:1313/2010/02/22/otro-buen-video-de-monociclos-antartic/</guid>
+      <description>&lt;p&gt;Los chicos de &lt;a href=&#34;http://www.antarticmonociclos.com.ar/&#34;&gt;Monociclos Antartic&lt;/a&gt; hicieron este muy buen video:
+[youtube=http://www.youtube.com/watch?v=Dr8B_RhUcNc&amp;amp;w=480&amp;amp;h=295]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maraton de 3 ciudades patagonicas en monociclo</title>
+      <link>http://localhost:1313/2009/11/22/maraton-de-3-ciudades-patagonicas-en-monociclo/</link>
+      <pubDate>Mon, 23 Nov 2009 01:43:56 +0000</pubDate>
+      <guid>http://localhost:1313/2009/11/22/maraton-de-3-ciudades-patagonicas-en-monociclo/</guid>
+      <description>&lt;p&gt;Finalmente tuve la autorizacion de los organizadores del maraton de &lt;a href=&#34;http://maratontresciudades.wordpress.com/&#34;&gt;3 ciudades patagonicas&lt;/a&gt; para poder hacer los 42k en monociclo!&lt;/p&gt;
+&lt;p&gt;En total vamos a ser 3 monociclas: 2 moniclistas de Trelew y yo. Creo que va a ser el 1er maraton Argentino (posiblemente de Sudamerica) donde se corra con monociclos un maraton. Va a ser una gran fiesta.&lt;/p&gt;
+&lt;p&gt;Durante estas 2 semanas voy a bajar la carga de entrenamiento ya que  estoy un poco cansado (hoy corri los 10k del Hospital Italiano) y no quiero lesionarme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monociclo cirquense en su maxima expresion</title>
+      <link>http://localhost:1313/2009/11/22/monociclo-cirquense-en-su-maxima-expresion/</link>
+      <pubDate>Mon, 23 Nov 2009 01:37:13 +0000</pubDate>
+      <guid>http://localhost:1313/2009/11/22/monociclo-cirquense-en-su-maxima-expresion/</guid>
+      <description>&lt;p&gt;[youtube=http://www.youtube.com/watch?v=aQYM5XaGIvA&amp;amp;w=480&amp;amp;h=385]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Energizer Night Race</title>
+      <link>http://localhost:1313/2009/11/16/energizer-night-race/</link>
+      <pubDate>Mon, 16 Nov 2009 03:29:04 +0000</pubDate>
+      <guid>http://localhost:1313/2009/11/16/energizer-night-race/</guid>
+      <description>&lt;p&gt;Ayer fue la &lt;a href=&#34;http://www.energizernightrace.com/fotos.html&#34;&gt;Energizer Night Race&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Estuvo entretenida, sobre todo porque era la 1ra carrera nocturna que corria.&lt;/p&gt;
+&lt;p&gt;Fueron 8,3 km, y los hice a un ritmo de 5m 15s por Km, o sea tardé 44m 10s.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;energizer8k&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2009/11/energizer8k.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pedazo de monociclo</title>
+      <link>http://localhost:1313/2009/11/13/pedazo-de-monociclo/</link>
+      <pubDate>Fri, 13 Nov 2009 16:32:48 +0000</pubDate>
+      <guid>http://localhost:1313/2009/11/13/pedazo-de-monociclo/</guid>
+      <description>&lt;p&gt;El usuario &lt;a href=&#34;http://www.unicyclist.com/forums/member.php?u=4660&#34;&gt;unisk8r&lt;/a&gt; de unicylist.com se armó un lindo monociclo con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cuadro en V&lt;/li&gt;
+&lt;li&gt;freno a disco&lt;/li&gt;
+&lt;li&gt;cambios, pero no en el piñon, sino al estilo &amp;ldquo;bici&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Más info, aca:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.unicyclist.com/forums/showthread.php?p=579933&#34;&gt;http://www.unicyclist.com/forums/showthread.php?p=579933&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;36RedMenace.v4.SideRight&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2009/11/36RedMenace.v4.SideRight.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Düsseldorf Marathon 2009 video</title>
+      <link>http://localhost:1313/2009/11/09/dusseldorf-marathon-2009-video/</link>
+      <pubDate>Mon, 09 Nov 2009 15:17:27 +0000</pubDate>
+      <guid>http://localhost:1313/2009/11/09/dusseldorf-marathon-2009-video/</guid>
+      <description>&lt;p&gt;Este es el video que salió en la televisión Alemana respecto a la maratón de monociclo.&lt;/p&gt;
+&lt;p&gt;El pibe de azul que aparece durante los 1ros segundos, soy yo :-)&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=f0RY5O3fzRU&amp;amp;w=425&amp;amp;h=344]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maratón de &#34;3 ciudades patagónicas&#34;</title>
+      <link>http://localhost:1313/2009/10/31/maraton-de-3-ciudades-patagonicas/</link>
+      <pubDate>Sat, 31 Oct 2009 16:47:09 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/31/maraton-de-3-ciudades-patagonicas/</guid>
+      <description>&lt;p&gt;Se viene el maratón de 3 ciudades patagonicas.&lt;/p&gt;
+&lt;p&gt;Son 42k que largan desde Gaiman, pasan por Trelew y termina en Rawson.&lt;/p&gt;
+&lt;p&gt;Me contacté con Ricardo (uno de los organizadores) en la Expo Maratón y me dijo que es posible que me dejen correrla con el monociclo. Solo estoy esperando su confirmación!.&lt;/p&gt;
+&lt;p&gt;Los paisajes con increibles, asi que sería espectacular correrla en el mono.&lt;/p&gt;
+&lt;p&gt;Video promocional del maratón:
+[youtube=http://www.youtube.com/watch?v=NjErPiU1nxs&amp;amp;w=425&amp;amp;h=344]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bajando los tiempos</title>
+      <link>http://localhost:1313/2009/10/29/bajando-los-tiempos/</link>
+      <pubDate>Thu, 29 Oct 2009 07:29:28 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/29/bajando-los-tiempos/</guid>
+      <description>&lt;p&gt;Parece que tanto darle al monociclo hizo que pueda correr mejor (?!).&lt;/p&gt;
+&lt;p&gt;En la carrera de Rebook de hace 2 meses hice los 10k en 1h 02m 50s.&lt;/p&gt;
+&lt;p&gt;Los 10 1ros km. de la 1/2 maratón de Bs.As de hace 2 semanas los hice en 1h (ya había bajado en 3 minutos los 10k, y eso que todavía me faltaban correr 11k más).&lt;/p&gt;
+&lt;p&gt;Y el sábado pasado hice los 10k de Nike en 53m 54s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metro Marathon Dusseldorf 2010!</title>
+      <link>http://localhost:1313/2009/10/26/metro-marathon-dusseldorf-2010/</link>
+      <pubDate>Tue, 27 Oct 2009 00:03:44 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/26/metro-marathon-dusseldorf-2010/</guid>
+      <description>&lt;p&gt;Ya se abrió la inscripción para el Metro Marathon Dusseldorf 2010.&lt;/p&gt;
+&lt;p&gt;Espero poder participar. De hacerlo, probablmente lo haga con el mono de 28&amp;quot; y no con el de 36&amp;quot;. Eso si, voy a necesitar cambiarle el asiento urgente, porque 3 horas sobre el asiento que tiene no lo voy a volver a aguntar.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.unicyclist.com/forums/showthread.php?t=81516&#34;&gt;http://www.unicyclist.com/forums/showthread.php?t=81516&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ojala pueda ir para allá.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi nuevo record de velocidad</title>
+      <link>http://localhost:1313/2009/10/22/mi-nuevo-record-de-velocidad/</link>
+      <pubDate>Thu, 22 Oct 2009 20:50:31 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/22/mi-nuevo-record-de-velocidad/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;speed&#34; loading=&#34;lazy&#34; src=&#34;http://www.monociclo.com.ar/blog/wp-content/uploads/2009/10/speed-300x217.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;El sábado pasado bati mi record de velocidad en el monociclo. Llegué a ir a &lt;strong&gt;29,09 km/h&lt;/strong&gt;!!&lt;/p&gt;
+&lt;p&gt;Además baje en 12 segundos el record de vuelta que tenia en el KDT. Ahora mi record es hacer la vuelta en 3m 07s!&lt;/p&gt;
+&lt;p&gt;Creo que si me llegaba a caer a esa velocidad me partia en 8. Ja!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Media maratón: ¡llegué!</title>
+      <link>http://localhost:1313/2009/10/12/media-maraton-llegue/</link>
+      <pubDate>Mon, 12 Oct 2009 20:33:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/12/media-maraton-llegue/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/10/f67d1-img_0032.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/10/f67d1-img_0032.jpg?w=225&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Si, contra todos los pronosticos terminé los 21k, y sin parar, corrí los 21k de principio a fin.&lt;br&gt;
+Como si eso fuese poco los primeros 10k los hice en 1h y algunos segundos (más rápido que la 10k que corrí hace algunos meses) y los 21k los terminé en 2h 09m y algunos segundos! Increible tiempo. Yo creí que iba a hacer 2h 30m.&lt;/p&gt;
+&lt;p&gt;Hazaña total :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1/2 maraton con cocos2d</title>
+      <link>http://localhost:1313/2009/10/08/12-maraton-con-cocos2d/</link>
+      <pubDate>Fri, 09 Oct 2009 06:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/08/12-maraton-con-cocos2d/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/10/c3dc3-maraton_cocos2d.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/10/c3dc3-maraton_cocos2d.png?w=183&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Finalmente voy a correr (a pie) el medio maratón. Van a ser mis 1ros 21k, y no entrené casi nada para correr, aunque el duro entrenamiento del monociclo ayuda bastante.&lt;/p&gt;
+&lt;p&gt;Todavía no me llegó la remera dry fit con el logo de cocos2d. A falta de eso, tengo la remera oficial del maratón con el nombre de cocos2d :-)&lt;/p&gt;
+&lt;p&gt;Maratón powered by cocos2d :-)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>El maraton que no pudo ser</title>
+      <link>http://localhost:1313/2009/10/05/el-maraton-que-no-pudo-ser/</link>
+      <pubDate>Tue, 06 Oct 2009 06:03:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/05/el-maraton-que-no-pudo-ser/</guid>
+      <description>&lt;p&gt;En fin, no me dieron la autorización para correr el maratón en monociclo.&lt;br&gt;
+Será otro año.&lt;/p&gt;
+&lt;p&gt;Lo bueno es que estoy en buena forma y seguiré entrenando. Quizás pueda participar en la de Dusseldorf del 2010.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimos preparativos para el maratón</title>
+      <link>http://localhost:1313/2009/10/01/ultimos-preparativos-para-el-maraton/</link>
+      <pubDate>Thu, 01 Oct 2009 22:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/10/01/ultimos-preparativos-para-el-maraton/</guid>
+      <description>&lt;p&gt;Ultimos preparativos para el maratón:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sábado 3: Hacer 1h 30m de pedaleo&lt;/li&gt;
+&lt;li&gt;Lunes 5: Hacer 1h 30m de pedaleo&lt;/li&gt;
+&lt;li&gt;Miércoles 7: Hacer 32km.&lt;/li&gt;
+&lt;li&gt;Viernes 9: Tranqui, muy tranqui. Hacer 1 hora tranqui de pedaleo&lt;/li&gt;
+&lt;li&gt;Sábado 10: Descanso absoluto&lt;/li&gt;
+&lt;li&gt;Domingo 11: El maratón!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tengo número de corredor: 6361, pero aún no tengo la confirmación de la organización. Organizadores, por favor, digan que si o que no&amp;hellip; la ansiedad me mata!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Volquetes &#34;El Pingüi&#34;</title>
+      <link>http://localhost:1313/2009/09/30/volquetes-el-pingui/</link>
+      <pubDate>Thu, 01 Oct 2009 06:06:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/30/volquetes-el-pingui/</guid>
+      <description>&lt;p&gt;El 5to entrenamiento en el KDT fue sin mayores incovenientes. Hubo mucho viento y eso molestó bastante. Hice 27 km a un promedio de 17.5 km/h.&lt;/p&gt;
+&lt;p&gt;Pero lo simpático fue que encontré a Pingüi:&lt;br&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/_7Tp7oCOlWFE/SsPkLE-zIWI/AAAAAAAAX1g/_c-c4s0ZcTQ/s400/IMG_0026.JPG&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>KDT: 4to entremaniento</title>
+      <link>http://localhost:1313/2009/09/29/kdt-4to-entremaniento/</link>
+      <pubDate>Tue, 29 Sep 2009 22:16:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/29/kdt-4to-entremaniento/</guid>
+      <description>&lt;p&gt;El sábado volvi a entrenar en el KDT, al igual que ayer.&lt;br&gt;
+Ayer di 19 vueltas (also asi como 25 km) a un promedio de 18.6 km/h.&lt;br&gt;
+Lo interesante es que no terminé nada cansado asi que creo que en el maratón podré hacer un tiempo menor a 2h 30m.&lt;/p&gt;
+&lt;p&gt;Respecto al maratón, ya estoy inscriptio, pero falta que me den el número, y lo más importante, que me autoricen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrenando en el KDT</title>
+      <link>http://localhost:1313/2009/09/24/entrenando-en-el-kdt/</link>
+      <pubDate>Fri, 25 Sep 2009 05:29:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/24/entrenando-en-el-kdt/</guid>
+      <description>&lt;p&gt;Descubrí un lindo lugar para entrenar donde uno tiene que preocuparse ni por los autos, ni veredas ni nada: El &lt;a href=&#34;http://www.circuitokdt.com.ar/&#34;&gt;circuito KDT&lt;/a&gt; :-)&lt;/p&gt;
+&lt;p&gt;El sábado pasado habré hecho 15 vueltas (más también) y el GPS no anduvo asi que no se bien la cantidad de vueltas que di, pero si el tiempo: 1h 02m.&lt;/p&gt;
+&lt;p&gt;Hoy di 22 vueltas (casi 29km) en poco menos 1h 30, a un promedio de 18,6 km/h.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>BAMaraton</title>
+      <link>http://localhost:1313/2009/09/17/bamaraton/</link>
+      <pubDate>Fri, 18 Sep 2009 02:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/17/bamaraton/</guid>
+      <description>&lt;p&gt;Haciendo lo posible para que me dejen participar en la Maratón del 11 de Octubre de Buenos Aires&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.scribd.com/doc/19856148/Maraton-en-monociclo&#34; title=&#34;View Maratón en monociclo on Scribd&#34;&gt;Maratón en monociclo&lt;/a&gt; &lt;a href=&#34;http://d1.scribdassets.com/ScribdViewer.swf?document_id=19856148&amp;amp;access_key=key-1g8n6urvwrykrkng1vnm&amp;amp;page=1&amp;amp;version=1&amp;amp;viewMode=list&#34;&gt;http://d1.scribdassets.com/ScribdViewer.swf?document_id=19856148&amp;amp;access_key=key-1g8n6urvwrykrkng1vnm&amp;amp;page=1&amp;amp;version=1&amp;amp;viewMode=list&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Palermo - Vicente Lopez - Palermo</title>
+      <link>http://localhost:1313/2009/09/15/palermo-vicente-lopez-palermo/</link>
+      <pubDate>Tue, 15 Sep 2009 19:52:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/15/palermo-vicente-lopez-palermo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/Sq96Cd_V5KI/AAAAAAAAXwo/X7XC9dI8e24/s400/IMG_0024.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/Sq96Cd_V5KI/AAAAAAAAXwo/X7XC9dI8e24/s400/IMG_0024.JPG&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Ayer hice un lindo paseo de Palermo hasta Vicente Lopez ida y vuelta.&lt;br&gt;
+Fueron unos 26 km aproximadamente.&lt;/p&gt;
+&lt;p&gt;Camino:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Arranqué en la plaza Alemania&lt;/li&gt;
+&lt;li&gt;Crucé el Rosedal&lt;/li&gt;
+&lt;li&gt;Atravecé el Lago de Palermo&lt;/li&gt;
+&lt;li&gt;Pasé por el puente de River&lt;/li&gt;
+&lt;li&gt;Luego por Cantilo hasta el Parque de los Niños&lt;/li&gt;
+&lt;li&gt;Desde ahí llegué hasta Vicente Lopez&lt;/li&gt;
+&lt;li&gt;Y seguí hasta que la costanera de Vicente Lopez se corto&lt;/li&gt;
+&lt;li&gt;Pegué la vuelta.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gpsies.com/mapOnly.do?fileId=ehzzwgcxaixtrszn&#34;&gt;http://www.gpsies.com/mapOnly.do?fileId=ehzzwgcxaixtrszn&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gracias Unicycle.com</title>
+      <link>http://localhost:1313/2009/09/11/gracias-unicycle-com/</link>
+      <pubDate>Fri, 11 Sep 2009 08:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/11/gracias-unicycle-com/</guid>
+      <description>&lt;p&gt;Hace como 1 mes se me ropió el soporte que conecta el T-Bar con el asiento. Y semanas más tarde se me rompió uno de los tornillos que conecta el cuadro con el piñon.&lt;/p&gt;
+&lt;p&gt;La cosa es que me contacté con &lt;a href=&#34;http://www.unicycle.com&#34;&gt;unicycle.com&lt;/a&gt; para ver si podía comprar solamente la pieza que estaba rota, y el tornillo.&lt;br&gt;
+Pero la pieza que se me rompió no se vende sola. Se vende junto al T-Bar.&lt;br&gt;
+Pero como estaba en garantía me reemplazaron la pieza rota sin problemas (previamente había enviado por correo la pieza rota).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Otra paseo más: 26 KM</title>
+      <link>http://localhost:1313/2009/09/10/otra-paseo-mas-26-km/</link>
+      <pubDate>Fri, 11 Sep 2009 04:46:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/10/otra-paseo-mas-26-km/</guid>
+      <description>&lt;p&gt;Me llegó el repuesto del T-Bar asi que ahora puedo salir a andar más cómodo con el monociclo de 36&amp;quot;.&lt;br&gt;
+Y es por eso que hice este lindo paseo de 26 Km.&lt;br&gt;
+&lt;a href=&#34;http://www.gpsies.com/mapOnly.do?fileId=fyqvbduskvawoxki&#34;&gt;http://www.gpsies.com/mapOnly.do?fileId=fyqvbduskvawoxki&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maraton de Buenos Aires (42k)</title>
+      <link>http://localhost:1313/2009/09/08/maraton-de-buenos-aires-42k/</link>
+      <pubDate>Wed, 09 Sep 2009 01:43:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/08/maraton-de-buenos-aires-42k/</guid>
+      <description>&lt;p&gt;Se viene el maratón de Buenos Aires.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.maratondebuenosaires.com/&#34;&gt;http://www.maratondebuenosaires.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Me muero de ganas de participar en el monociclo. Ya le envié 2 mensajes a los organizadores, pero todavía no tuve respuesta. Si conoces a algún organizador, por favor, avisame. Gracias!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando nuevamente</title>
+      <link>http://localhost:1313/2009/09/07/monocicleando-nuevamente/</link>
+      <pubDate>Tue, 08 Sep 2009 05:27:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/09/07/monocicleando-nuevamente/</guid>
+      <description>&lt;p&gt;Arreglé el monociclo de 36&amp;quot; y salí a andar unas vueltas. Hice unos 23km.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gpsies.com/mapOnly.do?fileId=kunsineeratatigp&#34;&gt;http://www.gpsies.com/mapOnly.do?fileId=kunsineeratatigp&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mono Polo II</title>
+      <link>http://localhost:1313/2009/08/31/mono-polo-ii/</link>
+      <pubDate>Mon, 31 Aug 2009 21:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/08/31/mono-polo-ii/</guid>
+      <description>&lt;p&gt;Mono Polo (polo en monociclo), 2da edición:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/Spvar21PngI/AAAAAAAAXgc/feTQzGDvFWs/s400/IMG_3937.JPG&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/Spvar21PngI/AAAAAAAAXgc/feTQzGDvFWs/s400/IMG_3937.JPG&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Más fotos de este nuevo deporte:&lt;br&gt;
+&lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/MonoPoloII#&#34;&gt;http://picasaweb.google.com/ricardoquesada/MonoPoloII#&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sin 30k, yendo por los 42k</title>
+      <link>http://localhost:1313/2009/08/20/sin-30k-yendo-por-los-42k/</link>
+      <pubDate>Thu, 20 Aug 2009 17:53:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/08/20/sin-30k-yendo-por-los-42k/</guid>
+      <description>&lt;p&gt;Lamentablemente no me dejaron inscribirme para la carrera de 30k que se va a hacer dentro de unas semanas aca en Buenos Aires.&lt;/p&gt;
+&lt;p&gt;Pero espero poder participar de los 42k de Buenos Aires. Ya les envié un mail a los organizadores. Ojala me dejen!&lt;/p&gt;
+&lt;p&gt;La pregunta que me hago es: si me dejan participar, ¿corro con el monociclo de 28&amp;quot; o con el de 36&amp;quot;?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sin Handle-bar por unos días</title>
+      <link>http://localhost:1313/2009/08/11/sin-handle-bar-por-unos-dias/</link>
+      <pubDate>Tue, 11 Aug 2009 17:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/08/11/sin-handle-bar-por-unos-dias/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/08/564fb-img_3899.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/08/564fb-img_3899.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Parece que los golpes que sufre el monociclo, los siente.&lt;br&gt;
+Ayer, después de haber andado unos 10 kilometros, ya cerca de casa, me quedé con el handle-bar en la mano. Se rompió la pieza que uno el handle-bar con el asiento.&lt;/p&gt;
+&lt;p&gt;Nada grave.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3 meses, 2 monociclos y 400 km después</title>
+      <link>http://localhost:1313/2009/06/25/3-meses-2-monociclos-y-400-km-despues/</link>
+      <pubDate>Thu, 25 Jun 2009 22:07:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/06/25/3-meses-2-monociclos-y-400-km-despues/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/1-V17i-UmVC-PlCkY8Iesg?feat=embedwebsite&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh5.ggpht.com/_7Tp7oCOlWFE/Sj87zK_1TTI/AAAAAAAAVrA/DfJoMjuCXQo/s400/IMG_3633.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Estadisticas monociclisticas de Heidelberg:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fueron casi 3 meses en Heidelberg&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compré 2 monociclos: uno de 28&amp;quot; y otro de 36&amp;quot;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Llegué 2 veces a la cima de Köningssthul con 7 intentos&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Corrí una maraton de 42 km&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Visite al menos cinco ciudades cercanas&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El último mes salia a monociclear 4 veces por semana&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Anduve más o menos 400 km&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Königsstuhl, te vencí</title>
+      <link>http://localhost:1313/2009/06/13/konigsstuhl-te-venci/</link>
+      <pubDate>Sat, 13 Jun 2009 18:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/06/13/konigsstuhl-te-venci/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/pvt5pM30Xq2K0zQ2LLJRCg?feat=embedwebsite&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh6.ggpht.com/_7Tp7oCOlWFE/SjFM4do_h-I/AAAAAAAAVVA/I0GFR6HWzjI/s288/IMG_3585.JPG&#34;&gt;&lt;/a&gt;From &lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/KonigStuhl?feat=embedwebsite&#34;&gt;KonigStuhl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El miércoles pasado, en mi 6to intento, logré llegar a Königsstuhl (la cima de la montaña que esta atras de casa).&lt;br&gt;
+Fué una salida con lógistica previa. El Lunes había salido a recorrer caminos alternativos, sin tanta pendiente, y el miercoles salí temprano para que no me agarre la noche.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/s/c/bin/slideshow.swf&#34;&gt;http://picasaweb.google.com/s/c/bin/slideshow.swf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paseo familiar de Heidelberg a Ladenburg</title>
+      <link>http://localhost:1313/2009/05/31/paseo-familiar-de-heidelberg-a-ladenburg/</link>
+      <pubDate>Sun, 31 May 2009 09:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/05/31/paseo-familiar-de-heidelberg-a-ladenburg/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/05/4fca6-heidelberg-ladenburg.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/05/4fca6-heidelberg-ladenburg.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Mamá vino a visitarnos, y los 3, Mamá, Mary y yo nos fuimos a Ladenburg, que esta a unos 12 km de casa.&lt;br&gt;
+Mamá se fue en una bici alquilada, Mary en su bici, y yo en el mono de 36&amp;quot;.&lt;br&gt;
+Fue un lindo paseo con paradas en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Galería de arte&lt;/li&gt;
+&lt;li&gt;Max Plant (donde estudia Mary)&lt;/li&gt;
+&lt;li&gt;Puesto de frutillas (paramos tanto a la ida como a la vuelta)&lt;/li&gt;
+&lt;li&gt;Granja&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Playita&amp;rdquo; del Necar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/05/b6ab2-pipu_en_mono_36.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/05/b6ab2-pipu_en_mono_36.jpg?w=196&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Llegó el 4to hijo... esta vez uno bien grandote</title>
+      <link>http://localhost:1313/2009/05/25/llego-el-4to-hijo-esta-vez-uno-bien-grandote/</link>
+      <pubDate>Tue, 26 May 2009 02:15:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/05/25/llego-el-4to-hijo-esta-vez-uno-bien-grandote/</guid>
+      <description>&lt;p&gt;Las medias de potente&lt;/p&gt;
+&lt;p&gt;(Si no vieron la propagando de &amp;ldquo;Las medias de Potente&amp;rdquo;, aca esta: &lt;a href=&#34;http://video.msn.com/video.aspx?mkt=en-us&amp;amp;vid=80bdd7ff-eab3-4bdd-a8c0-6c6924b6db27&#34;&gt;video&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Resulta que me compré un asiento más cómodo para mi monociclo de 28&amp;quot;.&lt;br&gt;
+Desafortunadamente el asiento no era compatible con el porta asiento.&lt;br&gt;
+Asi que decidí comprarme un porta asiento compatible con el asiento, y de paso me compré un &amp;ldquo;T-bar&amp;rdquo; para las manos.&lt;br&gt;
+Resulta que el porta asiento no era compatible con el cuadro&amp;hellip; asi que dije:&lt;br&gt;
+- ¿Qué hago con un asiento, porta asiento y T-Bar? ¿Me compró un cuadro nuevo? ¿Y si no es compatible con el hub?&amp;hellip; Mejor me compro un monociclo entero&amp;hellip;&lt;br&gt;
+Y asi fué. Me compré un monociclo de 36&amp;quot;.&lt;br&gt;
+Me llegó hoy y estuve todo el día armandolo, y acabo de llegar después de probarlo.&lt;br&gt;
+Hice más o menos 12km.&lt;br&gt;
+Se va bastante rápido y es bastante díficil frenar&amp;hellip; quizas la próxima adquisición sea un freno.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maraton, más fotos y tiempo oficial</title>
+      <link>http://localhost:1313/2009/05/05/maraton-mas-fotos-y-tiempo-oficial/</link>
+      <pubDate>Tue, 05 May 2009 19:19:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/05/05/maraton-mas-fotos-y-tiempo-oficial/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.rmsv-duesseldorf.de/1doimage/2009_Marathon/IMGP5527.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.rmsv-duesseldorf.de/1doimage/2009_Marathon/IMGP5527.jpg&#34;&gt;&lt;/a&gt;&lt;a href=&#34;http://www.rmsv-duesseldorf.de/1doimage/2009_Marathon/IMGP5671.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://www.rmsv-duesseldorf.de/1doimage/2009_Marathon/IMGP5671.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Más fotos de la maratón:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fotos sacadas por el club RSMV: &lt;a href=&#34;http://www.rmsv-duesseldorf.de/1doimage/vorschau.php?cat=38&#34;&gt;fotos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fotos sacas por el diario local: &lt;a href=&#34;http://www.rp-online.de/public/bildershowinline/regional/duesseldorf/duesseldorf-stadt/duesseldorf-marathon/44105?sel=foto&#34;&gt;fotos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fotos de otro monociclista: &lt;a href=&#34;http://picasaweb.google.de/pelleho/EinradmarathonInDusseldorf?authkey=Gv1sRgCL6M3uLM4Jv4rgE#&#34;&gt;fotos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ah&amp;hellip; apareció mi tiempo oficial: &lt;a href=&#34;http://ergebnisse.metrogroup-marathon.eu/suche.php?_event=E&amp;amp;_field=START_NO&amp;amp;_string=5014&amp;amp;limit=50&amp;amp;imageField.x=34&amp;amp;imageField.y=4&#34;&gt;3 horas, 2 minutos&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maratón de Dusseldorf, que fiesta inovidable</title>
+      <link>http://localhost:1313/2009/05/04/maraton-de-dusseldorf-que-fiesta-inovidable/</link>
+      <pubDate>Mon, 04 May 2009 17:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/05/04/maraton-de-dusseldorf-que-fiesta-inovidable/</guid>
+      <description>&lt;p&gt;La maratón de Dusseldorf fué una fiesta inolvidable: el ambiente, los organizadores, los corredores, los monociclistas, la gente local de la ciudad&amp;hellip; en fin, todos hacían que la ciudad esta de fiesta.&lt;/p&gt;
+&lt;p&gt;El día antes de la carrera todos estabamos con las mochilas de corredores. Unos a otros nos preguntabamos: &amp;ldquo;-¿Vos corres? -¿Dónde es la registración?&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;A la noche los diversos hoteles tenian eventos especiales para los maratonistas: &amp;ldquo;pasta para todos&amp;rdquo;. Nosotros nos fuimos a comer a Via Appia con unos 30 monociclistas del club &lt;a href=&#34;http://www.rmsv-duesseldorf.de/&#34;&gt;RMSV&lt;/a&gt; (club donde se practica monociclo y radball). El evento estuvo muy simpatico, conocí a la gente del club que nos trataron excelente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ultimo entrenamiento antes de la maraton</title>
+      <link>http://localhost:1313/2009/05/01/ultimo-entrenamiento-antes-de-la-maraton/</link>
+      <pubDate>Sat, 02 May 2009 03:23:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/05/01/ultimo-entrenamiento-antes-de-la-maraton/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/kAtex6Zx0TxvLo4pXgkMCQ?feat=embedwebsite&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.ggpht.com/_7Tp7oCOlWFE/SftaQI8TFTI/AAAAAAAASHo/5Wo4RtjM4Sw/s288/IMG_2845.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hoy hice el último entrenamiento antes de la maratón. Mañana Sábado parto para Dusseldorf y el Domingo a las 8:45 largamos!&lt;/p&gt;
+&lt;p&gt;Creo que estoy como para hacer la carrera en 3:30 ~ 4:00 horas.&lt;/p&gt;
+&lt;p&gt;Hoy estuve haciendo los últimos ajustes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;altura del monociclo: está alto&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;calzado: voy a llevar las zapatillas de correr ya que tienen mejor agarre&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;asiento: una milésimas corrido hacia la izquierda&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;música: estuve eligiendo 5 horas de música &amp;ldquo;motivadora&amp;rdquo;. Por ejemplo: Rocky, La Mona Jimenez, Los Autenticos Decadentes, Los Redonditos, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mejorando el tiempo</title>
+      <link>http://localhost:1313/2009/04/29/mejorando-el-tiempo/</link>
+      <pubDate>Thu, 30 Apr 2009 00:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/04/29/mejorando-el-tiempo/</guid>
+      <description>&lt;p&gt;Hoy hice una prueba de velocidad para ver si puede realmente llegar en menos de 4 horas.&lt;br&gt;
+Hice los primeros 5,67 kilometros en 26&amp;rsquo; 50&amp;quot;, algo asi como 12,5 km/h.&lt;br&gt;
+Y la vuelta (los otros 5,67 kilometros) en 28&amp;rsquo; 15&amp;rsquo;, algo asi como 11,9 km/h.&lt;/p&gt;
+&lt;p&gt;O sea que estoy más o menos bien. Tengo que lograr mantener ese ritmo 4 veces más! Ja!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entrenando para la maratón</title>
+      <link>http://localhost:1313/2009/04/27/entrenando-para-la-maraton/</link>
+      <pubDate>Mon, 27 Apr 2009 19:47:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/04/27/entrenando-para-la-maraton/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/lh/photo/ELLKYqgB7o_ekuJ1w4nPAw?feat=embedwebsite&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh4.ggpht.com/_7Tp7oCOlWFE/SfYOAq0_eaI/AAAAAAAARxg/--WdrhFCrpE/s288/IMG_2826.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Se viene la &lt;a href=&#34;http://www.metrogroup-marathon.de/&#34;&gt;maratón de 42km en monociclo&lt;/a&gt;, que es el Domingo que viene.&lt;br&gt;
+Y como no quiero quedar descalificado, estoy entrenando.&lt;br&gt;
+Hoy fui hasta el pueblo que queda pasando Neckargemünd, que no se cómo se llama.&lt;br&gt;
+Fueron más o menos 26km sin descanso y tardé 2h 40min.&lt;br&gt;
+Eso me da un total de 9,7 km/h y tengo que terminar los 42km en menos de 4 horas, para eso tengo que lograr una velocidad promedio de 11 km/h&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando a pueblos vecinos</title>
+      <link>http://localhost:1313/2009/04/20/monocicleando-a-pueblos-vecinos/</link>
+      <pubDate>Mon, 20 Apr 2009 10:17:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/04/20/monocicleando-a-pueblos-vecinos/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/04/01045-heidelberg-schwetzinger.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/04/01045-heidelberg-schwetzinger.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Ayer Domingo nos fuimos a Schwetzingen, un pueblo a unos 11 km de casa. La piba fue en bicicleta y yo en monociclo. Lindo paisaje, lindo camino, lindo día y buen entrenamiento para la maratón.&lt;/p&gt;
+&lt;p&gt;Aca van algunas fotos del viaje:&lt;br&gt;
+&lt;a href=&#34;http://picasaweb.google.com/s/c/bin/slideshow.swf&#34;&gt;http://picasaweb.google.com/s/c/bin/slideshow.swf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mapa del recorrido de hoy</title>
+      <link>http://localhost:1313/2009/04/16/mapa-del-recorrido-de-hoy/</link>
+      <pubDate>Fri, 17 Apr 2009 03:08:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/04/16/mapa-del-recorrido-de-hoy/</guid>
+      <description>&lt;p&gt;Este es el recorrido que hice con el nuevo monociclo.&lt;br&gt;
+Es un lindo camino a lado del río Neckar de unos 9 km de largo.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2009/04/453e0-recorridomonociclo-dia1.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2009/04/453e0-recorridomonociclo-dia1.jpg?w=300&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El punto verde fue la largada/llegada.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nuevo monociclo. Ajata Marathon 28&#34;</title>
+      <link>http://localhost:1313/2009/04/16/nuevo-monociclo-ajata-marathon-28/</link>
+      <pubDate>Thu, 16 Apr 2009 20:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/04/16/nuevo-monociclo-ajata-marathon-28/</guid>
+      <description>&lt;p&gt;Si, tengo un nuevo monociclo, con el cual voy a participar de la &lt;a href=&#34;http://www.metrogroup-marathon.de/&#34;&gt;marton de 42 km de monociclistas&lt;/a&gt;.&lt;br&gt;
+Recien me llegó y salí a dar una vuelta de 9 km. Esta muy bueno este monociclo!&lt;/p&gt;
+&lt;p&gt;Aca esta el mapa de la maraton: &lt;a href=&#34;http://www.metrogroup-marathon.de/fileadmin/Image_Archive/Dokumente/Strecke_2008_Pfade.jpg&#34;&gt;mapa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/s/c/bin/slideshow.swf&#34;&gt;http://picasaweb.google.com/s/c/bin/slideshow.swf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mono Polo</title>
+      <link>http://localhost:1313/2009/01/20/mono-polo/</link>
+      <pubDate>Wed, 21 Jan 2009 02:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/2009/01/20/mono-polo/</guid>
+      <description>&lt;p&gt;Mono Polo: Dicese del juego donde el jinete se monta sobre un monociclo en vez de un caballo, con relgas similares a las del polo. Si el jugador no tiene dinero para usar tacos y bochas de polo puede usar un palo cualquiera y una piña en su reemplazo.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/s/c/bin/slideshow.swf&#34;&gt;http://picasaweb.google.com/s/c/bin/slideshow.swf&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calla Calla Catalina</title>
+      <link>http://localhost:1313/2008/12/22/calla-calla-catalina/</link>
+      <pubDate>Mon, 22 Dec 2008 22:57:00 +0000</pubDate>
+      <guid>http://localhost:1313/2008/12/22/calla-calla-catalina/</guid>
+      <description>&lt;p&gt;Que morbo que tiene esa canción, por Dios.&lt;br&gt;
+Es así:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;El pibe se va a la guerra&lt;/li&gt;
+&lt;li&gt;La mujer lo espera por 7 años!&lt;/li&gt;
+&lt;li&gt;La mujer ve un soldado y le preguta a él: &amp;ldquo;che, ¿viste a mi marido que es como vos?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;-&amp;ldquo;Ah&amp;hellip; vos sos esa&amp;hellip; si, me dijo que me case con vos&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;-&amp;ldquo;Ni en pedo&amp;hellip; esperé 7 años, y esperaré otros 7&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;-&amp;ldquo;Pero tontita&amp;hellip; ¿no me reconociste?&amp;hellip; soy yo, Cacho, tu marido&amp;hellip; volvi tontia&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Y nosotros la cantabamos cuando teniamos 5 años&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monocicleando poco y nada</title>
+      <link>http://localhost:1313/2007/09/11/monocicleando-poco-y-nada/</link>
+      <pubDate>Tue, 11 Sep 2007 20:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/2007/09/11/monocicleando-poco-y-nada/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/wp-content/uploads/2007/09/f812d-800px-midi_d27ossau_en_invierno.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2007/09/f812d-800px-midi_d27ossau_en_invierno.jpg?w=300&#34;&gt;&lt;/a&gt; Debido al invierno, &lt;a href=&#34;http://www.pyweek.org/e/pywv/&#34;&gt;pyweek&lt;/a&gt;, &lt;a href=&#34;http://www.ajedrezcsm.com.ar&#34;&gt;ajedrez&lt;/a&gt;, vacaciones y otros temas estuve monocicleando poco y nada :(&lt;br&gt;
+Ahora que llega la primera, espero volver a monociclear más seguido.&lt;br&gt;
+La buena noticia es que me contacté con Ariel Aizenberg (el que me inició con los malabares) y convenimos en salir a monociclear un día de estos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buscando monociclos en Japón</title>
+      <link>http://localhost:1313/2006/12/07/buscando-monociclos-en-japon/</link>
+      <pubDate>Thu, 07 Dec 2006 09:16:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/12/07/buscando-monociclos-en-japon/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://lh5.google.com/image/ricardoquesada/RXAoGVsPYdI/AAAAAAAABOM/wSv_1WblytE/IMG_1749.jpg?imgmax=800&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh5.google.com/image/ricardoquesada/RXAoGVsPYdI/AAAAAAAABOM/wSv_1WblytE/IMG_1749.jpg?imgmax=800&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Algunos sabrán que son varios los japoneses que se destacan con el monociclo, basta ver algunos resultados de las &lt;a href=&#34;http://www.unicycling.org/iuf/&#34;&gt;UNICON&lt;/a&gt;. Quizás se deba a que en algunas escuelas japonesas es obligatorio la enseñanza de monociclo, ya que desarrolla la concentración y coordinación motriz ( &lt;a href=&#34;http://www.arte.tv/fr/search__results/671346.html&#34;&gt;fuente&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;La semana pasada estuve en Tokyo por trabajo y durante mi estadía traté de encontrar algún monociclista o algo relacionado con este deporte. Las calles y veredas de Tokyo estan llenas de autos y transeúntes respectivamente, las cuales no son indicadas para monociclear, así que supuse que fue por eso que no vi ningún monociclista (aunque hay algunos parques donde sí podría haber visto, pero no tuve suerte). Lo que sí vi fueron algunos monociclos en algunas tiendas. Por ejemplo, los monociclos de la foto son de rodado 10&amp;quot; o 12&amp;quot;, y cuestan 5.200 yens que es algo así como 150 pesos argentinos. En otra tienda conseguí que me dieran un folleto con los monociclos &lt;a href=&#34;http://www.miyatabike.com/&#34;&gt;Miyata&lt;/a&gt;. Y no tuve mucho más tiempo para seguir investigando sobre el monociclo nipón.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi segundo saltito</title>
+      <link>http://localhost:1313/2006/11/07/mi-segundo-saltito/</link>
+      <pubDate>Tue, 07 Nov 2006 03:06:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/11/07/mi-segundo-saltito/</guid>
+      <description>&lt;p&gt;Hace algunos meses había posteado que había hecho mi &lt;a href=&#34;http://monodiario.blogspot.com/2006/08/mi-primer-saltito.html&#34;&gt;primer saltito&lt;/a&gt;. Bueno, ahora quiero avisar que hoy, por primera vez, hice mi segundo saltito, o sea, me subí al cordón de la vereda saltando. Estuve siguiendo los consejos que me dieron Simón, Lucas y Manuel en el &lt;a href=&#34;http://monodiario.blogspot.com/2006/10/segundo-encuentro-de-monociclistas.html&#34;&gt;SEMA&lt;/a&gt;. Bueno, fué solamente eso, un pequeño salto para mí, pero un gran salto para mi evolución como monociclista :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Segundo Encuentro de Monociclistas Argentinos</title>
+      <link>http://localhost:1313/2006/10/16/segundo-encuentro-de-monociclistas-argentinos/</link>
+      <pubDate>Mon, 16 Oct 2006 15:49:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/10/16/segundo-encuentro-de-monociclistas-argentinos/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/Sema/photo#4986283307369037842&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://lh3.google.com/ricardoquesada/RTLWP-UxABI/AAAAAAAAAmQ/hG9kyzYLVo0/Sema%202006%20122.jpg?imgmax=800&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Este fin de semana largo (14, 15 y 16 de octubre) se hizo el SEMA (Segundo Encuentro de Monociclistas Argentinos) en La Plata. Manuel Borrajo ofreció su casa como punto de encuentro, y allí fuimos Lucas, Martín, Simón y yo. Algunos estuvimos solo un día (yo volvi antes de las vacaciones para poder estar el domingo), mientras otros estuvieron todo el fin de semana largo. El único día que fui (el domingo) estuvimos monociclieando por las distintas plazas de La Plata mientras los hinchas de Estudiantes festejaban el 7 a 0 a Gimnasia. Practicamos distintas pruebas, nos pasamos trucos, nos intercambiamos nuestros monociclos, nos golpeamos un poco tratando de bajar los escalones de la catedral y sobre todo pasamos un buen momento.&lt;br&gt;
+María, mi mujer, vino y además de sacarnos varias fotos, filmó varias piruetas.&lt;br&gt;
+Fotos del domingo: &lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/Sema&#34;&gt;Fotos SEMA&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buscando el record</title>
+      <link>http://localhost:1313/2006/09/07/buscando-el-record/</link>
+      <pubDate>Thu, 07 Sep 2006 14:25:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/09/07/buscando-el-record/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://photos1.blogger.com/blogger2/5806/4075/200/cronometro.0.jpg&#34;&gt;Hace algunos días que tenía ganas de saber en cuanto tiempo podía llegar en mono al trabajo. Algunas semanas atras, yendo más o menos tranquilo, haciendo alguna piruetita, slaloms, saltitos y demás, había tardado 35 minutos. El lunes (o martes) pasado, yendo por el camino largo (yendo por Santa Fé y no por Las Heras) tardé 28 minutos. Entonces, supuse, que tomando el camino corto tendría que tomarme aproximadamente 25 minutos. Así que hoy a la mañana me levanté dispuesto a batir el record!&lt;br&gt;
+La consigna era llegar en el menor tiempo posible de puerta a puerta. El cronometro se prendía cuando salía de casa, y lo paraba cuando llegaba a la puerta de Core. Así que si me topaba con algún semáforo en rojo, peatón preguntón, perro perseguidor, caida, etc., el cronometro seguía corriendo. La cosa es que tardé 22 minutos, 32 segundos. Gran record! Creo que lo puedo bajar un poco más, pero dependo un poco de la suerte de los semáforos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi primer saltito</title>
+      <link>http://localhost:1313/2006/09/01/mi-primer-saltito/</link>
+      <pubDate>Fri, 01 Sep 2006 00:48:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/09/01/mi-primer-saltito/</guid>
+      <description>&lt;p&gt;Ayer hice mi primeros saltos en movimiento. Mientras iba al trabajo con mi mono de 24&amp;quot; pasando por la vereda del Botanico, me eleve la impresionante altura de 1 centimetro :). Je, igual no es fácil saltar con el Torker Unistar DX 24&amp;quot;, es un poco pesado. Ya vendran saltos mayores.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monociclenado de casa al trabajo</title>
+      <link>http://localhost:1313/2006/08/10/monociclenado-de-casa-al-trabajo/</link>
+      <pubDate>Thu, 10 Aug 2006 18:16:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/08/10/monociclenado-de-casa-al-trabajo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://photos1.blogger.com/blogger2/5806/4075/1600/de%20casa%20a%20core.png&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://photos1.blogger.com/blogger2/5806/4075/200/de%20casa%20a%20core.png&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Hoy, por primera vez, hice todo el trayecto de casa al trabajo en monociclo. Lo había intentado antes con el monociclo de 20&amp;quot;, pero, cansa mucho hacer trayectos largos con ese mono. Monociclié los 3,2 km (según &lt;a href=&#34;http://earth.google.com/&#34;&gt;GoogleEarth&lt;/a&gt;) , salvo una cuadra que es peligrosa monociclearla debido a la cantidad de peatones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nuevo mono!</title>
+      <link>http://localhost:1313/2006/08/08/nuevo-mono/</link>
+      <pubDate>Tue, 08 Aug 2006 15:07:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/08/08/nuevo-mono/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://photos1.blogger.com/blogger2/5806/4075/1600/00009-bis.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://photos1.blogger.com/blogger2/5806/4075/200/00009-bis.jpg&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Si! El viernes 4, por la mañana, fuí a buscar mi mono al correo, mi super mono. Ah&amp;hellip; que felicidad :). Depués lo llevé al trabajo y lo presente como si fuera mi hijo. Ja Ja! Es que estaba orgulloso de mi mono, de mi Torker Unistar DX 24&amp;quot;.&lt;br&gt;
+Esa misma noche, con mi mujer y con el mono, nos fuimos a Cariló. Ya teníamos pensados irnos a Cariló ese fin de semana (con o sin el nuevo mono), pero vino joya tener el Torker Unistar en Cariló, ya que ahí las calles son de tierra, hay varios médanos para andar, los terrenos son con desniveles, hay playa&amp;hellip; en fin, qué mejor que estrenar el mono en Cariló.&lt;br&gt;
+Fueron 2 días muy entretenidos, donde puede practicar bastante: bajé algunos escalones, anduve en la playa, anduve por las calles de tierra, me tiraba por los médanos&amp;hellip; todo muy divertido!&lt;br&gt;
+Aca puse algunas fotos de ese &lt;a href=&#34;http://picasaweb.google.com/ricardoquesada/CarilInvierno2006&#34;&gt;fin de semana&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monociclo, circo y deporte</title>
+      <link>http://localhost:1313/2006/06/15/monociclo-circo-y-deporte/</link>
+      <pubDate>Thu, 15 Jun 2006 18:12:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/06/15/monociclo-circo-y-deporte/</guid>
+      <description>&lt;p&gt;Es que yo empecé a monociclear para poder agrandar mi repertorio cirquense&amp;hellip; pelotitas, clavas&amp;hellip; y ahora monociclo. Groso. Nunca se me ocurrió pensar que el monociclo podía servir para, por ejemplo, andar. Lo cierto es que mientras buscaba tips para monociclistas principiantes en internet encontré que, por ejemplo, existen distintas disciplinas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;monociclo de montaña (muni, &lt;strong&gt;M&lt;/strong&gt; ountain &lt;strong&gt;U&lt;/strong&gt; nicycle)&lt;/li&gt;
+&lt;li&gt;monociclo street&lt;/li&gt;
+&lt;li&gt;monociclo para grandes distancias&lt;/li&gt;
+&lt;li&gt;monociclo artistico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Monociclo&#34;&gt;Más info (wikipedia)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprendiendo a doblar</title>
+      <link>http://localhost:1313/2006/06/11/aprendiendo-a-doblar/</link>
+      <pubDate>Sun, 11 Jun 2006 00:31:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/06/11/aprendiendo-a-doblar/</guid>
+      <description>&lt;p&gt;El monociclo dormia durante la semana en Core, y los fines de semana en casa. Con Pancho nos ibamos al medio día a buscar la comida andando en monociclo, y practicabamos en la espera. Y los fines de semana practiba en la plaza o en CUBA. Pero lo cierto es que la única manera de llegar a cualquier destino era a travez de líneas rectas (digamos zigzags involuntarios), y cada vez que había que esquivar algún obtáculo (piedra, pozo o persona), era un problema.&lt;br&gt;
+Empecé aprendiendo a doblar hacia la izquierda. Doblar hacia la derecha me parecía imposible. Trataba de entender porque podía doblar hacia un lado y no al otro, pero no entendía la razón. Lo cierto es que con el paso del tiempo pude empezar a doblar hacia la derecha con movimientos raros de los brazos (como si estuviera aleteando y remando a la vez). Ojo que todavía sigo remando mientras doblo :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mis primeros 5 metros</title>
+      <link>http://localhost:1313/2006/05/29/mis-primeros-5-metros/</link>
+      <pubDate>Mon, 29 May 2006 21:04:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/05/29/mis-primeros-5-metros/</guid>
+      <description>&lt;p&gt;El viernes 21 de abril, cuando compré el monociclo, me lo lleve a casa para practicar el fin de semana en la terraza del edificio. Lo que hacía era subirme con ayuda de una chimenea, y me lanzaba contra la pared que estaba en frente. Creo que avanzaba 40 centimetros y me caia. Intentaba, intentaba, y aveces lograba avanzar 1 metro. Eso era un logro extraordinario. Durante la semana, practiqué poco y nada, y el siguiente fin de semana continué con mi práctica sin mucho avance. El martes 2 de mayo decidí llevar el monociclo al trabajo, así practicaba en el trabajo. Muchos compañeros del trabajo se prendieron y empezamos varios a practicar dentro de la oficina. Andabamos apoyados de la pared y nos caimos enseguida. Al cabo de unos días el que mayores progresos había hecho era Pancho. Y fué él el primero en andar algunos metros dentro de la oficina, luego seguimos Bruce y yo. El día en cuestión fué el glorioso miércoles 16 de mayo. Fué algo mágico&amp;hellip; de repente la cabeza me hizo click y ya no me caía (en los primeros metros). Recuerdo que ese día me había empecinado en bajar el &amp;ldquo;centro de gravedad&amp;rdquo; para tener más control, y parece que funcionó.&lt;br&gt;
+Los días siguientes era peligroso trabajar en la oficina ya que nosotros, los monociclistas-sin-control, andabamos por los pasillos llevandonos todo por delante. Y fué así, que nos prohibieron andar en la oficina, y nos fuimos a andar al garage&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mi primer monociclo</title>
+      <link>http://localhost:1313/2006/04/23/mi-primer-monociclo/</link>
+      <pubDate>Sun, 23 Apr 2006 01:06:00 +0000</pubDate>
+      <guid>http://localhost:1313/2006/04/23/mi-primer-monociclo/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://photos1.blogger.com/blogger/3750/1778/1600/image5.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://photos1.blogger.com/blogger/3750/1778/200/image5.jpg&#34;&gt;&lt;/a&gt; Creo que mis ganas de tener un monociclo habrán empezado en el año 2001, cuando en &lt;a href=&#34;http://www.coresecurity.com&#34;&gt;Core&lt;/a&gt; estaba la fiebre de los malabares. Todos teníamos pelotitas, algunos más de 10 (yo, por ejemplo), aunque no sabíamos hacer con más de 3. Eso no importaba. Ariel Aizenberg era el Dios de los malabares, de hecho él fue el culpable de esa fiebre malabaril dentro de la empresa. Fué en ese entonces que le pregunté a Ariel acerca del monociclo, y me dijo que en el &lt;a href=&#34;http://www.bazardemagia.com&#34;&gt;Bazar de Magia&lt;/a&gt; vendian. No recuerdo bien porque no compré ninguno en esa época, aunque creo que era porque estaban bastante caros. Igual tenía con que entretenerme: había comprado clavas.&lt;br&gt;
+Y fué recién en Semana Santa del 2006, en Chapadmalal, cuando volvieron mis ganas por el monociclo, luego de haber hecho durante 14 días seguidos clavas y más clavas.&lt;br&gt;
+Entonces, cuando volví a Buenos Aires empecé a buscar en internet un lugar donde vendiesen monociclos, pero lo más cerca que había encontrado, era en Lanus, donde un artesano vendía el monociclo de su hijo porque no lo usaba. Tenía pensado irme para Lanus si no encontraba nada más cerca, y el viernes 21 de abril, Pancho (un compañero de trabajo) me dijo que en &lt;a href=&#34;http://www.k8malabares.com.ar/&#34;&gt;k8malabares&lt;/a&gt; vendían monociclos. Fué muy gracioso, ya que k8malabares estaba a 8 cuadras del trabajo, y estaban a punto de cerrar, así que los llamé por telefono, les pedi que me esperar unos minutos y fuí corriendo a comprarlo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

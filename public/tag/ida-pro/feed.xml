@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ida-Pro on RETRO.MOE</title>
+    <link>http://localhost:1313/tag/ida-pro/</link>
+    <description>Recent content in Ida-Pro on RETRO.MOE</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Jan 2018 15:29:57 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tag/ida-pro/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IBM PCjr BIOS dump</title>
+      <link>http://localhost:1313/2018/01/03/ibm-pcjr-bios-dump/</link>
+      <pubDate>Wed, 03 Jan 2018 15:29:57 +0000</pubDate>
+      <guid>http://localhost:1313/2018/01/03/ibm-pcjr-bios-dump/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://lh3.googleusercontent.com/QwPdCQFbS4grTTTnEg0aZ1cxE2p2RzSpIH14RtQnXLq9mvLWZoXWBrOtN%5FWNUs10ocaQ-gvGGSAkjTsx78%5FRBw0NoiBoYXTEu6hV8MJ68vxkkysJznNz7yVmCDFmdc5h3xHmy23HnPM=-no&#34; width=&#34;512&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;p&gt;The IBM PCjr BIOS is very well documented in the &lt;a href=&#34;https://archive.org/details/IbmPcjrTechnicalReference&#34;&gt;IBM PCjr Technical Reference manual&lt;/a&gt; (a must read for every PCjr developer).&lt;/p&gt;
+&lt;p&gt;The only problem is that navigating that code is not easy. It has all the problems from scanned books:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the fonts don&amp;rsquo;t look good&lt;/li&gt;
+&lt;li&gt;no hyper-links&lt;/li&gt;
+&lt;li&gt;and difficult to search&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So I dumped the BIOS and started analyzing it with &lt;a href=&#34;https://www.hex-rays.com/products/ida/support/download_freeware.shtml&#34;&gt;IDA Pro - Free version&lt;/a&gt;. I added some of the original comments from the Technical Reference manual, and added some comments of my own.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

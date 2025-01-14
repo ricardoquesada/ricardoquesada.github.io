@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts | RETRO.MOE</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - RETRO.MOE">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fcb3718b9739f6b39cc36096f68dccc8a7e0d3e24fc6b09c575e0c25ec8f35b2.css" integrity="sha256-/LNxi5c59rOcw2CW9o3MyKfg0&#43;JPxrCcV14MJeyPNbI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/feed.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="RETRO.MOE (Alt + H)">RETRO.MOE</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/unijoysticle/" title="Unijoysticle™">
+                    <span>Unijoysticle™</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/unijoysticle2/" title="Unijoysticle™ 2">
+                    <span>Unijoysticle™ 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tindie.com/stores/riq/" title="Store">
+                    <span>Store</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="🔍">
+                    <span>🔍</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Designing a modern retro console for (my) kids: Adding chiptune music
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The ideal modern-retro video game console https://www.youtube.com/watch?v=G_Fzt8RlbFc
+My goal is to build a video game console for (my) kids. I want to teach them programming in a fun way: fun for them… and also fun for me. The video-game console features are:
+Modern components, with a retro “spirit”. Easy to program, a must. Chosen: Python, in particular CircuitPython Gamepad support: Multiple gamepads at the same time (multiplayer is a must). Chosen: Bluepad32 firmware since it supports all modern Bluetooth gamepads ( see my previous post) “Retro” sound: Chosen: SN76489 (more info down below) “Retro” screen: Chosen: 64x32 LED matrix. Let’s see what we can do in this extremely low-resolution screen. A powerful enough micro-controller: Chosen: Matrix Portal M4, mostly for convenience since it comes with an ARM Cortex M4, ESP32, “expansion port” &#43; header to connect to the matrix LED. It already supports CircuitPython. As a bonus it has an accelerometer. Portability: It should be portable, no need to use an external power supply. In other words, I’m building a Nintendo Switch killer. What will happen next is that Nintendo will run out of business. If this happens, my 7-year-old kid will kill me, since his dream is to be a video game designer at Nintendo… so probably I shouldn’t be that aggressive in my marketing campaign.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-12-13 16:30:49 +0000 +0000'>December 13, 2020</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Designing a modern retro console for (my) kids: Adding chiptune music" href="http://localhost:1313/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Bluepad32: Gamepad support for ESP32
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+I’m happy to announce the release of Bluepad32: gamepad support for the ESP32.
+Bluepad32 is a firmware that runs in the ESP32 microcontroller. It supports all the modern Bluetooth gamepads like Sony (PS5, PS4, PS3), Microsoft (Xbox One S) and Nintendo (Switch, Wii) gamepads.
+https://www.youtube.com/watch?v=V0AGUe-CrEY
+Who is this for? This is for:
+…tinkers / makers / electronic hobbyist …that want to add gamepad support into their projects …in a maintainable and easy way For further info, read: Adding new platforms.
+Real world examples Unijoysticle 2: Gamepad support for the Commodore 64 / Amiga / etc. MatrixPortal M4: Gamepad support for the Adafruit AirLift family of boards ULX3S: An FPGA-based computer Just add an ESP32 to your project, and control it with a gamepad!
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-11-24 15:23:42 +0000 +0000'>November 24, 2020</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Bluepad32: Gamepad support for ESP32" href="http://localhost:1313/2020/11/24/bluepad32-gamepad-support-for-esp32/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Unijoysticle 2: Nintendo controllers and more!
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>https://youtu.be/8X7lPOL6b6A
+Unijoysticle 2 Christmas 2019 update, with support for:
+Nintendo Wii Remote Nintendo Wii U Pro Controller Nintendo Wii Remote &#43; Nunchuk extension Nintendo Wii Remote &#43; Classic Controller extension Nintendo Switch Pro controller 8BitDo family: all modes supported (Switch, Windows, Mac, Android). iCade 8-bitty It also supports:
+Amiga / Atari-St 3-buttons joystick And it is self-powered!
+For further info see:
+Full list of supported gamepads User Guide </p>
+  </div>
+  <footer class="entry-footer"><span title='2019-12-23 07:19:03 +0000 +0000'>December 23, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Unijoysticle 2: Nintendo controllers and more!" href="http://localhost:1313/2019/12/22/unijoysticle-2-nintendo-controllers-and-more/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Commando disassembled - fully commented code
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In order to create Commando 2084, I had to disassemble Commando. My original intention was to patch what was only needed and stop there. But I got carried away and I ended up analyzing and commenting the entire Commando code.
+The commented code (that can be recompiled to generate the exact original binary) is here:
+https://gitlab.com/ricardoquesada/c64-commando-2084/tree/orig </p>
+  </div>
+  <footer class="entry-footer"><span title='2019-10-02 15:51:34 +0000 +0000'>October 2, 2019</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Commando disassembled - fully commented code" href="http://localhost:1313/2019/10/02/commando-disassembled-fully-commented-code/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Commando 2084 - a game for the Commodore 64
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Commando 2084 is the mix between Commando and Robotron 2084: it is like the original Commando game, but using the Robotron 2084 controls.
+You play it using the two joysticks at the same time:
+Joy #2 controls the hero direction Joy #1 controls the bullets direction But better if you play it with a Unijoysticle 2 with a Dualshok4 gamepad (or similar).
+https://youtu.be/iXdx9jOd0Ho
+Download Download game: commando-2084.d64 Source code, fully commented: https://gitlab.com/ricardoquesada/c64-commando-2084/ </p>
+  </div>
+  <footer class="entry-footer"><span title='2019-09-29 14:45:14 +0000 +0000'>September 29, 2019</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Commando 2084 - a game for the Commodore 64" href="http://localhost:1313/2019/09/29/commando-2084-a-game-for-the-commodore-64/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Unijoysticle 2: modern bluetooth gamepads for retro computers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Announcing Unijoysticle 2:
+https://youtu.be/2uakPuSOjZU
+Use modern Bluetooth controllers (gamepads, mice, smart TV remote controllers) in retro computers like the Commodore 64/128, Atari ST, Amiga and more.
+For further info go here: /unijoysticle2
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-04-16 05:23:01 +0000 +0000'>April 16, 2019</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Unijoysticle 2: modern bluetooth gamepads for retro computers" href="http://localhost:1313/2019/04/15/unijoysticle-2-modern-bluetooth-gamepads-for-retro-computers/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Atari ST: First impressions
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A few months ago I got an Atari 1040 STF. I knew nothing about it when I got it, except that it was a similar to the Amiga.
+The Atari ST, the Amiga and the Macintosh were computers released in the mid 80’s, all of them based on the Motorola 68k, and all of them came with a windows-based GUI. This was a revolutionary step compared to the 8-bit machines which were CLI text-driven.
+The base “ST” model includes:
+8 Mhz Motorola 68000 CPU Yamaha YM2149 3-voice square-wave plus 1-voice white noise (mono) 512Kb or 1Mb RAM (520 vs 1040 models) 3 video modes: 320 x 200 x 16 colors (from a 512 color palette). 640 x 200 x 4 colors (from a 512 color palette) 640 x 400 x 2 colors (I believe this is only B/W) Midi In / Out: Apparently a killer feature for musicians. Compared with the 8-bit home computers like the C64/C128, the Atari ST is a good improvement. From only 64K/128K RAM to 512K (or 1024K) RAM, an 8 Mhz CPU (vs. 1 or 2 Mhz) and Midi. But there are no hardware sprites (no blitter), and the music is chiptune, like in the C64. The C64 SID chip might be even better. The video modes are OKish. Having a 320x200 @ 16 colors from a palette of 512 is nice, but not that impressive. It is worth noting that the Atari ST (like the Amiga and the Macintosh) don’t have “text video modes”, they only have “graphic” ones.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-11-08 14:49:26 +0000 +0000'>November 8, 2018</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Atari ST: First impressions" href="http://localhost:1313/2018/11/08/atari-st-first-impressions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">64K RAM Ought to be Enough: a demo for the PCjr
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Updated 2018–10–08
+https://www.youtube.com/watch?v=uakDpJns9LA
+A demo for the IBM PCjr by Pungas de Villa Martelli. It was presented at Flashparty 2018 and won the Demo category.
+Requirements An IBM PCjr with at least 64k RAM.
+Download Source code: https://gitlab.com/ricardoquesada/pcjr-flashparty–2018 Binary: pvm-64ko.zip (does not run on emulators) Technical description The demo is divided in the boot loader and demo 3 parts
+Boot loader [caption id=&#34;&#34; align=“alignnone” width=“512”] Boot loader[/caption] The demo is intended to work with a 64K RAM (or more) PCjr. Booting from its own boot loader is needed to save precious memory. DOS alone takes ~20K of RAM. That is 30% of the total memory. You don’t want to waste that memory.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-09-27 06:25:17 +0000 +0000'>September 27, 2018</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to 64K RAM Ought to be Enough: a demo for the PCjr" href="http://localhost:1313/2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cromemco System 3 computer
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Cromemco System Three is a Z-80 based computer. Which is nice, because I always wanted to learn Z-80 (this is my second Z-80 computer, the other one is a MSX2).
+But What I like about the Cromemco is how well-built it is. I love it.
+https://www.youtube.com/watch?v=zz7FH5TeOzs
+The computer is that not big, but it is a very heavy computer.
+At the moment I don’t have the needed cables to test it. If I can’t find them, I might be able to build them myself (or not). If manage to get the cables, and provided that the computer works, I promise to write a game or something for it :)
+Photos:
+[caption id=&#34;&#34; align=“alignnone” width=“512”] Cromemco System Three[/caption]
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-07 18:10:35 +0000 +0000'>March 7, 2018</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Cromemco System 3 computer" href="http://localhost:1313/2018/03/07/cromemco-system-3-computer/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Performance of the 8088 on PC, PCjr and Tandy 1000
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>
+It’s well-known that you should measure the performance of your code, and not rely only on the opcode’s “cycle counts”.
+But how fast is an IBM PC 5150 compared to a PCjr ? or to a Tandy 1000? or how fast is the Tandy 1000 HX in fast mode (7.16Mhz) compared to the slow mode (4.77Mhz) ? Or how fast is a nop compared to a cwd ?
+I created a test ( perf.asm) that measures the performance of different opcodes and run it on different Intel 8088 machines. I run the test multiple times just to make sure the results were stable enough. All interrupts were disabled, except the Timer (of course). And on the PCjr the NMI is disabled as well.
+Without further ado, here are the results:
+Intel 8088 opcodes performance </p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-05 05:34:26 +0000 +0000'>March 5, 2018</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;ricardoquesada</footer>
+  <a class="entry-link" aria-label="post link to Performance of the 8088 on PC, PCjr and Tandy 1000" href="http://localhost:1313/2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/posts/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/posts/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
