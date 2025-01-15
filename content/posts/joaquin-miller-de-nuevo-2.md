@@ -12,7 +12,7 @@ title: Joaquin Miller de nuevo
 url: /2013/07/06/joaquin-miller-de-nuevo-3/
 
 ---
-\[caption id="" align="alignnone" width="400"\] [![](https://lh4.googleusercontent.com/-ZCrA0eC8aLI/Udey_4AJrNI/AAAAAAAAvDo/WP-MoHCozyg/s400/IMG_2503-PANO.jpg)](https://picasaweb.google.com/111588202880883771967/JoaquinMiller5DeJulio#5897379047499476178) Me encontré con George Pavlov en J.Miller\[/caption\]
+[![Joaquin Miller](https://lh4.googleusercontent.com/-ZCrA0eC8aLI/Udey_4AJrNI/AAAAAAAAvDo/WP-MoHCozyg/s400/IMG_2503-PANO.jpg)](https://picasaweb.google.com/111588202880883771967/JoaquinMiller5DeJulio#5897379047499476178)
 
 Hace poco menos de un año y medio que empecé con esto del Muni. Me acuerdo en una de las primeras salidas con Tom, Josh y demás que hicimos Big Trees en Joaquin Miller. Y esa primera subida de Big Trees me parecia imposible. Creo que caminé casi todo.
 

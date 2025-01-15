@@ -35,8 +35,19 @@ What's new in version 2+:
 
 ### Comparison between the two
 
-**Unijoysticle 2****Unijoysticle 2+**Image![](https://lh3.googleusercontent.com/pw/AM-JKLUphquTBg9JoV-L7wuMtze_aKIJ8LvfokTakuBKSVFClziLWCViggcrlNZtqGUMgv6u6yYpZ_RuE2jdGSn3Q0oYl0jOQzzGcutRt-JiMjLZY_oAvK4LehrawNj_aNbthCJ-VEJzsW3dywhJNekjhTsfNQ=-no)![](https://lh3.googleusercontent.com/pw/AM-JKLWV2Zo912VtOfuM71AluanNXGwVQiAehNEiQ1VL3L7SkWDl-9k0fA6tfza9QpGL52petBfFFFHMb8rh_ybSj17LOQA70IycMDQw6AVqlN8Jp4HDWT8sWcXHIPEQZTxNuQ-RFygKbmVpW2n52wwi5cJgwA=-no)Case friendlyNo (1)YesSize63 x 66 x 17 mm64 x 64 x 12 mmWeight35 grams24 gramsCurrent~95 mA (2)~100 mA (2)Amiga / Atari ST  
-2nd & 3rd buttonsNoYes (3)Filter nose in C128 ( [bug](https://gitlab.com/ricardoquesada/unijoysticle2/-/issues/17))NoYesSelf-poweredYes, can be turned on/off with switchYes, always onExternal powerBoth USB and Barrel Jack 5V+USB onlyEasy to solderYesNoPrice $60 (assembled) / $35 (kit)$35 (assembled)Comparison between Unijoysticle 2 and Unijoysticle 2+
+|                                          Feature                                           | Unijoysticle 2 | Unijoysticle 2+ |
+|:------------------------------------------------------------------------------------------:|:--------------:|:---------------:|
+|                                           Image                                            | ![uni2](https://lh3.googleusercontent.com/pw/AM-JKLUphquTBg9JoV-L7wuMtze_aKIJ8LvfokTakuBKSVFClziLWCViggcrlNZtqGUMgv6u6yYpZ_RuE2jdGSn3Q0oYl0jOQzzGcutRt-JiMjLZY_oAvK4LehrawNj_aNbthCJ-VEJzsW3dywhJNekjhTsfNQ=-no)|![uni2p](https://lh3.googleusercontent.com/pw/AM-JKLWV2Zo912VtOfuM71AluanNXGwVQiAehNEiQ1VL3L7SkWDl-9k0fA6tfza9QpGL52petBfFFFHMb8rh_ybSj17LOQA70IycMDQw6AVqlN8Jp4HDWT8sWcXHIPEQZTxNuQ-RFygKbmVpW2n52wwi5cJgwA=-no)|
+|                                       Case friendly                                        |No (1) | Yes |
+|                                            Size                                            | 63 x 66 x 17 mm| 64 x 64 x 12 mm |
+|                                           Weight                                           | 35 grams | 24 grams |
+|                                          Current                                           | ~95 mA (2) | ~100 mA (2) |
+|                             Amiga / Atari ST 2nd & 3rd buttons                             | No | Yes (3) |
+| Filter noise in C128 ( [bug](https://gitlab.com/ricardoquesada/unijoysticle2/-/issues/17)) | No | Yes |
+|                                        Self-powered                                        | Yes, can be turned on/off with switch | Yes, always on |
+|                                       External power                                       | Both USB and Barrel Jack | 5V+USB only |
+|                                       Easy to solder                                       | Yes | No |
+|                                           Price                                            | $60 (assembled) / $35 (kit) | $35 (assembled) |
 
 Notes:
 
@@ -67,8 +78,8 @@ Notes:
 
 ##### Open source / open hardware
 
-- Firmware source code: [http://gitlab.com/ricardoquesada/bluepad32](http://gitlab.com/ricardoquesada/bluepad32)
-- Hardware schematic + layout: [https://gitlab.com/ricardoquesada/unijoysticle2](https://gitlab.com/ricardoquesada/unijoysticle2)
+- Firmware source code: [http://github.com/ricardoquesada/bluepad32](http://github.com/ricardoquesada/bluepad32)
+- Hardware schematic + layout: [https://github.com/ricardoquesada/unijoysticle2](https://github.com/ricardoquesada/unijoysticle2)
 
 Not only I'm making everything open source & open hardware so that you can create your own device, but I also welcome "competition". If you want to sell your own devices, please go ahead. All the profit is for you. Just let me know so that I can add your product in the ["3rd party devices" section](/unijoysticle2/).
 

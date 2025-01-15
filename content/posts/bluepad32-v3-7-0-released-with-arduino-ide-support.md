@@ -18,4 +18,4 @@ I've just released Bluepad32 v3.7.0 with two important features:
 - Arduino IDE support
 - In addition to ESP32, it also supports ESP32-S3 and ESP32-C3 (only BLE gamepads supported.)
 
-Details and more here: [https://gitlab.com/ricardoquesada/bluepad32](https://gitlab.com/ricardoquesada/bluepad32)
+Details and more here: [https://github.com/ricardoquesada/bluepad32](https://github.com/ricardoquesada/bluepad32)

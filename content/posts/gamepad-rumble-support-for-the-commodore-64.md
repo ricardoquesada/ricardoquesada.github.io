@@ -55,9 +55,9 @@ Note: What this discovery is about, is that by combining different well-known C6
 
 The project consist of three parts:
 
-- [Unijoysticle Flashparty edition](https://gitlab.com/ricardoquesada/unijoysticle2/-/tree/main/board/unijoysticle2_flashparty2022)
-- [Bluepad32](http://gitlab.com/ricardoquesada/bluepad32): The firmware that runs inside the Unijoysticle device (requires [v3.5.1](https://gitlab.com/ricardoquesada/bluepad32/-/releases/release_v3.5.1) or newer)
-- Modified games: [Rambo](https://gitlab.com/ricardoquesada/c64-rambo) and [Lemans](https://gitlab.com/ricardoquesada/c64-lemans)
+- [Unijoysticle Flashparty edition](https://github.com/ricardoquesada/unijoysticle2/tree/main/board/unijoysticle2_flashparty2022)
+- [Bluepad32](https://github.com/ricardoquesada/bluepad32): The firmware that runs inside the Unijoysticle device (requires [v3.5.1](https://github.com/ricardoquesada/bluepad32/releases/tag/release_v3.5.1) or newer)
+- Modified games: [Rambo](https://github.com/ricardoquesada/c64-rambo) and [Lemans](https://github.com/ricardoquesada/c64-lemans)
 
 ### Unijoysticle 2 Flashparty edition
 
@@ -69,7 +69,7 @@ This board is based on the original Unijoysticle 2 board, and includes the follo
 - Some external pull-up resistors
 - Improved layout
 
-Schematic and Layout files can be found here: [unijoysticle2\_flashparty2022](https://gitlab.com/ricardoquesada/unijoysticle2/-/tree/main/board/unijoysticle2_flashparty2022)
+Schematic and Layout files can be found here: [unijoysticle2\_flashparty2022](https://github.com/ricardoquesada/unijoysticle2/tree/main/board/unijoysticle2_flashparty2022)
 
 ### Bluepad32 v3.5.1
 
@@ -77,11 +77,13 @@ This is the firmware that runs in the Unijoysticle device.
 
 - Includes the code needed to read the POT lines and turn on/off the rumble accordingly.
 
-Pre-compiled binary can be found here: [bluepad32-unijoysticle\_v3.5.1](https://gitlab.com/ricardoquesada/bluepad32/-/releases/release_v3.5.1)
+Pre-compiled binary can be found here: [bluepad32-unijoysticle\_v3.5.1](https://github.com/ricardoquesada/bluepad32/releases/tag/release_v3.5.1)
 
 ### Rambo: First Blood, Part II
 
-![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_intro.png)![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_game1.png)![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_music_debug.png)
+| Intro | Game | Music Debug |
+|:-----:|:----:|:-----------:|
+| ![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_intro.png) | ![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_game1.png) | ![](https://gitlab.com/ricardoquesada/c64-rambo/-/raw/main/images/screenshot_music_debug.png)
 
 Things that I did to the game:
 
@@ -95,11 +97,13 @@ While doing it I discovered Martin Galway's Music Debug routine that can be acce
 
 The complete disassembled code can be found here:
 
-- [https://gitlab.com/ricardoquesada/c64-rambo](https://gitlab.com/ricardoquesada/c64-rambo)
+- [https://github.com/ricardoquesada/c64-rambo](https://github.com/ricardoquesada/c64-rambo)
 
 ### Lemans
 
-![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_intro.png)![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_title.png)![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_game.png)
+| Intro | Title | Game |
+|:-----:|:-----:|:----:|
+|![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_intro.png)|![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_title.png)|![](https://gitlab.com/ricardoquesada/c64-lemans/-/raw/main/images/screenshot_game.png)|
 
 Things that I did to the game:
 
@@ -110,7 +114,7 @@ Things that I did to the game:
 
 The complete disassembled code can be found here:
 
-- [https://gitlab.com/ricardoquesada/c64-lemans](https://gitlab.com/ricardoquesada/c64-lemans)
+- [https://github.com/ricardoquesada/c64-lemans](https://github.com/ricardoquesada/c64-lemans)
 
 ## Flashparty
 
