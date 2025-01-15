@@ -81,7 +81,7 @@ The sound API was improved:
 
 Examples of improved APIs:
 
-```
+```python
 import music76489
 m = music76489.Music76489()
 
@@ -110,7 +110,7 @@ while True:
   time.sleep(1/60)
 ```
 
-Latest version can be found here:
+The latest version can be found here:
 
 - [music76489.py](https://gitlab.com/ricardoquesada/quico/-/blob/master/src/music76489.py)
 
@@ -118,7 +118,7 @@ Latest version can be found here:
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3ehW50dw03lV8M7mpX9tQIHmt0ITR3g-H46fz3tIeTFVjOXCrBiCBIUiCtpLHnfcnyolnOYSAJeXMtp2iBBghtOm-Ahdd8NnHy6ZoK5kMG1JNKcxVga1_RhoIqEwLO0hNvjQQrCm-Y4xZ_7qMyh_98Kwg=w1732-h1299-no)
 
-```
+```python
 # To change gamepad LED color.
 # Valid for DualShock 4. DualSense coming soon.
 spi.set_gamepad_color_led(gamepad_seat, rbg_color)
@@ -132,7 +132,7 @@ spi.set_gamepad_player_leds(gamepad_seat, leds)
 spi.set_gamepad_rumble(gamepad_seat, force, duration)
 ```
 
-Latest version can be found here:
+The latest version can be found here:
 
 - [bluepad32.py](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/tools/circuitpython/bluepad32.py)
 

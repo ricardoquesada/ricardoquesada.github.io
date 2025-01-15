@@ -65,7 +65,7 @@ $00 $00         ; Address: $080b. End of BASIC program
 
 If we disassemble our C64 program like if it were a DOS .com, it would look like:
 
-```
+```asm
 .org 0x100
 
     ; Assumes: (see: http://www.fysnet.net/yourhelp.htm)
@@ -90,13 +90,13 @@ start:
 
 ```
 
-The first 2 instruction could potentially break our DOS program. But if you look at the [initial values of `BX`, `SI` and `CX`](http://www.fysnet.net/yourhelp.htm), it is safe to assume that:
+The first 2 instructions could potentially break our DOS program. But if you look at the [initial values of `BX`, `SI` and `CX`](http://www.fysnet.net/yourhelp.htm), it is safe to assume that:
 
 - `BX = 0x0000`
 - `SI = 0x0100`
 - `CX = 0x00FF`
 
-What will happen is that the first instruction will overwrite itself, and the second will overwrite `CX`. The `OR` will set `Z=0`. And the following instruction will jump to our start address.
+What will happen is that the first instruction will overwrite itself, and the second will overwrite `CX`. The `OR` will set `Z=0`. And the following instruction will jump to our start address.
 
 The generated binary will run both on a DOS machine and on a C64. This technique does not use any emulator trick. The binary runs in real hardware.
 

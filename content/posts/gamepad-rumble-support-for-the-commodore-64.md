@@ -20,19 +20,19 @@ I discovered a way to send 1-bit of data from the Commodore 64 to the Joysticks.
 
 ![](https://lh3.googleusercontent.com/pw/AL9nZEW1jK6IsMJQrHdXyUQtQ2jVnDTAlWXk8G6kQvQT29BoMz0-0LXujgGXfnAHvCBB1Bsy9WG5JEOhvlBItmWf_HOl115fwNGnTTd1IMNns1dfZeJLLGnNt8aot6KIbwbmKJLuOZi-eYgzk84GfuVOrji_rw=-no?authuser=0)
 
-I strongly suggest to view the video (see above) which contains technical info [starting at 1:24](https://youtu.be/vCj45OX43JE?t=84)
+I strongly suggest viewing the video (see above) which contains technical info [starting at 1:24](https://youtu.be/vCj45OX43JE?t=84)
 
-As a summary it works like this:
+As a summary, it works like this:
 
-- The SID generates pulses that goes from 0 to ~1.3v every ~520us
+- The SID generates pulses that go from 0 to ~1.3v every ~520us
 - Those pulses go to the Joystick POT lines
 - The pulses can be filtered from the CIA #1, Port A, Pins 6 and 7.
 - The Unijoysticle receives the pulses and with the help of a timer and pull-up resistors it does the following:
-  - If the line is High, turn on Rumble. Otherwise turn it off.
+  - If the line is High, turn on Rumble. Otherwise, turn it off.
 
-So, in order to turn on/off the rumble, we just need to do this in our games:
+So, to turn on/off the rumble, we just need to do this in our games:
 
-```
+```asm
 ;
 ; Example that shows all 4 possible combinations
 ;
@@ -53,7 +53,7 @@ Note: What this discovery is about, is that by combining different well-known C6
 
 ## The different parts
 
-The project consist of three parts:
+The project consists of three parts:
 
 - [Unijoysticle Flashparty edition](https://github.com/ricardoquesada/unijoysticle2/tree/main/board/unijoysticle2_flashparty2022)
 - [Bluepad32](https://github.com/ricardoquesada/bluepad32): The firmware that runs inside the Unijoysticle device (requires [v3.5.1](https://github.com/ricardoquesada/bluepad32/releases/tag/release_v3.5.1) or newer)
@@ -61,11 +61,13 @@ The project consist of three parts:
 
 ### Unijoysticle 2 Flashparty edition
 
-![](https://lh3.googleusercontent.com/pw/AL9nZEWl_Q9Rys9ELSUIHPuHCuHnr1XEejDfTQud4HfDN_vwfi8siu-i2mtoj3Ej4fSVDntHTqvirqt0gc7SiXSawGlPT4wc9LdK9CLgcRV0LzrejNJeMY8CAvhedwy_coI29bAAbduVzaBxfIQQsgZAjFpM4g=-no)![](https://lh3.googleusercontent.com/pw/AL9nZEXnV0de77agZ5EFhWU65Y-IkzZyATeFKqZjDWg6BhC0KH5hbW2aAaNImD4UkJ5_lJ_HdtI_xgGMjICa_TrqUkkzGz05kgYIbcBFriVxP-GslHrtJuh-8JrykvdQDze0UlMY1CJEe1vrsI8V4LT9wWJdxA=-no?authuser=0)
+|                           Front                           |                          Back                           |
+|:---------------------------------------------------------:|:-------------------------------------------------------:|
+| ![Front](/images/2022_10_02_flashparty_edition_front.png) | ![Back](/images/2022_10_02_flashparty_edition_back.png) |
 
 This board is based on the original Unijoysticle 2 board, and includes the following changes:
 
-- Lines that connects to the POT lines
+- Lines that connect to the POT lines
 - Some external pull-up resistors
 - Improved layout
 
@@ -93,7 +95,7 @@ Things that I did to the game:
 - Make it easier to switch weapons (Put Unijoysticle in "Enhanced" mode!). Works by pressing space as well.
 - Added intro and converted it to a single-file game
 
-While doing it I discovered Martin Galway's Music Debug routine that can be accessed by pressing 'P' in the intro. While in the Music Debug routine, press letters A to Z to turn on the different songs. '1' and '2' switches the different music bank songs.
+While doing it, I discovered Martin Galway's Music Debug routine that can be accessed by pressing 'P' in the intro. While in the Music Debug routine, press letters A to Z to turn on the different songs. '1' and '2' switches the different music bank songs.
 
 The complete disassembled code can be found here:
 
@@ -120,6 +122,8 @@ The complete disassembled code can be found here:
 
 This project was presented at [Flashparty 2022](https://flashparty.rebelion.digital/) (a demoscene event), where it got 2nd place in the Wild category.
 
-Many thanks for the organizers, who also setup a Commodore 64 with the Unijoysticle Flashparty edition so that the public can try it.
+Many thanks to the organizers, who also setup a Commodore 64 with the Unijoysticle Flashparty edition so that the public can try it.
 
-![](https://lh3.googleusercontent.com/pw/AL9nZEWtGncabOXXQxZo6g8-Uf_RPo1bbRN2BVcxie2dr8Pqo-7UAXi3IdxF_jyyP-UwfoogH8QJoT6OQrzH7bSE2YttIEaZa8ydaF54e0VgqiIj8eYMRNY_jCMa6dsAAM1rvGzna1OBf3kx_i2M321vVd7Vtw=-no)The "Retro Station" at Flashparty with a C64 + Unijoysticle
+![booth](/images/2022_10_02_flashparty_booth.jpeg)
+
+The "Retro Station" at Flashparty with a C64 + Unijoysticle
