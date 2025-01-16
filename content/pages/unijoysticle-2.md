@@ -4,7 +4,6 @@ date: "2019-04-06T05:32:32+00:00"
 guid: http://retro.moe/?page_id=2131
 title: Unijoysticle™ 2
 url: /unijoysticle2/
-
 ---
 <img src="https://lh3.googleusercontent.com/pw/AIL4fc89EjAHbRRTwU8UQtjkIA1VIrbs0tp8_lZrkt1vX7O2wmeJFZjlfwTiVnUpB-K52WD1wvAde_XrGChX9qmhgZg0mQC7Gmf1PodIm0trgo8n9OBoFBNSZSDd4_0KpHEORnRv42FmA3qR-vDmMjI4wXh_uQ=-no?authuser=0" alt="Unijoysticle logo" style="width: 100%; max-width: 220px; margin: 0 auto; display: block;" />
 
