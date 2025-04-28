@@ -22,15 +22,15 @@ Specs:
 Long story short, a few months ago I started a new hobby: machine-embroidery.
 Since then, I've been experimenting with machine-embroidery pixel-art.
 
-The Angler Fish is my 17th machine-embroidery pixel-art work.
-And I believe the best one so far.
+The Angler Fish is my 18th machine-embroidery pixel-art work.
+Little by little, I've been improving my technique.
+And in this post, I'm sharing my "best practices"
 
-Here are the steps, including some tips and tricks, in case you want to do
-something similar:
+Steps:
 
 1. Create a pixel-art design
 2. Digitize the design
-3. Get a %100 cotton T-shirt. I'm using [Fruit of the Loop](https://www.fruit.com/) but any brand should do it.
+3. Get a %100 cotton T-shirt.
 4. Pre-wash it
 5. Iron it
 6. Hoop it
@@ -41,4 +41,15 @@ something similar:
 
 ### 1. Pixel-art design
 
+Prefer:
+
+### 4. 100% cotton T-shirt
+
+In theory, you can use a different type of fabric, but it is easier if you start
+with non-stretchy fabrics.
+So a 100% cotton t-shirt is a good starting place.
+
+I'm using [Fruit of the Loop][fruit_of_loom] but any brand should do it.
+
 [lilypad_arduino]: https://docs.arduino.cc/retired/boards/lilypad-arduino-usb/
+[fruit_of_loom]: https://www.fruit.com/
