@@ -40,7 +40,7 @@ With [GIMP], I did the following:
 - Scale it down so that each "pixel" actually is a pixel.
 - Converted the image with "indexed" to reduce the colors
 - Manually simplified the image: replaced pixels to make it look easier to embroider. Gradients are simpler.
-- 
+ 
 ![angler_fish_gimp](/images/angler_fish_gimp.jpeg)
 
 ### Pixem to create the embroidery path
