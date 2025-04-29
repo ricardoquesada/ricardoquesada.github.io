@@ -10,7 +10,7 @@ title: 'Creating a machine-embroidery angler fish with a blinking LED'
 
 ![angler_fish_tshirt](/images/angler_fish_tshirt.jpg)
 
-Long story short, a few months ago I started a new hobby: machine-embroidery.
+Long story short, about 6 months ago I started a new hobby: machine-embroidery.
 Since then, I've been experimenting with machine-embroidery pixel-art.
 
 The Angler Fish is my 18th machine-embroidery pixel-art work.
@@ -24,8 +24,8 @@ The design consists of:
 - 64,804 stitches
 - Size: 223.1 x 131.1 mm (~8.78 x 5.16 in)
 - Seven colors: six polyester threads, one metallic thread
-- End-to-end total time: ~7 hours
 - 1 blinking LED running on [Lilypad Arduino][lilypad_arduino] board
+- End-to-end total time: ~7 hours
 
 ### Image using Gemini
 
@@ -37,9 +37,9 @@ I create the image using Gemini. Here is the Gemini session: https://g.co/gemini
 
 With [GIMP], I did the following:
 
-- Scale it down so that each "pixel" actually is a pixel.
-- Converted the image with "indexed" to reduce the colors
-- Manually simplified the image: replaced pixels to make it look easier to embroider. Gradients are simpler.
+- I scaled it down so that each "pixel" actually is a pixel.
+- I converted the image to "indexed colors" to reduce the colors.
+- I manually simplified the image: replaced pixels to make it look easier to embroider. Gradients are simpler.
  
 ![angler_fish_gimp](/images/angler_fish_gimp.jpeg)
 
@@ -48,7 +48,7 @@ With [GIMP], I did the following:
 I create my own editor, Pixem, to trace the path for the embroidery machine.
 This is to reduce the number of jump stitches, among other things.
 
-My editor exports a file that Ink/Stitch can load.
+My editor exports to SVG, which Inkscape can load.
 
 BTW, I'll release my editor once it is stable enough, in a few months, probably.
 
@@ -62,19 +62,19 @@ which is an [Inkscape][inkscape] plugin, to generate the PES file.
 And I also flipped the image horizontally,
 since I wanted the LED to be on the left side of the t-shirt.
 
-BTW, PES is the file format needed for my Brother embroidery machine.
+BTW, [PES][pes_file_format] is the file format needed for my Brother embroidery machine.
 
 ![angler_fish_inkscape](/images/angler_fish_inkscape.jpeg)
 
 ### Brother NQ3550W to embroider the t-shirt
 
-I used a Brother NQ3550W to do the embroidery.
+I used a [Brother NQ3550W][brother_nq3550w] to do the embroidery.
 I bought it about ~6 months ago, and so far so good.
 
 ![brother_nq3550w](/images/brother_nq3550w.jpeg)
 
-I used two fusible no-show-mesh cut-away stabilizers.
-And I used a water-soluble embroidery topping to make the pixels look better.
+I used two [fusible iron no-show-mesh cut-away][fusible_stabilizer] stabilizers.
+And I used a [water-soluble embroidery topping][embroidery_topping] to make the pixels look better.
 
 ![angler_fish_wip](/images/angler_fish_wip.jpg)
 
@@ -93,7 +93,7 @@ Carefully cut away the stabilizers, as close to the design as possible.
 ### Blink the LED
 
 I used a [Lilypad Arduino][lilypad_arduino] board as the microcontroller.
-Which I manually sew it at the back of the t-shirt.
+Which I manually sewed it at the back of the t-shirt.
 
 I used a regular blinking Arduino sketch. 
 
@@ -115,6 +115,10 @@ And everybody loved the t-shirt :-)
 
 *No AI was used to write this blog post.*
 
+[pes_file_format]: https://docs.fileformat.com/misc/pes/
+[brother_nq3550w]: https://www.brother-usa.com/products/nq3550w
+[fusible_stabilizer]: https://www.amazon.com/dp/B08D6PMW6C?ref_=pe_386300_442618370_TE_sc_as_ri_0&th=1
+[embroidery_topping]: https://www.amazon.com/dp/B0CSBZHXWP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 [GIMP]: https://www.gimp.org/
 [inkstitch]: https://www.inkstitch.org
 [inkscape]: https://www.inkscape.org
