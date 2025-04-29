@@ -105,8 +105,8 @@ and short-circuit free.
 
 ### Success!
 
-I wear the t-shirt at a party for ~4 hours: dancing, jumping, playing games, without a single issue.
-The LED kept blinking non-stop for the entire night. 
+I wore the t-shirt at a party for ~4 hours: dancing, jumping, playing games.
+And the LED kept blinking non-stop for the entire night. 
 
 And everybody loved the t-shirt :-)
 
