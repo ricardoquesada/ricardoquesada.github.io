@@ -31,7 +31,7 @@ The design consists of:
 
 I create the image using Gemini. Here is the Gemini session: https://g.co/gemini/share/13f7ace8b76b
 
-![angler_fish_gemini](/images/angler_fish_gemini_prompt.png)
+![angler_fish_gemini](/images/angler_fish_gemini_prompt.jpeg)
 
 ### GIMP to simplify the image
 
