@@ -98,7 +98,7 @@ Which I manually sewed it at the back of the t-shirt.
 I used a regular blinking Arduino sketch. 
 
 And I created some ad-hoc cables to connect the LED with the Lilypad.
-I had to use hot glue, crocodile clips and heat shrink tubes to make the connection stable,
+I had to use hot glue, alligator clips and heat shrink tubes to make the connection stable,
 and short-circuit free.
 
 ![angler_fish_lilypad](/images/angler_fish_lilypad.jpg)
