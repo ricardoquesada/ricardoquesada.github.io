@@ -113,6 +113,7 @@ And everybody loved the t-shirt :-)
 ![angler_fish_party](/images/angler_fish_party.jpg)
 
 
+*No AI was used to write this blog post.*
 
 [GIMP]: https://www.gimp.org/
 [inkstitch]: https://www.inkstitch.org
