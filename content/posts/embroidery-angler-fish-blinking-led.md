@@ -29,7 +29,7 @@ The design consists of:
 
 ### Image using Gemini
 
-I create the image using Gemini. Here is the Gemini session: https://g.co/gemini/share/13f7ace8b76b
+I created the image using Gemini. Here is the Gemini session: https://g.co/gemini/share/13f7ace8b76b
 
 ![angler_fish_gemini](/images/angler_fish_gemini_prompt.jpeg)
 
@@ -45,7 +45,7 @@ With [GIMP], I did the following:
 
 ### Pixem to create the embroidery path
 
-I create my own editor, Pixem, to trace the path for the embroidery machine.
+I created my own editor, Pixem, to trace the path for the embroidery machine.
 This is to reduce the number of jump stitches, among other things.
 
 My editor exports to SVG, which Inkscape can load.
