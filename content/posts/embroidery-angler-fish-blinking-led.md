@@ -90,7 +90,7 @@ Carefully cut away the stabilizers, as close to the design as possible.
 
 ![angler_fish_stabilizer](/images/angler_fish_stabilizer.jpg)
 
-### Blink the LED
+### Blinking the LED
 
 I used a [Lilypad Arduino][lilypad_arduino] board as the microcontroller.
 Which I manually sewed it at the back of the t-shirt.
