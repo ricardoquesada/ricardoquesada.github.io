@@ -24,7 +24,7 @@ Cute, isn't it ?
 
 ### How it was done
 
-It was done doing something similar to what I did before with the Angler Fish:
+It was done doing something similar to what I did before with the [Angler Fish](/posts/embroidery-angler-fish-blinking-led/).
 
 - Grab the sprites from the game.
 - Edit them with [GIMP].
