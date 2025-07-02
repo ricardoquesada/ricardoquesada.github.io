@@ -34,7 +34,7 @@ images = ["images/papermod-cover.png", ]
 
 [params.label]
 icon = "/gravatar-logo.png"
-iconHeight = 35
+iconHeight = 42
 
 
 [[params.socialIcons]]
