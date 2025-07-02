@@ -32,6 +32,10 @@ env = "production"
 hideFooter = true
 images = ["images/papermod-cover.png", ]
 
+[params.label]
+icon = "/gravatar-logo.png"
+iconHeight = 35
+
 
 [[params.socialIcons]]
 name = "github"
