@@ -5,7 +5,6 @@ tag:
   - machine embroidery
   - gun fight
 date: '2025-07-02T10:15:32-07:00'
-draft: true
 title: 'Machine-Embroidering Gun Fight Arcade in two T-shirts'
 ---
 
@@ -47,7 +46,8 @@ It was done doing something similar to what I did before with the Angler Fish:
 
 ### The good, the bad and the ugly
 
-- Good: I like how the big pixels look using "contour fill".
+- Good: Doing a multi-tshirt design.
+- Good: How the big pixels look using "contour fill".
 - Good: Single-color embroidery looks good. I'll try keep doing it.
 - Neutral: I forgot to put the topping.
 - Neutral: First time using 75/11 needles.
