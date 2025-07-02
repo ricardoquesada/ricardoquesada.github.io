@@ -35,8 +35,8 @@ It was done doing something similar to what I did before with the [Angler Fish](
 - Open it with [Inkscape][inkscape] and [Ink/Stitch][inkstitch]
 - Export it to [PES][pes_file_format], to be used with my [Brother NQ3550W][brother_nq3550w]
 - I used two [fusible iron no-show-mesh cut-away][fusible_stabilizer] stabilizers.
-- I used a 75/11 embroidery needle.
-- 650 SPM
+- I used a [75/11 embroidery needle][needle_75]. Before I was using 90/14.
+- 650 stiches per minute (SPM).
 - I machine-embroired one t-shirt. The fabric was cotton.
 - The flipped horizontally the image.
 - I machine-embroidered the other t-shirt. The fabric was kind of linen.
@@ -55,13 +55,12 @@ It was done doing something similar to what I did before with the [Angler Fish](
 - Bad: The fusible iron no-shot-mesh cut-away stabilizer is too sticky for linen. It was very difficult to remove the "stickyness". I should try a non-fusible stabilizer next time.
     
 
+*No AI was used to write this blog post.*
+
 [pes_file_format]: https://docs.fileformat.com/misc/pes/
 [brother_nq3550w]: https://www.brother-usa.com/products/nq3550w
 [fusible_stabilizer]: https://www.amazon.com/dp/B08D6PMW6C?ref_=pe_386300_442618370_TE_sc_as_ri_0&th=1
-[embroidery_topping]: https://www.amazon.com/dp/B0CSBZHXWP?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 [GIMP]: https://www.gimp.org/
 [inkstitch]: https://www.inkstitch.org
 [inkscape]: https://www.inkscape.org
-[lilypad_arduino]: https://docs.arduino.cc/retired/boards/lilypad-arduino-usb/
-[fruit_of_loom]: https://www.fruit.com/
-
+[needle_75]: https://www.madeirausa.com/education/the-basics-of-75-11-needles-and-when-to-use-them
