@@ -16,7 +16,7 @@ For those not familiar with Gun Fight (Arcade, 1975) this is how it looks like:
 
 ![gun_fight_arcade](/images/gun_fight_arcade.jpg)
 
-So, when two people wears the two t-shirts at the same time, it looks like this:
+So, when two people wear the two t-shirts at the same time, it looks like this:
 
 ![gun_fight_people](/images/gun_fight_people.jpg)
 
