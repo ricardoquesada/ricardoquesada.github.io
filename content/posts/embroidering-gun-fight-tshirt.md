@@ -38,7 +38,7 @@ It was done doing something similar to what I did before with the [Angler Fish](
 - I used a [75/11 embroidery needle][needle_75]. Before I was using 90/14.
 - 650 stiches per minute (SPM).
 - I machine-embroired one t-shirt. The fabric was cotton.
-- The flipped horizontally the image.
+- The flipped the image horizontally.
 - I machine-embroidered the other t-shirt. The fabric was kind of linen.
     
 ![nq](/images/gun_fight_nq.jpg)
