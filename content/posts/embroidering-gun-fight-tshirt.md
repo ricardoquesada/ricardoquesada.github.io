@@ -20,7 +20,7 @@ So, when two people wear the two t-shirts at the same time, it looks like this:
 
 ![gun_fight_people](/images/gun_fight_people.jpg)
 
-Cute, isn't it ?
+Cute, isn't it?
 
 ### How it was done
 
@@ -28,7 +28,7 @@ It was done doing something similar to what I did before with the [Angler Fish](
 
 - Grab the sprites from the game.
 - Edit them with [GIMP].
-- Create the path, pixel size, etc with my custom-made editor (Pixem)
+- Create the path, pixel size, fill type, etc. with my custom-made editor (Pixem).
 
 ![pixem](/images/gun_fight_pixem.png)
 
@@ -36,8 +36,8 @@ It was done doing something similar to what I did before with the [Angler Fish](
 - Export it to [PES][pes_file_format], to be used with my [Brother NQ3550W][brother_nq3550w]
 - I used two [fusible iron no-show-mesh cut-away][fusible_stabilizer] stabilizers.
 - I used a [75/11 embroidery needle][needle_75]. Before I was using 90/14.
-- 650 stiches per minute (SPM).
-- I machine-embroired one t-shirt. The fabric was cotton.
+- 650 stitches per minute (SPM).
+- I machine-embroidered one t-shirt. The fabric was cotton.
 - The flipped the image horizontally.
 - I machine-embroidered the other t-shirt. The fabric was kind of linen.
     
@@ -48,11 +48,11 @@ It was done doing something similar to what I did before with the [Angler Fish](
 
 - Good: Doing a multi-tshirt design.
 - Good: How the big pixels look using "contour fill".
-- Good: Single-color embroidery looks good. I'll try keep doing it.
+- Good: Single-color embroidery looks good. I'll try to keep doing it.
 - Neutral: I forgot to put the topping.
 - Neutral: First time using 75/11 needles.
 - Bad: Measure twice, embroider once. The white t-shirt is not centered. It moved while I was hooping it.
-- Bad: The fusible iron no-shot-mesh cut-away stabilizer is too sticky for linen. It was very difficult to remove the "stickyness". I should try a non-fusible stabilizer next time.
+- Bad: The fusible iron no-shot-mesh cut-away stabilizer is too sticky for linen. It was challenging to remove the stickiness. I should try a non-fusible stabilizer next time.
     
 
 *No AI was used to write this blog post.*
