@@ -11,7 +11,7 @@ summary: |-
 
   In February 2008, at Los Cocos, Córdoba, Argentina, we started the "Los Cocos" Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for [PyWeek](https://pyweek.org/).
 
-  \[caption id="" align="alignnone" width="512"\]![](https://lh3.googleusercontent.com/vhpMrsnv9CAOcbB_ZSSFIxOgP-Soh8FoACuQkQBAk5XU9MN84oekftn9Ai4uvaHTAQBzY4FH0LeDubielKw-iseyHkyv75Z-UmeV_PnzMgsh4WYRqCz9LIBIx0duYzsVpicyCLU=-no) PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina\[/caption\]
+  PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina
 
   We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of [PyAr](http://www.python.org.ar/).
 title: The history of Cocos2d in a glimpse
@@ -24,7 +24,9 @@ url: /2017/04/16/cocos2d-in-a-glimpse/
 
 In February 2008, at Los Cocos, Córdoba, Argentina, we started the "Los Cocos" Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for [PyWeek](https://pyweek.org/).
 
-\[caption id="" align="alignnone" width="512"\]![](https://lh3.googleusercontent.com/vhpMrsnv9CAOcbB_ZSSFIxOgP-Soh8FoACuQkQBAk5XU9MN84oekftn9Ai4uvaHTAQBzY4FH0LeDubielKw-iseyHkyv75Z-UmeV_PnzMgsh4WYRqCz9LIBIx0duYzsVpicyCLU=-no) PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina\[/caption\]
+![](https://lh3.googleusercontent.com/vhpMrsnv9CAOcbB_ZSSFIxOgP-Soh8FoACuQkQBAk5XU9MN84oekftn9Ai4uvaHTAQBzY4FH0LeDubielKw-iseyHkyv75Z-UmeV_PnzMgsh4WYRqCz9LIBIx0duYzsVpicyCLU=-no)
+
+*PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina.*
 
 We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of [PyAr](http://www.python.org.ar/).
 
@@ -34,7 +36,9 @@ We announced a beta (or was it alpha?) version in a lightning talk at PyCon Chic
 
 In July 2008, Lucio and I went to Euro Python to present Cocos2d (was it v0.3?).
 
-\[caption id="" align="alignnone" width="512"\]![](https://lh3.googleusercontent.com/kgl7EbCPt_B-ZN44mSTblpdUN7TSNX9mnIa23QIqbfAv02pMxYoaQvZurHDot7d39bZv7Qh5WoDedxnSs7_iOg0WyXKGKRKFcgBQ_zHVZgSiRBHw5T7vI3IF2icSY-2OzXMsI80=-no) With Lucio Torre at Euro Python 2008 presenting Cocos2d. Vilnius, Lithuania, July 2008\[/caption\]
+![](https://lh3.googleusercontent.com/kgl7EbCPt_B-ZN44mSTblpdUN7TSNX9mnIa23QIqbfAv02pMxYoaQvZurHDot7d39bZv7Qh5WoDedxnSs7_iOg0WyXKGKRKFcgBQ_zHVZgSiRBHw5T7vI3IF2icSY-2OzXMsI80=-no)
+
+*With Lucio Torre at Euro Python 2008 presenting Cocos2d. Vilnius, Lithuania, July 2008.*
 
 In addition, Lucio and I presented Cocos2d at [PyCon Ar](https://twitter.com/pyconar) 2008 and 2009.
 
