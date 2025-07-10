@@ -23,9 +23,9 @@ The only problem is that navigating that code is not easy. It has all the proble
 - no hyper-links
 - and difficult to search
 
-So I dumped the BIOS and started analyzing it with [IDA Pro - Free version](https://www.hex-rays.com/products/ida/support/download_freeware.shtml). I added some of the original comments from the Technical Reference manual, and added some comments of my own.
+So I dumped the BIOS and started analyzing it with [IDA Pro 5.0 - Free version](https://downloads.scummvm.org/frs/extras/IDA/idafree50.exe). I added some of the original comments from the Technical Reference manual, and added some comments of my own.
 
-If can browse it using either:
+You can browse it using either:
 
 - IDA Pro (the .idb file): [bios-f0000-fffff.idb](https://github.com/ricardoquesada/bios-8088/raw/master/ibm_pcjr/bios-f0000-fffff.idb)
 - or by looking at the .lst file (just a text file): [ibm\_pcjr-bios.lst](https://github.com/ricardoquesada/bios-8088/blob/master/ibm_pcjr/ibm_pcjr-bios.lst)
