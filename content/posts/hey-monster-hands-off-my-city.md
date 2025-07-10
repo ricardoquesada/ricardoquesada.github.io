@@ -13,7 +13,9 @@ title: Hey Monster, Hands Off My City
 url: /2013/05/12/hey-monster-hands-off-my-city/
 
 ---
-\[caption id="" align="alignnone" width="400"\] [![](https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG)](https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity#5876950491646923634) En plena persecución\[/caption\]
+[![](https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG)](https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity#5876950491646923634)
+
+*En plena persecución*
 
 Mike Meehan, un productor / director / actor / escritor de peliculas indies me contactó para filmar una escena de una persecución en monociclo!
 
@@ -23,4 +25,4 @@ La pelicula se trata de un monstruo que esta en San Francisco matando personas. 
 
 Link de la pelicula: [http://www.heymonsterhandsoffmycity.com/](http://www.heymonsterhandsoffmycity.com/)
 
-Fotos del día de hoy: [https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity](https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity)
+[Fotos del día de hoy](https://photos.app.goo.gl/RazdunA1GkzzHeRy7).
