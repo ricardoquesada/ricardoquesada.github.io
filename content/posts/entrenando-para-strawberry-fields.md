@@ -13,7 +13,9 @@ title: Entrenando para Strawberry Fields
 url: /2013/05/15/entrenando-para-strawberry-fields/
 
 ---
-\[caption id="" align="alignnone" width="400"\] [![](https://lh3.googleusercontent.com/-7IsCmH0NcY8/UZGokLph8tI/AAAAAAAAumY/2x_3pjXXgPs/s400/IMG_2362.JPG)](https://picasaweb.google.com/111588202880883771967/EntrenamientoParaSrawberryFields#5877664328250946258) Nos encontramos con un Avestruz en el paseo\[/caption\]
+[![](https://lh3.googleusercontent.com/-7IsCmH0NcY8/UZGokLph8tI/AAAAAAAAumY/2x_3pjXXgPs/s400/IMG_2362.JPG)](https://picasaweb.google.com/111588202880883771967/EntrenamientoParaSrawberryFields#5877664328250946258)
+
+*Nos encontramos con un Avestruz en el paseo.*
 
 El Domingo que viene es la "paseo" de [Strawberry Fields Forever](http://www.strawberryfields.org/about-the-ride/). Yo voy a participar en los 100 k en monociclo, y como se imaginan, necesito entrenar.
 
@@ -23,6 +25,6 @@ Por eso, este Domingo que pasó con Tom, Nancy, Aileen y Dave hicimos el "East B
 
 Más info:
 
-- Fotos que saqué [yo](https://picasaweb.google.com/111588202880883771967/EntrenamientoParaSrawberryFields)
+- Fotos que saqué [yo](https://photos.app.goo.gl/oNboR3NvTAHPf5G76)
 - Reporte de [Tom](http://inl.org/cycling/rides/the-east-bay-dead-end-tour/)
 - Fotos de [Tom](http://www.flickr.com/photos/tholub/sets/72157633476418563/)
