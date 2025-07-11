@@ -12,7 +12,7 @@ title: 'China Camp: Ultimo entrenamiento previo a Moab'
 url: /2013/03/31/china-camp-ultimo-entrenamiento-previo-a-moab/
 
 ---
-{{< youtube \_0OsJR1\_M3A >}}
+{{< youtube _0OsJR1_M3A >}}
 
 Se viene Moab, y ayer hice mi último entrenamiento para ir allá. Fui a China Camp con el mono de 24". Hice el loop entero con el bonus trail que sube arriba de todo, en 3h 30m.
 

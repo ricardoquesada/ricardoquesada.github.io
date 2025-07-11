@@ -22,7 +22,9 @@ Resumen de las salidas monociclisticas de las últimas semanas.
 
 Recorrido en el mono de 36", de casa hasta Ocean Beach, atravesando el Golden Gate park.
 
-\[caption id="" align="alignnone" width="288"\]![](https://lh4.googleusercontent.com/-I20yg2lo4vE/UYfchnkejMI/AAAAAAAAuHI/ZuX4gmCZ04s/s288/IMG_2311.JPG) Ocean Beach\[/caption\]
+![](https://lh4.googleusercontent.com/-I20yg2lo4vE/UYfchnkejMI/AAAAAAAAuHI/ZuX4gmCZ04s/s288/IMG_2311.JPG)
+
+*Ocean Beach.*
 
 ### **Domingo 21 de Abril - Joaquin Miller**
 

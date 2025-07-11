@@ -18,5 +18,5 @@ Y ayer Sábado, fuimos a Joaquin Miller unos cuantos: Josh, Lance, Nicolas, Gaet
 
 Fotos:
 
-- [Domingo 23](https://picasaweb.google.com/111588202880883771967/JoaquinMillerConMateo)
-- [Sábado 29](https://picasaweb.google.com/111588202880883771967/JoaquinMillerConMateoDidierYDemas)
+- [Domingo 23](https://photos.app.goo.gl/apaL1MpU1gTqehkD6)
+- [Sábado 29](https://photos.app.goo.gl/Gmqq5YoF1NZmhyDw8)

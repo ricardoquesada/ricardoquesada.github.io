@@ -7,8 +7,6 @@ guid: http://retro.moe/?p=2294
 summary: |-
   ### The ideal modern-retro video game console
 
-  https://www.youtube.com/watch?v=G\_Fzt8RlbFc
-
   My goal is to build a video game console for (my) kids. I want to teach them programming in a fun way: fun for them... and also fun for me. The video-game console features are:
 
   - Modern components, with a retro "spirit".

@@ -13,7 +13,7 @@ url: /2015/07/20/vchar64-v0-0-4-released-with-xlink-support/
 ---
 [![c64logo](/wp-content/uploads/2015/02/c64logo.png)](/wp-content/uploads/2015/02/c64logo.png)[VChar64](https://github.com/ricardoquesada/vchar64) v0.0.4 released! And thanks to Henning Bekel, VChar64 now supports [xlink](http://henning-bekel.de/xlink/).
 
-{{< youtube ZaSR\_mxRfmo >}}
+{{< youtube ZaSR_mxRfmo >}}
 
 Changes since v0.0.2:
 

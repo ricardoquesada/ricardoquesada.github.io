@@ -15,7 +15,7 @@ url: /2016/04/01/c64-remote-controller-prototype-v0-1-works/
 ---
 ...or How to use a 64-bit machine to control a Commodore 64.
 
-{{< youtube L\_Gdwa1DCD8 >}}
+{{< youtube L_Gdwa1DCD8 >}}
 
 No schematics or PCBs yet. But at least I have the materials that I'm using:
 

@@ -18,4 +18,5 @@ Y luego fuimos a ver el Super Bowl a lo de Paul.   _Go 49ners_ :) Perdieron por
 
 Update: Este es el video que filmó Jeremy
 
-https://www.youtube.com/watch?feature=player\_embedded&v=C9xydTnbu\_g
+{{< youtube C9xydTnbu_g >}}
+

@@ -206,4 +206,4 @@ And the full working example can be downloaded from here:
 
 In Part II, I'll describe the steps needed to integrate LiquidFun with cocos2d-x for Win32 + Visual Studio. Later I'll describe how to use a nice "metaball / blob" shader to simulate water.
 
-**Update:** [Part II is here](http://towp8.com/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/)
+**Update:** [Part II is here](/2014/07/30/integrating-liquidfun-with-cocos2d-x-part-ii/)

@@ -14,7 +14,7 @@ El Domingo fue el SF Uni Tour 2013. Fue la undécima edición (10mo aniversario)
 
 Nos tocó un día espectacular, casi sin nubes. Vino Mateo en bici, y recorrió más de la mitad de trayecto, que son 68km aprox.
 
-- [Fotos que saqué yo](https://plus.google.com/photos/111588202880883771967/albums/5924072534298791297)
+- [Fotos que saqué yo](https://photos.app.goo.gl/XdtA5nN2JEbLVY6o9)
 - [Fotos que sacó Slava](https://drive.google.com/folderview?id=0B6IRc4T4emvGRGV0UTFkV0lQNEk&usp=sharing)
 - [Fotos que sacó Nathan](http://nhoover.smugmug.com/Unicycling/Coker-Rides/11th-Annual-SF-Uni-Tour-2013)
 - [Videos que filmó Jimbo](https://www.youtube.com/watch?v=e0xyDi6ifG4&list=PLVHLAiwfRzlVC8_X-sG9gvqcpDKKWHUqr)

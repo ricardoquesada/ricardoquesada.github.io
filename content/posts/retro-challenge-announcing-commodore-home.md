@@ -176,7 +176,7 @@ It was tested with the MPS 803 printer and it works Ok. But it doesn't work wit
 
 {{< youtube dEgbWc3G7pQ >}}
 
-{{< youtube GhbnYS\_Yj\_s >}}
+{{< youtube GhbnYS_Yj_s >}}
 
 ## Things that I did for the Retrochallenge
 

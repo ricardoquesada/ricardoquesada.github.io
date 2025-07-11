@@ -26,4 +26,4 @@ Creo que fui desarollando más tecnica, y más fuerza. Al principio pensaba que 
 
 Por cierto, si, ayer fui a Joaquin Miller nuevamente. Y me encontré con George Pavlov.
 
-- [Fotos de ayer](https://picasaweb.google.com/111588202880883771967/JoaquinMiller5DeJulio#).
+- [Fotos de ayer](https://photos.app.goo.gl/F7pxMpRCYhJf6TRM7).
