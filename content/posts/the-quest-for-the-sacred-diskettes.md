@@ -5,7 +5,7 @@ category:
 date: "2016-06-06T13:30:18+00:00"
 guid: http://retro.moe/?p=1628
 summary: |-
-  \[caption id="" align="alignnone" width="400"\]![](https://lh3.googleusercontent.com/-CyiUR_uBCvA/V1L3tHln8yI/AAAAAAABeQI/RUPbfTFPjHolle6UMjTUpgpJXK_y3SUNACCo/s400/IMG_4481.jpg) My Sacred Diskettes\[/caption\]
+  My Sacred Diskettes
 
   In 1986 (or was it 1987?) I got my first computer, a Commodore 64. I started learning BASIC and during '87 and '88 I created some very simple games. Somewhere in '88 I started learning assembly language ( [machine language](http://www.webopedia.com/TERM/M/machine_language.html) to be precise), but I don't recall coding any game using this language. If so, it must have probably been due to the fact that I lacked a good [monitor](https://www.c64-wiki.com/index.php/Machine_Code_Monitor).
 
@@ -21,7 +21,9 @@ title: The quest for the sacred diskettes
 url: /2016/06/06/the-quest-for-the-sacred-diskettes/
 
 ---
-\[caption id="" align="alignnone" width="400"\]![](https://lh3.googleusercontent.com/-CyiUR_uBCvA/V1L3tHln8yI/AAAAAAABeQI/RUPbfTFPjHolle6UMjTUpgpJXK_y3SUNACCo/s400/IMG_4481.jpg) My Sacred Diskettes\[/caption\]
+![](https://lh3.googleusercontent.com/-CyiUR_uBCvA/V1L3tHln8yI/AAAAAAABeQI/RUPbfTFPjHolle6UMjTUpgpJXK_y3SUNACCo/s400/IMG_4481.jpg)
+
+*My Sacred Diskettes.*
 
 In 1986 (or was it 1987?) I got my first computer, a Commodore 64. I started learning BASIC and during '87 and '88 I created some very simple games. Somewhere in '88 I started learning assembly language ( [machine language](http://www.webopedia.com/TERM/M/machine_language.html) to be precise), but I don't recall coding any game using this language. If so, it must have probably been due to the fact that I lacked a good [monitor](https://www.c64-wiki.com/index.php/Machine_Code_Monitor).
 
@@ -47,7 +49,9 @@ In May 2016 I visited Argentina. Upon my arrival, I rushed to my mother's baseme
 
 So, the preservation task started. The next day, I borrowed from [Alakran](http://csdb.dk/scener/?id=25064) a [1571 disk drive](https://en.wikipedia.org/wiki/Commodore_1571) and started backing up all the diskettes with the [ZoomFloppy](http://store.go4retro.com/zoomfloppy/) cable. First, I tried with some non-important diskettes, and once I confirmed that the disk drive was working fine, I backed up the "my games" diskette (diskette #63!), the most important one! There are not enough words to describe the moment when I played all my games on the VICE emulator...
 
-\[caption id="" align="alignnone" width="222"\]![](https://lh3.googleusercontent.com/-x1VtU3d5EY8/V1NF1plbmVI/AAAAAAABeSE/nBZY5MthA4k7dGD7u_EsR2aPcKkKzIsNwCCo/s288/happy-cuteness-overload-l.png) Me, after preserving my Commodore games\[/caption\]
+![](https://lh3.googleusercontent.com/-x1VtU3d5EY8/V1NF1plbmVI/AAAAAAABeSE/nBZY5MthA4k7dGD7u_EsR2aPcKkKzIsNwCCo/s288/happy-cuteness-overload-l.png)
+
+*Me, after preserving my Commodore games.*
 
 Some data:
 
@@ -78,10 +82,10 @@ Regarding my intros, I think Intros #10 and #15 look good:
 
 And I did some trainers as well, like:
 
-- [Galaxy+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-galaxy+ ERA.d64)
-- [Hard Hat Mack+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-hardhatmack+ ERA.d64)
-- [The Great Giana Sisters+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-gianasisters+ ERA.d64)
-- [Hunchback+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-hunchback+ ERA.d64)
+- [Galaxy+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-galaxy%2B%20ERA.d64)
+- [Hard Hat Mack+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-hardhatmack%2B%20ERA.d64)
+- [The Great Giana Sisters+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-gianasisters%2B%20ERA.d64)
+- [Hunchback+.d64](https://github.com/ricardoquesada/c64-c128-erasoft/raw/master/disks/trainer-hunchback%2B%20ERA.d64)
 
 And last but not least,  I'm so happy that I found my **original copies** of [Maniac Mansion](https://en.wikipedia.org/wiki/Maniac_Mansion), [Zak McKracken](https://en.wikipedia.org/wiki/Zak_McKracken_and_the_Alien_Mindbenders) and [Neuromancer](https://www.c64-wiki.com/index.php/Neuromancer), my all-time Commodore 64 favorite games!... mmm, wait... I couldn't find the original copies, but at least I found the backup copies 😝
 
