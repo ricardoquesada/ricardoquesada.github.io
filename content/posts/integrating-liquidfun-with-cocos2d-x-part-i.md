@@ -6,7 +6,7 @@ category:
 date: "2014-04-23T21:51:26+00:00"
 guid: http://towp8.com/?p=241
 summary: |-
-  \[caption id="" align="alignnone" width="400"\]![LiquidFun Testbed + Cocos2d-x](https://camo.githubusercontent.com/024bc94a0b655472808a1073611f72bff59f3f50/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d64705a666f5a3776472d512f553153304746486d6879492f41414141414141413735492f574b6e764e7334597069382f733430302f494d475f303031322e6a7067) LiquidFun Testbed + Cocos2d-x\[/caption\]
+  LiquidFun Testbed + Cocos2d-x
 
   From LiquidFun's site:
 
@@ -22,25 +22,6 @@ summary: |-
 
   For the integration, what we need is a Cocos2d-x node that knows how to render a `b2ParticleSystem`. And [b2ParticleSystem](https://github.com/google/liquidfun/blob/v1.0.0/liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.h#L189) has these 4 useful methods:
 
-  \[code language="cpp"\]
-  class b2ParticleSystem {
-   ...
-   // Get the number of particles.
-   int32 GetParticleCount() const;
-
-   // Get the particle radius.
-   float32 GetRadius() const;
-
-   // Get the position of each particle in Box2d's coordinate system
-   // Array is length GetParticleCount()
-   b2Vec2\* GetPositionBuffer();
-
-   // Get the color of each particle in RGBA Uint8 format.
-   // Array is length GetParticleCount()
-   b2ParticleColor\* GetColorBuffer();
-  };
-  \[/code\]
-
   Ideally we should be able to reuse `cocos2d::ParticleSystemQuad` for the rendering, but we can't because:
 
   - `cocos2d::ParticleSystemQuad` doesn't support changing the attractor (this is a design bug, we need to fix it). A _nil_ attractor would be needed for this case.
@@ -53,7 +34,9 @@ title: 'Integrating LiquidFun with Cocos2d-x: Part I'
 url: /2014/04/23/integrating-liquidfun-with-cocos2d-x-part-i/
 
 ---
-\[caption id="" align="alignnone" width="400"\]![LiquidFun Testbed + Cocos2d-x](https://camo.githubusercontent.com/024bc94a0b655472808a1073611f72bff59f3f50/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d64705a666f5a3776472d512f553153304746486d6879492f41414141414141413735492f574b6e764e7334597069382f733430302f494d475f303031322e6a7067) LiquidFun Testbed + Cocos2d-x\[/caption\]
+![LiquidFun Testbed + Cocos2d-x](https://camo.githubusercontent.com/024bc94a0b655472808a1073611f72bff59f3f50/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d64705a666f5a3776472d512f553153304746486d6879492f41414141414141413735492f574b6e764e7334597069382f733430302f494d475f303031322e6a7067)
+
+*LiquidFun Testbed + Cocos2d-x*
 
 From LiquidFun's site:
 
@@ -69,7 +52,7 @@ I'm not going to describe how to use LiquidFun (for that, read [its programmers 
 
 For the integration, what we need is a Cocos2d-x node that knows how to render a `b2ParticleSystem`. And [b2ParticleSystem](https://github.com/google/liquidfun/blob/v1.0.0/liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.h#L189) has these 4 useful methods:
 
-\[code language="cpp"\]
+```cpp
 class b2ParticleSystem {
  ...
  // Get the number of particles.
@@ -80,13 +63,13 @@ class b2ParticleSystem {
 
  // Get the position of each particle in Box2d's coordinate system
  // Array is length GetParticleCount()
- b2Vec2\* GetPositionBuffer();
+ b2Vec2* GetPositionBuffer();
 
  // Get the color of each particle in RGBA Uint8 format.
  // Array is length GetParticleCount()
- b2ParticleColor\* GetColorBuffer();
+ b2ParticleColor* GetColorBuffer();
 };
-\[/code\]
+```
 
 Ideally we should be able to reuse `cocos2d::ParticleSystemQuad` for the rendering, but we can't because:
 
@@ -108,7 +91,7 @@ And the benefits of using Points (instead of Quads) are that less memory is requ
 
 It is noteworthy that LiquidFun's goal is to simulate fluids. And since in fluids you don't need to spin the particles, LiquidFun uses Points (since they take less memory and they are faster).
 
-### Drawing using GL\_POINTS
+### Drawing using `GL_POINTS`
 
 In OpenGL / OpenGL ES you can draw points using `GL_POINTS`, but it has certain limitations:
 
@@ -118,98 +101,98 @@ In OpenGL / OpenGL ES you can draw points using `GL_POINTS`, but it has certain 
 
 If you haven't used `GL_POINTS` before, this is how the code should look like:
 
-\[code language="cpp"\]
+```cpp
 // Create the array of positions. They are in Box2d's coordinate system
 // The will be converted later to cocos2d's coordinate system
-void \*positions = \_particleSystem->GetPositionBuffer();
-glVertexAttribPointer(position\_index, 2, GL\_FLOAT, GL\_FALSE, 0, positions);
-glEnableVertexAttribArray(position\_index);
+void *positions = _particleSystem->GetPositionBuffer();
+glVertexAttribPointer(position_index, 2, GL_FLOAT, GL_FALSE, 0, positions);
+glEnableVertexAttribArray(position_index);
 
 // Array of colors. Format is: R,G,B,A unsigned bytes
-void \*colors= \_particleSystem->GetColorBuffer();
-glVertexAttribPointer(color\_index, 4, GL\_UNSIGNED\_BYTE, GL\_TRUE, 0, colors);
-glEnableVertexAttribArray(color\_index);
+void *colors= _particleSystem->GetColorBuffer();
+glVertexAttribPointer(color_index, 4, GL_UNSIGNED_BYTE, GL_TRUE, 0, colors);
+glEnableVertexAttribArray(color_index);
 
-// Array of sizes. particle\_size is an array of floats. The user should create it.
+// Array of sizes. particle_size is an array of floats. The user should create it.
 // This is an optional feature in order to have different sizes for the particles.
-glVertexAttribPointer(particlesize\_index, 1, GL\_FLOAT, GL\_FALSE, 0, particle\_size);
-glEnableVertexAttribArray(particlesize\_index);
+glVertexAttribPointer(particlesize_index, 1, GL_FLOAT, GL_FALSE, 0, particle_size);
+glEnableVertexAttribArray(particlesize_index);
 
 // Draw them as points
-glDrawArrays(GL\_POINTS, 0, \_particleSystem->GetParticleCount());
-\[/code\]
+glDrawArrays(GL_POINTS, 0, _particleSystem->GetParticleCount());
+```
 
 ### Converting positions from Box2d to Cocos2d-x coordinate system
 
 Cocos2d-x v3.0 passes the Model View matrix to the `draw()` method.  And what we need to do is to transform it so that we can use the Positions that are in Box2d's coordinate system. And this is what we should do:
 
-\[code language="cpp"\]
+```cpp
 class LFParticleSystemNode : public cocos2d::Node {
  ...
  // ivar for the scaling transform
- kmMat4 \_ratioTransform;
+ kmMat4 _ratioTransform;
 }
 
-bool LFParticleSystemNode::init(b2ParticleSystem\* particleSystem, float ratio)
+bool LFParticleSystemNode::init(b2ParticleSystem* particleSystem, float ratio)
 {
  ...
  // Pixels to Meters ratio: converts Box2d into cocos2d
- kmMat4Scaling(&\_ratioTransform, ratio, ratio, 1);
+ kmMat4Scaling(&_ratioTransform, ratio, ratio, 1);
  ...
 }
 
 void LFParticleSystemNode::onDraw(const kmMat4 &modelViewTransform, bool transformUpdated)
 {
  // A new model view will be used, which lets us render the particles in cocos2d coordinate system
- // newMV = modelViewTransform \* \_ratioTransform
+ // newMV = modelViewTransform * _ratioTransform
  kmMat4 newMV;
- kmMat4Multiply(&newMV, &modelViewTransform, &\_ratioTransform);
- \_shaderProgram->use();
- \_shaderProgram->setUniformsForBuiltins(newMV);
+ kmMat4Multiply(&newMV, &modelViewTransform, &_ratioTransform);
+ _shaderProgram->use();
+ _shaderProgram->setUniformsForBuiltins(newMV);
  ...
 }
-\[/code\]
+```
 
-### Changing the size with gl\_PointSize
+### Changing the size with `gl_PointSize`
 
 Another thing that is missing is to scale up/down the Points according to the "world" scale. And this is how we do it:
 
-\[code language="cpp"\]
+```cpp
 // Vertex Shader
-attribute vec4 a\_position;
-attribute vec4 a\_color;
-attribute float a\_size;
+attribute vec4 a_position;
+attribute vec4 a_color;
+attribute float a_size;
 
 void main()
 {
- // CC\_PMatrix = Projection Matrix
- // CC\_MVMatrix = ModelView Matrix
- gl\_Position = CC\_PMatrix \* CC\_MVMatrix \* a\_position;
+ // CC_PMatrix = Projection Matrix
+ // CC_MVMatrix = ModelView Matrix
+ gl_Position = CC_PMatrix * CC_MVMatrix * a_position;
 
  // This is the trick to scale up/down the points:
- // The ModelView matrix has the ScaleX value in \[0\]\[0\], and ScaleY value in \[1\]\[1\]
+ // The ModelView matrix has the ScaleX value in [0][0], and ScaleY value in [1][1]
  // Unfortunately we can only use either ScaleX or ScaleY, but not both.
- gl\_PointSize = CC\_MVMatrix\[0\]\[0\] \* a\_size;
- v\_fragmentColor = a\_color;
+ gl_PointSize = CC_MVMatrix[0][0] * a_size;
+ v_fragmentColor = a_color;
 }
-\[/code\]
+```
 
-### Texture Coordiantes with gl\_PointCoord
+### Texture Coordiantes with `gl_PointCoord`
 
 The final thing to do, is use a texture for the particles, otherwise we will see a square. As I mentioned before, you cannot pass u-v coordinates for `GL_POINTS`. Instead, we are going to use the predefined variable called `gl_PointCoord`. Example:
 
-\[code language="cpp"\]
+```cpp
 // Fragment Shader
-uniform sampler2D CC\_Texture0;
+uniform sampler2D CC_Texture0;
 
-varying vec4 v\_fragmentColor;
+varying vec4 v_fragmentColor;
 void main()
 {
- // gl\_PointCoord has the current "pixel" for the fragment
+ // gl_PointCoord has the current "pixel" for the fragment
  // It uses the full texture. We can't use a "subrect" for this.
- gl\_FragColor = v\_fragmentColor \* texture2D(CC\_Texture0, gl\_PointCoord);
+ gl_FragColor = v_fragmentColor * texture2D(CC_Texture0, gl_PointCoord);
 }
-\[/code\]
+```
 
 And that's all!
 
