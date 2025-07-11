@@ -109,14 +109,14 @@ And just edit the `setup(void)` and `loop(void)` and you are ready to go. It is 
 
 ...here you have a simple Web Server in C++: [HelloServer.ino](https://github.com/platformio/platformio/blob/develop/examples/espressif/esp8266-webserver/src/HelloServer.ino)
 
-\[code language="cpp"\]
-#include &amp;lt;ESP8266WiFi.h&amp;gt;
-#include &amp;lt;WiFiClient.h&amp;gt;
-#include &amp;lt;ESP8266WebServer.h&amp;gt;
-#include &amp;lt;ESP8266mDNS.h&amp;gt;
+```cpp
+#include <ESP8266WiFi.h>
+#include <WiFiClient.h>
+#include <ESP8266WebServer.h>
+#include <ESP8266mDNS.h>
 
-const char\* ssid = &amp;quot;\*\*\*\*\*\*&amp;quot;;
-const char\* password = &amp;quot;\*\*\*\*\*\*&amp;quot;;
+const char* ssid = "******";
+const char* password = "******";
 MDNSResponder mdns;
 
 ESP8266WebServer server(80);
@@ -131,18 +131,18 @@ void handleRoot() {
 
 void handleNotFound(){
  digitalWrite(led, 1);
- String message = &amp;quot;File Not Found\\n\\n&amp;quot;;
- message += &amp;quot;URI: &amp;quot;;
+ String message = "File Not Found\n";
+ message += "URI: ";
  message += server.uri();
- message += &amp;quot;\\nMethod: &amp;quot;;
- message += (server.method() == HTTP\_GET)?&amp;quot;GET&amp;quot;:&amp;quot;POST&amp;quot;;
- message += &amp;quot;\\nArguments: &amp;quot;;
+ message += "\nMethod: ";
+ message += (server.method() == HTTP\_GET) ? "GET" : "POST";
+ message += "\nArguments: ";
  message += server.args();
- message += &amp;quot;\\n&amp;quot;;
- for (uint8\_t i=0; i&amp;lt;server.args(); i++){
- message += &amp;quot; &amp;quot; + server.argName(i) + &amp;quot;: &amp;quot; + server.arg(i) + &amp;quot;\\n&amp;quot;;
+ message += "\n";
+ for (uint8_t i=0; i<server.args(); i++){
+ message += " " + server.argName(i) + ": " + server.arg(i) + "\n";
  }
- server.send(404, &amp;quot;text/plain&amp;quot;, message);
+ server.send(404, "text/plain", message);
  digitalWrite(led, 0);
 }
 
@@ -183,7 +183,7 @@ void setup(void){
 void loop(void){
  server.handleClient();
 }
-\[/code\]
+```
 
 ### ![Screen Shot 2016-03-27 at 2.45.10 PM.png](/wp-content/uploads/2016/03/screen-shot-2016-03-27-at-2-45-10-pm.png)
 
