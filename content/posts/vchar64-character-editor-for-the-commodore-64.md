@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
 date: "2015-02-10T20:45:23+00:00"
-guid: http://towp8.com/?p=524
 tag:
   - 8-bit
   - c64
@@ -16,7 +15,7 @@ url: /2015/02/10/vchar64-character-editor-for-the-commodore-64/
 
 Today I released v0.0.1 which has basic functionality but the functionality that it has, just work. You can download it from here:
 
-- Download: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
+- Download: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
 
 Features:
 

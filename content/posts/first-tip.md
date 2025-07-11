@@ -4,12 +4,13 @@ category:
   - programming
   - uncategorized
 date: "2014-04-04T07:05:44+00:00"
-guid: http://riq64.wordpress.com/2014/04/05/first-tip/
 title: First tip
 url: /2014/04/04/first-tip/
 
 ---
-\[caption id="" align="alignnone" width="361"\]![First tip](/wp-content/uploads/2014/04/tumblr_n3ijgp32fb1txa55no1_1280.jpg) My dual boot Linux/Win machine. Not powerful enough for serious Win Phone development.\[/caption\]
+![First tip](/wp-content/uploads/2014/04/tumblr_n3ijgp32fb1txa55no1_1280.jpg)
+
+*My dual boot Linux/Win machine. Not powerful enough for serious Win Phone development.*
 
 Get a good, dedicated Windows machine. Not like this one. VMWare / Parallels is OKish… but I wouldn’t recommend it.
 
