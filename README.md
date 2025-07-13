@@ -11,7 +11,7 @@ If template and Hugo are out of sync, it might trigger errors
 
 ```sh
 cd ${SRC}/themes/PaperMod
-git pull origin master
+git pull origin main
 ```
 
 ### Write a new blog post
