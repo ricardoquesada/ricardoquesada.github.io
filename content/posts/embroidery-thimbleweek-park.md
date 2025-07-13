@@ -47,10 +47,11 @@ In this particular case, I'm using:
 * Fill Method: Contour
 * Underlay: Disabled
 
-The formula that I use for the "min jump stitch length" is the hypotenuse formula:
+The formula that I use for the "min jump stitch length" is the [Pythagorean theorem][pythagorean_theorem]:
 
-```
-lenght = sqrt( pixel_width ^ 2 + pixel_height ^ 2 )
+```python
+# Python code
+length = math.sqrt( pixel_width ** 2 + pixel_height ** 2 )
 ```
 
 Although, I might increase it a bit to reduce the number of jump stitches.
@@ -119,3 +120,4 @@ top of the cut. The color, of course, should be as close as possible to the t-sh
 [inkstitch]: https://www.inkstitch.org
 [inkscape]: https://www.inkscape.org
 [ransome_video]: https://www.youtube.com/watch?v=eYLZwe13zDw
+[pythagorean_theorem]: https://en.wikipedia.org/wiki/Pythagorean_theorem
