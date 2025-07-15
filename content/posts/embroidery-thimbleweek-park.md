@@ -60,7 +60,7 @@ Although, I might increase it a bit to reduce the number of jump stitches.
 
 *Pixem, the editor I created.*
 
-## 3. Use Ink/Scape to generate the PES file
+## 3. Use Ink/Stitch to generate the PES file
 
 With [Inkscape][inkscape] + [Ink/Stitch][inkstitch], I open the exported SVG file, and I analyze the total
 number of jump stitches, and other possible things that could not be optimal.
