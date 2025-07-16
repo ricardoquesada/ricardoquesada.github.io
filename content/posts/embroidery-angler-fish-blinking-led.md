@@ -113,7 +113,7 @@ And everybody loved the t-shirt :-)
 ![angler_fish_party](/images/angler_fish_party.jpg)
 
 
-*No AI was used to write this blog post.*
+*This post is 100% AI-free.*
 
 [pes_file_format]: https://docs.fileformat.com/misc/pes/
 [brother_nq3550w]: https://www.brother-usa.com/products/nq3550w

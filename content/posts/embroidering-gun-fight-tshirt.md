@@ -55,7 +55,7 @@ It was done doing something similar to what I did before with the [Angler Fish](
 - Bad: The fusible iron no-shot-mesh cut-away stabilizer is too sticky for linen. It was challenging to remove the stickiness. I should try a non-fusible stabilizer next time.
     
 
-*No AI was used to write this blog post.*
+*This post is 100% AI-free.*
 
 [pes_file_format]: https://docs.fileformat.com/misc/pes/
 [brother_nq3550w]: https://www.brother-usa.com/products/nq3550w

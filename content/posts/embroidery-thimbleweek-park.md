@@ -109,6 +109,7 @@ top of the cut. The color, of course, should be as close as possible to the t-sh
 ## 7. Success!
 ![thimbleweed_park_person](/images/thimbleweed_park_person.jpg)
 
+*This post is 100% AI-free.*
 
 [refining_ransome]: https://blog.thimbleweedpark.com/refining_ransome.html
 [video_game]: https://store.steampowered.com/app/569860/Thimbleweed_Park/
