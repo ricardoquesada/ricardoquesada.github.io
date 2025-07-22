@@ -65,6 +65,8 @@ void loop() {
 }
 ```
 
+*This post is 100% AI-free.*
+
 
 [open_sauce]: https://opensauce.com/
 [lilypad_arduino]: https://docs.arduino.cc/retired/boards/lilypad-arduino-usb/
