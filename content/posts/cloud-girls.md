@@ -12,13 +12,14 @@ url: /2008/10/08/cloud-girls/
 
 La idea del juego es simple: hay que tratar que las estrellas de color choquen con el escudo del mismo color. Para eso uno tiene que ir rotando el escudo para la izquierda o derecha. Cada tanto caen estrellas bonus las cuales hay que dejarlas pasar.
 
-Pusimos mucho esfuerzo para que el juego quede bastante pulido: los graficos y la música esta muy buenos; pulimos bastante los niveles y la interfaz gráfica; y pulimos varios detalles para que el juega sea vea atractivo.
+Pusimos mucho esfuerzo para que el juego quede bastante pulido: los gráficos y la música esta muy buenos; pulimos bastante los niveles y la interfaz gráfica; y pulimos varios detalles para que el juega sea vea atractivo.
 
 Por supuesto que el juego esta hecho con [cocos2d para iPhone](http://code.google.com/p/cocos2d-iphone) :-)
 
 El juego se puede comprar aca: [AppStore.](http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=292696642&mt=8)
 
-Si tenes alguna sugerencia, hacenosla llegar!
+Si tenes alguna sugerencia, hacénosla llegar!
 
 Update: Cloud Girls esta teniendo muy buenos reviews. Hasta hicieron un video:  
-\[youtube {{< youtube oUPLMq-RCy0 >}}&color1=0xb1b1b1&color2=0xcfcfcf&hl=en&fs=1\]
+
+{{< youtube oUPLMq-RCy0 >}}
