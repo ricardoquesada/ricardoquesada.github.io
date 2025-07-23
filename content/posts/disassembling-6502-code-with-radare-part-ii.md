@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing
 date: "2015-12-10T02:54:47+00:00"
 guid: http://retro.moe/?p=1187
 summary: "Let's crack a simple game. If you are not familiar with Radare, read [Part I](http://retro.moe/2015/11/18/disassembling-6502-code-with-radare-part-i/) first.\n\n### Creating and opening a VICE Snapshot file\n\nLet's crack BC's Quest For Tires since its copy-protection is easy to bypass.\n\n- Unzip this file: [http://tapes.c64.no/tapes/BCsQuestForTires.zip](http://tapes.c64.no/tapes/BCsQuestForTires.zip)\n- Open the tap file with [VICE](http://vice-emu.sourceforge.net/) (the most popular Commodore 64 emulator), and..\n\n \n\n- ...the game has some kind of copy-protection. If we enter invalid codes, we won't be able to play the game.\n\nSince Radare supports VICE Snapshot File format, we can save an snapshot of the game, and analyze it with Radare.\n\n- In VICE, go to the menu, Snapshot -> Save Snapshot Image...\n  - If we select \"Save ROMs\", then the BASIC ROM and the KERNAL ROM will be saved inside the Snapshot file, and will be included as Radare sections.\n\n[![save_snapshot_dialog](https://retro.moe/wp-content/uploads/2015/12/save_snapshot_dialog.png?w=700)](https://retro.moe/wp-content/uploads/2015/12/save_snapshot_dialog.png)\n\n\n\nRadare VICE Snapshot File (VSF) support lets us inspect:\n\n- The 64k RAM of the computer at the moment the snapshot was saved\n- The BASIC and KERNAL ROMs in case they were saved.\n\nTo open a VSF file, just pass the VSF file as the first argument:\n\n```\n$ r2 bc_copy_protection_screen.vsf\n[0x00005689]>\n```\n\n `0x00005689` is the PC (program counter) at the moment the snapshot was saved."

@@ -1,37 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: embedded
 date: "2021-07-26T04:47:39+00:00"
 guid: https://retro.moe/?p=2388
-summary: |-
-  [![](https://retro.moe/wp-content/uploads/2021/07/bluepad32-arduino-circuitpython.png?w=800)](https://retro.moe/wp-content/uploads/2021/07/bluepad32-arduino-circuitpython.png)
-
-  It is now possible to use Bluetooth gamepads both in Arduino and CircuitPython projects.
-
-  This means that you can use your PlayStation (PS3, PS4, PS5), Nintendo (Wii, Wii U, Switch) and Xbox One S gamepads in your electronics project: control a robot, home-automation, video games, etc... everything controlled from your favorite gamepad.
-
-  The catch is that not every Arduino or CircuitPython boards are supported. In fact, only a few of them are supported.
-
-  For Arduino, the boards that have the [NINA-W10x](https://www.u-blox.com/en/product/nina-w10-series-open-cpu) (ESP32) co-processor are supported, like:
-
-  - [Arduino Nano RP2040 Connect](https://store.arduino.cc/usa/nano-rp2040-connect-with-headers) (great board, get one if you haven't already)
-  - [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot)
-  - [Arduino MKR WiFi 1010](https://store.arduino.cc/usa/mkr-wifi-1010)
-  - [Arduino MKR VIDOR 4000 WiFi](https://store.arduino.cc/usa/mkr-vidor-4000)
-  - [Arduino Uno WiFi Rev 2](https://store.arduino.cc/usa/arduino-uno-wifi-rev2)
-  - ...and probably a few more. If it has the NINA-W10x co-processor, it is supported.
-
-  And similar for CircuitPython, the boards that have the AirLift (ESP32) co-processor are supported, like:
-
-  - [Adafruit MatrixPortal M4](https://www.adafruit.com/product/4745) (great to create [a video-game console](https://retro.moe/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/))
-  - [Adafruit Metro M4 Express AirLift](https://www.adafruit.com/product/4000)
-  - [Adafruit PyPortal](https://www.adafruit.com/product/4116)
-  - [Adafruit PyBadge](https://www.adafruit.com/product/4200)
-
-  With the additional benefit that you can use any CircuitPython board by attaching the stand-alone AirLift module:
-
-  - [AirLift module](https://www.adafruit.com/product/4201)
 tag:
   - arduino
   - bluepad32

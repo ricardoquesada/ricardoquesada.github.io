@@ -16,10 +16,10 @@ url: /2014/04/10/installing-git/
 ---
 So you have Windows 8.1 + Visual Studio 2013 installed. Now you need to install a git client.
 
-My workflow in Mac is:
+My workflow on Mac is:
 
 - I use git command line about 70% of the time.
-- In the reaming 30% I'm using [Tower](http://www.git-tower.com/), [Kaleidoscope](http://www.kaleidoscopeapp.com/) and [Xcode](http://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7).
+- In the reaming 30% I'm using [Tower](http://www.git-tower.com/), [Kaleidoscope](http://www.kaleidoscopeapp.com/) and [Xcode](http://www.raywenderlich.com/51351/how-to-use-git-source-control-with-xcode-in-ios-7).
 
 So, I was looking for something similar for Windows. And so far, this is my current setup:
 
@@ -33,7 +33,7 @@ What I like about Mysysgit is that it installs a Unix-like shell, with [git auto
 
 SourceTree is also a pretty good, advanced GUI client for git. I used it a lot in Mac before switching to Tower.
 
-In order to have both Mysysgit and SourceTree working at the same time with your own github repositories, you have to do:
+In order to have both Mysysgit and SourceTree working at the same time with your own GitHub repositories, you have to do:
 
 **a)** Create an ssh key from the git shell by running: ssh-keygen
 

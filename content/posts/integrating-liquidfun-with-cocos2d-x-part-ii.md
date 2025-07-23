@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
-  - programming
+category: cocos2d
 date: "2014-07-30T20:45:00+00:00"
 guid: http://towp8.com/?p=477
 tag:
@@ -26,7 +24,7 @@ The algorithm works more or less like this:
 - Choose a white circle and blur it.
   - You can blur the circle at runtime
   - Or you can blur it off-line.
-- Create an a new frame-buffer (think of a clean off-screen buffer where you can render whatever you want)
+- Create a new frame-buffer (think of a clean off-screen buffer where you can render whatever you want)
 - Render the particles into the newly created frame-buffer using the blurred circle
 - Now render the frame-buffer into the main color-buffer using a threshold. The threshold could be something like this:
   - If pixel.r < 0.1, discard the pixel (the pixel won't be drawn)
@@ -91,15 +89,15 @@ The next thing to do is, to render the particles in the `RenderTexture`.
 ```cpp
 void LFParticleSystemNode::draw(Renderer *renderer, const Mat4 &transform, uint32_t transformFlags)
 {
- // tell RenderTexture to "capture" the particles
-    _renderTexture->beginWithClear(0,0,0,0);
+  // tell RenderTexture to "capture" the particles
+  _renderTexture->beginWithClear(0,0,0,0);
 
-    _customCommand.init(_globalZOrder);
-    _customCommand.func = CC_CALLBACK_0(LFParticleSystemNode::onDraw, this, transform, transformFlags);
-    renderer->addCommand(&_customCommand);
+  _customCommand.init(_globalZOrder);
+  _customCommand.func = CC_CALLBACK_0(LFParticleSystemNode::onDraw, this, transform, transformFlags);
+  renderer->addCommand(&_customCommand);
 
- // tell RenderTexture to stop "capturing" the particles
-    _renderTexture->end();
+  // tell RenderTexture to stop "capturing" the particles
+  _renderTexture->end();
 }
 ```
 
@@ -112,7 +110,7 @@ void LFParticleSystemNode::draw(Renderer *renderer, const Mat4 &transform, uint3
 What I described is just a simple algorithm to render water. But more advanced (and better looking) algorithms could be implemented using the same principle:
 
 - Render blurred (or any other effect) particles into an off-screen buffer
-- Render the off-screen buffer with an special shader
+- Render the off-screen buffer with a special shader
 
 As an example, the official ["LiquidFun - EyeCandy"](https://github.com/google/liquidfun/tree/master/liquidfun/Box2D/EyeCandy) sample  from Google uses a much more complex shader that involves lighting, refraction, and distortion in the background.
 
@@ -160,7 +158,7 @@ glprogramstate->setVertexAttribCallback("a_color", [](VertexAttrib* vertexAttrib
 });
 ```
 
-### Download and running the sample
+### Download and run the sample
 
 Clone the [cocos2d-x-samples](https://github.com/cocos2d/cocos2d-x-samples/) repo and follow its [instructions](https://github.com/cocos2d/cocos2d-x-samples/blob/v3/README.md). Then launch the "LiquidFun - EyeCandy" demo.
 

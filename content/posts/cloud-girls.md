@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-10-08T17:51:00+00:00"
 guid: http://www.monociclo.com.ar/?p=69
 title: Cloud Girls

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: embedded
 date: "2023-04-24T01:54:18+00:00"
 guid: https://retro.moe/?p=2848
 tag:

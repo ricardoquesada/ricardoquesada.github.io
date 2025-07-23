@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - carrera
-  - colectivo
+category: unicycle
 date: "2006-09-21T23:28:00+00:00"
 guid: http://www.monociclo.com.ar/?p=15
 title: Colectivo vs. Monociclo - round 2

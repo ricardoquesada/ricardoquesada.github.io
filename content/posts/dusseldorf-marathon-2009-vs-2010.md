@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2010-05-03T17:17:04+00:00"
 guid: http://www.monociclo.com.ar/?p=178
 title: Düsseldorf Marathon 2009 vs. 2010

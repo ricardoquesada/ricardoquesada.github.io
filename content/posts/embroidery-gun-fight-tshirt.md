@@ -1,11 +1,13 @@
 ---
 author: ricardoquesada
+category: embroidery
 tag:
   - embroidery
   - machine embroidery
   - gun fight
 date: '2025-07-02T10:15:32-07:00'
 title: 'Machine-Embroidering Gun Fight Arcade in two T-shirts'
+url: /embroidering-gun-fight-tshirt/
 ---
 
 ![gun_fight_tshirt](/images/gun_fight_two_tshirts.jpg)

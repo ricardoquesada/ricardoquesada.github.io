@@ -1,10 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2018-11-08T14:49:26+00:00"
 guid: http://retro.moe/?p=2121
-summary: "A few months ago I got an Atari 1040 STF. I knew nothing about it when I got it, except that it was a similar to the Amiga.\n\n \n\nThe Atari ST, the Amiga and the Macintosh were computers released in the mid 80's, all of them based on the Motorola 68k, and all of them came with a windows-based GUI.  This was a _revolutionary_ step compared to the 8-bit machines which were CLI text-driven.\n\nThe base \"ST\" model includes:\n\n- 8 Mhz Motorola 68000 CPU\n- Yamaha YM2149 3-voice square-wave plus 1-voice white noise (mono)\n- 512Kb or 1Mb RAM (520 vs 1040 models)\n- 3 video modes:\n  - 320 x 200 x 16 colors (from a 512 color palette).\n  - 640 x 200 x 4 colors (from a 512 color palette)\n  - 640 x 400 x 2 colors (I believe this is only B/W)\n- Midi In / Out: Apparently a [killer feature for musicians](http://daily.redbullmusicacademy.com/2017/10/atari-st-instrumental-instruments).\n\nCompared with the 8-bit home computers like the C64/C128, the Atari ST is a good improvement. From only 64K/128K RAM to 512K (or 1024K) RAM, an 8 Mhz CPU (vs. 1 or 2 Mhz) and Midi. But there are no hardware sprites (no blitter), and the music is chiptune, like in the C64. The C64 SID chip might be even better. The video modes are OKish. Having a 320x200 @ 16 colors from a palette of 512 is nice, but not that impressive. It is worth noting that the Atari ST (like the Amiga and the Macintosh) don't have \"text video modes\", they only have \"graphic\" ones."
 tag:
   - atari-st
   - m68k

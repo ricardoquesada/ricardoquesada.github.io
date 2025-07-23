@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-10-29T07:29:28+00:00"
 guid: http://www.monociclo.com.ar/?p=114
 title: Bajando los tiempos

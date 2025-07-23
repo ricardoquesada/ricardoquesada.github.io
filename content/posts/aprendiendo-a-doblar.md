@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-06-11T00:31:00+00:00"
 guid: http://www.monociclo.com.ar/?p=5
 title: Aprendiendo a doblar

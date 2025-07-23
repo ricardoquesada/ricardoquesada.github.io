@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: retro computing
 date: "2017-03-16T23:10:14+00:00"
 guid: http://retro.moe/?p=1992
 tag:

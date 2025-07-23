@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2017-08-06T22:49:55+00:00"
 guid: http://retro.moe/?p=2052
 summary: |-
@@ -17,9 +16,8 @@ summary: |-
 
   Para ahogar mis penas me fui al [Vintage Computer Festival](http://vcfed.org/wp/festivals/vintage-computer-festival-west/). Fui a escuchar la charla de Commodore. Iban a estar [Bil Herd](https://en.wikipedia.org/wiki/Bil_Herd), Leonard Tramiel, [Chuck Peddle](https://en.wikipedia.org/wiki/Chuck_Peddle) y demás commodorianos de la época 8-bit.
 tag:
-  - commodore-pet
-  - commodore-plus4
-  - dios
+  - commodore pet
+  - commodore plus4
 title: Dios las prefiere PETs
 url: /2017/08/06/dios-las-prefiere-pets/
 

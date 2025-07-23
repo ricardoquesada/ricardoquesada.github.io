@@ -2,6 +2,7 @@
 date: '2025-07-22T18:24:00-07:00'
 title: 'Your first embroidery machine'
 author: ricardoquesada
+category: embroidery
 tag:
 - embroidery
 - machine embroidery

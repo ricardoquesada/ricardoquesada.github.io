@@ -1,32 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2015-02-02T06:17:03+00:00"
 guid: http://towp8.com/?p=514
-summary: |-
-  [![c64logo](https://retro.moe/wp-content/uploads/2015/02/c64logo.png)](https://retro.moe/wp-content/uploads/2015/02/c64logo.png)
-
-  I stopped developing for the Commodore 64 in 1993. Since then a lot has happened:
-
-  **Back in late 80's ~ beginning of 90's:**
-
-  - I did all my coding using the Commodore 128's [MONITOR](http://www.commodore.ca/manuals/128_system_guide/app-j.htm) command
-
-    - That means no text editor, no compiler, no linker. Similar to the [debug.com](http://en.wikipedia.org/wiki/Debug_%28command%29) command that used to be in DOS
-  - Since I didn't use a text editor, I put all my comments in a notepad (I still have that notepad somewhere)
-  - I used the Commodore 128's [SPRDEF](http://www.commodore.ca/manuals/128_system_guide/sect-06b.htm) as the Sprite editor
-  - I used my own character editor called vchar... (later I created a similar one for [DOS](https://github.com/ricardoquesada/vintage/blob/master/progs/dos/vchar/vchar333.asm) and [Linux](https://github.com/ricardoquesada/vintage/tree/master/progs/linux/vchar/vchar-1.01))
-  - I did some basic graphics using a graphics editor... but I can't remember which one
-  - I didn't know any other C64 developer, so I did everything kind of isolated
-    - My sources of information were [Commodore Magazine](http://www.bombjack.org/commodore/magazines/commodore-magazine/commodore-magazine.htm), [Tu Micro Commodore](http://scans.bytemaniacos.com/es/tu_micro_commodore/1-semanal/) and some books
-    - I reversed engineer some games / demos in order to learn tricks
-    - I had a 300 bps modem but I didn't find any good C64 BBS
-    - I did some cracks for a local company that was "publishing" (AKA pirating) games. In exchange they were providing me games. To put things into perspective it was impossible (I mean IMPOSSIBLE) to get original games in Argentina back then.
-  - I knew some basic tricks like how to use more than 8 sprites, how to open the top and bottom borders, some raster effects... but nothing very advanced.
-  - I loaded all my programs / games using the [disk drive](http://en.wikipedia.org/wiki/Commodore_1571), which was much faster than the [datasette](http://en.wikipedia.org/wiki/Commodore_Datasette), but still very slow
-  - I had a fast-loader cartridge to accelerate the disk drive loading times. It also had a rudimentary MONITOR.
-  - Although Argentina was using the PAL-N standard I had a NTSC Commodore 128. In Argentina we also had the Argentinean Commodore, called [Drean Commodore](http://es.wikipedia.org/wiki/Commodore_64#Clones_de_Commodore_64), which was a PAL-N machine assembled in Argentina
 tag:
   - 8-bit
   - c64

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-09-07T14:25:00+00:00"
 guid: http://www.monociclo.com.ar/?p=12
 title: Buscando el record

@@ -1,7 +1,8 @@
 ---
 author: ricardoquesada
 date: '2025-07-13T13:04:26-07:00'
-title: 'Embroidering Ransome the Clown, from Thimbleweek Park'
+title: 'Embroidering Ransome the Clown, from Thimbleweed Park'
+category: embroidery
 tag:
 - embroidery
 - thimbleweed park
@@ -10,7 +11,7 @@ tag:
 
 ![thimbleweed_park](/images/thimbleweed_park_tshirt.jpg)
 
-First of all, if you are not familiar with [Ransome the Clown][ransome_video], you should stop right now, and play the great video game [Thimbleweek Park][video_game].
+First of all, if you are not familiar with [Ransome the Clown][ransome_video], you should stop right now, and play the great video game [Thimbleweed Park][video_game].
 
 Here are the steps to embroider the t-shirt:
 

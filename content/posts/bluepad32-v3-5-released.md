@@ -1,16 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: embedded
 date: "2022-07-11T00:52:50+00:00"
 guid: https://retro.moe/?p=2537
-summary: |-
-  I 'm happy to announce that Bluepad32 v3.5 has been released. It contains two new big features:
-
-  - Mouse support
-  - Console
-
-  and many fixes & improvements here and there.
 tag:
   - bluepad32
   - esp32

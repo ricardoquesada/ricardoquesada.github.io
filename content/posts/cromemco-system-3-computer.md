@@ -1,44 +1,33 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2018-03-07T18:10:35+00:00"
 guid: http://retro.moe/?p=2096
-summary: |-
-  The [Cromemco System Three](http://oldcomputers.net/cromemco-system-three.html) is a Z-80 based computer. Which is nice, because I always wanted to learn Z-80 (this is my second Z-80 computer, the other one is a MSX2).
-
-  But What I like about the Cromemco is how well-built it is. I love it.
-
-  https://www.youtube.com/watch?v=zz7FH5TeOzs
-
-  The computer is that not big, but it is a very heavy computer.
-
-  At the moment I don't have the needed cables to test it. If I can't find them, I might be able to build them myself (or not). If manage to get the cables, and provided that the computer works, I promise to write a game or something for it :)
-
-  Photos:
-
-  \[caption id="" align="alignnone" width="512"\]![](https://lh3.googleusercontent.com/ToCVTmPWKraaXmwmit-SNKqto8lDcMRKRWlokP2tLbtjcGTsbqJSCn2N-b4av1zbKlNDGxYXTMa4C1K7QieSfFSpSOjQuwL637VmHFXbzPp8Ev-4mdtYiLL3XswApLEAfXlZVgKx8mI=-no) Cromemco System Three\[/caption\]
 tag:
   - cromemco
-  - retro
   - z-80
 title: Cromemco System 3 computer
 url: /2018/03/07/cromemco-system-3-computer/
 
 ---
-The [Cromemco System Three](http://oldcomputers.net/cromemco-system-three.html) is a Z-80 based computer. Which is nice, because I always wanted to learn Z-80 (this is my second Z-80 computer, the other one is a MSX2).
+The [Cromemco System Three](http://oldcomputers.net/cromemco-system-three.html) is a Z-80 based computer.
+Which is nice, because I always wanted to learn Z-80 (this is my second Z-80 computer, the other one is a MSX2).
 
-But What I like about the Cromemco is how well-built it is. I love it.
+But what I like about the Cromemco is how well-built it is.
+I love it.
 
 {{< youtube zz7FH5TeOzs >}}
 
 The computer is that not big, but it is a very heavy computer.
 
-At the moment I don't have the needed cables to test it. If I can't find them, I might be able to build them myself (or not). If manage to get the cables, and provided that the computer works, I promise to write a game or something for it :)
+At the moment, I don't have the needed cables to test it.
+If I can't find them, I might be able to build them myself (or not).
+If I manage to get the cables, and if the computer works, I promise to write a game or something for it :)
 
 Photos:
 
-\[caption id="" align="alignnone" width="512"\]![](https://lh3.googleusercontent.com/ToCVTmPWKraaXmwmit-SNKqto8lDcMRKRWlokP2tLbtjcGTsbqJSCn2N-b4av1zbKlNDGxYXTMa4C1K7QieSfFSpSOjQuwL637VmHFXbzPp8Ev-4mdtYiLL3XswApLEAfXlZVgKx8mI=-no) Cromemco System Three\[/caption\]
+![](https://lh3.googleusercontent.com/ToCVTmPWKraaXmwmit-SNKqto8lDcMRKRWlokP2tLbtjcGTsbqJSCn2N-b4av1zbKlNDGxYXTMa4C1K7QieSfFSpSOjQuwL637VmHFXbzPp8Ev-4mdtYiLL3XswApLEAfXlZVgKx8mI=-no)
+*Cromemco System Three.*
 
 {{< figure align=alignnone width=512 src="https://lh3.googleusercontent.com/8L4q%5Fn20UN2kyES2RZNUbG5TK0KZLdVy7OYCJBu%5FRydH1b0H%5FZq1hcoiRGWmYUl3eWftV-iH8vpD6hX7AIaabgo-FrurHQOsTeZyRqCRLY6VQXkydeW6ZILohBakJPxlmzzCWkKfqK0=-no" alt="" >}}
 

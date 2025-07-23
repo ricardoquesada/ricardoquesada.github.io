@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
-  - iphone
+category: cocos2d
 date: "2008-06-10T20:21:00+00:00"
 guid: http://www.monociclo.com.ar/?p=54
 title: cocos2d en iphone

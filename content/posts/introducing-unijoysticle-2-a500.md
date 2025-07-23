@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: unijoysticle
 date: "2022-07-11T19:34:39+00:00"
 guid: https://retro.moe/?p=2523
 summary: |-
@@ -31,7 +29,7 @@ In addition to that, the firmware (Bluepad32) was updated to support:
 
 - Mouse support: this was #1 feature request!
   - List of supported mice is here: [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
-  - Supports up to two mice connected at the same time. Finally you can play [Lemmings in two-player mode](https://lemmings.fandom.com/wiki/Lemmings_two-player)!
+  - Supports up to two mice connected at the same time. Finally, you can play [Lemmings in two-player mode](https://lemmings.fandom.com/wiki/Lemmings_two-player)!
 - Console support: useful to change settings in runtime like:
   - change mouse resolution
   - change autofire clicks-per-second

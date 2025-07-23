@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2015-12-05T01:55:10+00:00"
 guid: http://retro.moe/?p=1185
 tag:

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-12-07T09:16:00+00:00"
 guid: http://www.monociclo.com.ar/?p=21
 title: Buscando monociclos en Japón

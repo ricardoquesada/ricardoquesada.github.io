@@ -1,12 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing 
 date: "2016-03-27T21:21:04+00:00"
 guid: http://retro.moe/?p=1260
 summary: |-
-  ### Requirements for the c64 controller
+  ### Requirements for the c64 controller
 
   - A micro-controller. I doesn't need to be very powerful, just powerful enough to handle some UDP connections and configuring some GPIOs.
   - Flash-able firmware: If possible with support for [Arduino IDE](https://www.arduino.cc/en/Main/Software) (or similar). C++ preferred. [Micropython](http://micropython.org/) could be a nice backup plan.

@@ -1,5 +1,6 @@
 ---
 author: ricardoquesada
+category: embroidery
 tag:
   - embroidery
   - angler fish

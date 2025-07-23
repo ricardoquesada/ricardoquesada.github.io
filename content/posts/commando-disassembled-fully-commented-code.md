@@ -1,15 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2019-10-02T15:51:34+00:00"
 guid: http://retro.moe/?p=2224
-summary: |-
-  In order to create [Commando 2084](https://retro.moe/2019/09/29/commando-2084-a-game-for-the-commodore-64/), I had to disassemble Commando. My original intention was to patch what was only needed and stop there. But I got carried away and I ended up analyzing and commenting the entire Commando code.
-
-  The commented code (that can be recompiled to generate the exact original binary) is here:
-
-  - [https://gitlab.com/ricardoquesada/c64-commando-2084/tree/orig](https://gitlab.com/ricardoquesada/c64-commando-2084/tree/orig)
 tag:
   - c64
   - commando

@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
-  - programming
+category: cocos2d
 date: "2014-04-23T21:51:26+00:00"
 guid: http://towp8.com/?p=241
 summary: |-
@@ -42,7 +40,7 @@ From LiquidFun's site:
 
 > Based on [Box2d](https://github.com/cocos2d/cocos2d-x-samples/blob/v3/box2d.org), [LiquidFun](http://google.github.io/liquidfun/) features particle-based fluid simulation. Game developers can use it for new game mechanics and add realistic physics to game play. Designers can use the library to create beautiful fluid interactive experiences.
 
-Basically LiquidFun is Box2d plus an extension to simulate fluids using a particle system. To test it, download and install the official [LiquidFun - Testbed,](https://play.google.com/store/apps/details?id=com.wolff.liquidfun.testbed2) and [LiquidFun - EyeCandy](https://play.google.com/store/apps/details?id=com.wolff.EyeCandy) for Android.
+Basically, LiquidFun is Box2d plus an extension to simulate fluids using a particle system. To test it, download and install the official [LiquidFun - Testbed,](https://play.google.com/store/apps/details?id=com.wolff.liquidfun.testbed2) and [LiquidFun - EyeCandy](https://play.google.com/store/apps/details?id=com.wolff.EyeCandy) for Android.
 
 [Cocos2d-x](http://cocos2d-x.org) already has Box2d integration, so in order to integrate Cocos2d-x with LiquidFun, we only need to integrate this new class: `b2ParticleSystem`.
 
@@ -202,7 +200,7 @@ The complete `LFParticleSystemNode` code can be found here:
 
 And the full working example can be downloaded from here:
 
-- [cocos2d-x-samples](https://github.com/cocos2d/cocos2d-x-samples): Try both LiquidFun-EyeCandy and LiquidFun-Testbed samples.
+- [cocos2d-x-samples](https://github.com/cocos2d/cocos2d-x-samples): Try both LiquidFun-EyeCandy and LiquidFun-Testbed samples.
 
 In Part II, I'll describe the steps needed to integrate LiquidFun with cocos2d-x for Win32 + Visual Studio. Later I'll describe how to use a nice "metaball / blob" shader to simulate water.
 

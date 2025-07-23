@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2010-04-09T18:22:05+00:00"
 guid: http://www.monociclo.com.ar/2010/04/cuenta-regresiva/
 tag:

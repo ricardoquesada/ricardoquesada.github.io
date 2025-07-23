@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-12-14T07:35:18+00:00"
 guid: http://www.monociclo.com.ar/?p=392
 tag:
@@ -11,7 +9,8 @@ title: Con gripe y reparando monos
 url: /2012/12/14/con-gripe-y-reparando-monos/
 
 ---
-\[caption id="" align="alignnone" width="216"\]![](https://lh4.googleusercontent.com/-YzOUEhfki0s/UMrVSRfElYI/AAAAAAAAq_g/iW7l3v3rR5E/s288/IMG_2045.JPG) Seat post en reparación\[/caption\]
+![](https://lh4.googleusercontent.com/-YzOUEhfki0s/UMrVSRfElYI/AAAAAAAAq_g/iW7l3v3rR5E/s288/IMG_2045.JPG)
+*Seat post en reparación.*
 
 Desde el Martes que estoy con gripe. Así que en un momento en el cual me sentía bien me puse a reparar los monos:
 

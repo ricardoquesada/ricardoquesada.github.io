@@ -10,7 +10,7 @@ title: Introducing Unijoysticle 2 C64
 url: /2023/06/21/introducing-unijoysticle-2-c64/
 
 ---
-Unijoysticle 2 C64 add Bluetooth gamepad functionality to the Commodore 64/128.
+Unijoysticle 2 C64 adds Bluetooth gamepad functionality to the Commodore 64/128.
 
 For those familiar with the [Unijoysticle 2+](/2021/10/20/introducing-unijoysticle-2/), this is the evolution of it.
 
@@ -29,7 +29,7 @@ Features:
 
 [![](/wp-content/uploads/2023/06/uni-c64.png?w=512)](/wp-content/uploads/2023/06/uni-c64.png)
 
-Games that were modified to take full advantage for Unijoysticle features:
+Games that were modified to take full advantage of Unijoysticle features:
 
 - [https://gitlab.com/ricardoquesada/c64-games-unijoysticle](https://gitlab.com/ricardoquesada/c64-games-unijoysticle)
 
@@ -37,7 +37,7 @@ Games that were modified to take full advantage for Unijoysticle features:
 
 [![](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png)](https://www.tindie.com/products/riq/unijoysticle-2-c64-gamepad-for-commodore-64/)
 
-I sell ready-to-use Unijoysticle 2 C64 devices, fully-tested, with latest firmware at $39:
+I sell ready-to-use Unijoysticle 2 C64 devices, fully-tested, with the latest firmware at $39:
 
 - [https://www.tindie.com/products/riq/unijoysticle-2-c64-gamepad-for-commodore-64/](https://www.tindie.com/products/riq/unijoysticle-2-c64-gamepad-for-commodore-64/)
 

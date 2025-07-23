@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing
 date: "2015-11-19T06:52:23+00:00"
 guid: http://retro.moe/?p=988
 summary: |-

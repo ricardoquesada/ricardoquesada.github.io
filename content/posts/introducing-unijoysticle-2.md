@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: unijoysticle
 date: "2021-10-20T17:10:17+00:00"
 guid: https://retro.moe/?p=2459
 summary: |-
@@ -63,12 +62,12 @@ Notes:
 
 **Case friendly:** Many users requested a case for the Unijoysticle 2. I tried to design one, but it was not easy and I gave up. But it should be easier to design one for the 2+. BTW, I haven't designed one yet... but I should have one ready soon™.
 
-**Kit vs assembled unit:** I'm only offering the Unijoysticle 2+ as an assembled unit. Doesn't make sense to offer a kit where most of the components are SMD.
+**Kit vs assembled unit:** I'm only offering the Unijoysticle 2+ as an assembled unit. It doesn't make sense to offer a kit where most of the components are SMD.
 
 **Price :** The new price for the assembled unit is $35 (from $60), and I'm no longer offering the Kit (which was $35). This is two-fold:
 
 - Time (main reason): I'm using [JLCPCB](https://jlcpcb.com/) for manufacturing + assembly. This reduces the time that I have to spend on each unit.
-- Components price: SMD components are slightly cheaper than through-hole ones. But on the other hand I'm using a 4-layer PCB which increases the price a little bit.
+- Components price: SMD components are slightly cheaper than through-hole ones. But on the other hand, I'm using a 4-layer PCB which increases the price a little bit.
 
 **Tindie:** To further reduce my time, I'm using Tindie as the store-front. Better for the users (don't have to send me an email), better for me (spend less time).
 
@@ -87,6 +86,6 @@ Not only I'm making everything open source & open hardware so that you can creat
 
 I trade a Unijoysticle 2+ unit for one of your own retro inventions / creations. It works like this:
 
-- I send you a Unijoysticle 2+ device (I pay the shipping)
+- I send you an Unijoysticle 2+ device (I pay the shipping)
 - You send me one of your retro inventions/creations (you pay the shipping)
-  - It could be a magazine, video game, device, etc... (must be retro-related)
+- It could be a magazine, video game, device, etc... (must be retro-related)

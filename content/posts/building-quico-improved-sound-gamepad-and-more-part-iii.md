@@ -1,38 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - quico
+category: retro computing
 date: "2020-12-31T18:20:10+00:00"
 guid: http://retro.moe/?p=2335
-summary: |-
-  This is the third blog-post regarding "building a video-game console for (my) kids". See [Part II: chiptune,](https://retro.moe/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/) and [Part I: gamepad](https://retro.moe/2020/11/24/bluepad32-gamepad-support-for-esp32/).
-
-  https://www.youtube.com/watch?v=Ne4RNotvTO0
-
-  ## Quico
-
-  We have name: Quico. From now on, I'll refer to this project as "Quico":
-
-  - Quico ( _/ˈkiko/_), short for _Kids Console_ (or _Kids Computer_)
-  - Also, one of the main characters of [El Chavo del Ocho](https://es.wikipedia.org/wiki/El_Chavo_del_8)
-
-  ## Sound Shield
-
-  I converted the [breadboard](https://retro.moe/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/) into "shield" for the [MatrixPortal M4](https://learn.adafruit.com/adafruit-matrixportal-m4).
-
-  ![](https://lh3.googleusercontent.com/pw/ACtC-3d8JU3Kzz2r_wpSNG22U2taDkWwqoxAV72PW8Z6FEA5HQqB6Bx3lFg0paf9F-F4xdNhFkXrngcvgbWlcq_hBVDT3Rhi8jgTY-20IZicE82JKaItYKpKWN7p1CgZvzQQFLQm_BkirXmkJyuTCwBT3HaHGQ=w1926-h1299-no)Shield for the MatrixPortal M4
-
-  "Shield" features:
-
-  - Output:
-    - Headphones: Audio jack
-    - or Speaker: 5V/GND/AudioOut pins
-  - Fits perfectly on top of the MatrixPortal M4
-  - Sturdy connection: 8 pins + 2 screws
-  - Easy to solder: All components are through-hole, except audio-jack (SMD) but it is as easy to solder as the rest.
-  - Open source / open hardware ( [docs, schematics, layout](https://gitlab.com/ricardoquesada/quico/-/blob/master/docs/shield_76489.md))
-
-  ![](https://lh3.googleusercontent.com/pw/ACtC-3d1TU056cwMDxYY4IBkjUhEd28KIE88TKDuW2Hs8wluNMVKVfJmVq_R_5JAKY8i595GPtgTgMlUfbblmSIxG4L_-NhtDhNutWkcgKRPmB5UxGhhOtJaOE4dK-K_nlzxiYGtwFIZ71sYa-Z959tZKBOLCQ=w1732-h1299-no)Shield + MatrixPortal M4 + LED matrix
 tag:
   - circuitpython
   - sn76489

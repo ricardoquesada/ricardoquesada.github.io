@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-09-17T18:28:21+00:00"
 guid: http://www.monociclo.com.ar/?p=295
 title: Diamond Canyon
@@ -17,5 +15,5 @@ Ayer fuimos con Tom y Josh a hacer muni al Diamond Canyon. Estuvo muy bueno, sal
 
 Más fotos y videos:
 
-- [https://picasaweb.google.com/111588202880883771967/Muni2012916](https://picasaweb.google.com/111588202880883771967/Muni2012916)
-- [http://www.flickr.com/photos/tholub/sets/72157631555828801/with/7995116696/](http://www.flickr.com/photos/tholub/sets/72157631555828801/with/7995116696/)
+- https://photos.app.goo.gl/FzhSe6e3mjwZrY6n6
+- http://www.flickr.com/photos/tholub/sets/72157631555828801/with/7995116696/
