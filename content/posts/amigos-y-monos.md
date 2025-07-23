@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - amigos
+category: unicycle
 date: "2006-10-30T18:16:00+00:00"
 guid: http://www.monociclo.com.ar/?p=17
 title: Amigos y monos

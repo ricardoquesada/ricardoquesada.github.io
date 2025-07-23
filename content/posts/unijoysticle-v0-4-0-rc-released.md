@@ -1,10 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-11-08T08:52:02+00:00"
 guid: http://retro.moe/?p=1959
-summary: "UniJoystiCle v0.4.0-RC (Release Candidate) released. Mega update!\n\n \n\n**Download:**\n\n- iOS client v0.4.6: [App Store](https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8)\n- Android client v0.4.10: [Google Play](https://play.google.com/store/apps/details?id=moe.retro.unijoysticle)\n- macOS client v0.4.0: [UniJoystiCle Controller.dmg](http://ricardoquesada.github.io/unijoysticle/bin/UniJoystiCle%20Controller-v0.4.0.dmg)\n- win32 client v0.4.0: [unijoysticle\\_controller.win32.zip](http://ricardoquesada.github.io/unijoysticle/bin/unijoysticle_controller-v0.4.0.win32.zip)\n- Firmware v0.4.5: [unijoysticle\\_firmware.bin](http://ricardoquesada.github.io/unijoysticle/bin/unijoysticle_firmware.bin)\n- Source code + schematic + layout: [https://github.com/ricardoquesada/unijoysticle](https://github.com/ricardoquesada/unijoysticle)\n\nLatest versions can be downloaded from here:  [http://ricardoquesada.github.io/unijoysticle/](http://ricardoquesada.github.io/unijoysticle/)"
 tag:
   - c64
   - commodore-home

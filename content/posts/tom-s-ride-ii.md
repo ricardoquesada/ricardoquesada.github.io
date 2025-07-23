@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-09-23T18:42:27+00:00"
 guid: http://www.monociclo.com.ar/?p=299
 title: Tom's Ride II

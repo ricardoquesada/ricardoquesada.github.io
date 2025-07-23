@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - paseo
+category: unicycle
 date: "2007-12-19T19:48:00+00:00"
 guid: http://www.monociclo.com.ar/?p=41
 title: Vuelta al ruedo

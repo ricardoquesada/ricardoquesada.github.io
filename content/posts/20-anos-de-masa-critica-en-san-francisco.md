@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-09-30T18:25:57+00:00"
 guid: http://www.monociclo.com.ar/?p=293
 title: 20 años de masa critica en San Francisco

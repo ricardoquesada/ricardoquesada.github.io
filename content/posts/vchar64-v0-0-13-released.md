@@ -1,22 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing
 date: "2016-04-15T21:35:58+00:00"
 guid: http://retro.moe/?p=1601
-summary: |-
-  Download:
-
-  - Mac: [vchar64-0.0.13.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.mac.dmg)
-  - Win32: [vchar64-0.0.13.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.win32.zip)
-  - Source code: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
-
-  https://www.youtube.com/watch?v=lb7UNIhoyoI
-
-
-
-  Changelog:
 tag:
   - c64
   - vchar64
@@ -26,9 +12,9 @@ url: /2016/04/15/vchar64-v0-0-13-released/
 ---
 Download:
 
-- Mac: [vchar64-0.0.13.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.mac.dmg)
-- Win32: [vchar64-0.0.13.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.win32.zip)
-- Source code: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
+- Mac: [vchar64-0.0.13.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.mac.dmg)
+- Win32: [vchar64-0.0.13.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.13/vchar64-0.0.13.win32.zip)
+- Source code: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
 
 {{< youtube lb7UNIhoyoI >}}
 

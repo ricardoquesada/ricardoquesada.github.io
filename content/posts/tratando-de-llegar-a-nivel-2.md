@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - video
+category: unicycle
 date: "2006-07-30T14:05:00+00:00"
 guid: http://www.monociclo.com.ar/?p=7
 title: Tratando de llegar a nivel 2

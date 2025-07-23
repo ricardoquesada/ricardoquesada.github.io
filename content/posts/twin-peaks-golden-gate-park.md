@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-08-05T19:16:30+00:00"
 guid: http://www.monociclo.com.ar/?p=263
 title: Twin Peaks + Golden Gate Park

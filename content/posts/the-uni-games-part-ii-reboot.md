@@ -1,16 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing
 date: "2016-03-27T15:46:20+00:00"
 guid: http://retro.moe/?p=1257
-summary: |-
-  A reboot was needed. I rewrote most of the code. The game is no longer called "The Muni Race". Instead it is called "The Uni Games" since it will have more than one event (think of "Summer Games" but for unicycles. [UNICON](http://eng.unicon18.com/) basically).
-
-  The game will have a more-retro look and feel than before. It will only use PETSCII chars, plus sprites. No redefined characters, no bitmaps. Pure PETSCII. Pure retro effects.
-
-  ![](https://lh3.googleusercontent.com/-u6cUHJ6Fg9A/VvfhKfa9ctI/AAAAAAABdm4/t8b5283PpzUtEmfZuy0xCN6-2W2pflOSwCCo/s640-Ic42/Screen%2BShot%2B2016-03-27%2Bat%2B6.31.23%2BAM.png)
 tag:
   - c64
   - the-muni-race

@@ -1,16 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-06-30T23:05:01+00:00"
 guid: http://retro.moe/?p=1771
-summary: |-
-  \[caption id="" align="alignnone" width="480"\]![](https://lh3.googleusercontent.com/-wbKhFizysbk/V3Wh7rzaKoI/AAAAAAABetg/CS2OlIXzJz4Vx_dCfFOB3GAbViJf_wCCACCo/s640/IMG_0207.jpg) v0.2.1 powered from a battery. Can be powered from USB as well\[/caption\]
-
-  Changes in v0.2.1:
-
-  - Commodore 64 works Ok when the UniJoystiCle board is unpowered. The issue was that the 4066 chips were in an unknown state when they were unpowered. In v0.2.1 the 4066 ICs get power from the C64 Joy #2 port
-  - Smaller holes for the DC Jack making it compatible with "common" DC Jacks.
 tag:
   - unijoysticle
 title: UniJoystiCle v0.2.1 released

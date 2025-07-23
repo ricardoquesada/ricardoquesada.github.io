@@ -1,19 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-06-06T13:30:18+00:00"
 guid: http://retro.moe/?p=1628
-summary: |-
-  My Sacred Diskettes
-
-  In 1986 (or was it 1987?) I got my first computer, a Commodore 64. I started learning BASIC and during '87 and '88 I created some very simple games. Somewhere in '88 I started learning assembly language ( [machine language](http://www.webopedia.com/TERM/M/machine_language.html) to be precise), but I don't recall coding any game using this language. If so, it must have probably been due to the fact that I lacked a good [monitor](https://www.c64-wiki.com/index.php/Machine_Code_Monitor).
-
-  Somewhere in 1989,  I switched to the Commodore 128. Whereas I continued creating games using BASIC, I also started coding some games in assembly language, profiting from the built-in C128 monitor, which was pretty decent.
-
-  In 1990 I started coding intros, doing some trainers, and re-cracking some games for a local computer shop (SADOI). And I kept doing that until 1992.
-
-  I stored all that sacred info (my games, intros, re-cracks, trainers) in my diskettes. At the time, my diskettes were **my most valuable possession.**
 tag:
   - c64
   - diskettes

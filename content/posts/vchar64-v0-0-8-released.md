@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2015-11-05T00:14:14+00:00"
 guid: http://retro.moe/?p=985
 tag:
@@ -25,4 +24,4 @@ VChar64 v0.0.8 is available for download:
 - Better keyboard shortcuts
 - ...and many bug fixes.
 
-**Full changelog**: [CHANGELOG v0.0.8](https://github.com/ricardoquesada/vchar64/blob/0.0.8/CHANGELOG)
+**Full changelog**: [CHANGELOG v0.0.8](https://github.com/ricardoquesada/vchar64/blob/0.0.8/CHANGELOG)

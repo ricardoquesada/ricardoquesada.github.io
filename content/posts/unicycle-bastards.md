@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2010-05-05T08:09:10+00:00"
 guid: http://www.monociclo.com.ar/?p=202
 title: Unicycle Bastards

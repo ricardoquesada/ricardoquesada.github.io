@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2015-07-20T14:41:24+00:00"
 guid: http://towp8.com/?p=931
 tag:

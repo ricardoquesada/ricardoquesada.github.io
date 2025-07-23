@@ -1,19 +1,12 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: retro computing
 date: "2016-04-26T19:57:46+00:00"
 guid: http://retro.moe/?p=1612
-summary: |-
-  I like [Fritzing](http://fritzing.org/home/). I think it is great for small projects and it is very easy to use. But it has its limitations when creating the PCB, mostly because its component library is not very complete.
-
-  [Eagle](http://www.cadsoftusa.com/), on the other hand, is more difficult to use. But its component library is very polished. Also, companies like [Adafruit](https://www.adafruit.com/) and [SparkFun](https://www.sparkfun.com/) create components for Eagle, so that is a big plus if you purchase components from them.
-
-  So, I re-wrote the schematic again in Eagle, and then created this PCB:
-
-  ![](https://lh3.googleusercontent.com/-qKyn_dhdhas/Vx_FBz09y8I/AAAAAAABd60/9Wn3IuWfPWoS6Y2xNsOB2Xm0yKRn8L5tgCCo/s800/unijoysticle_board.png)
 title: 'UniJoystiCle: Giving Eagle a try'
 url: /2016/04/26/unijoysticle-giving-eagle-a-try/
+tag:
+  - unijoysticle
 
 ---
 I like [Fritzing](http://fritzing.org/home/). I think it is great for small projects and it is very easy to use. But it has its limitations when creating the PCB, mostly because its component library is not very complete.

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2015-12-02T22:29:49+00:00"
 guid: http://retro.moe/?p=1179
 tag:
@@ -15,7 +14,7 @@ VChar64 v0.0.9 is available for download:
 
 - Mac: [vchar64-0.0.9.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.dmg)
 - Win32: [vchar64-0.0.9.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.9/vchar64-0.0.9.zip)
-- Source code: [Github repo](https://github.com/ricardoquesada/vchar64)
+- Source code: [Github repo](https://github.com/ricardoquesada/vchar64)
 
 ![](https://lh3.googleusercontent.com/-iE0eqQymBDk/Vl9f_NOGrII/AAAAAAABcow/0sRHClMkr4U/s400-Ic42/Screen%252520Shot%2525202015-12-02%252520at%2525201.16.32%252520PM.png)**Highlights:**
 
@@ -23,4 +22,4 @@ VChar64 v0.0.9 is available for download:
 - Copy & Paste tiles between documents even if they have different interleave options
 - Bug fixes
 
-**Full changelog**: [CHANGELOG v0.0.9](https://github.com/ricardoquesada/vchar64/blob/0.0.9/CHANGELOG)
+**Full changelog**: [CHANGELOG v0.0.9](https://github.com/ricardoquesada/vchar64/blob/0.0.9/CHANGELOG)

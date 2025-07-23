@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - uncategorized
+category: cocos2d
 date: "2014-04-04T08:47:45+00:00"
 guid: http://riq64.wordpress.com/?p=20
 tag:

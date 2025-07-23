@@ -1,17 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-07-29T14:26:23+00:00"
 guid: http://retro.moe/?p=1786
-summary: |-
-  Yeaaaaaaaaaah! UniJoystiCle v0.3 was released!
-
-  It includes:
-
-  - A beautifully designed PCB
-  - A realistic Unicycle game for the Commodore 64
-  - A the iPhone application which can be downloaded from the App Store
 tag:
   - unijoysticle
 title: UniJoystiCle v0.3 released!

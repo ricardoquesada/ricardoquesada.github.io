@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
-  - programming
+category: retro computing
 date: "2016-03-02T07:16:41+00:00"
 guid: http://retro.moe/?p=1243
 tag:
@@ -16,8 +14,8 @@ New version, new features.
 
 ### Download
 
-- Mac: [vchar64-0.0.12.dmg.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.dmg.zip)
-- Win32: [vchar64-0.0.12.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.win32.zip)
+- Mac: [vchar64-0.0.12.dmg.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.dmg.zip)
+- Win32: [vchar64-0.0.12.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.12/vchar64-0.0.12.win32.zip)
 
 ### Changes
 

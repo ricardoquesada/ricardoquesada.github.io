@@ -1,13 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-06-13T00:31:38+00:00"
 guid: http://retro.moe/?p=1752
-summary: |-
-  ![](https://lh3.googleusercontent.com/-OjX88hA0O9I/V12OOZiJjpI/AAAAAAABeXo/0AZYzH5x3xIiYRy--uza0qhJhuFwW18NACCo/s400/IMG_4523.jpg)**Download**(firmware, iOS client and schematics + board):
-
-  - [https://github.com/ricardoquesada/unijoysticle](https://github.com/ricardoquesada/unijoysticle)
 tag:
   - esp8266
   - unijoysticle

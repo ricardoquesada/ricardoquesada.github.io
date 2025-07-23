@@ -1,26 +1,11 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2017-08-10T05:31:58+00:00"
 guid: http://retro.moe/?p=2056
-summary: |-
-  ![](https://lh3.googleusercontent.com/WUQq8rJkjiruulX_wJ6J30pI38MIjJRq-jAbGV-FmfXG4F1dPxWc0iBYV_DdtIyq4ZCT7nhsNsIoTq_x_lyyDzsaYKMCAO1Vox3mUS7RkYR4D60w4-uOhW_lDxLA_zUxTxcLgVp6Ie4=-no)
-
-  Me encuentro confundido, perdido espiritualmente.
-
-  Pensé que Dios me estaba dando mensajes claros y simples, para que una persona como yo los entienda sin ambigüedad alguna, mensajes claros como:
-
-  - "Hacé el UniJoystiCle para la PET. No pierdas tiempo en la Plus/4".
-
-  Pero hoy el vecino me entregó un paquete... ¿qué paquete?
-  El paquete con la Commodore Plus/4 que yo pensé que algún ladronzuelo se había apoderado (yo el mal pensado, perdón ladronzuelo que no fuiste)![](https://lh3.googleusercontent.com/I0T74yPJ2HtMZTTBebMNDOkjysZfmYjGFVR9Seq2sKtJE5P-8FwEyonD1ohIpneI5cz2DMlaa4lCDdQYqpkqm9U9vG7EaCUMEDCTZiIcLXZyDtTYvwQ8j3x22DpUerDXumw6g-k_nCk=-no)
-
-  Lo primero que hice es agradecer al vecino. Claro esta.
 tag:
-  - commodore-pet
-  - commodore-plus4
-  - dios
+  - commodore pet
+  - commodore plus4
 title: 'Actualizo: Ya no se que es lo que quiere Dios'
 url: /2017/08/09/actualizo-ya-no-se-que-es-lo-que-quiere-dios/
 

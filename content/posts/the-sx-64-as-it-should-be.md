@@ -1,11 +1,11 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-01-29T06:50:40+00:00"
 guid: http://retro.moe/?p=1236
 tag:
   - sx-64
+  - commodore-64
 title: The SX-64, as it should be
 url: /2016/01/28/the-sx-64-as-it-should-be/
 

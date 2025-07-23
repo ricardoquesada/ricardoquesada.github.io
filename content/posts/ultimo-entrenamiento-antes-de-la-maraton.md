@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-05-02T03:23:00+00:00"
 guid: http://www.monociclo.com.ar/?p=83
 title: Ultimo entrenamiento antes de la maraton

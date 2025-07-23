@@ -1,16 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-08-29T04:34:06+00:00"
 guid: http://retro.moe/?p=1859
-summary: |-
-  VChar64 v0.2.0 is available for download:
-
-  - Win32: [vchar64-0.2.0.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.win32.zip)
-  - Mac: [vchar64-0.2.0.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.mac.dmg)
-
-  \[caption id="" align="alignnone" width="425"\]![](https://lh3.googleusercontent.com/tB3Z3gksYisFmrUL1kE4iANPPsqMGaLrwizc-Ysm3SxFTrUseq-lZgAuB7zDTLayAMlguTSSsY9slw=w1192-h1052-no) New "VICE Import Snapshot" dialog\[/caption\]
 tag:
   - c64
   - vchar64
@@ -20,10 +12,11 @@ url: /2016/08/28/vchar64-v0-2-0-released/
 ---
 VChar64 v0.2.0 is available for download:
 
-- Win32: [vchar64-0.2.0.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.win32.zip)
-- Mac: [vchar64-0.2.0.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.mac.dmg)
+- Win32: [vchar64-0.2.0.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.win32.zip)
+- Mac: [vchar64-0.2.0.mac.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.2.0/vchar64-0.2.0.mac.dmg)
 
-\[caption id="" align="alignnone" width="425"\]![](https://lh3.googleusercontent.com/tB3Z3gksYisFmrUL1kE4iANPPsqMGaLrwizc-Ysm3SxFTrUseq-lZgAuB7zDTLayAMlguTSSsY9slw=w1192-h1052-no) New "VICE Import Snapshot" dialog\[/caption\]
+![](https://lh3.googleusercontent.com/tB3Z3gksYisFmrUL1kE4iANPPsqMGaLrwizc-Ysm3SxFTrUseq-lZgAuB7zDTLayAMlguTSSsY9slw=w1192-h1052-no)
+*New "VICE Import Snapshot" dialog.*
 
 Changes:
 

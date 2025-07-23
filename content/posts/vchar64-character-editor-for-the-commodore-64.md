@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
 date: "2015-02-10T20:45:23+00:00"
+category: retro computing
 tag:
   - 8-bit
   - c64

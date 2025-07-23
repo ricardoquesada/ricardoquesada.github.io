@@ -1,23 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-09-13T01:14:14+00:00"
 guid: http://retro.moe/?p=1879
-summary: |-
-  I've just released a new firmware version for the UniJoystiCle (v0.4.0). It supports the new Commando Mode.
-
-  The new Android client with Commando mode can be downloaded from here:
-
-  - [https://play.google.com/store/apps/details?id=moe.retro.unijoysticle](https://play.google.com/store/apps/details?id=moe.retro.unijoysticle)
-
-  The iOS client will be available as soon as Apple approves it (usually a few days) and will be available here:
-
-  - [https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8](https://itunes.apple.com/us/app/unijoysticle-controller/id1130131741?mt=8)
-
-  In order to upgrade the firmware, please follow these steps:
-
-  - [DOCUMENTATION.md](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md#installing-the-firmware)
 tag:
   - c64
   - unijoysticle

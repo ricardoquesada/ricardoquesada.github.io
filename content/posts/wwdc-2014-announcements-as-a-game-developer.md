@@ -1,46 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
-  - programming
+category: cocos2d
 date: "2014-06-03T17:59:57+00:00"
 guid: http://towp8.com/?p=270
-summary: |-
-  At WWDC 2014, Apple announced new features for iOS and OS X. These are my thoughts:
-
-  ## **Swift**
-
-   [![Image](http://retro.moe/wp-content/uploads/2014/06/swift.jpg?w=610)](http://retro.moe/wp-content/uploads/2014/06/swift.jpg) [Swift](https://developer.apple.com/swift/) is a new programming language by Apple.
-
-  At first sight, it seems to be easier to learn and easier to master than Objective-C. Objective-C is not particular difficult to learn and master, but its syntax looks foreign to C# / C++ / Python developers.
-
-  Swift, on the other hand, has a more conventional design. You can read Swift code the same way you can read C# code, even if you are not a Swift or C# developer.
-
-  Swift is a compiled language, although it looks like an scripting language. It is strongly typed, it is object-oriented with functional features. It does not have garbage collection. It uses ARC instead.
-
-  You can call any Objective-C API from Swift (at least Apple's APIs) , and Apple claims it is faster than Objective-C. Objective-C wasn't the fastest language out there, but it wasn't particularly slow either.
-
-  Perhaps the **killer feature** for me is Playground, a kind of sandbox for testing ideas / rapid development / rapid prototyping. BTW, Playground seems to be inspired (or copied if you prefer) from [Bret Victor's Inventing on Principle talk](http://vimeo.com/36579366), which is a MUST WATCH video for everybody.
-
-  Also, Swift has pretty much what John Siracusa asked for in his [Copland 2010](http://arstechnica.com/apple/news/2010/06/copland-2010-revisited.ars) article.
-
-  So, if Swift is easier to learn, easier to master, less error-prone, faster to develop code, performs better than Objective-C and you can call Objective-C code from it, why Apple should keep adding features to Objective-C ?
-
-  I expect that:
-
-  - Objective-C code will be supported on iOS / OS X for the foreseeable future.
-  - But new APIs will be added on Swift only. Developers will be forced to migrate to Swift to use the new ones (similar to what happened years ago with Carbon vs. Cocoa APIs ).
-
-  Unknowns:
-
-  - Can you call any Objective-C library from it ? or only Apple's APIs ? Will Apple release the binding generator ? **\[UPDATE\]**: Yes, it is possible to call [3rd party Obj-C libraries from Swift](http://ericasadun.com/2014/06/03/swift-combining-objc-and-swift-in-one-project/).
-  - Will Apple open source the language ? Or at least submit the language to the standard committee ?
-  - Can you call C and/or C++ libraries from it ?
-
-  For me:
-
-  - Swift is a very attractive language, so if Apple decides to open source it, it has the potential to gain a lot of developers from other platforms as well. I would definitely use it, and would seriously analyze the possibility of porting cocos2d to it.
-  - Bret Victor's Inventing on Principle was very inspiring. Since the day I watched that video, I wanted to add similar features to cocos2d. Playground showed us that it is possible to do it with a compiled language.
 tag:
   - metal
   - scenekit

@@ -1,10 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-11-28T14:45:26+00:00"
 guid: http://retro.moe/?p=1979
-summary: "Christmas is coming. Treat yourself with The UniJoystiCle v0.4, and be the cool kid in the block by playing [The Uni Games](https://github.com/ricardoquesada/c64-the-uni-games) like a pro (that's it with real unicycles!):\n\nhttps://www.youtube.com/watch?v=ZLAgooXx4bo\n\n### Highlights of v0.4\n\n#### WiFi Device\n\n \n\n- Smaller real estate: Fits in all C64/128 models, including the C128D / SX-64 machines\n- Using Wemos D1 Mini instead of NodeMCU\n- Blue instead of red"
 tag:
   - c64
   - unijoysticle

@@ -1,16 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-09-13T01:17:53+00:00"
 guid: http://retro.moe/?p=1873
-summary: |-
-  Since UniJoystiCle v0.3 was released back in July many things were added.
-
-  **Android client:**  It has all the iOS features, except Gyruss mode which will be added soon.
-  ![](https://lh3.googleusercontent.com/nUm_upw_pznWfcD9pp71LPhpwdTMd6L7LVBK2Bw3UoAaiD0AFkTc1P6Gfl1MXiy7mOaApxVLdUMWXA=w564-h168-no)**iOS client:** It is available on the App Store.
-
-  ![](https://camo.githubusercontent.com/5839a4b9d404dc9cd8d2a193c73b6eb6de0651f1/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f573838637a2d304831586574317a48784e7172676a5473466a4f4d647875743949774b517a4f41307972676a6a477436654770324e3372713341616e576f6a6a666679494566436573597a364f31383d77353736302d68333630302d6e6f)
 tag:
   - c64
   - unijoysticle

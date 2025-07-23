@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-06-25T22:07:00+00:00"
 guid: http://www.monociclo.com.ar/?p=89
 title: 3 meses, 2 monociclos y 400 km después

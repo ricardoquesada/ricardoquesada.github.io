@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - unicycle
+category: retro computing
 date: "2019-04-16T05:23:01+00:00"
 guid: http://retro.moe/?p=2195
 tag:

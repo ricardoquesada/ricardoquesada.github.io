@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - cocos2d
   - grossini
   - off-topic

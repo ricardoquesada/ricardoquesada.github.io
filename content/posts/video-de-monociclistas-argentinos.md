@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - video
+category: unicycle
 date: "2006-11-04T16:11:00+00:00"
 guid: http://www.monociclo.com.ar/?p=18
 title: Video de monociclistas argentinos

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-10-31T05:06:00+00:00"
 guid: http://www.monociclo.com.ar/?p=72
 title: Tools usadas para el desarrollo de Sapus Tongue

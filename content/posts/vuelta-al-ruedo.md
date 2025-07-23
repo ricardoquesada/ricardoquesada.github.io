@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - reventon
+category: unicycle
 date: "2007-03-07T01:34:00+00:00"
 guid: http://www.monociclo.com.ar/?p=26
 title: Vuelta al ruedo

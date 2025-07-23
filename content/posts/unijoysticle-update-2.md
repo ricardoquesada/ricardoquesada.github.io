@@ -1,36 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-09-27T18:18:00+00:00"
 guid: http://retro.moe/?p=1883
-summary: |-
-  ### TL;DR
-
-  - Station Mode (with or without WPS)
-  - Inactivity timeout  & Joystick statistics
-  - Auto-firmware upgrade
-  - Better ways to power the WiFi device
-
-  ### Station mode and other features
-
-  ![](https://lh3.googleusercontent.com/0IWKb6TdvqIj-p_fx7QMHMIiL7Zt-AuS_-vOG0K9o_J2ievuhhanZz7u3fnAkPSwNHbvCJD-K_M94w=w1047-h1320-no)
-
-  One thing that bothered me was that I needed to switch WiFi networks every time that I wanted to use the UniJoystiCle. Not a major issue, but not ideal specially if you use your phone both for the UniJoystiCle and for "regular" stuff.
-
-  To solve that issue, I added WiFi Station mode support (Access Point mode is still supported). Basically the UniJoystiCle WiFi device, when in Station mode, can connect to any WiFi network. It also supports [WPS](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup) (an auto-auth way to connect to a network). If Station mode fails, it will default to Access Point mode.
-
-  In order to switch to Station mode you have to:
-
-  - Install firmware v0.4.3 (see below for more info)
-  - Boot the UniJoystiCle WiFi device (it will boot in Access Point mode)
-  - Connect to the unijoysticle-xxyyzz WiFi Network
-  - Open the web page: [http://unijoysticle.local](http://unijoysticle.local)
-  - Select "Station" mode, put the credential (SSID and password) and reboot!
-
-  From [http://unijoysticle.local](http://unijoysticle.local) you can also configure the "Inactivity timeout": how many seconds without activity should elapse before all the joystick lines are set to Low (simulates no joystick movements).
-
-  I also added statistics: It tells you how many seconds you spent on the different joystick positions, and how many movements you did. Useful, right? :)
 tag:
   - c64
   - unijoysticle
