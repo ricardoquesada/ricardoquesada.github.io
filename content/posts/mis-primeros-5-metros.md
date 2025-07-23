@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-05-29T21:04:00+00:00"
 guid: http://www.monociclo.com.ar/?p=4
 title: Mis primeros 5 metros

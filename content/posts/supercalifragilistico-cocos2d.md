@@ -1,8 +1,9 @@
 ---
 author: ricardoquesada
-category:
+category: cocos2d
+tag:
   - cocos2d
-  - off-topic
+  - unicycle
 date: "2008-05-14T15:00:00+00:00"
 guid: http://www.monociclo.com.ar/?p=53
 title: Supercalifragilistico cocos2d

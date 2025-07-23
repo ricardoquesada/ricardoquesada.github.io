@@ -1,13 +1,12 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2013-01-16T07:35:35+00:00"
 guid: http://www.monociclo.com.ar/?p=429
 tag:
   - muni
   - pacifica
+  - kh24
 title: MUni en Pacifica
 url: /2013/01/16/muni-en-pacifica/
 

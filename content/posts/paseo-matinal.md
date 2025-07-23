@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - paseo
   - piropos
   - vacaciones

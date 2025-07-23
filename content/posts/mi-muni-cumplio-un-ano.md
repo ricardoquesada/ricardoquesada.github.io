@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - aniversario
 date: "2007-08-04T15:21:00+00:00"
 guid: http://www.monociclo.com.ar/?p=34

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - ride
+category: unicycle
 date: "2007-02-06T16:05:00+00:00"
 guid: http://www.monociclo.com.ar/?p=23
 title: mono-ser o no mono-ser, esa es la cuestión

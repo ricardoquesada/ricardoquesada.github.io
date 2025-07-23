@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2010-03-24T04:38:23+00:00"
 guid: http://www.monociclo.com.ar/?p=159
 title: Se viene el Metro Marathon 2010

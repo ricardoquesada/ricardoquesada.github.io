@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - wakeboard
 date: "2010-10-07T15:29:03+00:00"
 guid: http://www.monociclo.com.ar/?p=220
 title: Nuevos deportes

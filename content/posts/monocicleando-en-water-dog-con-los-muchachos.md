@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2015-07-27T16:26:01+00:00"
 guid: http://retro.moe/2015/07/27/monocicleando-en-water-dog-con-los-muchachos/
 tag:

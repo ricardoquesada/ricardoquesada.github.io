@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-10-12T20:33:00+00:00"
 guid: http://www.monociclo.com.ar/?p=105
 title: 'Media maratón: ¡llegué!'

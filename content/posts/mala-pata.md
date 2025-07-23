@@ -1,7 +1,9 @@
 ---
 author: ricardoquesada
-category:
+category: category
+tag:
   - palanca
+  - commute
 date: "2007-03-08T01:38:00+00:00"
 guid: http://www.monociclo.com.ar/?p=27
 title: Mala pata

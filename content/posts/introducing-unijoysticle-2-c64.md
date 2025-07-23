@@ -2,6 +2,7 @@
 author: ricardoquesada
 date: "2023-06-22T01:55:46+00:00"
 guid: https://retro.moe/?p=2925
+category: retro computing
 tag:
   - c64
   - commodore-64

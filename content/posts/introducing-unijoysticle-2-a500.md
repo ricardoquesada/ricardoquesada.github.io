@@ -1,6 +1,6 @@
 ---
 author: ricardoquesada
-category: unijoysticle
+category: retro computing
 date: "2022-07-11T19:34:39+00:00"
 guid: https://retro.moe/?p=2523
 summary: |-

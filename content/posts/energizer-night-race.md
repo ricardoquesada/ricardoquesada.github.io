@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: misc
+tag:
+  - carrera
 date: "2009-11-16T03:29:04+00:00"
 guid: http://www.monociclo.com.ar/?p=131
 title: Energizer Night Race

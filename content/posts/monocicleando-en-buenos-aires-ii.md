@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-11-20T00:17:40+00:00"
 guid: http://www.monociclo.com.ar/?p=359
 tag:
@@ -28,4 +26,4 @@ Notas de color:
 - Pancho se ganó premio al "Mejor Palo".
 - Y yo terminé pidiendo la hora porque el asiento del mono de 28" me dejo la bolainas bien paspaditas.
 
-- [Fotos del paseo](https://picasaweb.google.com/111588202880883771967/NunezSanIsidroEnMonociclo)
+- [Fotos del paseo](https://photos.app.goo.gl/YHQ8MZaHfa173Heq8)

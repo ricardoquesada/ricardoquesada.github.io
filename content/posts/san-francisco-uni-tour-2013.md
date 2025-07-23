@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2013-09-16T20:20:06+00:00"
 guid: http://www.monociclo.com.ar/?p=582
 title: San Francisco Uni Tour 2013

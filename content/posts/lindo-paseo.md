@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - muni
   - paseo
 date: "2007-04-06T13:18:00+00:00"

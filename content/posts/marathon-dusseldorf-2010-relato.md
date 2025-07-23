@@ -1,7 +1,9 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
+tag:
+  - maraton
+  - dusseldorf
 date: "2010-05-03T17:59:32+00:00"
 guid: http://www.monociclo.com.ar/?p=181
 title: Marathon Düsseldorf 2010 - Relato

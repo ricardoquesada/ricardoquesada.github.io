@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - paseo
   - vacaciones
 date: "2008-01-01T20:03:00+00:00"

@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2010-04-29T09:10:58+00:00"
 guid: http://www.monociclo.com.ar/?p=174
 title: El nuevo mono de 28"

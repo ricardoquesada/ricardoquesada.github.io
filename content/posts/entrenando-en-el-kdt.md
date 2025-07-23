@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-09-25T05:29:00+00:00"
 guid: http://www.monociclo.com.ar/?p=99
 title: Entrenando en el KDT

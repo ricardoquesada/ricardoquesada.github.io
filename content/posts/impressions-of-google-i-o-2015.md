@@ -1,25 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: misc
 date: "2015-05-30T04:42:44+00:00"
 guid: http://towp8.com/?p=924
-summary: |-
-  What was interesting about the Keynote:
-
-  - [Brillo](https://developers.google.com/brillo/): the OS for the IoT... but but but, there were no talks about it, almost no information about it, nothing.
-  - [Android Studio with C++ support](http://arstechnica.com/gadgets/2015/05/good-news-for-game-devs-android-studio-1-3-supports-androids-cc-ndk/): Finally :) The NDK really needs love, and having an IDE that supports it is great. Hey, even Microsoft is supporting the NDK now in [VS2015](http://blogs.msdn.com/b/vcblog/archive/2015/04/29/what-s-new-with-c-cross-platform-development-with-vs-2015-rc.aspx).
-  - [Photos](https://photos.google.com/) is decoupled from Google+ with free unlimited storage: This is great. I've been using Picasa since day one and I never used Google+ to store my photos. So basically Photos is the same as Picasa, but with unlimited storage.
-  - [Offline maps](http://www.theverge.com/2015/5/28/8680345/google-maps-io-2015-offline-search-navigation): Yeah
-  - [Chrome Custom Tabs](https://developer.chrome.com/multidevice/android/customtabs): Interesting alternative to present 3rd party views with the benefits of both the web and native worlds.
-
-  What was not-that-interesting about the Keynote:
-
-  - The rest.
-
-  I don't care if Android has better permissions or not (yeah, the old permissions-model sucked, but I don't find that news interesting). The Family section for Google Play is good, but not interesting. Android Pay, meh. etc.
-
-  One thing that I liked, but was not announced on the Keynote, was [Project Jacquard](https://www.google.com/atap/project-jacquard/). They are using conductive threads and other stuff to create "smart" cloths. Something that [Adafruit](https://www.adafruit.com/) and [Sparkfun](https://www.sparkfun.com/) have been doing for a while, BTW.
 tag:
   - android
   - google

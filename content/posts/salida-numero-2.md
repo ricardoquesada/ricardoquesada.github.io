@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2011-10-17T03:05:27+00:00"
 guid: http://www.monociclo.com.ar/?p=233
 title: Salida número 2

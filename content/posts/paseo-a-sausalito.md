@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-08-11T19:25:06+00:00"
 guid: http://www.monociclo.com.ar/?p=310
 title: Paseo a Sausalito

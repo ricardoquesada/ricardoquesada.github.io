@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-10-16T03:54:14+00:00"
 guid: http://www.monociclo.com.ar/?p=331
 title: Mis primeros pasos en trial
@@ -17,6 +15,4 @@ Ayer fuimos con Mary a Joaquin Miller. Yo fui ver como estaba mi pie izquierdo (
 
 Y aproveché también para hacer un poco de trial. Con mi muni anterior (Torker DX 24") había intentado hacer un poco de trial antes, pero no con mucho éxito. Ayer volví a intentarlo con mi muni nuevo y la diferencia es abismal. El nuevo mono es mucho más liviano y además tiene una rueda más ancha, lo cual facilita las cosas.
 
-Fotos:
-
-- [https://picasaweb.google.com/111588202880883771967/JoaquinMiller14Oct2012](https://picasaweb.google.com/111588202880883771967/JoaquinMiller14Oct2012)
+[Fotos](https://photos.app.goo.gl/EpktyXtgv5F4FFzX8).

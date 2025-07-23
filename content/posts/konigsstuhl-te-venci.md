@@ -1,6 +1,8 @@
 ---
 author: ricardoquesada
 category: unicycle
+tag:
+  - königsstuhl
 date: "2009-06-13T18:25:00+00:00"
 guid: http://www.monociclo.com.ar/?p=88
 title: Königsstuhl, te vencí

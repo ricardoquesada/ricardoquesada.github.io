@@ -1,19 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-08-21T20:16:59+00:00"
 guid: http://retro.moe/?p=1833
-summary: |-
-  Here are more UniJoystiCle videos:
-
-  Showing how to play C64 games using a real Game Controller via the UniJoystiCle:
-  https://www.youtube.com/watch?v=s9Q-Nlp2e44
-
-  Showing how to play Gyruss using the UniJoystiCle Gyruss mode:
-  https://www.youtube.com/watch?v=n2YHoj1pXB8
 tag:
-  - c64
+  - commodore 64
   - commvex
   - unijoysticle
 title: More UniJoystiCle videos

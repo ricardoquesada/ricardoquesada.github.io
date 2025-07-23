@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: misc
+tag:
   - formula1
   - off-topic
   - rugby

@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - kh36
 date: "2009-09-08T05:27:00+00:00"
 guid: http://www.monociclo.com.ar/?p=93
 title: Monocicleando nuevamente

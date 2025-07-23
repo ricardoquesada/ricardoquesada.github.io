@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-10-28T04:52:10+00:00"
 guid: http://www.monociclo.com.ar/?p=338
 tag:

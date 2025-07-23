@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - maraton
 date: "2009-09-09T01:43:00+00:00"
 guid: http://www.monociclo.com.ar/?p=94
 title: Maraton de Buenos Aires (42k)

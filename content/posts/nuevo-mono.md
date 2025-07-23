@@ -1,7 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
+tag:
+  - torker dx 24
 date: "2006-08-08T15:07:00+00:00"
 guid: http://www.monociclo.com.ar/?p=8
 title: Nuevo mono!

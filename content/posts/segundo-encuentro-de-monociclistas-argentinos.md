@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-10-16T15:49:00+00:00"
 guid: http://www.monociclo.com.ar/?p=16
 title: Segundo Encuentro de Monociclistas Argentinos

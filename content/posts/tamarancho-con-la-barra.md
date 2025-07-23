@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2015-08-03T21:20:00+00:00"
 guid: http://retro.moe/2015/08/03/tramarrancho-con-la-barra/
 tag:

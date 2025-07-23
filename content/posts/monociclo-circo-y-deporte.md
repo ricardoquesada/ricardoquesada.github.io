@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-06-15T18:12:00+00:00"
 guid: http://www.monociclo.com.ar/?p=6
 title: Monociclo, circo y deporte

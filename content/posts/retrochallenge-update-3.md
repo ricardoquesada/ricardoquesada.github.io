@@ -1,18 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-10-21T18:34:51+00:00"
 guid: http://retro.moe/?p=1908
-summary: |-
-  https://www.youtube.com/watch?v=Xu7uzjWlCcM
-
-  **What's new since last update:**
-
-  - Gears to control the dimmer kind of working. They are somewhat fragile ATM.
-  - Desktop UniJoystiCle Controller working.
 tag:
-  - c64
+  - commodore 64
   - retrochallenge
 title: 'RetroChallenge: Update #3'
 url: /2016/10/21/retrochallenge-update-3/

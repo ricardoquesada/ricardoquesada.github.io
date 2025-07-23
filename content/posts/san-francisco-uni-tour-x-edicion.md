@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-09-10T20:27:24+00:00"
 guid: http://www.monociclo.com.ar/?p=275
 title: San Francisco - Uni Tour X edición

@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2011-10-24T04:59:34+00:00"
 guid: http://www.monociclo.com.ar/?p=236
 title: Salida número 3 en San Francisco

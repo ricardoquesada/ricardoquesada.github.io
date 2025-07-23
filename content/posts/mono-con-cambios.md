@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-05-21T03:21:47+00:00"
 guid: http://www.monociclo.com.ar/?p=256
 title: Mono con cambios

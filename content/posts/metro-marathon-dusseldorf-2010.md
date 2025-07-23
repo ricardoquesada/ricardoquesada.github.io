@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - maraton
 date: "2009-10-27T00:03:44+00:00"
 guid: http://www.monociclo.com.ar/?p=111
 title: Metro Marathon Dusseldorf 2010!

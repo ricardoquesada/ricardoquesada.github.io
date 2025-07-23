@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2015-09-14T01:28:13+00:00"
 guid: http://retro.moe/?p=977
 tag:

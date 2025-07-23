@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-05-05T15:41:10+00:00"
 guid: http://www.monociclo.com.ar/?p=254
 title: Mucho mono en estos últimos meses

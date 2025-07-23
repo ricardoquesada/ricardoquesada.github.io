@@ -1,7 +1,9 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
+tag:
+  - maraton
+  - 3 ciudades patagonicas
 date: "2009-12-09T08:30:05+00:00"
 guid: http://www.monociclo.com.ar/?p=140
 title: Excelente maratón "3 Ciudades Patagonicas"

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: unicycle
 date: "2010-02-25T00:05:05+00:00"
 guid: http://www.monociclo.com.ar/?p=152
 title: Nuevo record de vuelta

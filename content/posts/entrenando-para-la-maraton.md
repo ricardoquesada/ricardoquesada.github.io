@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - maraton
 date: "2009-04-27T19:47:00+00:00"
 guid: http://www.monociclo.com.ar/?p=81
 title: Entrenando para la maratón

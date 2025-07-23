@@ -1,7 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
+tag:
+  - commute
 date: "2006-08-10T18:16:00+00:00"
 guid: http://www.monociclo.com.ar/?p=9
 title: Monociclenado de casa al trabajo

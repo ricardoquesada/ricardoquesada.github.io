@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - amigos
 date: "2006-11-13T02:26:00+00:00"
 guid: http://www.monociclo.com.ar/?p=20

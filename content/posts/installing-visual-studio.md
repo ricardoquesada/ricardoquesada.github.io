@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - uncategorized
+category: cocos2d
 date: "2014-04-04T07:26:00+00:00"
 guid: http://riq64.wordpress.com/2014/04/05/visual-studio-which-one/
 tag:

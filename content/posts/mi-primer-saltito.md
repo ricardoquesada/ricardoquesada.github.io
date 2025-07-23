@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-09-01T00:48:00+00:00"
 guid: http://www.monociclo.com.ar/?p=11
 title: Mi primer saltito

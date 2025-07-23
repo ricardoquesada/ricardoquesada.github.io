@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - vacaciones
   - video
 date: "2008-01-27T21:47:00+00:00"

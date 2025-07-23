@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
-  - programming
+category: cocos2d
 date: "2014-04-10T19:25:10+00:00"
 guid: http://towp8.com/?p=170
 tag:

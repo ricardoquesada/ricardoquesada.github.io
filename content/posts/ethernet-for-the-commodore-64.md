@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: retro computing
 date: "2016-03-11T09:54:00+00:00"
 draft: "true"
 guid: http://retro.moe/?p=1234

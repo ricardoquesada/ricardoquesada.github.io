@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - maraton
 date: "2010-04-27T23:10:09+00:00"
 guid: http://www.monociclo.com.ar/?p=166
 title: Preparando los últimos detalles

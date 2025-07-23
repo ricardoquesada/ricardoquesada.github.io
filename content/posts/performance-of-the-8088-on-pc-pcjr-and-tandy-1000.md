@@ -1,21 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: retro computing
 date: "2018-03-05T05:34:26+00:00"
 guid: http://retro.moe/?p=2088
-summary: |-
-  ![](https://lh3.googleusercontent.com/Qm6Ynexbr8lJUggbCcZoKQaPX-qKyrA5Ef4_Feu7mju1M6vVhiN86NjNpmXBZlO_AdAu0KWVWACqK_oWMEPGkgeSSwOBsSV804i3WS0dFML6LqpMY7o3dwlV6oBs0dSJfjM1D5vnjYQ=-no)
-
-  It's well-known that you should [measure the performance of your code](https://github.com/jagregory/abrash-zen-of-asm/blob/master/src/chapter-04.md), and not rely only on the opcode's "cycle counts".
-
-  But how fast is an IBM PC 5150 compared to a PCjr ? or to a Tandy 1000? or how fast is the Tandy 1000 HX in fast mode (7.16Mhz) compared to the slow mode (4.77Mhz) ? Or how fast is a `nop` compared to a `cwd` ?
-
-  I created a test ( [perf.asm](https://github.com/ricardoquesada/pc-8088-misc/blob/master/opcodes_perf/perf.asm)) that measures the performance of different opcodes and run it on different Intel 8088 machines. I run the test multiple times just to make sure the results were stable enough. All interrupts were disabled, except the Timer (of course). And on the PCjr the NMI is disabled as well.
-
-  Without further ado, here are the results:
-
-  - [Intel 8088 opcodes performance](https://docs.google.com/spreadsheets/d/1geGxh76SVFHNi3xR6HEKpHHVckLLz9DsK3JNdPi6pBA/edit?usp=sharing)
 tag:
   - "8088"
   - ibm-pcjr

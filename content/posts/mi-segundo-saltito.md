@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-11-07T03:06:00+00:00"
 guid: http://www.monociclo.com.ar/?p=19
 title: Mi segundo saltito

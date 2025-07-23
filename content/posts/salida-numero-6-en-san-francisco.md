@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2011-11-19T20:43:56+00:00"
 guid: http://www.monociclo.com.ar/?p=243
 title: Salida número 6 en San Francisco

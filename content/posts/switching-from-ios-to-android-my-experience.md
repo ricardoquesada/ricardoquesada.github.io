@@ -1,28 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - personal
-  - programming
+category: misc
 date: "2014-12-25T01:37:57+00:00"
 guid: http://towp8.com/?p=496
-summary: |-
-  For the past 5 or 6 years, I used iPhones as my default phones. But a few months ago I decided to switch to Android.
-
-  I tried Android devices before, but never as my _default_ phone. At the beginning I started using a [Samsung Galaxy S4](http://www.gsmarena.com/samsung_i9500_galaxy_s4-5125.php) (a 2013 5" device), but later I switch to a [Xiaomi MI4](http://www.gsmarena.com/xiaomi_mi_4-6518.php) (a 2014 5" device with better specs).
-
-  Without further ado, this is my feedback:
-
-  ### **Launcher**
-
-  ![Xiaomi MIUI 6](https://retro.moe/wp-content/uploads/2014/12/xiaomis-miui-6.png?w=169)![Samsung S4 TouchWiz](https://retro.moe/wp-content/uploads/2014/12/samsungs4.png?w=169)
-
-  In case you don't know what the launcher is, think of the shell that allows you to launch the applications. It is the first thing that appears when you turn on the phone. In a way, it defines the UX.
-
-  Each phone maker customize the Android launcher according to its needs. And you can also download 3rd party [launchers](http://www.techradar.com/us/news/software/operating-systems/10-best-android-launchers-amazing-ways-to-supercharge-your-phone-1231553). This is both a good thing and a bad thing.
-
-  **The bad thing** is that every phone maker have a different launcher, making it difficult to switch to other Android devices, since the UX is different. Google has its own launcher called [Google Now Launcher](https://play.google.com/store/apps/details?id=com.google.android.launcher&hl=en), and tries hard to make sure that Android makers don't differ too much from it, although that is not always true. Samsung, as an example, ships its phones with a launcher called [TouchWiz](http://en.wikipedia.org/wiki/TouchWiz). It doesn't differ that much from Google Now Launcher, but its changes make it a worse phone, not a better one. Xiaomi, on the other hand, ships its phones with a completely different launcher which makes your Android device behave [like an iOS device](http://www.businessinsider.com/xiaomi-miui-6-looks-like-apple-ios-7-2014-8).
-
-  **The good thing** is that you can use a different launcher if you don't like the default one (or create your own). This as a good thing because everything that can be configured, changed or replaced is an opportunity for innovation (see below).
 tag:
   - android
   - ios

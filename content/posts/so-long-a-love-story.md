@@ -1,11 +1,14 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-09-15T08:00:00+00:00"
 guid: http://www.monociclo.com.ar/?p=63
 title: So long - A love story
 url: /2008/09/15/so-long-a-love-story/
+tag:
+  - pyweek
+  - python
+  - cocos2d
 
 ---
 [![](http://media.pyweek.org/dl/7/Solo/screenshot-1221299474.png)](http://media.pyweek.org/dl/7/Solo/screenshot-1221299474.png)  

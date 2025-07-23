@@ -1,11 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-06-19T11:20:16+00:00"
 guid: http://retro.moe/?p=1756
-summary: "I assumed that the Commodore 1581 was failing because of a bad WD1772 IC (as documented in [Part I](https://retro.moe/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/)). So I ordered a WD1772 replacement + the IC socket, I developed some basic desoldering skills, watched some [desoldering](https://www.youtube.com/watch?v=239okViumdA) [videos](https://www.youtube.com/watch?v=t2j_8LvpTNk), and also got a cheap [desoldering iron from Radio Shack](https://www.radioshack.com/products/radioshack-45-watt-desoldering-iron?variant=5717855877):\n\n \n\nSo, I removed the board from the Commodore 1581 and started to desolder the IC. To my surprise the $11-buck desolder iron worked pretty well. I was able to remove all the solder from the the pins in a few minutes. The desolder iron just takes some time to reach the needed temperature, but besides that, it seems to be a great tool for occasional desoldering tasks (a hobbyist desoldering iron [cost more than $250](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4))"
 tag:
+  - commodore 64
   - c1581
   - soldering
 title: Repairing the Commodore 1581 floppy disk drive. Part 2

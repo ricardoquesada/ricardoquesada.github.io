@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-10-01T01:42:09+00:00"
 guid: http://www.monociclo.com.ar/?p=313
 title: Mi sobrino, futuro monociclista

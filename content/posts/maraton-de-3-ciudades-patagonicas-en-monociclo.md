@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - maraton
 date: "2009-11-23T01:43:56+00:00"
 guid: http://www.monociclo.com.ar/?p=137
 title: Maraton de 3 ciudades patagonicas en monociclo

@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-12-11T18:57:00+00:00"
 guid: http://www.monociclo.com.ar/?p=75
 title: Sapus, cocos2d y ajedrez

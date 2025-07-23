@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: embedded
 date: "2015-04-12T05:03:26+00:00"
 guid: http://towp8.com/?p=921
 tag:

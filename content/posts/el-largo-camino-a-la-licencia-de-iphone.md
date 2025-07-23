@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-09-18T22:19:00+00:00"
 guid: http://www.monociclo.com.ar/?p=64
 title: El largo camino a la licencia de iPhone

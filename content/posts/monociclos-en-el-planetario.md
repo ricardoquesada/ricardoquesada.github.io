@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - paseo
+category: unicycle
 date: "2008-02-13T13:51:00+00:00"
 guid: http://www.monociclo.com.ar/?p=49
 title: Monociclos en el Planetario

@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-02-20T03:59:44+00:00"
 guid: http://www.monociclo.com.ar/?p=250
 title: San Francisco - San Rafael (45km)

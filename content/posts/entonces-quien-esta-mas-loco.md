@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2010-06-01T10:21:45+00:00"
 guid: http://www.monociclo.com.ar/?p=211
 title: Entonces... ¿quién esta más loco?

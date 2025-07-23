@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - unicycle
+category: misc
 date: "2009-11-02T18:36:57+00:00"
 guid: http://www.monociclo.com.ar/?p=121
 title: '"Salvaje" Cross Country'

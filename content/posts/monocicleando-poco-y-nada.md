@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2007-09-11T20:10:00+00:00"
 guid: http://www.monociclo.com.ar/?p=35
 title: Monocicleando poco y nada

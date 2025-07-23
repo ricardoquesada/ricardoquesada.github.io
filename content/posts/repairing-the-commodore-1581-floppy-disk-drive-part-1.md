@@ -1,12 +1,11 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-03-14T16:52:29+00:00"
 guid: http://retro.moe/?p=1248
 tag:
+  - commodore 64
   - c1581
-  - c64
 title: Repairing the Commodore 1581 floppy disk drive. Part 1
 url: /2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/
 

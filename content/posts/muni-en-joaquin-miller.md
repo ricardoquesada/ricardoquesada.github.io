@@ -1,8 +1,9 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - muni
-  - unicycle
+  - joaquin miller
 date: "2012-07-11T04:42:23+00:00"
 guid: http://www.monociclo.com.ar/?p=260
 title: Muni en Joaquin Miller

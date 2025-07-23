@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - unicycle
+category: unicycle
 date: "2015-04-10T01:10:56+00:00"
 title: Merging my unicycling and development blogs
 url: /2015/04/09/merging-my-unicycling-and-development-blogs/

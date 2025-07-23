@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-11-13T16:32:48+00:00"
 guid: http://www.monociclo.com.ar/?p=127
 title: Pedazo de monociclo

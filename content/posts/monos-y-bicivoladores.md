@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - amigos
+category: unicycle
 date: "2007-02-12T00:12:00+00:00"
 guid: http://www.monociclo.com.ar/?p=24
 title: Monos y bicivoladores

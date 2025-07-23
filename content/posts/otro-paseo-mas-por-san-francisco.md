@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-08-06T03:40:41+00:00"
 guid: http://www.monociclo.com.ar/?p=265
 title: Otro paseo más por San Francisco

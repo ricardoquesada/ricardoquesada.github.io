@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
+category: unicycle
 date: "2006-04-23T01:06:00+00:00"
 guid: http://www.monociclo.com.ar/?p=3
 title: Mi primer monociclo

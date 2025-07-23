@@ -1,25 +1,11 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-10-31T20:13:49+00:00"
 guid: http://retro.moe/?p=1913
-summary: |-
-  ### **Home automation for the masses, not the classes**
-
-  > We need to build computers for the masses, not the classes - Jack Tramiel, Commodore founder
-
-  ### [![commodore_home](https://retro.moe/wp-content/uploads/2016/10/commodore_home.png)](https://retro.moe/wp-content/uploads/2016/10/commodore_home.png)
-
-  - A: Commodore 64 computer running the "Commodore Home" application
-  - B: [UniJoystiCle WiFi device](https://retro.moe/unijoysticle/) connected to the joystick ports
-  - C: Alarm sensor using a WiFi device
-  - D: Smartphone running the UniJoystiCle Controller app with the Commodore Home plugin
-  - E: Commodore MPS 803 printer
-  - F: Pulleys + gears connected to the printer header + dimmer knot
 tag:
-  - c64
-  - commodore-home
+  - commodore 64
+  - commodore home
   - esp8266
   - retrochallenge
   - unijoysticle

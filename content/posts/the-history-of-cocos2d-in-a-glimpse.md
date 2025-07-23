@@ -1,19 +1,11 @@
 ---
 author: ricardoquesada
-category:
+category: cocos2d
+tag:
   - cocos2d
+  - history
 date: "2017-04-17T04:38:08+00:00"
 guid: http://retro.moe/?p=1903
-summary: |-
-  ## Cocos2d (Python)
-
-  ![](https://lh3.googleusercontent.com/ZXpO9qBoRfmnSsiDZYWjM_SqUhyzJQe6NT3mFDIyo1qeIZbHncgH9SA-RC-TuL8cT92zqP0kTb1JXcb4BLMg3ir_5IssEqEILVxf5xHTCGiBtzpyUaRBVyPcTHDmZJj-hPkxh8w=-no)
-
-  In February 2008, at Los Cocos, Córdoba, Argentina, we started the "Los Cocos" Python game engine. We later renamed it Cocos2d. The idea was to create a game engine for the games we were creating for [PyWeek](https://pyweek.org/).
-
-  PyCamp 2008. Centro Allen Gardiner, Los Cocos, Córdoba, Argentina
-
-  We started the game engine with Lucio Torre, Daniel Moisset, Rayentray Tappa, and I, with the help of Alejandro Cura and other members of [PyAr](http://www.python.org.ar/).
 title: The history of Cocos2d in a glimpse
 url: /2017/04/16/cocos2d-in-a-glimpse/
 

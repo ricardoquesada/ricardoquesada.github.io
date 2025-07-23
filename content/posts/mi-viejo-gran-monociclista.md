@@ -1,8 +1,9 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - kh36
+  - father
 date: "2012-09-29T20:00:33+00:00"
 guid: http://www.monociclo.com.ar/?p=273
 title: Mi viejo, gran monociclista

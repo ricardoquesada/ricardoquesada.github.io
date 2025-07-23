@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-04-17T03:08:00+00:00"
 guid: http://www.monociclo.com.ar/?p=79
 title: Mapa del recorrido de hoy

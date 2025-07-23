@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-05-26T02:15:00+00:00"
 guid: http://www.monociclo.com.ar/?p=86
 title: Llegó el 4to hijo... esta vez uno bien grandote

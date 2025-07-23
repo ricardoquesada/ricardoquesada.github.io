@@ -1,15 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-10-15T00:40:58+00:00"
 guid: http://riq64.wordpress.com/?p=2
-summary: |-
-  - Ordered a rubber belt + pulley to control the dimmer from the printer header
-  - New UniJoystiCle PCB arrived (v0.4.0). I assembled one and works Ok both on the SX64 and the C128D. I just need to create a "user port" power cable for the SX64 since it doesn't have a datasette port.
-  - Started the UniJoystiCle desktop client in order to control the dimmer from the PC/Mac.
 tag:
-  - c64
+  - commodore 64
   - idiotr
   - retrochallenge
 title: 'RetroChallenge: C64 I.D.IoT.R Update #2'

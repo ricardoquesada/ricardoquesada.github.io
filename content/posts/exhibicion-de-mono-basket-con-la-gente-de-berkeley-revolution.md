@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2012-07-17T03:48:13+00:00"
 guid: http://www.monociclo.com.ar/?p=268
 title: Exhibición de Mono Basket con la gente de Berkeley Revolution

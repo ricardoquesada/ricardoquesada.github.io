@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - sapus-media
+category: cocos2d
 date: "2008-09-29T22:54:00+00:00"
 guid: http://www.monociclo.com.ar/?p=67
 title: Sapus Media

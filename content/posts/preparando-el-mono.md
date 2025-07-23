@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - vacaciones
 date: "2007-12-29T02:30:00+00:00"
 guid: http://www.monociclo.com.ar/?p=42

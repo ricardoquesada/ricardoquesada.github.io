@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - video
+category: unicycle
 date: "2008-08-15T00:52:00+00:00"
 guid: http://www.monociclo.com.ar/?p=58
 title: Que pedazo de video

@@ -1,8 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
 date: "2009-08-11T17:19:00+00:00"
 guid: http://www.monociclo.com.ar/?p=90
 title: Sin Handle-bar por unos días

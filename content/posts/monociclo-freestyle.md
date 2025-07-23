@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - video
 date: "2007-06-18T16:32:00+00:00"
 guid: http://www.monociclo.com.ar/?p=33

@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - paseo
 date: "2007-09-29T17:25:00+00:00"
 guid: http://www.monociclo.com.ar/?p=36

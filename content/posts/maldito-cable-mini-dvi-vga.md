@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-08-23T06:49:00+00:00"
 guid: http://www.monociclo.com.ar/?p=60
 title: Maldito cable mini-dvi vga
