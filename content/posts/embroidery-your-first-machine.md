@@ -46,7 +46,7 @@ What I heard is:
 * has good support
 * has a big community
 
-Brother should be a good candidate.
+[Brother][brother] should be a good candidate.
 
 But if you think that you can service the machine yourself, and you don't care that much about support, 
 you can get an inexpensive machine with big hoops, like:
@@ -117,7 +117,7 @@ As always, it depends on your budget, what you want to embroider, how often
 you are going to use it, whether you want support / service, etc.
 
 The obvious thing to recommend is, get a machine with the biggest hoop you can afford.
-The rest varies on your needs, budget, 
+The rest varies on your needs, budget, how skilled you are, etc.
 
 ![brother_nq3550w](/images/brother_nq3550w.jpeg)
 
@@ -129,7 +129,7 @@ I paid $2200 for it (including taxes).
 It was around September 2024.
 I got some extra threads and a hoop to embroider hats.
 
-I use it about 2 or 3 times per month.
+I use it about two or three times per month.
 
 This is the only embroidery machine that I have, and so far I'm very happy with it.
 Although sometimes I dream of having a multi-needle one.
@@ -139,6 +139,7 @@ Although sometimes I dream of having a multi-needle one.
 If you are not in a hurry, wait for Black Friday season.
 You might get a big discount.
 
+[brother]: https://www.brother-usa.com/home
 [brother_skitch]: https://www.walmart.com/ip/Brother-Skitch-PP1-Single-Needle-Embroidery-Machine/5009658428
 [brother_se700]: https://www.amazon.com/Brother-SE700-Embroidery-Wireless-Connected/dp/B0F4LQDHZR?gQT=1&th=1
 [brother_pe900]: https://www.amazon.com/Brother-PE900-Embroidery-Connected-Touchscreen/dp/B0B8337QHR?th=1
