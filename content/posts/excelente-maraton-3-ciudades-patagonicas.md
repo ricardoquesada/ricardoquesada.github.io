@@ -10,7 +10,9 @@ title: Excelente maratón "3 Ciudades Patagonicas"
 url: /2009/12/09/excelenete-maraton-3-ciudades-patagonicas/
 
 ---
-![3 ciudades patagonicas](http://www.monociclo.com.ar/blog/wp-content/uploads/2009/12/monociclo1-233x300.jpg)El fin de semana pasado fui a Trelew a participar del maratón (42k) _["3 Ciudades Patagónicas"](http://maratontresciudades.wordpress.com/)_ _._
+![3 ciudades patagonicas](http://www.monociclo.com.ar/blog/wp-content/uploads/2009/12/monociclo1-233x300.jpg)
+
+El fin de semana pasado fui a Trelew a participar del maratón (42k) ["3 Ciudades Patagónicas"](http://maratontresciudades.wordpress.com/)
 
 Fue una muy buena experiencia, muy recomendable, con ganas de repetirla el año que viene. Muy buena organización, y la gente muy predispuesta a ayudar en lo que sea.
 
@@ -26,7 +28,7 @@ Algunas anecdotas del maratón:
 - Me quedé sin piernas a partir del km 32 / 33... no podía pedalear más... los últimos 10km los hice en piloto automático.
 - Mi tiempo oficial fue de 2h 29m 13s.
 
-Fotos de la carrera: [3CiudadesPatagonicas](http://picasaweb.google.com/ricardoquesada/3CiudadesPatagonicas#)
+Fotos de la carrera: [3CiudadesPatagonicas](https://photos.app.goo.gl/EcTX2wgZqKJc1LhE8)
 
 Recorrido de la carrera: [Mapa](http://www.gpsies.com/map.do?fileId=ouoqvyeesqnhlofm)
 
