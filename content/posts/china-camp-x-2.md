@@ -4,7 +4,7 @@ category: unicycle
 date: "2013-07-14T07:52:13+00:00"
 guid: http://www.monociclo.com.ar/?p=550
 tag:
-  - china-camp
+  - china camp
   - muni
 title: China Camp x 2
 url: /2013/07/14/china-camp-x-2/
@@ -18,5 +18,5 @@ Estuvo muy bueno, un lindo tiempo, y China Camp siempre es divertido con monos d
 
 Fotos:
 
-- [China Camp: 7 de Julio](https://picasaweb.google.com/111588202880883771967/ChinaCamp7Julio2013)
-- [China Camp: 13 de Julio](https://picasaweb.google.com/111588202880883771967/ChinaCamp13Julio2013)
+- [China Camp: 7 de Julio](https://photos.app.goo.gl/oTyNQZpVo9NwJ8sx7)
+- [China Camp: 13 de Julio](https://photos.app.goo.gl/8D7AE48SXrUrfpFx9)

@@ -1,6 +1,8 @@
 ---
 author: ricardoquesada
 category: unicycle
+tag:
+  - china camp
 date: "2012-08-13T18:18:19+00:00"
 guid: http://www.monociclo.com.ar/?p=290
 title: China Camp II
@@ -15,4 +17,4 @@ Estuvo muy bueno.
 
 Así viajó mi mono :)
 
-Más fotos: [https://picasaweb.google.com/111588202880883771967/ChinaCamp](https://picasaweb.google.com/111588202880883771967/ChinaCamp)
+[Más fotos](https://photos.app.goo.gl/rxLXoxjAsRrBXpTd8).

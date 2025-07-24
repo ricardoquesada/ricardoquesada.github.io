@@ -21,6 +21,4 @@ Yo corrí los últimos 10k donde tuve que
 
 Super recomendable!
 
-Fotos del evento:
-
-- [http://picasaweb.google.com/ricardoquesada/SalvajeCrossCountry2009](http://picasaweb.google.com/ricardoquesada/SalvajeCrossCountry2009)
+[Fotos del evento](https://photos.app.goo.gl/4qcgqQAS4W7qeoLW6).

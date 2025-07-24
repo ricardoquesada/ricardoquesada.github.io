@@ -4,7 +4,7 @@ category: unicycle
 date: "2013-03-31T17:48:09+00:00"
 guid: http://www.monociclo.com.ar/?p=495
 tag:
-  - china-camp
+  - china camp
   - muni
 title: 'China Camp: Ultimo entrenamiento previo a Moab'
 url: /2013/03/31/china-camp-ultimo-entrenamiento-previo-a-moab/
@@ -18,6 +18,6 @@ Toda la subida la hice bastante rápido, mucho más rápido que con el mono de 3
 
 Próxima estación: Moab, Utah.
 
-Fotos: [China Camp, 2013-03-30](https://picasaweb.google.com/111588202880883771967/20130330)
+* [Foto](https://photos.app.goo.gl/oWnMpfxeBSPRFZ3M8)
 
 Heridas de guerra: Ninguna
