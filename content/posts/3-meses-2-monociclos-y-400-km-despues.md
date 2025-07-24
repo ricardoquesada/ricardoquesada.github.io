@@ -13,10 +13,9 @@ url: /2009/06/25/3-meses-2-monociclos-y-400-km-despues/
 Estadisticas monociclisticas de Heidelberg:  
 
 - Fueron casi 3 meses en Heidelberg  
-
 - Compré 2 monociclos: uno de 28" y otro de 36"
 - Llegué 2 veces a la cima de Köningssthul con 7 intentos
-- Corrí una maraton de 42 km
+- Corrí una maratón de 42 km
 - Visite al menos cinco ciudades cercanas
 - El último mes salia a monociclear 4 veces por semana
 - Anduve más o menos 400 km

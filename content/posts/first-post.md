@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - uncategorized
+category: cocos2d
+tag:
+  - windows phone
 date: "2014-04-04T07:02:46+00:00"
 guid: http://riq64.wordpress.com/?p=3
 title: First post

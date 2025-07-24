@@ -5,7 +5,7 @@ date: "2012-12-10T03:48:07+00:00"
 guid: http://www.monociclo.com.ar/?p=385
 tag:
   - muni
-  - santa-cruz
+  - santa cruz
 title: Muni en Santa Cruz
 url: /2012/12/10/muni-en-santa-cruz/
 
@@ -14,4 +14,4 @@ Michele, Geoffrey y yo hicimos un muni en Santa Cruz, en el parque estatal Henry
 
 {{< youtube o3qHR5McFsM >}}
 
-Fotos del paseo: [https://picasaweb.google.com/111588202880883771967/SantaCruzMuniRideDic2012](https://picasaweb.google.com/111588202880883771967/SantaCruzMuniRideDic2012)
+[Fotos del paseo](https://photos.app.goo.gl/6cnhDKLPRBFs6BCP7).

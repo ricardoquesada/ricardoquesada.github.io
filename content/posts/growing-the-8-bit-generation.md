@@ -1,11 +1,11 @@
 ---
 author: ricardoquesada
-category:
-  - commodore-64
+category: retro computing
 date: "2016-03-31T06:07:23+00:00"
 guid: http://retro.moe/?p=1285
 tag:
-  - growing-the-8-bit-generation
+  - commodore 64
+  - growing the 8-bit generation
   - movie
 title: Growing the 8 Bit Generation
 url: /2016/03/30/growing-the-8-bit-generation/

@@ -2,16 +2,11 @@
 author: ricardoquesada
 date: "2016-06-02T05:35:11+00:00"
 guid: http://retro.moe/?p=1624
-summary: |-
-  As a kid, I always avoided the Drean Commodore. I didn't like them because they were not compatible with the NTSC software.
-
-  As an adult, I really wanted one basically because I'm from Argentina, and the Drean was produced in Argentina. And I want to make sure that all the software that I develop works on a Drean.
-
-  And in my lastest trip to Argentina I was able to get one :-) The condition of the computer is Ok, neither great nor terrible. It works, although I need to do more tests. Here are some photos:
+category: retro computing
 tag:
-  - commodore-64
+  - commodore 64
   - drean
-  - drean-commodore-64
+  - drean commodore 64
 title: Finally, a Drean Commodore 64c
 url: /2016/06/01/finally-a-drean-commodore-64c/
 

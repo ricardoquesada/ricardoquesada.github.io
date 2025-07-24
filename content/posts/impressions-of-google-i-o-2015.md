@@ -6,7 +6,7 @@ guid: http://towp8.com/?p=924
 tag:
   - android
   - google
-  - io15
+  - google io
 title: Impressions of Google I/O 2015
 url: /2015/05/29/impressions-of-google-io-2015/
 

@@ -1,7 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
+tag:
+  - video game
 date: "2008-09-25T23:37:00+00:00"
 guid: http://www.monociclo.com.ar/?p=66
 title: Forbidden Words

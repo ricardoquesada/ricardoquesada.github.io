@@ -3,28 +3,6 @@ author: ricardoquesada
 category: cocos2d
 date: "2014-04-23T21:51:26+00:00"
 guid: http://towp8.com/?p=241
-summary: |-
-  LiquidFun Testbed + Cocos2d-x
-
-  From LiquidFun's site:
-
-  > Based on [Box2d](https://github.com/cocos2d/cocos2d-x-samples/blob/v3/box2d.org), [LiquidFun](http://google.github.io/liquidfun/) features particle-based fluid simulation. Game developers can use it for new game mechanics and add realistic physics to game play. Designers can use the library to create beautiful fluid interactive experiences.
-
-  Basically LiquidFun is Box2d plus an extension to simulate fluids using a particle system. To test it, download and install the official [LiquidFun - Testbed,](https://play.google.com/store/apps/details?id=com.wolff.liquidfun.testbed2) and [LiquidFun - EyeCandy](https://play.google.com/store/apps/details?id=com.wolff.EyeCandy) for Android.
-
-  [Cocos2d-x](http://cocos2d-x.org) already has Box2d integration, so in order to integrate Cocos2d-x with LiquidFun, we only need to integrate this new class: `b2ParticleSystem`.
-
-  ### LiquidFun's b2ParticleSystem
-
-  I'm not going to describe how to use LiquidFun (for that, read [its programmers guide](http://google.github.io/liquidfun/Programmers-Guide/html/index.html)). Instead, I'm going to describe how to integrate `b2ParticleSystem` in Cocos2d-x (also applicable to any other game engine).
-
-  For the integration, what we need is a Cocos2d-x node that knows how to render a `b2ParticleSystem`. And [b2ParticleSystem](https://github.com/google/liquidfun/blob/v1.0.0/liquidfun/Box2D/Box2D/Particle/b2ParticleSystem.h#L189) has these 4 useful methods:
-
-  Ideally we should be able to reuse `cocos2d::ParticleSystemQuad` for the rendering, but we can't because:
-
-  - `cocos2d::ParticleSystemQuad` doesn't support changing the attractor (this is a design bug, we need to fix it). A _nil_ attractor would be needed for this case.
-  - `ParticleSystemQuad` works with Quads, and not Points. And even if Points were supported (like in Cocos2d-x v1), it wouldn't work because the points and colors should be in an interleaved array.
-  - The other issue is the conversion between Box2d and Cocos2d-x coordinate system, but it would be easy to fix.
 tag:
   - cocos2d-x
   - liquidfun

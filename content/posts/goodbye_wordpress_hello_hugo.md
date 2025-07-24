@@ -1,5 +1,9 @@
 ---
 author: ricardoquesada
+category: misc
+tag:
+  - hugo
+  - wordpress
 date: '2025-01-15T07:56:12-08:00'
 title: 'Goodbye WordPress, Hello Hugo'
 url: /2025/01/15/migrate_wordpress_to_hugo_in_github_pages/

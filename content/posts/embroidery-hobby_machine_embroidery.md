@@ -2,6 +2,7 @@
 date: '2025-01-19T12:43:22Z'
 draft: true
 title: 'New Hobby, Machine embroidery with a Brother NQ3550W'
+category: embroidery
 ---
 
 I started a new hobby: [machine embroidery].

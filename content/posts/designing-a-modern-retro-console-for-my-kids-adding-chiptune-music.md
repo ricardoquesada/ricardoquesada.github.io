@@ -1,33 +1,14 @@
 ---
 author: ricardoquesada
-category:
-  - quico
+category: embedded
 date: "2020-12-13T16:30:49+00:00"
 guid: http://retro.moe/?p=2294
-summary: |-
-  ### The ideal modern-retro video game console
-
-  My goal is to build a video game console for (my) kids. I want to teach them programming in a fun way: fun for them... and also fun for me. The video-game console features are:
-
-  - Modern components, with a retro "spirit".
-  - Easy to program, a must.
-    - Chosen: Python, in particular [CircuitPython](https://circuitpython.org/)
-  - Gamepad support: Multiple gamepads at the same time (multiplayer is a must).
-    - Chosen: [Bluepad32 firmware](https://gitlab.com/ricardoquesada/bluepad32) since it supports all modern Bluetooth gamepads ( [see my previous post](https://retro.moe/2020/11/24/bluepad32-gamepad-support-for-esp32/))
-  - "Retro" sound:
-    - Chosen: SN76489 (more info down below)
-  - "Retro" screen:
-    - Chosen: 64x32 LED matrix. Let's see what we can do in this extremely low-resolution screen.
-  - A powerful enough micro-controller:
-    - Chosen: [Matrix Portal M4](https://www.adafruit.com/product/4745), mostly for convenience since it comes with an ARM Cortex M4, ESP32, "expansion port" + header to connect to the matrix LED. It already supports CircuitPython. As a bonus it has an accelerometer.
-  - Portability: It should be portable, no need to use an external power supply.
-
-  In other words, I'm building a **Nintendo Switch killer**. What will happen next is that Nintendo will run out of business. If this happens, my 7-year-old kid will kill me, since his dream is to be a video game designer at Nintendo... so probably I shouldn't be that aggressive in my marketing campaign.
 tag:
   - bluepad32
   - circuitpython
   - esp32
   - sn76489
+  - quico
 title: 'Designing a modern retro console for (my) kids: Adding chiptune music'
 url: /2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/
 

@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - uncategorized
-  - unicycle
+category: unicycle
+tag:
+  - unicycle.com
 date: "2009-09-11T08:30:00+00:00"
 guid: http://www.monociclo.com.ar/?p=96
 title: Gracias Unicycle.com

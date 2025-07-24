@@ -1,7 +1,6 @@
 ---
 author: ricardoquesada
-category:
-  - cocos2d
+category: cocos2d
 date: "2008-08-04T21:56:00+00:00"
 guid: http://www.monociclo.com.ar/?p=57
 title: Hay que soñar más

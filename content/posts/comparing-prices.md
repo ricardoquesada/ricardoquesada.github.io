@@ -1,15 +1,15 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: cocos2d
 date: "2014-04-04T08:48:08+00:00"
 guid: http://riq64.wordpress.com/2014/04/05/comparing-prices/
 tag:
   - appstore
-  - play-store
-  - visual-studio
-  - windows-store
+  - play store
+  - visual studio
+  - windows store
   - xcode
+  - windows phone
 title: Comparing prices
 url: /2014/04/04/comparing-prices/
 

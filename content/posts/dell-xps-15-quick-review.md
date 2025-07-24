@@ -1,10 +1,10 @@
 ---
 author: ricardoquesada
-category:
-  - programming
+category: cocos2d
 date: "2014-04-16T00:01:49+00:00"
 guid: http://towp8.com/?p=220
 tag:
+  - windows phone
   - dell-xps-15
   - high-dpi
   - project-anarchy

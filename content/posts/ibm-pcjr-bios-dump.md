@@ -5,8 +5,8 @@ date: "2018-01-03T15:29:57+00:00"
 guid: http://retro.moe/?p=2071
 tag:
   - "8088"
-  - ibm-pcjr
-  - ida-pro
+  - ibm pcjr
+  - ida pro
   - pcjr
 title: IBM PCjr BIOS dump
 url: /2018/01/03/ibm-pcjr-bios-dump/

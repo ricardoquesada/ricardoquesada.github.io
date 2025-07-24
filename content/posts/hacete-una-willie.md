@@ -1,6 +1,7 @@
 ---
 author: ricardoquesada
-category:
+category: unicycle
+tag:
   - piropos
 date: "2006-09-20T01:27:00+00:00"
 guid: http://www.monociclo.com.ar/?p=14

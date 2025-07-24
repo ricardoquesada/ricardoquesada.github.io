@@ -1,8 +1,8 @@
 ---
 author: ricardoquesada
-category:
-  - programming
-  - uncategorized
+category: cocos2d
+tag:
+  - windows phone
 date: "2014-04-04T07:05:44+00:00"
 title: First tip
 url: /2014/04/04/first-tip/
