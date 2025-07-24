@@ -4,13 +4,13 @@ category: unicycle
 date: "2013-12-17T11:39:58+00:00"
 guid: http://www.monociclo.com.ar/?p=587
 tag:
-  - cal-muni-weekend
-  - joaquin-miller
-  - lake-chabot
+  - cal muni weekend
+  - joaquin miller
+  - lake chabot
   - muni
-  - napa-skyline-park
-  - rockville-hills
-  - santa-cruz
+  - napa skyline park
+  - rockville hills
+  - santa cruz
 title: Lo que hice en los últimos 3 meses
 url: /2013/12/17/lo-que-hice-en-los-ultimos-3-meses/
 

@@ -5,11 +5,12 @@ date: "2013-05-06T16:51:36+00:00"
 guid: http://www.monociclo.com.ar/?p=508
 tag:
   - chaparral
-  - joaquin-miller
+  - joaquin miller
   - muni
-  - ocean-beach
-  - rob's-ride
-  - santa-cruz
+  - ocean beach
+  - rob's ride
+  - santa cruz
+  - kh36
 title: Joaquin Miller, Rob's Ride y demás
 url: /2013/05/06/joaquin-miller-robs-ride-y-demas/
 
