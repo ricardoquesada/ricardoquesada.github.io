@@ -3,6 +3,7 @@ author: ricardoquesada
 category: unicycle
 tag:
   - amigos
+  - c.u.b.a.
 date: "2006-11-13T02:26:00+00:00"
 guid: http://www.monociclo.com.ar/?p=20
 title: Más amigos y monos
