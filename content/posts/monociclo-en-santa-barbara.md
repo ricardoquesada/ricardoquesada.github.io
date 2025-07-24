@@ -4,9 +4,9 @@ category: unicycle
 date: "2013-05-27T05:08:21+00:00"
 guid: http://www.monociclo.com.ar/?p=527
 tag:
-  - paddle-board
-  - santa-barbara
-  - skate-park
+  - paddle board
+  - santa barbara
+  - skate park
 title: Monociclo en Santa Barbara
 url: /2013/05/27/monociclo-en-santa-barbara/
 

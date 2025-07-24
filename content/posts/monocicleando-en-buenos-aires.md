@@ -4,7 +4,7 @@ category: unicycle
 date: "2012-11-12T00:03:06+00:00"
 guid: http://www.monociclo.com.ar/?p=357
 tag:
-  - buenos-aires
+  - buenos aires
   - paseo
   - amigos
 title: Monocicleando en Buenos Aires

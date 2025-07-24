@@ -5,7 +5,7 @@ date: "2013-02-25T16:44:22+00:00"
 guid: http://www.monociclo.com.ar/?p=476
 tag:
   - berkeley
-  - joaquin-miller
+  - joaquin miller
   - muni
 title: Muni nuevamente, y por 2
 url: /2013/02/25/muni-nuevamente-y-por-2/

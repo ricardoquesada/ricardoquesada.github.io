@@ -4,6 +4,7 @@ category: unicycle
 tag:
   - video
   - vacaciones
+  - chapadmalal
 date: "2006-08-22T16:50:00+00:00"
 guid: http://www.monociclo.com.ar/?p=10
 title: Monocicleando en Chapadmalal

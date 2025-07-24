@@ -2,7 +2,7 @@
 author: ricardoquesada
 category: unicycle
 tag:
-  - Schwetzingen
+  - schwetzingen
 date: "2009-04-20T10:17:00+00:00"
 guid: http://www.monociclo.com.ar/?p=80
 title: Monocicleando a pueblos vecinos
