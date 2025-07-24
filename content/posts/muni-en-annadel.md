@@ -17,7 +17,7 @@ El sábado pasado fuimos con Tom, Ashley, Josh, Kevin y John a Annadel, en Santa
 
 Más info:
 
-- [Fotos mias](https://picasaweb.google.com/111588202880883771967/Annadel20130309)
+- [Fotos mias](https://photos.app.goo.gl/zxzRTnU9V6KdbpKV9)
 - [Reporte de Tom](http://berkeleyunicycling.org/2013/03/12/annadel-muni/)
 - [Fotos de Tom](http://www.flickr.com/photos/tholub/sets/72157632978337610/)
 

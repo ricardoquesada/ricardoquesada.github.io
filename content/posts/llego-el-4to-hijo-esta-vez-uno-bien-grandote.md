@@ -1,6 +1,9 @@
 ---
 author: ricardoquesada
 category: unicycle
+tag:
+  - medias de potente
+  - kh36
 date: "2009-05-26T02:15:00+00:00"
 guid: http://www.monociclo.com.ar/?p=86
 title: Llegó el 4to hijo... esta vez uno bien grandote
@@ -9,7 +12,7 @@ url: /2009/05/25/llego-el-4to-hijo-esta-vez-uno-bien-grandote/
 ---
 Las medias de potente
 
-(Si no vieron la propagando de "Las medias de Potente", aca esta: [video](http://video.msn.com/video.aspx?mkt=en-us&vid=80bdd7ff-eab3-4bdd-a8c0-6c6924b6db27))
+(Si no vieron la propagando de "Las medias de Potente", aca esta: [video](https://www.youtube.com/watch?v=8gQ99UOaWOw))
 
 Resulta que me compré un asiento más cómodo para mi monociclo de 28".  
 Desafortunadamente el asiento no era compatible con el porta asiento.  
@@ -21,4 +24,4 @@ Me llegó hoy y estuve todo el día armandolo, y acabo de llegar después de pro
 Hice más o menos 12km.  
 Se va bastante rápido y es bastante díficil frenar... quizas la próxima adquisición sea un freno.
 
-[http://picasaweb.google.com/s/c/bin/slideshow.swf](http://picasaweb.google.com/s/c/bin/slideshow.swf)
+![uni 36](https://lh3.googleusercontent.com/pw/AP1GczONTesRllOZ8NKYZk3ld6mHCDIV5sFOAbruSpL0I4Lx8b_nzzUY8tPQNlQ_7Ihr3CMZ4GGN1e8Oh4BWzEbgIPPtHowZAWjJm6TV04bTQoilalobzxmHLzhQveVoBXtaJnxw5r0h1td1jAxmcOdQIh5vSQ=w1127-h1503-s-no-gm?authuser=0)

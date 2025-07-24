@@ -9,6 +9,6 @@ title: Mi pierna en el taller mecánico
 url: /2010/10/27/mi-pierna-en-el-taller-mecanico/
 
 ---
-[![](http://lh6.ggpht.com/_7Tp7oCOlWFE/TMg8BV5ITHI/AAAAAAAAdRU/KwGsMr_rZ9M/s400/IMG_5525.jpg)](http://picasaweb.google.com/lh/photo/nIlcWjKsWJuH0wKZKxqqwA?feat=embedwebsite)
+![](http://lh6.ggpht.com/_7Tp7oCOlWFE/TMg8BV5ITHI/AAAAAAAAdRU/KwGsMr_rZ9M/s400/IMG_5525.jpg)
 
 Mi pierna en reparación.
