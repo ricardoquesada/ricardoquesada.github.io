@@ -13,4 +13,4 @@ En el Tour, no recuerdo bien a quien se le rompió la palanca del monociclo. Y B
 
 {{< youtube TRFOpnSTQPY >}}
 
-Más fotos: https://picasaweb.google.com/111588202880883771967/JugglingAndUniFestivalBerkeley](https://picasaweb.google.com/111588202880883771967/JugglingAndUniFestivalBerkeley)
+[Más fotos](https://photos.app.goo.gl/YFJnsYRxBLCDkhkE8).

@@ -5,7 +5,7 @@ date: "2013-03-26T03:16:56+00:00"
 guid: http://www.monociclo.com.ar/?p=489
 tag:
   - muni
-  - napa-skyline-park
+  - napa skyline park
 title: Muni en Napa Skyline Park
 url: /2013/03/26/muni-en-napa-skyline-park/
 
@@ -27,7 +27,7 @@ Heridas de guerra:
 
 Fotos:
 
-- [Las fotos que saqué](https://picasaweb.google.com/111588202880883771967/NapaSkylinePark20130324)
+- [Las fotos que saqué](https://photos.app.goo.gl/isLAVB4ttCQDg3RY9)
 
 **Update:** Video que hizo Nathan
 

@@ -1,6 +1,9 @@
 ---
 author: ricardoquesada
 category: cocos2d
+tag:
+  - escher
+  - sueño
 date: "2008-08-04T21:56:00+00:00"
 guid: http://www.monociclo.com.ar/?p=57
 title: Hay que soñar más
@@ -22,4 +25,4 @@ Me desperté... pensé lo que me habían dicho en el sueño y dije: "Ah... claro
 
 Y no es la primera vez que me pasa... a soñar más! :-)
 
-ps: Ah... relacionado con el post anterior, aca tengo [fotos mias en el museo de Escher](http://picasaweb.google.com/ricardoquesada/Escher).
+ps: Ah... relacionado con el post anterior, aca tengo [fotos mias en el museo de Escher](https://photos.app.goo.gl/VhMvJDizmhvphgBq7).

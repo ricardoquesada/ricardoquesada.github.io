@@ -3,6 +3,7 @@ author: ricardoquesada
 category: unicycle
 tag:
   - piropos
+  - wheelie
 date: "2006-09-20T01:27:00+00:00"
 guid: http://www.monociclo.com.ar/?p=14
 title: Hacete una willie
