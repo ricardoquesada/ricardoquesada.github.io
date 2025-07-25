@@ -11,4 +11,4 @@ El 16 de Julio, previo al viaje a Unicon de la gente de Berkeley Revolution, hic
 
 ![](https://lh6.googleusercontent.com/-fH8MXUmasyg/UBIFZJnL5bI/AAAAAAAAnm8/qLPWwoM2qDo/s400/IMG_1851.JPG)
 
-Fotos: [https://picasaweb.google.com/111588202880883771967/BerkeleyRevolutionExhibitionGame#](https://picasaweb.google.com/111588202880883771967/BerkeleyRevolutionExhibitionGame#)
+[Fotos](https://photos.app.goo.gl/HP2FbEypC7ZzSs7N7).

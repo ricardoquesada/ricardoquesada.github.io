@@ -11,6 +11,6 @@ url: /2012/08/05/twin-peaks-golden-gate-park/
 
 El fin de semana pasado monociclié por Twin Peaks y Golden Gate Park. Fue un lindo paseo. Fueron unos 25km.
 
-Mapa: [http://www.gmap-pedometer.com/?r=5595975](http://www.gmap-pedometer.com/?r=5595975)
+Mapa: [http://www.gmap-pedometer.com/?r=5595975](http://www.gmap-pedometer.com/?r=5595975)
 
-Fotos: [https://picasaweb.google.com/111588202880883771967/TwinPeaksGoldenGatePark](https://picasaweb.google.com/111588202880883771967/TwinPeaksGoldenGatePark)
+[Fotos](https://photos.app.goo.gl/KKiGbitcDk39zWyeA).
