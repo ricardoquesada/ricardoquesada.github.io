@@ -13,7 +13,7 @@ title: Vuelta al ruedo
 url: /2013/09/08/vuelta-al-ruedo-4/
 
 ---
-[![](https://lh3.googleusercontent.com/-6vX7BYix7-c/Uiyv833Tq5I/AAAAAAAAvfA/vVD9UEtnqto/s400/IMG_2507.JPG)](https://picasaweb.google.com/111588202880883771967/StefanBirthday#5921301070408297362)
+[![](https://lh3.googleusercontent.com/-6vX7BYix7-c/Uiyv833Tq5I/AAAAAAAAvfA/vVD9UEtnqto/s400/IMG_2507.JPG)](https://photos.app.goo.gl/tsmkpLVTtz2fGDeQ6)
 
 Stefan festejó su cumpleaños, y que mejor manera que hacerlo con un paseo alrededor de San Francisco. Fue una suerte de Uni SF Tour, pero un poco más chico, con un día espectacular. De los mejores días de San Francisco. Muy soleado, sin una nube, con mucho calor.
 
