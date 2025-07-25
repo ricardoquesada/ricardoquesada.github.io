@@ -9,4 +9,7 @@ title: Kaori Matsuzawa
 url: /2007/06/15/kaori-matsuzawa/
 
 ---
+
 Impresionante video de Kaori Matsuzawa.  
+
+{{<youtube DjqVBAP-7k8 >}}

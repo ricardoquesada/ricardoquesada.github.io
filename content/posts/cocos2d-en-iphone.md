@@ -7,6 +7,8 @@ title: cocos2d en iphone
 url: /2008/06/10/cocos2d-en-iphone/
 
 ---
-Estoy monocicleando al menos 1 vez por semana... si, he vuelto al ruedo, y también estoy haciendo cosas para iphone, en particular juegos, y para hacerlos que mejor que cocos2d :-)
+Estoy monocicleando al menos 1 vez por semana... si, he vuelto al ruedo,
+y también estoy haciendo cosas para iphone, en particular juegos,
+y para hacerlos que mejor que cocos2d :-)
 
-\[youtube {{< youtube KsFTUCCjFlE >}}&hl=en\]
+{{< youtube KsFTUCCjFlE >}}

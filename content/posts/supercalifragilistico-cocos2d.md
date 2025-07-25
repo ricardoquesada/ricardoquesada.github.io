@@ -11,4 +11,7 @@ url: /2008/05/14/supercalifragilistico-cocos2d/
 
 ---
 Ja Ja... estoy monocicleando poco, pero me estoy divirtiendo con [cocos2d](http://cocos2d.org/).  
+
 Sino, miren este video :-)
+
+{{<youtube qIqzGgfzTsw >}}
