@@ -5,13 +5,13 @@ date: "2013-05-12T05:04:38+00:00"
 guid: http://www.monociclo.com.ar/?p=517
 tag:
   - chase
-  - golden-gate-park
+  - golden gate park
   - movie
 title: Hey Monster, Hands Off My City
 url: /2013/05/12/hey-monster-hands-off-my-city/
 
 ---
-[![](https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG)](https://picasaweb.google.com/111588202880883771967/HeyMonsterHandsOffMyCity#5876950491646923634)
+[![](https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG)](https://photos.app.goo.gl/RazdunA1GkzzHeRy7)
 
 *En plena persecución*
 
