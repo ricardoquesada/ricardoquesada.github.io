@@ -10,14 +10,19 @@ title: 'Strawberry Fields Forever: 100k en mono'
 url: /2013/05/22/strawberry-fields-forever-100k-en-mono/
 
 ---
-[![8763592322_edc10b3bfc](http://www.monociclo.com.ar/blog/wp-content/uploads/2013/05/8763592322_edc10b3bfc.jpg)](http://www.flickr.com/photos/tholub/8763592322/in/set-72157633567318028/)
-*Stefan y yo en mono, Geof a la izquierda en bici.*
+![Strawberry Fields Forever](/images/strawberry_2013_ricardo.jpg)
 
-El domingo pasado fue el paseo [Strawberry Fields Forever.](http://www.strawberryfields.org/about-the-ride/routes/) Se podian elegir 3 posibles rutas: de 30 millas, de 100km o de 100 millas. Con otros 3 monociclistas y otros ciclistas elegimos la de 100km.
+<small>*Después de haber terminado la subida más empinada del recorrido.*</small>
 
-El paseo duró un poco menos 8 horas incluyendo el tiempo de las paradas. Habran sido 6 horas de pedaleo y casi 2 horas en las paradas.
+El domingo pasado fue el paseo [Strawberry Fields Forever](http://www.strawberryfields.org/about-the-ride/routes/).
+Se podían elegir 3 posibles rutas: de 30 millas, de 100km o de 100 millas.
+Con otros 3 monociclistas y otros ciclistas elegimos la de 100km.
 
-Fue una interesante experiencia que no repetiría muy seguido. 1 vez por año esta bien.
+El paseo duró un poco menos 8 horas incluyendo el tiempo de las paradas.
+Habrán sido 6 horas de pedaleo y casi 2 horas en las paradas.
+
+Fue una interesante experiencia que no repetiría muy seguido.
+Una vez por año está bien.
 
 Fotos:
 
