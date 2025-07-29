@@ -2,7 +2,6 @@
 
 Visit it at https://retro.moe or https://ricardoquesada.github.io
 
-
 ## Hugo Notes
 
 ### Update template
@@ -18,14 +17,14 @@ git pull origin main
 
 1. Start Hugo server
 
-```sh
-cd ${SRC}
-hugo build
-hugo server --buildDrafts
-```
+    ```sh
+    cd ${SRC}
+    hugo build
+    hugo server --buildDrafts
+    ```
 
 2. New blog post
 
-```sh
-hugo new content content/posts/embroidery-angler-fish-blinking-led.md
-```
+   ```sh
+   hugo new content content/posts/embroidery-angler-fish-blinking-led.md
+   ```
