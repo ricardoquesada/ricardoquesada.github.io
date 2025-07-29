@@ -1,6 +1,6 @@
 ---
 author: ricardoquesada
-category: cocos2d
+category: towp8 
 tag:
   - windows phone
 date: "2014-04-04T07:02:46+00:00"

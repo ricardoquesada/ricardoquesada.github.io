@@ -17,7 +17,7 @@ tag:
   - unijoysticle
   - vchar64
 title: 'UniJoystiCle: comparing toolchains'
-url: /
+url: /unijoysticle-comparing-toolchains/
 
 ---
 I created the UniJoystiCle to have fun and to learn. And I decided to use editors/toolchains that I have never used before, and that I wanted to try.

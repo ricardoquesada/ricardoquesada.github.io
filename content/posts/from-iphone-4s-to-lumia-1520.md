@@ -1,6 +1,6 @@
 ---
 author: ricardoquesada
-category: cocos2d
+category: towp8
 tag:
   - programming
   - windows phone

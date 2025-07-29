@@ -11,4 +11,4 @@ Who has time to maintain two personal blogs ? It is even difficult to maintain j
 I divided them in categories:
 
 - The unicycle blog is using the "[unicycle](/category/unicycle/)" category.
-- This blog is using the "[programming](/category/programming/)" category
+- This blog is using the ~~"[programming](/category/programming/)"~~ category. **UPDATE 2025-07-28**: "[towp8](/category/towp8)"

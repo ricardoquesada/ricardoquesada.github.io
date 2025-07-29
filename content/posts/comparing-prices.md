@@ -1,6 +1,6 @@
 ---
 author: ricardoquesada
-category: cocos2d
+category: towp8
 date: "2014-04-04T08:48:08+00:00"
 guid: http://riq64.wordpress.com/2014/04/05/comparing-prices/
 tag:

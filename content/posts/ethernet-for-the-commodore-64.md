@@ -8,7 +8,7 @@ tag:
   - c64
   - ethernet
 title: Ethernet for the Commodore 64
-url: /
+url: /ethernet-and-the-commodore-64
 
 ---
 Back in the 80's, the way to connect the c64 to other computers was by using a modem. Since then different devices were created and new technologies were developed. Here, I'll only focus on the Ethernet devices and what you can do with it.
