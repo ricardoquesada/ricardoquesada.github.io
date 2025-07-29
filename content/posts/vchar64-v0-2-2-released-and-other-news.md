@@ -4,7 +4,8 @@ category: retro computing
 date: "2017-01-08T21:31:38+00:00"
 guid: http://retro.moe/?p=1987
 tag:
-  - commodore-home
+  - commodore 64
+  - commodore home
   - unijoysticle
   - vchar64
 title: VChar64 v0.2.2 released and other news

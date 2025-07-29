@@ -3,10 +3,7 @@ author: ricardoquesada
 date: "2015-02-10T20:45:23+00:00"
 category: retro computing
 tag:
-  - 8-bit
-  - c64
-  - commodore-64
-  - retro
+  - commodore 64
   - vchar64
 title: 'VChar64: character editor for the Commodore 64'
 url: /2015/02/10/vchar64-character-editor-for-the-commodore-64/

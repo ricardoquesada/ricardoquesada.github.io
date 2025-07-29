@@ -32,73 +32,116 @@ In July 2008, Lucio and I went to Euro Python to present Cocos2d (was it v0.3?).
 
 *With Lucio Torre at Euro Python 2008 presenting Cocos2d. Vilnius, Lithuania, July 2008.*
 
-In addition, Lucio and I presented Cocos2d at [PyCon Ar](https://twitter.com/pyconar) 2008 and 2009.
+In addition, Lucio and I presented Cocos2d at [PyCon Ar](https://twitter.com/pyconar) 2008 and 2009.
 
-In 2010 Claudio Canepa became the new Cocos2d developer/maintainer.
+In 2010 Claudio Canepa became the new Cocos2d developer/maintainer.
 
 ## Cocos2d-iPhone
 
 ![](https://lh3.googleusercontent.com/4Ou3F7RI7FCsvr3R7iFMSmpmWLZYwVJNSxE9LM4vZEt0vwnpUO20eZVDgAl5AkFtHJSaykuq7FbacZK57lTTIrEqNqkq8TLxoQvQUaAndIbTsvYoFuQKb2IjJ0w6L7ucQfrgsOg=-no)
 
-Somewhere around the beginning of 2008, Apple announced that the iPhone would have a store. Apple would only take 30% of the revenue (back then, carriers were taking around 90%). Furthermore, the iPhone was powered by OpenGL ES and the OS was UNIX based.
+Somewhere around the beginning of 2008, Apple announced that the iPhone would have a store.
+Apple would only take 30% of the revenue (back then, carriers were taking around 90%).
+Furthermore, the iPhone was powered by OpenGL ES and the OS was UNIX based.
 
-Also, around that time, I wanted to create commercial games. I had previously considered the Web (Flash) and feature phones (J2ME) as possible markets. But after Apple's announcement, I decided to develop games exclusively for iPhone.
+Also, around that time, I wanted to create commercial games.
+I had previously considered the Web (Flash) and feature phones (J2ME) as possible markets.
+But after Apple's announcement, I decided to develop games exclusively for iPhone.
 
-I needed a game engine for my iPhone games, so I re-wrote Cocos2d in Objective-C. The high level design remained the same, but I had to make substantial changes to make it work on the iPhone...  and that is how "cocos2d-iphone" was born. The  first cocos2d-iphone version (v0.1) was released in June 2008.
+I needed a game engine for my iPhone games, so I re-wrote Cocos2d in Objective-C.
+The high level design remained the same, but I had to make substantial changes to make it work on the iPhone...
+and that is how "cocos2d-iphone" was born.
+The first cocos2d-iphone version (v0.1) was released in June 2008.
 
-In March 2008, I applied to get my iPhone Developers license, and [finally got it in July 2008](/2008/09/18/el-largo-camino-a-la-licencia-de-iphone/) (it took me 4 months to get one, whereas today you can get one in a few minutes). It was not possible to publish games on the iPhone App without a license. While waiting for my license, I did some contract work, developing some games for 3rd parties using cocos2d-iphone.
+In March 2008, I applied to get my iPhone Developers license,
+and [finally got it in July 2008](/2008/09/18/el-largo-camino-a-la-licencia-de-iphone/)
+(it took me 4 months to get one, whereas today you can get one in a few minutes).
+It was not possible to publish games on the iPhone App without a license.
+While waiting for my license, I did some contract work, developing some games
+for 3rd parties using cocos2d-iphone.
 
-Having gotten my iPhone Developers license, I created my first (and only) game for the iPhone: [Sapus Tongue.](https://github.com/sapusmedia/Sapus-Tongue) However, I realized that creating commercial games was not that fun for me; neither did I find it easy. Since cocos2d-iphone was already popular, I decided to work full time on it. The reason I could do this is that I was actually making a living by [selling two commercial tools](https://web-beta.archive.org/web/20110529144259/http://www.sapusmedia.com:80/products/) for cocos2d-iphone: [LevelSVG](https://github.com/sapusmedia/LevelSVG): a sort of editor + physics on top of cocos2d, and [Sapus Tongue source code](https://github.com/sapusmedia/Sapus-Tongue).
+Having gotten my iPhone Developers license,
+I created my first (and only) game for the iPhone: [Sapus Tongue.](https://github.com/sapusmedia/Sapus-Tongue)
+However, I realized that creating commercial games was not that fun for me;
+neither did I find it easy.
+Since cocos2d-iphone was already popular, I decided to work full time on it.
+The reason I could do this is that I was actually making a living by [selling two commercial tools](https://web-beta.archive.org/web/20110529144259/http://www.sapusmedia.com:80/products/) for cocos2d-iphone:
 
-At the beginning of 2009 there were already more than 100 games using cocos2d-iphone. The first one to reach #1 at the iPhone App Store was [Stick Wars](http://www.erichartzog.com/blog/creating-stickwars).
+- [LevelSVG](https://github.com/sapusmedia/LevelSVG): a sort of editor + physics on top of cocos2d
+- and [Sapus Tongue source code](https://github.com/sapusmedia/Sapus-Tongue).
+
+At the beginning of 2009 there were already more than 100 games using cocos2d-iphone.
+The first one to reach #1 at the iPhone App Store was [Stick Wars](http://www.erichartzog.com/blog/creating-stickwars).
 
 {{< figure align=alignnone width=480 src="https://lh3.googleusercontent.com/5F8wGUMT8E3nXmVZVbLVK4kG%5FbIBbuQHa0cwI9VAZIN0dm2d8Hd6YkCZK0H2y8Zp8N%5F771QHJunbIJ8vFr5onjx7m-heWEWNdsxKmQ5w16yTJ6wSuF1o9aNlF-A71Dz86bcV4ek=-no" alt="" >}}
 
-After that, many other cocos2d-iphone games reached #1. And most of the time, there was at least one cocos2d-iphone game in the Top #10. I believe this was the case from 2009 until the [end of 2011](http://web.archive.org/web/20130502004847/http://www.cocos2d-iphone.org/archives/1496).
+After that, many other cocos2d-iphone games reached #1.
+And most of the time, there was at least one cocos2d-iphone game in the Top #10.
+I believe this was the case from 2009 until the [end of 2011](http://web.archive.org/web/20130502004847/http://www.cocos2d-iphone.org/archives/1496).
 
-Not only games were created with cocos2d-iphone, but also animated books, photo applications, and more. Some cocos2d-iphone games and applications were featured at [WWDC 2010](https://web.archive.org/web/20130502035554/http://www.cocos2d-iphone.org/archives/996). Even games that Apple proudly announced as "built using Apple libraries", were actually built with cocos2d-iphone.
+Not only games were created with cocos2d-iphone, but also animated books,
+photo applications, and more.
+Some cocos2d-iphone games and applications were featured at [WWDC 2010](https://web.archive.org/web/20130502035554/http://www.cocos2d-iphone.org/archives/996).
+Even games that Apple proudly announced as "built using Apple libraries", were actually built with cocos2d-iphone.
 
 {{< figure align=alignnone width=512 src="https://lh3.googleusercontent.com/0LiIWU6XLeTLX9GpSVnfciX3tVvWv4G9PXpoHISh95vq5z8MQiCBlUNtlnqB-x0tUa0CDjuP1Xp7Nw5eoPz%5Fsh7q8Xv7nR-18UUcSBJEbNUzMm3ONj1F07EpQtzpY9Tcja-hpCU=-no" alt="" >}}
 
 Many cocos2d-iphone [forks/ports/bindings were created](https://web.archive.org/web/20111021045559/http://www.cocos2d-iphone.org/archives/1155) as well, such as:
 
-- At least two Java ports: [cocos2d-android](https://code.google.com/archive/p/cocos2d-android/) and [cocos2d-android-1](https://github.com/ZhouWeikuan/cocos2d)
+- At least two Java ports: [cocos2d-android](https://code.google.com/archive/p/cocos2d-android/) and [cocos2d-android-1](https://github.com/ZhouWeikuan/cocos2d)
 - A C++ port: [Cocos2d-x](http://www.cocos2d-x.org)
-- Two JavaScript ports: [Cocos2d-HTML5](https://github.com/cocos2d/cocos2d-html5) and [Cocos2d-JavaScript](https://github.com/RyanWilliams/cocos2d-javascript/)
+- Two JavaScript ports: [Cocos2d-HTML5](https://github.com/cocos2d/cocos2d-html5) and [Cocos2d-JavaScript](https://github.com/RyanWilliams/cocos2d-javascript/)
 - Three C# ports: [CocosNet](https://web.archive.org/web/20100227225817/http://github.com/city41/cocosnet), [Cocos2d-XNA](https://github.com/Cocos2DXNA/cocos2d-xna), [CocosSharp](https://github.com/mono/CocosSharp)
-- A Go port: [Gocos2d](https://code.google.com/archive/p/gocos2d/)
+- A Go port: [Gocos2d](https://code.google.com/archive/p/gocos2d/)
 - Python bindings (bindings for cocos2d-iphone and [for cocos2d-x](https://github.com/seewindcn/pycocos2d)) and Python port (a new port based on cocos2d-iphone, and not on the original Cocos2d)
-- Ruby bindings: [ShinyCocos](https://web.archive.org/web/20111021044117/http://www.cocos2d-iphone.org/wiki/doku.php/shinycocos:faq) and support for [RubyMotion](https://github.com/scottymac/rubymotion-cocos-tests)
+- Ruby bindings: [ShinyCocos](https://web.archive.org/web/20111021044117/http://www.cocos2d-iphone.org/wiki/doku.php/shinycocos:faq) and support for [RubyMotion](https://github.com/scottymac/rubymotion-cocos-tests)
 
-In July 2011, after working on cocos2d-iphone for more than 3 years, and with the help of the community, I released [cocos2d-iphone v1.0](https://web.archive.org/web/20111007164432/http://www.cocos2d-iphone.org/archives/1528).  Some stats: [~140 contributors](https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/AUTHORS#L441), ~2600 commits and [63 internal releases](https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/CHANGELOG#L599).
+In July 2011, after working on cocos2d-iphone for more than 3 years, and with the help of the community, I released [cocos2d-iphone v1.0](https://web.archive.org/web/20111007164432/http://www.cocos2d-iphone.org/archives/1528). Some stats: [~140 contributors](https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/AUTHORS#L441), ~2600 commits and [63 internal releases](https://github.com/cocos2d/cocos2d-iphone-classic/blob/v2.2/CHANGELOG#L599).
 
 {{< figure align=alignnone width=247 src="https://lh3.googleusercontent.com/REVtNKHCueWY1eyvzBgQsAHTIV7LKnU2hBy2DEAWY0XVmAZgDv8NipIuYR2cmvBZRfrvUh14f3nFuQonQW8vbFhvyUk0M3JcIlh4WkUstj0-NxYKZM3dk9trZ180vVlX0bZ82MQ=-no" alt="" >}}
 
-The community was very healthy, with many people helping each other, opening bug reports, sending pull requests, suggesting features, etc. The ecosystem around cocos2d-iphone was also very healthy: many cocos2d-iphone books were published, and many editors/tools (both commercial and free/open source) supported cocos2d-iphone, many job positions were looking for cocos2d-iphone developers.
+The community was very healthy, with many people helping each other,
+opening bug reports, sending pull requests, suggesting features, etc.
+The ecosystem around cocos2d-iphone was also very healthy:
+many cocos2d-iphone books were published, and many editors/tools
+(both commercial and free/open source) supported cocos2d-iphone,
+many job positions were looking for cocos2d-iphone developers.
 
-In May 2011, I joined Zynga. At Zynga we used cocos2d-iphone for some iOS games. To port them to Android, some of them were rewritten using [AndEngine](http://www.andengine.org/), and others were ported using [AppPortable](http://www.apportable.com/)'s Objective-C/UIKit stack.
+In May 2011, I joined Zynga.
+At Zynga we used cocos2d-iphone for some iOS games.
+To port them to Android, some of them were rewritten using [AndEngine](http://www.andengine.org/),
+and others were ported using [AppPortable](http://www.apportable.com/)'s Objective-C/UIKit stack.
 
-In 2012, Android was already very strong. I wanted to support Android natively (and other platforms as well). I had three options:
+In 2012, Android was already very strong.
+I wanted to support Android natively (and other platforms as well). I had three options:
 
 1. Stop working on cocos2d-iphone, and work on Cocos2d-x (the C++ fork)
-1. Keep developing cocos2d-iphone, and use 3rd party commercial Objective-C stack (like [StellaSDK](http://web.archive.org/web/20130502012020/http://www.cocos2d-iphone.org/archives/2013), [NoodleCake](http://web.archive.org/web/20130502015911/http://www.cocos2d-iphone.org/archives/1774) or [AppPortable](http://www.apportable.com/)) to port cocos2d-iphone to Android
+1. Keep developing cocos2d-iphone, and use 3rd party commercial Objective-C stack
+   (like [StellaSDK](http://web.archive.org/web/20130502012020/http://www.cocos2d-iphone.org/archives/2013), [NoodleCake](http://web.archive.org/web/20130502015911/http://www.cocos2d-iphone.org/archives/1774) or [AppPortable](http://www.apportable.com/)) to port cocos2d-iphone to Android
 1. Keep developing cocos2d-iphone, and develop an open source Objective-C stack to port cocos2d-iphone to Android.
 
-I didn't want to depend on 3rd party commercial tools, and I didn't have the time to write my own Objective-C stack, and Cococs2d-x was already popular. So I decided to help the Cocos2d-x team. We started using Cocos2d-x at Zynga as well.
+I didn't want to depend on 3rd party commercial tools,
+and I didn't have the time to write my own Objective-C stack,
+and Cococs2d-x was already popular.
+So I decided to help the Cocos2d-x team.
+We started using Cocos2d-x at Zynga as well.
 
 {{< figure align=alignnone width=512 src="https://lh3.googleusercontent.com/K05MOzKn8QE3Vn8s64X1p7CfrWuMfNaQyweNLpwMsa7E%5FJ50l-MFEXYxEV2N0XcsCbFdMQkqCl4L6%5FPDJYc0NNptx3ojm9qkVpDaSfjAN5rfqQwdc5BNwSvlxMkmHtzXvmlDH1E=-no" alt="" >}}
 
 At Zynga, with the help of the Cocos2d-x team, we created a very attractive tooling:
 
 - Cocos2d-x and cocos2d-iphone were feature compatible. The API was almost the same (of course, one in C++ and one in Objective-C)
-- [CocosBuilder](https://github.com/cocos2d/CocosBuilder) (created by Viktor Lidholt) included many good features: Scene editor, key-frame animation editor, JavaScript scripting and more.
+- [CocosBuilder](https://github.com/cocos2d/CocosBuilder) (created by Viktor Lidholt) included many good features: Scene editor, key-frame animation editor, JavaScript scripting and more.
 - Scenes exported by CocosBuilder were supported both by cocos2d-iphone and Cocos2d-x.
 
 {{< figure align=alignnone width=512 src="https://lh3.googleusercontent.com/TCOj1fzRAc9uQVCfFWksM3BFI2SImRIUutG0kJYhJwtZAURrYRsuI0mFdOw5xF3QfMEbCca7icesfykHTIXQ1%5FGMyuY4pw%5FPl1r0JZYjC9skZQBBaBTa4Ss9f0ViTFeVU%5FgPpkA=-no" alt="" >}}
 
-The only drawback was that keeping feature-compatibility between Cocos2d-x and cocos2d-iphone was expensive: we had to write the features twice. And also CocosBuilder was built on top of cocos2d-iphone which meant it was only available for Mac (no Windows version), and also required writing the features twice. Supporting Windows was important for many Cocos2d-x users.
+The only drawback was that keeping feature-compatibility between Cocos2d-x and cocos2d-iphone was expensive: we had to write the features twice. And also CocosBuilder was built on top of cocos2d-iphone which meant it was only available for Mac (no Windows version), and also required writing the features twice. Supporting Windows was important for many Cocos2d-x users.
 
-I kept developing cocos2d-iphone until June 2013, and then [I passed the torch to Lars Birkemose](http://web.archive.org/web/20140208064401/http://www.cocos2d-iphone.org/welcome-birkemose-the-new-cocos2d-iphone-lead-developer-maintainer/) (who in 2016 passed it again to Andrei Volodin). In August 2013 I joined Chukong.
+I kept developing cocos2d-iphone until June 2013, and then
+[I passed the torch to Lars Birkemose](http://web.archive.org/web/20140208064401/http://www.cocos2d-iphone.org/welcome-birkemose-the-new-cocos2d-iphone-lead-developer-maintainer/)
+(who in 2016 passed it again to Andrei Volodin).
+In August 2013 I joined Chukong.
 
 ## Cocos2d-x
 

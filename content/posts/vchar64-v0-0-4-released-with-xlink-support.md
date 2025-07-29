@@ -4,7 +4,7 @@ category: retro computing
 date: "2015-07-20T14:41:24+00:00"
 guid: http://towp8.com/?p=931
 tag:
-  - c64
+  - commodore 64
   - vchar64
 title: VChar64 v0.0.4 released, with xlink support
 url: /2015/07/20/vchar64-v0-0-4-released-with-xlink-support/

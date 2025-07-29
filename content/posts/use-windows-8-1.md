@@ -1,10 +1,10 @@
 ---
 author: ricardoquesada
-category: cocos2d
+category: towp8
 date: "2014-04-04T07:25:26+00:00"
 guid: http://riq64.wordpress.com/?p=14
 tag:
-  - windows-8.1
+  - windows 8.1
 title: Use Windows 8.1
 url: /2014/04/04/use-windows-8-1/
 

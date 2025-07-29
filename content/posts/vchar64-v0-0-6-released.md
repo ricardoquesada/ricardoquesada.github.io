@@ -4,7 +4,7 @@ category: retro computing
 date: "2015-08-25T07:35:31+00:00"
 guid: http://retro.moe/?p=965
 tag:
-  - c64
+  - commodore 64
   - vchar64
 title: VChar64 v0.0.6 released
 url: /2015/08/25/vchar64-v0-0-6-released/
