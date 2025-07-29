@@ -3,9 +3,9 @@ author: ricardoquesada
 category: unicycle
 date: "2013-01-03T17:47:18+00:00"
 tag:
-  - flatland
-  - trucos
-  - video
+- flatland
+- trucos
+- video
 title: Excelente compilación de trucos en monociclo
 url: /2013/01/03/excelente-compilacion-de-trucos-en-monociclo/
 

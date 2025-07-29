@@ -4,12 +4,13 @@ category: unicycle
 date: "2012-11-05T04:24:11+00:00"
 guid: http://www.monociclo.com.ar/?p=350
 tag:
-  - china camp
-  - muni
+- china camp
+- muni
 title: China Camp
 url: /2012/11/05/china-camp/
 
 ---
+
 ![](/images/china-camp.jpg)
 
 Hoy fuimos con Tom y Limbert a China Camp.

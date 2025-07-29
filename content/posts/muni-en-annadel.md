@@ -4,16 +4,20 @@ category: unicycle
 date: "2013-03-14T03:56:48+00:00"
 guid: http://www.monociclo.com.ar/?p=484
 tag:
-  - annadel
-  - muni
+- annadel
+- muni
 title: Muni en Annadel
 url: /2013/03/14/muni-en-annadel/
 
 ---
-![](https://lh4.googleusercontent.com/-DTNRkQQacA4/UT2CSbRBp8I/AAAAAAAAsSU/_sVfEOfDa18/s640/IMG_2180.JPG) 
-*En la sombra, descansando en Annadel.*
 
-El sábado pasado fuimos con Tom, Ashley, Josh, Kevin y John a Annadel, en Santa Rosa. Es un parque bastante extenso con muy buenos trails. Creo que estuvimos haciendo muni por 5 horas más o menos. Fue bastante duro, sumado a que hizo bastante calor.
+![](https://lh4.googleusercontent.com/-DTNRkQQacA4/UT2CSbRBp8I/AAAAAAAAsSU/_sVfEOfDa18/s640/IMG_2180.JPG)
+<small>*En la sombra, descansando en Annadel.*</small>
+
+El sábado pasado fuimos con Tom, Ashley, Josh, Kevin y John a Annadel, en Santa
+Rosa. Es un parque bastante extenso con muy buenos trails. Creo que estuvimos
+haciendo muni por 5 horas más o menos. Fue bastante duro, sumado a que hizo
+bastante calor.
 
 Más info:
 
@@ -23,8 +27,8 @@ Más info:
 
 Heridas de guerra:
 
-![](https://lh4.googleusercontent.com/-Rud5wwg6Kvc/UUFJ6zEz6HI/AAAAAAAAscU/FKlrDvouDYw/s400/heridas-2013-03-09.jpg) 
-*Heridas de guerra.*
+![](https://lh4.googleusercontent.com/-Rud5wwg6Kvc/UUFJ6zEz6HI/AAAAAAAAscU/FKlrDvouDYw/s400/heridas-2013-03-09.jpg)
+<small>*Heridas de guerra.*</small>
 
 - El ante brazo izquierdo: un golpe
 - Abajo de la rodilla derecha: un golpe

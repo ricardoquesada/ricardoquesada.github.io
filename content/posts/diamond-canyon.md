@@ -7,7 +7,9 @@ title: Diamond Canyon
 url: /2012/09/17/diamond-canyon/
 
 ---
-Ayer fuimos con Tom y Josh a hacer muni al Diamond Canyon. Estuvo muy bueno, salvo que me di un lindo palo al final de todo. Y después hicimos Disc Golf.
+
+Ayer fuimos con Tom y Josh a hacer muni al Diamond Canyon. Estuvo muy bueno,
+salvo que me di un lindo palo al final de todo. Y después hicimos Disc Golf.
 
 {{< youtube XFSOOipcdCY >}}
 

@@ -2,8 +2,8 @@
 author: ricardoquesada
 category: misc
 tag:
-  - hugo
-  - wordpress
+- hugo
+- wordpress
 date: '2025-01-15T07:56:12-08:00'
 title: 'Goodbye WordPress, Hello Hugo'
 url: /2025/01/15/migrate_wordpress_to_hugo_in_github_pages/
@@ -31,7 +31,8 @@ And this is how I did it:
 1. Log in to your WordPress site as "admin"
 2. Tools -> Export
 3. Export "content"
-    - Optionally export "media library" as well, but won't be used in this guide.
+    - Optionally export "media library" as well, but won't be used in this
+      guide.
 4. Unzip it
 
 ![](/images/2025_01_15_wordpress_tools_export.png)
@@ -75,7 +76,8 @@ A few things that failed and that I had to fix them one by one manually:
 * HTML Tables were broken.
 * Image `[caption]`s were broken.
 * Image sizes were broken.
-* Some YouTube links were broken, in particular the ones that contained `_` in their "code"
+* Some YouTube links were broken, in particular the ones that contained `_` in
+  their "code"
 
 And probably a few more things are still broken that I haven't found yet.
 
@@ -94,7 +96,8 @@ Follow the official Hugo guide:
 * To have my images in the same place as the content.
   For different reasons, I was using Google Photos.
   Now, I'm just hosting them in GitHub.
-* Don't have to pay for hosting, themes, and simple features like Google Analytics.
+* Don't have to pay for hosting, themes, and simple features like Google
+  Analytics.
 
 #### Cons
 

@@ -7,9 +7,11 @@ title: 20 años de masa critica en San Francisco
 url: /2012/09/30/20-anos-de-masa-critica-en-san-francisco/
 
 ---
+
 La 1er Masa Critica fue hace 20 años, y fue aca en San Francisco.
 
-Lamentablemente, yo no pude participar del 20 aniversario de la Masa Critica (por lesión),
+Lamentablemente, yo no pude participar del 20 aniversario de la Masa Critica (
+por lesión),
 pero unos amigos monociclistas fueron.
 
 ![](/images/20-anos-de-masa-critica-en-san-francisco.jpg)

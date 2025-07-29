@@ -2,14 +2,16 @@
 author: ricardoquesada
 category: misc
 tag:
-  - carrera
+- carrera
 date: "2009-11-16T03:29:04+00:00"
 guid: http://www.monociclo.com.ar/?p=131
 title: Energizer Night Race
 url: /2009/11/16/energizer-night-race/
 
 ---
-Ayer fue la [Energizer Night Race](http://www.energizernightrace.com/fotos.html).
+
+Ayer fue
+la [Energizer Night Race](http://www.energizernightrace.com/fotos.html).
 
 Estuvo entretenida, sobre todo porque era la 1ra carrera nocturna que corria.
 

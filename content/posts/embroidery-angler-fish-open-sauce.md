@@ -2,10 +2,10 @@
 author: ricardoquesada
 category: embroidery
 tag:
-  - embroidery
-  - angler fish
-  - machine embroidery
-  - open sauce
+- embroidery
+- angler fish
+- machine embroidery
+- open sauce
 date: '2025-07-21T17:46:48-07:00'
 title: 'Improving Angler Fish for Open Sauce'
 ---
@@ -42,10 +42,12 @@ stuck in the washing machine. The back looks good.
 
 ![angler_fish_led](/images/angler_fish_20_led.jpg)
 
-For the LED, to make a secure connection, I used [3M Transpore Surgical Tape][transpore_surgical_tape]
+For the LED, to make a secure connection, I
+used [3M Transpore Surgical Tape][transpore_surgical_tape]
 to attach the pins with the cables and the t-shirt.
 
-**Verdict**: Very happy with the result. The LED was easy to detach it. The connection was solid.
+**Verdict**: Very happy with the result. The LED was easy to detach it. The
+connection was solid.
 
 ## The Arduino Sketch
 
@@ -70,5 +72,7 @@ void loop() {
 
 
 [open_sauce]: https://opensauce.com/
+
 [lilypad_arduino]: https://docs.arduino.cc/retired/boards/lilypad-arduino-usb/
+
 [transpore_surgical_tape]: https://www.google.com/search?q=3m+Transpore+Surgical+Tape&oq=3m+Transpore+Surgical+Tape

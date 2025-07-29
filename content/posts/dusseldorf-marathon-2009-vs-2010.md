@@ -7,6 +7,7 @@ title: Düsseldorf Marathon 2009 vs. 2010
 url: /2010/05/03/dusseldorf-marathon-20092010/
 
 ---
+
 Adivine las 7 diferencias entre el Düsseldorf Marathon 2009 vs. 2010:
 
 ![](/images/dusseldorf-marathon-20092010-1.jpg)

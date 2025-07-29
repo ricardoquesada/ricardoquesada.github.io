@@ -7,11 +7,14 @@ title: Bajando los tiempos
 url: /2009/10/29/bajando-los-tiempos/
 
 ---
+
 Parece que tanto darle al monociclo hizo que pueda correr mejor (?!).
 
 En la carrera de Rebook de hace 2 meses hice los 10k en 1h 02m 50s.
 
-Los 10 1ros km. de la 1/2 maratón de Bs.As de hace 2 semanas los hice en 1h (ya había bajado en 3 minutos los 10k, y eso que todavía me faltaban correr 11k más).
+Los 10 1ros km. de la 1/2 maratón de Bs.As de hace 2 semanas los hice en 1h (ya
+había bajado en 3 minutos los 10k, y eso que todavía me faltaban correr 11k
+más).
 
 Y el sábado pasado hice los 10k de Nike en 53m 54s.
 

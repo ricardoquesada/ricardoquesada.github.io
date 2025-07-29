@@ -13,36 +13,46 @@ summary: |-
 
   We ( [L.I.A](http://lia.rebelion.digital/)) released it at [Flashparty 2021](https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021). I did the coding.
 tag:
-  - c64
-  - commodore-64
-  - dos
-  - intro
+- c64
+- commodore-64
+- dos
+- intro
 title: A multi-platform 256-byte intro
 url: /2021/09/05/a-multi-platform-256-byte-intro/
 
 ---
+
 {{< youtube nCzAlfXOOXo >}}
 
-"Amor para Dos" is a multi-platform 256-byte intro. The binary, without any kind of modification, can run both on:
+"Amor para Dos" is a multi-platform 256-byte intro. The binary, without any kind
+of modification, can run both on:
 
 - a 80386 (or better) + DOS
 - and on a Commodore 64.
 
-We ( [L.I.A](http://lia.rebelion.digital/)) released it at [Flashparty 2021](https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021). I did the coding.
+We ( [L.I.A](http://lia.rebelion.digital/)) released it
+at[Flashparty 2021](https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021).
+I did the coding.
 
 ## Multi-platform internals
 
 A bit of context:
 
-- DOS: A `.com` file has no header. The first byte of the `.com` is code: this first byte will get executed first.
-- C64: A `.prg` file has a header of two bytes. These two bytes indicate the load address of program. E.g: If the first two bytes are `0x01` and `0x08`, it means that program will be loaded at address: `0x0801`.
+- DOS: A`.com`file has no header. The first byte of the`.com`is code: this first
+  byte will get executed first.
+- C64: A`.prg`file has a header of two bytes. These two bytes indicate the load
+  address of program. E.g: If the first two bytes are`0x01`and`0x08`, it means
+  that program will be loaded at address:`0x0801`.
 
-Taking that into account, there are different ways to support both DOS and C64 at the same time:
+Taking that into account, there are different ways to support both DOS and C64
+at the same time:
 
-- Using the standard `0x0801` address (the one used by this intro).
-- Or autorun: using an address like `0x02NN`, where `NN` could be any of the [single-byte instructions](http://xxeo.com/single-byte-or-small-x86-opcodes). E.g: A good candidate for autorun could be `0x02cc`.
+- Using the standard`0x0801`address (the one used by this intro).
+- Or autorun: using an address like`0x02NN`, where`NN`could be any of
+  the[single-byte instructions](http://xxeo.com/single-byte-or-small-x86-opcodes).
+  E.g: A good candidate for autorun could be`0x02cc`.
 
-Let's see in detail how using `0x0801` start address work:
+Let's see in detail how using`0x0801`start address work:
 
 ```
 $01 $08         ; Start Address ($0801)
@@ -55,14 +65,15 @@ $00 $00         ; Address: $080b. End of BASIC program
 
 ```
 
-- In summary, the first two bytes are fixed: `$01 $08`.
+- In summary, the first two bytes are fixed:`$01 $08`.
 - Bytes 2 and 3 can be somewhat controlled.
 - Bytes 4 and 5 can be fully controlled.
 - ...and the rest is not important since we can fully control bytes 4 and 5.
 
 [![](/wp-content/uploads/2021/09/c64-sys.png?w=384)](/wp-content/uploads/2021/09/c64-sys.png)
 
-If we disassemble our C64 program like if it were a DOS .com, it would look like:
+If we disassemble our C64 program like if it were a DOS .com, it would look
+like:
 
 ```asm
 .org 0x100
@@ -89,17 +100,23 @@ start:
 
 ```
 
-The first 2 instructions could potentially break our DOS program. But if you look at the [initial values of `BX`, `SI` and `CX`](http://www.fysnet.net/yourhelp.htm), it is safe to assume that:
+The first 2 instructions could potentially break our DOS program. But if you
+look at the[initial values of `BX`, `SI` and 
+`CX`](http://www.fysnet.net/yourhelp.htm), it is safe to assume that:
 
 - `BX = 0x0000`
 - `SI = 0x0100`
 - `CX = 0x00FF`
 
-What will happen is that the first instruction will overwrite itself, and the second will overwrite `CX`. The `OR` will set `Z=0`. And the following instruction will jump to our start address.
+What will happen is that the first instruction will overwrite itself, and the
+second will overwrite `CX`. The `OR` will set `Z=0`. And the following
+instruction will jump to our start address.
 
-The generated binary will run both on a DOS machine and on a C64. This technique does not use any emulator trick. The binary runs in real hardware.
+The generated binary will run both on a DOS machine and on a C64. This technique
+does not use any emulator trick. The binary runs in real hardware.
 
-What's nice about this technique is that it doesn't add any overhead: no additional bytes are needed to support both platforms.
+What's nice about this technique is that it doesn't add any overhead: no
+additional bytes are needed to support both platforms.
 
 **Challenge**: Create a binary that can run in 3 different platforms.
 
@@ -131,5 +148,6 @@ Commented source code is available here:
 
 Misc links:
 
-- Pouet: [https://www.pouet.net/prod.php?which=89786](https://www.pouet.net/prod.php?which=89786)
+-
+Pouet: [https://www.pouet.net/prod.php?which=89786](https://www.pouet.net/prod.php?which=89786)
 - CSDB: [https://csdb.dk/release/?id=207946](https://csdb.dk/release/?id=207946)

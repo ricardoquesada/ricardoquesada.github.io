@@ -7,7 +7,8 @@ title: Düsseldorf Marathon 2009 video
 url: /2009/11/09/dusseldorf-marathon-2009-video/
 ---
 
-Este es el video que salió en la televisión Alemana respecto a la maratón de monociclo.
+Este es el video que salió en la televisión Alemana respecto a la maratón de
+monociclo.
 
 El pibe de azul que aparece durante los 1ros segundos, soy yo :-)
 

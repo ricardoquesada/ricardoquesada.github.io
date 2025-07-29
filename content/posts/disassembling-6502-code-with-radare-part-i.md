@@ -103,63 +103,72 @@ summary: |-
 
   For more disassembling options just type `p?`
 tag:
-  - c64
-  - disassembler
-  - radare
+- c64
+- disassembler
+- radare
 title: Disassembling 6502 code with Radare - Part I
 url: /2015/11/18/disassembling-6502-code-with-radare-part-i/
 
 ---
-[Radare](http://radare.org/) is an open source portable reversing framework that can do many things, among those things it can disassemble 6502 code.
+
+[Radare](http://radare.org/) is an open source portable reversing framework that
+can do many things, among those things it can disassemble 6502 code.
 
 ### Download and install radare
 
-- First, download [radare from github](https://github.com/radare/radare2). You need a recent version in order to disassemble 6502 code.
-- And then install it by running _sys/install.sh_ (or _sys/user.sh_ for local installation):
+- First, download [radare from github](https://github.com/radare/radare2). You
+  need a recent version in order to disassemble 6502 code.
+- And then install it by running _sys/install.sh_ (or _sys/user.sh_ for local
+  installation):
 
-```
+```shell
 $ git clone https://github.com/radare/radare2.git
 $ cd radare2
 $ ./sys/install.sh
-
 ```
 
 ### Loading a c64 .prg
 
-Radare has many command line options. But in order to load 6502 programs we need just two:
+Radare has many command line options. But in order to load 6502 programs we need
+just two:
 
 - _-a6502_ to specify the 6502 architecture.
-- _-mMemoryAddress_ to map the file to a certain memory address. Use 2047 for "normal" programs. Usually they start at $0801 (2049), but we have to subtract 2 from the .prg header.
+- _-mMemoryAddress_ to map the file to a certain memory address. Use 2047 for "
+  normal" programs. Usually they start at $0801 (2049), but we have to subtract
+  2 from the .prg header.
 
 Example:
 
-```
+```shell
 $ r2 -a6502 -m2047 mygame.prg
 ```
 
 ### Disassembling
 
-Radare doesn't have a GUI, like IDA. Instead is has a powerful command line interface (think of GDB). Example:
+Radare doesn't have a GUI, like IDA. Instead is has a powerful command line
+interface (think of GDB). Example:
 
-```
+```shell
 $ r2 -a6502 -m2047 musicplayer.prg
 [0x000007ff]>
-
 ```
 
-And _0x7ff_ (2047) is the seek address, meaning that all commands will use that address as the base address. Let's print the first 32 bytes. ( _px_ = print hexa):
+And _0x7ff_(2047) is the seek address, meaning that all commands will use that
+address as the base address. Let's print the first 32 bytes. ( _px_ = print
+hexa):
 
-```
+```shell
 [0x000007ff]> px 32
 offset   0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
 0x07ff  0108 0b08 3905 9e32 3036 3100 0000 78ad  ....9..2061...x.
 0x080f  0ddc a212 a000 b9d4 1a99 f020 c8d0 f7ce  ........... ....
-
 ```
 
-The "2061" that we see, is part of the BASIC "SYS 2061" command that usually appears in all C64 programs. So, let's disassemble the first 12 instructions from 2061. ( _pd_ = print disassemble):
+The "2061" that we see, is part of the BASIC "SYS 2061" command that usually
+appears in all C64 programs. So, let's disassemble the first 12 instructions
+from 2061. ( _pd_ = print disassemble):
 
-```
+```shell
 [0x000007ff]> pd 12 @ 2061
             0x0000080d    78             sei
             0x0000080e    ad0ddc         lda 0xdc0d
@@ -175,22 +184,23 @@ The "2061" that we see, is part of the BASIC "SYS 2061" command that usually app
         └─< 0x00000825    d0ee           bne 0xee
 ```
 
-In case we don't know the meaning of a certain opcode, we can print its description with _?d_:
+In case we don't know the meaning of a certain opcode, we can print its
+description with _?d_:
 
-```
+```shell
 [0x00000815]> ?d sei
 set interrupt disable status
 ```
 
-Or if we want to print the description in every disassembled line, we can do:
+Or if we want to print the description in every disassembled line, we can do:
 
-```
+```shell
 e asm.describe=true
 ```
 
 And then disassemble again:
 
-```
+```shell
 [0x0000080e]> pd 12 @2061
     0x080d  78        sei           ; set interrupt disable status
     0x080e  ad0ddc    lda 0xdc0d    ; load accumulator with memory
@@ -204,32 +214,35 @@ And then disassemble again:
     0x0821  ce1a08    dec 0x081a    ; decrement memory by one
     0x0824  ca        dex           ; decrement index x by one
     0x0825  d0ee      bne 0xee      ; branch on result not zero
-
 ```
 
 For more disassembling options just type `p?`
 
 ### Searching
 
-In order to search for something, like in Vi, we have to use the _/_ command. Examples:
+In order to search for something, like in Vi, we have to use the _/_ command.
+Examples:
 
-Search for asm opcodes: _/c opcode_. The following will search for `sta $d020`, `sta $d021`, `sta $d022`, etc...
+Search for asm opcodes:_/c opcode_. The following will search for `sta $d020`,
+`sta $d021`, `sta $d022`, etc...
 
-```
+```shell
 [0x0000080e]> /c sta 0xd02
 0x00000829   # 3: sta 0xd020
 0x0000082c   # 3: sta 0xd021
 ```
 
-Search for strings (although this is not very useful since most probably the strings are stored in screen codes and not in PETSCII):
+Search for strings (although this is not very useful since most probably the
+strings are stored in screen codes and not in PETSCII):
 
-```
+```shell
 [0x0000080e]> / hello
 ```
 
-Search for a sequence of hexadecimal bytes: _/x_. The following searches for the MSB of the music frequency table:
+Search for a sequence of hexadecimal bytes:_/x_. The following searches for the
+MSB of the music frequency table:
 
-```
+```shell
 [0x0000080e]> /x 010101010102
 Searching 6 bytes...
 # 7 [0x80d-0x13d4]
@@ -237,9 +250,10 @@ hits: 1
 0x0000098b hit0_0 010101010102
 ```
 
-We can use the flag hit0\_0 to refer to that address. For example, in order to dump the  first 32 bytes from `hit0_0` we can do:
+We can use the flag hit0\_0 to refer to that address. For example, in order to
+dump the first 32 bytes from`hit0_0` we can do:
 
-```
+```shell
 [0x080d]> px 32 @ hit0_0
 offset   0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
 0x098c  0101 0101 0202 0202 0202 0203 0303 0303  ................
@@ -250,7 +264,10 @@ For more search options just type `/?`
 
 ### Visual Mode
 
-Besides the Command Line Interface, Radare has another interface called the Visual Mode. It is similar to Vi, where each key has an associated function. In this mode, instead of entering commands, you just press one or two keys without pressing Enter.
+Besides the Command Line Interface, Radare has another interface called the
+Visual Mode. It is similar to Vi, where each key has an associated function. In
+this mode, instead of entering commands, you just press one or two keys without
+pressing Enter.
 
 In fact, some keys have the same Vi functionality:
 
@@ -272,17 +289,21 @@ Visual mode has 8 different view modes that can be activated by pressing _p_
 
 ### Adding Comments
 
-While analyzing code, sometimes it is useful to add comments. While in Visual Mode, we can add comments by pressing  _;_ plus the comment.
+While analyzing code, sometimes it is useful to add comments. While in Visual
+Mode, we can add comments by pressing_;_ plus the comment.
 
 Example:
 [![](https://asciinema.org/a/30374.png)](https://asciinema.org/a/30374?autoplay=1&t=2)
 
 ### Saving
 
-After adding some comments, we should save the project in order not to loose the changes. To save a project just enter _Ps projectName_ (Project save), and to open an existing project enter _Po projectName_ (Project open). And enter _Pl_ to list existing projects.
+After adding some comments, we should save the project in order not to loose the
+changes. To save a project just enter _Ps projectName_ (Project save), and to
+open an existing project enter _Po projectName_ (Project open). And enter _Pl_
+to list existing projects.
 Example:
 
-```
+```shell
 [0x0000080d]> Ps myproject
 myproject
 [0x0000080d]> Pl
@@ -292,9 +313,10 @@ Reloading project
 
 ```
 
-And from the command line, we can open existing projects with the _-p_ argument. Example:
+And from the command line, we can open existing projects with the _-p_ argument.
+Example:
 
-```
+```shell
 $ r2 -p myproject
 ```
 
@@ -302,10 +324,10 @@ $ r2 -p myproject
 
 Just append _?_ to each command to get more help about that command. Example:
 
-- ?  :to list all the possible commands
-- P?  :to get help about the Project (P) command
+- ?:to list all the possible commands
+- P?:to get help about the Project (P) command
 - p? :to get help about the Print (p) command
-- p8?  :to get help about the Print 8bit hexpair command
+- p8?:to get help about the Print 8bit hexpair command
 - and so on.
 
 When in Visual Mode, also press ? to get help.
@@ -313,5 +335,5 @@ When in Visual Mode, also press ? to get help.
 ### Other resources
 
 - [Radare book](https://radare.gitbooks.io/radare2book/content/)
-- IRC: [irc.freenode.net](http://irc.freenode.net) #radare
+- IRC:[irc.freenode.net](http://irc.freenode.net) #radare
 - Twitter: [@radareorg](https://twitter.com/radareorg)

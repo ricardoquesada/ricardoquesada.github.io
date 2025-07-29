@@ -7,12 +7,12 @@ title: 3 meses, 2 monociclos y 400 km después
 url: /2009/06/25/3-meses-2-monociclos-y-400-km-despues/
 
 ---
-[![](http://lh5.ggpht.com/_7Tp7oCOlWFE/Sj87zK_1TTI/AAAAAAAAVrA/DfJoMjuCXQo/s400/IMG_3633.JPG)](http://picasaweb.google.com/lh/photo/1-V17i-UmVC-PlCkY8Iesg?feat=embedwebsite)  
 
+[![](http://lh5.ggpht.com/_7Tp7oCOlWFE/Sj87zK_1TTI/AAAAAAAAVrA/DfJoMjuCXQo/s400/IMG_3633.JPG)](http://picasaweb.google.com/lh/photo/1-V17i-UmVC-PlCkY8Iesg?feat=embedwebsite)
 
-Estadisticas monociclisticas de Heidelberg:  
+Estadisticas monociclisticas de Heidelberg:
 
-- Fueron casi 3 meses en Heidelberg  
+- Fueron casi 3 meses en Heidelberg
 - Compré 2 monociclos: uno de 28" y otro de 36"
 - Llegué 2 veces a la cima de Köningssthul con 7 intentos
 - Corrí una maratón de 42 km
