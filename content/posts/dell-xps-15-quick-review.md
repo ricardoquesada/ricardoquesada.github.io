@@ -54,5 +54,4 @@ for a week, and this is my review (from a developer's point of view):
   favorite applications works OK on High-DPI machines. Visual Studio works
   great, so no major issues for me.
 
-{{< figure align=alignnone width=676 src="
-/wp-content/uploads/2014/04/bug%5Fanarchy%5Fgui.png?w=676" alt="" >}}
+{{< figure align=alignnone width=676 src="/wp-content/uploads/2014/04/bug%5Fanarchy%5Fgui.png?w=676" alt="" >}}

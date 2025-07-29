@@ -6,4 +6,5 @@ title: UniJoystiCle Documentation
 url: /unijoysticle/docs/
 
 ---
-- **Documentation [moved here](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md)**
+
+- Documentation [moved here](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md)

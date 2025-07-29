@@ -122,7 +122,7 @@ can do many things, among those things it can disassemble 6502 code.
   installation):
 
 ```shell
-$ git clone https://github.com/radare/radare2.git
+$ git clone https://github.com/radare/radare2.git
 $ cd radare2
 $ ./sys/install.sh
 ```

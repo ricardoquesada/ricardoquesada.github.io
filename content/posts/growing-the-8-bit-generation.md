@@ -22,8 +22,7 @@ Leonard Tramiel were there.
 And [Jeri Ellsworth](https://en.wikipedia.org/wiki/Jeri_Ellsworth) was there
 too.
 
-{{< figure align=alignnone width=463 src="
-/wp-content/uploads/2016/03/img%5F4020.jpg" alt="" >}}
+{{< figure align=alignnone width=463 src="/wp-content/uploads/2016/03/img%5F4020.jpg" alt="" >}}
 
 I went with my Commodore mug and I was able to to get Jeri's and Bil's
 autographs. Yeah!

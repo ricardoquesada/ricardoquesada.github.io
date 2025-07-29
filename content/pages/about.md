@@ -6,7 +6,9 @@ title: About
 url: /about/
 
 ---
-This is the diary of Ricardo Quesada, a software developer who creates games, [game engines][cocos2d]
+
+This is the diary of Ricardo Quesada, a software developer who creates
+games, [game engines][cocos2d]
 and other stuff for different platforms in different languages.
 
 Hobbies:

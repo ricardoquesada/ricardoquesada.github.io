@@ -48,7 +48,7 @@ url: /2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-th
 
 There many alternatives, and these are the ones that I evaluated:
 
-- [Arduino](http://www.arduino.cc/en/Main/ArduinoBoardUno) \+ [WiFi shield](http://www.arduino.cc/en/Main/ArduinoWiFiShield101)
+- [Arduino](http://www.arduino.cc/en/Main/ArduinoBoardUno) + [WiFi shield](http://www.arduino.cc/en/Main/ArduinoWiFiShield101)
   or [ESP8266](http://espressif.com/en/products/hardware/esp8266ex/overview):
   This is the first option that I evaluated thanks
   to [different](http://www.lemon64.com/forum/viewtopic.php?t=60046) [suggestions](http://retroinvaders.com/commodoremania/foro/index.php/topic,1525.0.html).
@@ -72,7 +72,6 @@ There many alternatives, and these are the ones that I evaluated:
   faster development. You should know that the Lua firmware could be installed
   in the other modules as well, and you can run C++ firmwares on NodeMCU as
   well. There are three different NodeMCU brands:
-
     - Amica: Which seems to be the official one, although I didn't know this
       when I decided to buy the LoLin.
     - LoLin: It seems that it is no longer produced by WeMos. (I ordered one of
@@ -93,8 +92,7 @@ There many alternatives, and these are the ones that I evaluated:
 
 ### Setting up LoLin NodeMCU
 
-{{< figure align=alignnone width=379 src="
-/wp-content/uploads/2016/03/img%5F4002.jpg?w=576" alt="" >}}
+{{< figure align=alignnone width=379 src="/wp-content/uploads/2016/03/img%5F4002.jpg?w=576" alt="" >}}
 
 #### CH340G drivers
 

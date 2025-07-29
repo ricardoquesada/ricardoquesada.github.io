@@ -26,9 +26,7 @@ Let's crack BC's Quest For Tires since its copy-protection is easy to bypass.
 - Open the tap file with [VICE](http://vice-emu.sourceforge.net/)(the most
   popular Commodore 64 emulator), and..
 
-{{< figure align=alignnone width=308 src="
-/wp-content/uploads/2015/12/screen-shot-2015-12-09-at-3-03-39-pm.png?w=700"
-alt="" >}}
+{{< figure align=alignnone width=308 src="/wp-content/uploads/2015/12/screen-shot-2015-12-09-at-3-03-39-pm.png?w=700" alt="" >}}
 
 - ...the game has some kind of copy-protection. If we enter invalid codes, we
   won't be able to play the game.
@@ -141,8 +139,7 @@ By doing a quick analysis of the snapshot, we can safely assume that the boot
 routine starts at `0x5500`. So, let's disassemble that address, and let's see
 what we find:
 
-{{< figure align=alignnone width=375 src="
-/wp-content/uploads/2015/12/radare%5Fsymbols.png?w=700" alt="" >}}
+{{< figure align=alignnone width=375 src="/wp-content/uploads/2015/12/radare%5Fsymbols.png?w=700" alt="" >}}
 
 Radare will automatically import all the well-known symbols for the SID, VIC and
 CIA addresses. The symbols are imported in the symbols "flag space". In order to
@@ -201,8 +198,8 @@ in this case:`f?`.
 ### Radare Variables
 
 So, after analyzing the boot code for a while we will realize that the `0x6000`
-looks suspicious, and it could be the address that we are looking for. So, let's
-figure out is who calling`0x6000`.
+looks suspicious, and it could be the address that we are looking for.
+So, let's figure out is who calling `0x6000`.
 
 As we have seen
 in [Part I](/2015/11/18/disassembling-6502-code-with-radare-part-i/), we can use

@@ -16,8 +16,7 @@ described to how integrated LiquidFun with Cocos2d-x.
 In this part (part II) I'll describe how to render the particles using a basic
 water effect.
 
-{{< figure align=alignnone width=425 src="
-/wp-content/uploads/2014/07/screenshot-2014-07-29-19-02-07.png?w=676" alt="" >}}
+{{< figure align=alignnone width=425 src="/wp-content/uploads/2014/07/screenshot-2014-07-29-19-02-07.png?w=676" alt="" >}}
 
 Part I uses just one `glDrawArrays(GL_POINTS, 0, total);` to draw the particles.
 And although that works to draw "particles", it is not enough to draw "water".
@@ -121,8 +120,7 @@ void LFParticleSystemNode::draw(Renderer *renderer, const Mat4 &transform, uint3
 
 ### The result is the following
 
-{{< figure align=alignnone width=628 src="
-/wp-content/uploads/2014/07/part1%5Fpart2.jpg?w=676" alt="" >}}
+{{< figure align=alignnone width=628 src="/wp-content/uploads/2014/07/part1%5Fpart2.jpg?w=676" alt="" >}}
 
 ### Further improvements
 
