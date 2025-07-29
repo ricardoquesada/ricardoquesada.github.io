@@ -5,7 +5,7 @@ date: "2020-03-01T12:08:34+00:00"
 draft: "true"
 guid: http://retro.moe/?p=2260
 title: Not all gamepads are created equal
-url: /
+url: /not-all-gamepads-are-created-equal/
 
 ---
 To understand how a modern gamepads work, it is good to start from Atari 2600 joystick.
