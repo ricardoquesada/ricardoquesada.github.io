@@ -51,11 +51,9 @@ machines.
 
 **Download**:
 
-- Binary
-  version: [unigames.d64](https://github.com/ricardoquesada/c64-the-uni-games/raw/master/bin/unigames.d64)
+- Binary version: [unigames.d64](https://github.com/ricardoquesada/c64-the-uni-games/raw/master/bin/unigames.d64)
   v0.4 (Compatible with [VICE C64](http://vice-emu.sourceforge.net/) emulator)
-- Source
-  code: [https://github.com/ricardoquesada/c64-the-uni-games](https://github.com/ricardoquesada/c64-the-uni-games)
+- Source code: [https://github.com/ricardoquesada/c64-the-uni-games](https://github.com/ricardoquesada/c64-the-uni-games)
 
 ### The UniJoystiCle WiFi device
 
@@ -75,14 +73,12 @@ The WiFi device consists of:
 
 Coded 100% in C++, the firmware uses a fast network protocol. Responsiveness is
 a top priority. Works with any ESP8266 module, and its range is more than
-1000ft.
+1000 ft.
 
 **Download:**
 
--
-Circuit: [https://github.com/ricardoquesada/unijoysticle/tree/master/schematic](https://github.com/ricardoquesada/unijoysticle/tree/master/schematic)
-- Firmware for the
-  ESP8266: [https://github.com/ricardoquesada/unijoysticle/tree/master/esp8266\_firmware](https://github.com/ricardoquesada/unijoysticle/tree/master/esp8266_firmware)
+- Circuit: [https://github.com/ricardoquesada/unijoysticle/tree/master/schematic](https://github.com/ricardoquesada/unijoysticle/tree/master/schematic)
+- Firmware for the ESP8266: [https://github.com/ricardoquesada/unijoysticle/tree/master/esp8266\_firmware](https://github.com/ricardoquesada/unijoysticle/tree/master/esp8266_firmware)
 
 ### The UniJoystiCle smartphone application
 
@@ -97,11 +93,10 @@ priority.
 
 Features:
 
-- UniJoystiCle mode: Use this mode to play [_The Uni
-  Games_](https://github.com/ricardoquesada/c64-the-uni-games) and any other
-  game that can be played in rotating
-  the joystick, like the Bike event in
-  _[Summer Games II](http://gamebase64.com/game.php?id=7547&d=18&h=0)._
+- UniJoystiCle mode: Use this mode to play [The Uni
+  Games](https://github.com/ricardoquesada/c64-the-uni-games) and any other
+  game that can be played in rotating the joystick, like the Bike event in
+  [Summer Games II](http://gamebase64.com/game.php?id=7547&d=18&h=0).
 - D-pad mode: To play the rest of the games,
   like [Commando](http://gamebase64.com/game.php?id=1602&d=18&h=0), [Bruce Lee](http://gamebase64.com/game.php?id=1135&d=18&h=0),
   etc.
@@ -143,8 +138,7 @@ Unicycle"_](http://www.epicthings.com/control-your-videogames-with-a-unicycle/)
 
 ## Documentation
 
-- HTML
-  version: [UniJoystiCle Documentation](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md)
+- HTML version: [UniJoystiCle Documentation](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md)
 
 ## Order The UniJoystiCle WiFi device today!
 

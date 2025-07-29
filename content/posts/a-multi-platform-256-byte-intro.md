@@ -31,7 +31,7 @@ of modification, can run both on:
 - and on a Commodore 64.
 
 We ( [L.I.A](http://lia.rebelion.digital/)) released it
-at[Flashparty 2021](https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021).
+at [Flashparty 2021](https://file+.vscode-resource.vscode-webview.net/home/riq/progs/lia/flash-2021/flash2021).
 I did the coding.
 
 ## Multi-platform internals
@@ -54,7 +54,7 @@ at the same time:
 
 Let's see in detail how using`0x0801`start address work:
 
-```
+```asm
 $01 $08         ; Start Address ($0801)
 $0b $08         ; Next basic instruction: Address $080b
 $75 $08         ; BASIC line number. E.g: 2165, but could be any number
@@ -62,7 +62,6 @@ $9e             ; BASIC "SYS" token
 $32 $32 $32 $34 ; "2224"
 $00             ; End of line
 $00 $00         ; Address: $080b. End of BASIC program
-
 ```
 
 - In summary, the first two bytes are fixed:`$01 $08`.
@@ -140,7 +139,7 @@ Total:
 
 Binary is available here:
 
-- [amor\_para\_dos\_lia2.zip](https://csdb.dk/release/download.php?id=256784)
+- [amor_para_dos_lia2.zip](https://csdb.dk/release/download.php?id=256784)
 
 Commented source code is available here:
 
@@ -148,6 +147,5 @@ Commented source code is available here:
 
 Misc links:
 
--
-Pouet: [https://www.pouet.net/prod.php?which=89786](https://www.pouet.net/prod.php?which=89786)
+- Pouet: [https://www.pouet.net/prod.php?which=89786](https://www.pouet.net/prod.php?which=89786)
 - CSDB: [https://csdb.dk/release/?id=207946](https://csdb.dk/release/?id=207946)

@@ -28,13 +28,11 @@ We have name: Quico. From now on, I'll refer to this project as "Quico":
 
 ## Sound Shield
 
-I converted
-the [breadboard](/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/)
-into "shield" for
-the [MatrixPortal M4](https://learn.adafruit.com/adafruit-matrixportal-m4).
+I converted the [breadboard](/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/)
+into "shield" for the [MatrixPortal M4](https://learn.adafruit.com/adafruit-matrixportal-m4).
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3d8JU3Kzz2r_wpSNG22U2taDkWwqoxAV72PW8Z6FEA5HQqB6Bx3lFg0paf9F-F4xdNhFkXrngcvgbWlcq_hBVDT3Rhi8jgTY-20IZicE82JKaItYKpKWN7p1CgZvzQQFLQm_BkirXmkJyuTCwBT3HaHGQ=w1926-h1299-no)
-Shield for the MatrixPortal M4
+<small>*Shield for the MatrixPortal M4.*</small>
 
 "Shield" features:
 
@@ -49,7 +47,7 @@ Shield for the MatrixPortal M4
   hardware ( [docs, schematics, layout](https://gitlab.com/ricardoquesada/quico/-/blob/master/docs/shield_76489.md))
 
 ![](https://lh3.googleusercontent.com/pw/ACtC-3d1TU056cwMDxYY4IBkjUhEd28KIE88TKDuW2Hs8wluNMVKVfJmVq_R_5JAKY8i595GPtgTgMlUfbblmSIxG4L_-NhtDhNutWkcgKRPmB5UxGhhOtJaOE4dK-K_nlzxiYGtwFIZ71sYa-Z959tZKBOLCQ=w1732-h1299-no)
-Shield + MatrixPortal M4 + LED matrix
+<small>*Shield + MatrixPortal M4 + LED matrix.*</small>
 
 ## Improved sound API
 
@@ -126,14 +124,10 @@ The latest version can be found here:
 
 - A: [64x32 LED Matrix display](https://www.adafruit.com/product/2279)
 - B: [Adafruit MatrixPortal M4](https://www.adafruit.com/product/4745)
--
-C: [Music shield for the MatrixPortal M4](https://gitlab.com/ricardoquesada/mpm4_sn76489)
-- D: Bluetooth
-  gamepad ( [any modern Bluetooh gamepad will work...](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/docs/supported_gamepads.md))
--
-E: [Audio amplifier](https://www.amazon.com/gp/product/B01FDD3FYQ/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
--
-F: [8 Ohm speaker](https://www.amazon.com/gp/product/B07YX9QLLN/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
+- C: [Music shield for the MatrixPortal M4](https://gitlab.com/ricardoquesada/mpm4_sn76489)
+- D: Bluetooth gamepad ( [any modern Bluetooh gamepad will work...](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/docs/supported_gamepads.md))
+- E: [Audio amplifier](https://www.amazon.com/gp/product/B01FDD3FYQ/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)
+- F: [8 Ohm speaker](https://www.amazon.com/gp/product/B07YX9QLLN/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
 
 ## Official git repository
 

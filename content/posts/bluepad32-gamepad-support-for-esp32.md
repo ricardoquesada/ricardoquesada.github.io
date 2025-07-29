@@ -57,10 +57,8 @@ Just add an ESP32 to your project, and control it with a gamepad!
 
 - Bluepad32 is open source, Apache 2 licensed
 - Source code:
-    -
-    Gitlab: [https://gitlab.com/ricardoquesada/bluepad32/](https://gitlab.com/ricardoquesada/bluepad32)
-    - Github (
-      mirror): [https://github.com/ricardoquesada/bluepad32](https://github.com/ricardoquesada/bluepad32)
+    - Gitlab: [https://gitlab.com/ricardoquesada/bluepad32/](https://gitlab.com/ricardoquesada/bluepad32)
+    - Github (mirror): [https://github.com/ricardoquesada/bluepad32](https://github.com/ricardoquesada/bluepad32)
 
 However Bluepad32 depends on the
 great [BTStack library](https://bluekitchen-gmbh.com/). Which is free to use for
@@ -70,10 +68,8 @@ details. They are very friendly + helpful (I'm not affiliated with them).
 ### Support, bugs et. al
 
 - [File bugs in Gitlab](https://gitlab.com/ricardoquesada/bluepad32/-/issues)
-- Or
-  use ["Bluepad32" channel is Discord](https://discord.com/channels/775177861665521725/775177925938642945)
--
-Or [use the Unijoysticle mailing list](https://groups.google.com/g/unijoysticle)
+- Or use ["Bluepad32" channel is Discord](https://discord.com/channels/775177861665521725/775177925938642945)
+- Or [use the Unijoysticle mailing list](https://groups.google.com/g/unijoysticle)
 
 ### How is this related to Unijoysticle 2
 
