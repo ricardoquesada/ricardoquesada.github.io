@@ -10,7 +10,7 @@ title: Vacaciones en Joaquin Miller
 url: /2013/08/04/vacaciones-en-joaquin-miller/
 
 ---
-[![](https://lh4.googleusercontent.com/-NqiO6LtK7K8/Uf_RFBUEtoI/AAAAAAAAvWc/yAEWZABzDf4/s400/IMG_2618.JPG)](https://photos.app.goo.gl/rsR4h1Gr6XkVzkVR9)
+![foto](/images/vacaciones-en-joaquin-miller.jpg)
 
 Me tome una semanita de vacaciones. Y que mejor que hacer muni durante las vacaciones.
 Asi que el Jueves me fui a Joaquin Miller (solo), y ayer Sabado nuevamente a Joaquin Miller, pero esta vez con Tom y Vidar.

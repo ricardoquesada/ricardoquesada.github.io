@@ -10,6 +10,12 @@ title: Dimond Park y Joaquin Miller ida y vuelta
 url: /2014/01/07/dimond-park-y-joaquin-miller-ida-y-vuelta/
 
 ---
-El Domingo 22 de diciembre con Tom hicimos Dimond Park y Joaquin Miller ida y vuelta. Estuvo muy bueno. A la vuelta nos pusimos en modalidad "no caernos" para ver cuantas caidas teniamos desde arriba de todo en Joaquin Miller, hasta abajo de todo en Dimond Park. Creo que en Joaquin Miller tuvimos 2 caidas cada uno y en Dimond yo tuve 6 y Tom 5.
+El Domingo 22 de diciembre con Tom hicimos Dimond Park y Joaquin Miller ida y vuelta.
+Estuvo muy bueno.
+
+A la vuelta nos pusimos en modalidad "no caernos" para ver cuantas caídas teníamos desde arriba de todo en Joaquin Miller,
+hasta abajo de todo en Dimond Park.
+
+Creo que en Joaquin Miller tuvimos 2 caídas cada uno y en Dimond yo tuve 6 y Tom 5.
 
 - [Reporte de Tom](http://berkeleyunicycling.org/2013/12/24/winter-muni/)

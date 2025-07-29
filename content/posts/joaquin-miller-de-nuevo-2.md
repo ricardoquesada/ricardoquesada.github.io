@@ -10,7 +10,7 @@ title: Joaquin Miller de nuevo
 url: /2013/07/06/joaquin-miller-de-nuevo-3/
 
 ---
-![Joaquin Miller](https://lh4.googleusercontent.com/-ZCrA0eC8aLI/Udey_4AJrNI/AAAAAAAAvDo/WP-MoHCozyg/s400/IMG_2503-PANO.jpg)
+![Joaquin Miller](/images/joaquin-miller-de-nuevo.jpg)
 
 Hace poco menos de un año y medio que empecé con esto del Muni.
 Me acuerdo en una de las primeras salidas con Tom, Josh y demás que hicimos Big Trees en Joaquin Miller.

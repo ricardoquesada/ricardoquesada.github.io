@@ -11,9 +11,9 @@ title: Hey Monster, Hands Off My City
 url: /2013/05/12/hey-monster-hands-off-my-city/
 
 ---
-[![](https://lh5.googleusercontent.com/-WXXHcd6HMWw/UY8fVbEsE3I/AAAAAAAAufA/2MDsAvdZU5A/s400/P1000723-001.JPG)](https://photos.app.goo.gl/RazdunA1GkzzHeRy7)
+![](/images/hey-monster-hands-off-my-city.jpg)
 
-*En plena persecución*
+<small>*En plena persecución.*</small>
 
 Mike Meehan, un productor / director / actor / escritor de peliculas indies me contactó para filmar una escena de una persecución en monociclo!
 

@@ -7,7 +7,7 @@ title: San Francisco Uni Tour 2013
 url: /2013/09/16/san-francisco-uni-tour-2013/
 
 ---
-[![20130915_16-32-59_foss](http://www.monociclo.com.ar/blog/wp-content/uploads/2013/09/20130915_16-32-59_foss-1024x767.jpg)](http://www.monociclo.com.ar/blog/wp-content/uploads/2013/09/20130915_16-32-59_foss.jpg)
+![uni_tour](/images/san-francisco-uni-tour-2013.jpg)
 
 El Domingo fue el SF Uni Tour 2013. Fue la undécima edición (10mo aniversario). Fuimos más o menos 20 monociclistas, 2 bicis, y una bici reclinanda.
 

@@ -8,7 +8,7 @@ tag:
   - joaquin-miller
   - muni
 title: Cumple en Joaquin Miller
-url: /2013/07/22/cumle-en-joaquin-miller/
+url: /2013/07/22/cumple-en-joaquin-miller/
 
 ---
 Llegaron los 40, y los festejamos en Joaquin Miller con un Muni ride, y luego con empanadas y demas. Estuvo muy bueno.

@@ -11,11 +11,12 @@ title: Vuelta al Muni
 url: /2013/09/14/vuelta-al-muni/
 
 ---
-![](https://lh5.googleusercontent.com/-VdkxYnsQueU/UjSwc3f5rXI/AAAAAAAAvjg/1ld4yq62hr4/s400/IMG_2544.JPG)
+![](/images/vuelta-al-muni-tom.jpg)
 
 El viernes volví a hacer muni después de 5 semanas.
 
-Fuimos con Tom y An So a Dimond Canyon + Joaquin Miller. Fue un ride tranquilo, pero me sentí seguro y no tuve problema con la costilla.
+Fuimos con Tom y An So a Dimond Canyon + Joaquin Miller.
+Fue un ride tranquilo, pero me sentí seguro y no tuve problema con la costilla.
 
 Tom rompió su palanca luego de 8 años de uso.
 

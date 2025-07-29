@@ -22,4 +22,8 @@ Notas diversas:
 - Por fin me metí en el oceano Pacifico. Nade un poco. El agua no estaba tan fria.
 - E hice Paddle board. No es el deporte más divertido del mundo, pero es relajante.
 
-![](https://lh6.googleusercontent.com/-HE7-PMTvSoQ/UabtFFEbCCI/AAAAAAAAuyw/NaPWyPyDwF4/s400/IMG_2431.JPG)![](https://lh5.googleusercontent.com/-r2Pu247qK6Q/Uawh5Sa7XdI/AAAAAAAAu2Q/yH7l7t8p6zg/s400/IMG_1710.JPG)![](https://lh4.googleusercontent.com/-egaz3ZoWUZo/Uawh2jMxq6I/AAAAAAAAu1w/SjQcc8Uuv_Q/s400/IMG_1713.JPG)![](https://lh6.googleusercontent.com/-Yr8h05ALnjU/UawiPoqzVVI/AAAAAAAAu4Y/cIrdzRVQOfU/s400/IMG_1683.JPG)![](https://lh4.googleusercontent.com/-XtIexdbQzVo/UawiG7vs_2I/AAAAAAAAu30/G0DW7QnAJaY/s400/IMG_1694.JPG)
+![](/images/monociclo-en-santa-barbara-1.jpg)
+![](/images/monociclo-en-santa-barbara-2.jpg)
+![](/images/monociclo-en-santa-barbara-3.jpg)
+![](/images/monociclo-en-santa-barbara-4.jpg)
+![](/images/monociclo-en-santa-barbara-5.jpg)
