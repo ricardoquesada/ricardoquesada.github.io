@@ -5,7 +5,6 @@ date: "2016-10-15T00:40:58+00:00"
 guid: http://riq64.wordpress.com/?p=2
 tag:
   - commodore 64
-  - idiotr
   - retrochallenge
 title: 'RetroChallenge: C64 I.D.IoT.R Update #2'
 url: /2016/10/14/retrochallenge-c64-i-d-iot-r-update-2/
