@@ -46,4 +46,4 @@ Ellos habían llegado antes que yo, apenas un rato antes.
 
 Estuvo divertida la carrera. Prontó habrá un round 2 :)  
 
-[![](http://photos1.blogger.com/blogger2/5806/4075/200/de%20casa%20a%20core2.png)](http://photos1.blogger.com/blogger2/5806/4075/1600/de%20casa%20a%20core2.png)
+![](https://photos1.blogger.com/blogger2/5806/4075/1600/de%20casa%20a%20core2.png)
