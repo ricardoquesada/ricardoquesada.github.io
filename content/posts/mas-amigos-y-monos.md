@@ -10,7 +10,7 @@ title: Más amigos y monos
 url: /2006/11/13/mas-amigos-y-monos/
 
 ---
-[![](http://lh5.google.com/ricardoquesada/RVfRlYAsABI/AAAAAAAAA5M/HEtO1Qx6hIY/Javi%2C%20Richi%20y%20CUBA%20029.jpg?imgmax=512)](http://lh5.google.com/ricardoquesada/RVfRlYAsABI/AAAAAAAAA5M/HEtO1Qx6hIY/Javi%2C%20Richi%20y%20CUBA%20029.jpg?imgmax=512)
+![](/images/mas-amigos-y-monos.jpg)
 
 Lentamente sigo progresando con los saltos.
 Ahora puedo subir más o menos bien los cordones, aunque a veces me caigo,

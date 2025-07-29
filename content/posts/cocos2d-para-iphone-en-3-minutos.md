@@ -9,3 +9,5 @@ url: /2008/10/06/cocos2d-para-iphone-en-3-minutos/
 ---
 Hice un nuevo video donde muestro los nuevos features de [cocos2d para iPhone](http://code.google.com/p/cocos2d-iphone).  
 Espero que les guste!
+
+{{<youtube GNYbYcIqlxM >}}
