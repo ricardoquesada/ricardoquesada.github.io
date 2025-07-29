@@ -11,4 +11,5 @@ Finalmente llegué a la playa de la costa oeste!
 
 Fue un recorrido de unos 24km, con algunas lindas subidas y bajadas.
 
-[![](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM-1024x431.png)](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM.png)[![](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/FILE0019-300x225.jpg)](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/FILE0019.jpg)
+[![](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM-1024x431.png)](http://www.monociclo.com.ar/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-15-at-7.27.16-AM.png)
+![](/images/salida-numero-6-en-san-francisco.jpg)

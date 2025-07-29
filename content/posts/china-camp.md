@@ -10,7 +10,7 @@ title: China Camp
 url: /2012/11/05/china-camp/
 
 ---
-[![](http://www.monociclo.com.ar/blog/wp-content/uploads/2012/11/8158357472_a174739ae3_z.jpg)](http://www.monociclo.com.ar/blog/wp-content/uploads/2012/11/8158357472_a174739ae3_z.jpg)
+![](/images/china-camp.jpg)
 
 Hoy fuimos con Tom y Limbert a China Camp.
 Estuvo muy bueno.

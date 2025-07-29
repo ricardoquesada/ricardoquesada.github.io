@@ -9,6 +9,6 @@ url: /2010/05/03/dusseldorf-marathon-20092010/
 ---
 Adivine las 7 diferencias entre el Düsseldorf Marathon 2009 vs. 2010:
 
-![](http://lh5.ggpht.com/_7Tp7oCOlWFE/S97LSny4EoI/AAAAAAAAavA/yZwUtJRq120/s400/7diferencias1.jpg)
-![](http://lh5.ggpht.com/_7Tp7oCOlWFE/S97LTQrhDTI/AAAAAAAAavI/D2UjWtNHz1g/s400/7diferencias2.jpg)
-![](http://lh4.ggpht.com/_7Tp7oCOlWFE/S97LTyamkRI/AAAAAAAAavQ/GUtP1lxLquo/s400/7diferencias3.jpg)
+![](/images/dusseldorf-marathon-20092010-1.jpg)
+![](/images/dusseldorf-marathon-20092010-2.jpg)
+![](/images/dusseldorf-marathon-20092010-3.jpg)

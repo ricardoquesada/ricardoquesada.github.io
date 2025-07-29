@@ -9,7 +9,11 @@ url: /2010/04/29/el-nuevo-mono-de-28/
 ---
 Increible... este nuevo mono de 28" es el día y la noche comparado con el viejo mono de 28".
 
-![](http://lh3.ggpht.com/_7Tp7oCOlWFE/S9lKdUjAvOI/AAAAAAAAaLU/FMZCn5y0JrU/s400/IMG_4599.JPG)![](http://lh5.ggpht.com/_7Tp7oCOlWFE/Sec28pujmrI/AAAAAAAARIM/Z7jiAeDrdDI/s400/IMG_2757.JPG)
+![](/images/el-nuevo-mono-de-28-1.jpg)
+<small>*Nuevo mono.*</small>
+
+![](/images/el-nuevo-mono-de-28-2.jpg)
+<small>*Viejo mono.*</small>
 
 Diferencias:
 

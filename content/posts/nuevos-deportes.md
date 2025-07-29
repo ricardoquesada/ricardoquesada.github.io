@@ -17,4 +17,4 @@ Y como no puedo hacer deportes de impacto empecé a hacer nuevos deportes. Aprov
 
 Asi que ahora no puedo hacer nada. Ja ja. Ni correr, ni monociclo, ni nada... Me va a venir bien hacer un poco de reposo.
 
-![wakeboard](http://lh6.ggpht.com/_7Tp7oCOlWFE/TKtL9nrYcSI/AAAAAAAAcuI/Oc-ItjkgDSU/s800/IMG_5514.JPG)
+![wakeboard](/images/nuevos-deportes.jpg)

@@ -10,7 +10,7 @@ title: Marathon Düsseldorf 2010 - Relato
 url: /2010/05/03/marathon-dusseldorf-2010-relato/
 
 ---
-[![](http://lh6.ggpht.com/_7Tp7oCOlWFE/S96qLIH71OI/AAAAAAAAai0/BhpIBDlv1s0/s400/IMG_4687_2.JPG)](https://photos.app.goo.gl/JdWd4bM69m6C3hr8A)
+[![](/images/marathon-dusseldorf-2010-relato.jpg)](https://photos.app.goo.gl/JdWd4bM69m6C3hr8A)
 
 Acá estoy, todavía con el ese sabor de haber logrado una nueva hazaña.
 

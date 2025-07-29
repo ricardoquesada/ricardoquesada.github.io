@@ -11,9 +11,11 @@ title: Tom's Robish Ride
 url: /2012/12/31/toms-robish-ride/
 
 ---
-[![738264_4071102492792_373977016_o](http://www.monociclo.com.ar/blog/wp-content/uploads/2012/12/738264_4071102492792_373977016_o.jpg)](http://www.monociclo.com.ar/2012/12/toms-robish-ride/738264_4071102492792_373977016_o/)
+![foto](/images/toms-robish-ride.jpg)
 
-Y ayer, un días después de ir Rockville Hills, hicimos un Tom's Robish Ride. Fuimos Tom (29"),  Nathan (36"), Jimbo (29"), Ashley (29"), Geoffrey (36"), Grace (en una bici reclinada) y yo (36"). Fui un lindo paseo.
+Y ayer, un días después de ir Rockville Hills, hicimos un Tom's Robish Ride. Fuimos Tom (29"), Nathan (36"),
+Jimbo (29"), Ashley (29"), Geoffrey (36"), Grace (en una bici reclinada) y yo (36").
+Fui un lindo paseo.
 
 Aca estan algunas fotos que sacó Nathan: [Fotos en Facebook](http://www.facebook.com/media/set/?set=a.4071101692772.139428.1139270509&type=1)
 
