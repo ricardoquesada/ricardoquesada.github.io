@@ -15,4 +15,4 @@ Estuvo entretenida, sobre todo porque era la 1ra carrera nocturna que corria.
 
 Fueron 8,3 km, y los hice a un ritmo de 5m 15s por Km, o sea tardé 44m 10s.
 
-![energizer8k](http://www.monociclo.com.ar/blog/wp-content/uploads/2009/11/energizer8k.jpg)
+![energizer8k](/images/energizer-night-race.jpg)

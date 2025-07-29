@@ -10,7 +10,7 @@ title: China Camp y el barro
 url: /2012/12/07/china-camp-y-el-barro/
 
 ---
-![](http://farm9.staticflickr.com/8486/8240882950_c50696db43_n.jpg)
+![](/images/china-camp-y-el-barro.jpg)
 
 El Domingo pasado, con Ashley, Ray y Tom fuimos a China Camp luego de que haya llovido todo la semana.
 Fue un día de muni excelente.

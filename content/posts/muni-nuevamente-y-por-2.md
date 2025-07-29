@@ -11,8 +11,8 @@ title: Muni nuevamente, y por 2
 url: /2013/02/25/muni-nuevamente-y-por-2/
 
 ---
-![](https://lh6.googleusercontent.com/-RubnSNQloEo/USuNr-CvCrI/AAAAAAAAsJg/FSBCBC4h04M/s640/IMG_2152.JPG)
-*Tom, haciendo muni en Berkeley.*
+![](/images/muni-nuevamente-y-por-2-tom.jpg)
+<small>*Tom, haciendo muni en Berkeley.*</small>
 
 De vuelta en San Francisco y eso significa que volvi a hacer muni, y para compensar por los 2 fines de semana que no hice muni, hice el Sábado y el Domingo.
 
@@ -32,8 +32,8 @@ Reporte de Tom:
 
 Heridas de guerra:
 
-![](https://lh6.googleusercontent.com/-bw2318fx81o/UTWWkmAm-SI/AAAAAAAAsMU/LVX0rorOwuQ/s800/heridas-2013-02-24.png)
-*Heridas de guerra.*
+![](/images/muni-en-santa-cruz-2-heridas.jpg)
+<small>*Heridas de guerra.*</small>
 
 - Me dí un fuerte golpe en la rodilla derecha llegando al auto. Golpé muy pavote
 - Y me golpeé el brazo izquierdo.

@@ -19,4 +19,5 @@ Me contacté con Ricardo (uno de los organizadores) en la Expo Maratón y me dij
 Los paisajes con increibles, asi que sería espectacular correrla en el mono.
 
 Video promocional del maratón:
-\[youtube=http://www.youtube.com/watch?v=NjErPiU1nxs&w=425&h=344\]
+
+{{<youtube NjErPiU1nxs >}}

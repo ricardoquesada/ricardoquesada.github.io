@@ -10,7 +10,7 @@ title: Joaquin Miller de nuevo
 url: /2012/12/28/joaquin-miller-de-nuevo/
 
 ---
-![Joaquin Miller](https://lh6.googleusercontent.com/-OB_-AOpm5g0/UN4F-WYabEI/AAAAAAAArTM/JyovWclJDiY/s640/P1000115.JPG)
+![Joaquin Miller](/images/joaquin-miller-de-nuevo-chaparral.jpg)
 
 Y ayer nuevamente fui a Joaquin Miller. Fuimos con Mary e hicimos el paseo que
 hice yo antes de ayer: Big Trees, Chaparral, Sunset y subir por Palos Colorados.

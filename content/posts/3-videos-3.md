@@ -11,14 +11,14 @@ url: /2013/02/04/3-videos-3/
 ---
 Tres videos de MUni y trial:
 
-MUni: Excelentes palos que se da el pibe (que se parece fisicamente a mi)
+MUni: Excelentes palos que se da el pibe (que se parece fisicamente a mi):
 
 {{< youtube bxvKdJTADC8 >}}
 
-Pibe que la tiene muy clara en trial
+Pibe que la tiene muy clara en trial:
 
 {{< youtube GooNOBpCpJ8 >}}
 
-Pibe que domina el mono de 36"
+Pibe que domina el mono de 36":
 
 http://vimeo.com/11815056

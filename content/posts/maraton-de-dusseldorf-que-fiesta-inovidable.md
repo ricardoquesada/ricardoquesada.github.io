@@ -9,14 +9,26 @@ title: Maratón de Dusseldorf, que fiesta inovidable
 url: /2009/05/04/maraton-de-dusseldorf-que-fiesta-inovidable/
 
 ---
-La maratón de Dusseldorf fué una fiesta inolvidable: el ambiente, los organizadores, los corredores, los monociclistas, la gente local de la ciudad... en fin, todos hacían que la ciudad esta de fiesta.
+![](/images/maraton-de-dusseldorf-que-fiesta-inovidable.jpg)
 
-El día antes de la carrera todos estabamos con las mochilas de corredores. Unos a otros nos preguntabamos: "-¿Vos corres? -¿Dónde es la registración?".
+La maratón de Dusseldorf fué una fiesta inolvidable: el ambiente,
+los organizadores, los corredores, los monociclistas, la gente local de la ciudad...
+en fin, todos hacían que la ciudad esta de fiesta.
 
-A la noche los diversos hoteles tenian eventos especiales para los maratonistas: "pasta para todos". Nosotros nos fuimos a comer a Via Appia con unos 30 monociclistas del club [RMSV](http://www.rmsv-duesseldorf.de/) (club donde se practica monociclo y radball). El evento estuvo muy simpatico, conocí a la gente del club que nos trataron excelente.
+El día antes de la carrera todos estabamos con las mochilas de corredores.
+Unos a otros nos preguntabamos: "-¿Vos corres? -¿Dónde es la registración?".
 
-A la mañana siguiente el gran evento. 15 minutos antes que los monociclistas largaron los hand-bickers, y 15 minutos después que los monociclistas largaron los corredores.
+A la noche los diversos hoteles tenian eventos especiales para los maratonistas:
+"pasta para todos".
+Nosotros nos fuimos a comer a Via Appia con unos 30 monociclistas del club [RMSV](http://www.rmsv-duesseldorf.de/)
+(club donde se practica monociclo y radball).
+El evento estuvo muy simpatico, conocí a la gente del club que nos trataron excelente.
 
-Fue un linda espectacular. Recomendable para cualquier monociclista.
+A la mañana siguiente el gran evento.
+15 minutos antes que los monociclistas largaron los hand-bickers,
+y 15 minutos después que los monociclistas largaron los corredores.
 
-[http://picasaweb.google.com/s/c/bin/slideshow.swf](http://picasaweb.google.com/s/c/bin/slideshow.swf)
+Fue un linda espectacular.
+Recomendable para cualquier monociclista.
+
+[Fotos.](https://photos.app.goo.gl/V4Ha8xbsHUTtXJUV9)

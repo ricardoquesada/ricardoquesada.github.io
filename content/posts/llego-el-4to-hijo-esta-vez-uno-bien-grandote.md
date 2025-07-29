@@ -18,10 +18,13 @@ Resulta que me compré un asiento más cómodo para mi monociclo de 28".
 Desafortunadamente el asiento no era compatible con el porta asiento.  
 Asi que decidí comprarme un porta asiento compatible con el asiento, y de paso me compré un "T-bar" para las manos.  
 Resulta que el porta asiento no era compatible con el cuadro... asi que dije:  
-\- ¿Qué hago con un asiento, porta asiento y T-Bar? ¿Me compró un cuadro nuevo? ¿Y si no es compatible con el hub?... Mejor me compro un monociclo entero...  
- Y asi fué. Me compré un monociclo de 36".  
+
+> ¿Qué hago con un asiento, porta asiento y T-Bar? ¿Me compró un cuadro nuevo? ¿Y si no es compatible con el hub?... Mejor me compro un monociclo entero...  
+
+Y asi fué. Me compré un monociclo de 36".  
+ 
 Me llegó hoy y estuve todo el día armandolo, y acabo de llegar después de probarlo.  
 Hice más o menos 12km.  
 Se va bastante rápido y es bastante díficil frenar... quizas la próxima adquisición sea un freno.
 
-![uni 36](https://lh3.googleusercontent.com/pw/AP1GczONTesRllOZ8NKYZk3ld6mHCDIV5sFOAbruSpL0I4Lx8b_nzzUY8tPQNlQ_7Ihr3CMZ4GGN1e8Oh4BWzEbgIPPtHowZAWjJm6TV04bTQoilalobzxmHLzhQveVoBXtaJnxw5r0h1td1jAxmcOdQIh5vSQ=w1127-h1503-s-no-gm?authuser=0)
+![uni 36](/images/llego-el-4to-hijo-esta-vez-uno-bien-grandote.jpg)
