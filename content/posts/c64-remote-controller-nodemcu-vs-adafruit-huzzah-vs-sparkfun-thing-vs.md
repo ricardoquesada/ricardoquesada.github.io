@@ -3,30 +3,8 @@ author: ricardoquesada
 category: retro computing
 date: "2016-03-27T21:21:04+00:00"
 guid: http://retro.moe/?p=1260
-summary: |-
-  ### Requirements for the c64 controller
-
-  - A micro-controller. I doesn't need to be very powerful, just powerful enough to handle some UDP connections and configuring some GPIOs.
-  - Flash-able firmware: If possible with support for [Arduino IDE](https://www.arduino.cc/en/Main/Software) (or similar). C++ preferred. [Micropython](http://micropython.org/) could be a nice backup plan.
-  - WiFi
-  - Some GPIOs
-
-  ### Which module to choose
-
-  There many alternatives, and these are the ones that I evaluated:
-
-  - [Arduino](http://www.arduino.cc/en/Main/ArduinoBoardUno) \+ [WiFi shield](http://www.arduino.cc/en/Main/ArduinoWiFiShield101) or [ESP8266](http://espressif.com/en/products/hardware/esp8266ex/overview): This is the first option that I evaluated thanks to [different](http://www.lemon64.com/forum/viewtopic.php?t=60046) [suggestions](http://retroinvaders.com/commodoremania/foro/index.php/topic,1525.0.html). But since the ESP8266 already comes with a flash-able firmware, there was no need to use the Arduino part. I discarded this option, but I liked the ESP8266 part.
-  - [Adafruit Huzzah](https://www.adafruit.com/products/2471) breakout ($9.95) / [Adafruit Feather Huzzah](https://www.adafruit.com/products/2821) ($15.95): An ESP8266 based module. I like Adafruit products since they are very well tested, they give you support, have very good documentation. But they are usually on the pricy side. All ESP8266 boards are supported by the [Arduino IDE](https://github.com/esp8266/Arduino) which is a very good thing.  (I ordered one Feather Huzzah).
-  - [SparkFun ESP8266 Thing](https://www.sparkfun.com/products/13231) ($15.95): Similar to the Feather Huzzah.
-  - [NodeMCU](http://www.aliexpress.com/af/nodemcu.html) (~$4.00): Very similar too Adafruit Huzzah and SparkFun ESP8266 Thing. I'm not sure who built the first module (Adafruit, SparkFun or NodeMCU), although I wouldn't be surprised if NodeMCU was the first one. There is a lot of innovation in China in this area. NodeMCU comes with a firmware that supports Lua, which is nice for faster development. You should know that the Lua firmware could be installed in the other modules as well, and you can run C++ firmwares on NodeMCU as well. There are three different NodeMCU brands:
-
-    - Amica: Which seems to be the official one, although I didn't know this when I decided to buy the LoLin.
-    - LoLin: It seems that it is no longer produced by WeMos. (I ordered one of this too).
-    - DOIT: I know nothing about it.
-  - [Mini D1](http://www.wemos.cc/Products/d1_mini.html) (~$4.00): Another ESP8266-based module similar to the previous ones. It is produced by [WeMos](http://www.wemos.cc/), the same as the NodeMCU LoLin. My theory is that WeMos realized that there was more money in trying to create [their own ecosystem](http://www.wemos.cc/Products/mini_shields.html) rather than just cloning NodeMCU. It has 11 GPIOs, instead of the 9 offered by Adafruit Huzzah, which is good (I ordered a few of this one too).
-  - There were other alternatives, [like the SparkFun Particle Photon](https://www.sparkfun.com/products/13774) ($19.00), based on non-ESP8266 micro-controllers. They were a bit more powerful, but also more expensive. And don't support the Arduino IDE. So, for the moment I discarded them.
 tag:
-- c64
+- commodore 64
 - esp8266
 - nodemcu
 title: 'C64 Remote Controller: NodeMCU vs. Adafruit Huzzah vs. SparkFun Thing vs...'
@@ -34,9 +12,9 @@ url: /2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-th
 
 ---
 
-### Requirements for the c64 controller
+### Requirements for the c64 controller
 
-- A micro-controller. I doesn't need to be very powerful, just powerful enough
+- A micro-controller. It doesn't need to be very powerful, just powerful enough
   to handle some UDP connections and configuring some GPIOs.
 - Flash-able firmware: If possible with support
   for [Arduino IDE](https://www.arduino.cc/en/Main/Software) (or similar). C++
@@ -44,9 +22,9 @@ url: /2016/03/27/c64-remote-controller-nodemcu-vs-adafruit-huzzah-vs-sparkfun-th
 - WiFi
 - Some GPIOs
 
-### Which module to choose
+### Which module to choose
 
-There many alternatives, and these are the ones that I evaluated:
+There are many alternatives, and these are the ones that I evaluated:
 
 - [Arduino](http://www.arduino.cc/en/Main/ArduinoBoardUno) + [WiFi shield](http://www.arduino.cc/en/Main/ArduinoWiFiShield101)
   or [ESP8266](http://espressif.com/en/products/hardware/esp8266ex/overview):
@@ -56,7 +34,7 @@ There many alternatives, and these are the ones that I evaluated:
   need to use the Arduino part. I discarded this option, but I liked the ESP8266
   part.
 - [Adafruit Huzzah](https://www.adafruit.com/products/2471)
-  breakout ($9.95) / [Adafruit Feather Huzzah](https://www.adafruit.com/products/2821) ($
+  breakout ($9.95) / [Adafruit Feather Huzzah](https://www.adafruit.com/products/2821) ($
   15.95): An ESP8266 based module. I like Adafruit products since they are very
   well tested, they give you support, have very good documentation. But they are
   usually on the pricy side. All ESP8266 boards are supported by
@@ -103,8 +81,7 @@ LoLin NodeMCU comes with a CH340G serial-to-USB interface (cheaper than than the
 other serial-to-USB alternatives?). And its drivers are not preinstalled on Mac,
 so:
 
-- [Download and install the CH340G Mac drivers](http://kig.re/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html)(
-  direct link: [CH34x\_Install.zip](http://kig.re/downloads/CH34x_Install.zip))
+- [Download and install the CH340G Mac drivers](http://kig.re/2014/12/31/how-to-use-arduino-nano-mini-pro-with-CH340G-on-mac-osx-yosemite.html)(direct link: [CH34x\_Install.zip](http://kig.re/downloads/CH34x_Install.zip))
 
 #### esptool
 
@@ -112,7 +89,7 @@ This tool allows you to upload a firmware to the ESP8266 bootloader. I think it
 is not needed if you use the Arduino IDE, but it is a handy tool. To install it
 do:
 
-```
+```shell
 $ git clone https://github.com/themadinventor/esptool
 $ cd esptool
 $ python setup.py install
@@ -175,7 +152,7 @@ const int led = 13;
 
 void handleRoot() {
  digitalWrite(led, 1);
- server.send(200, &amp;quot;text/plain&amp;quot;, &amp;quot;hello from esp8266!&amp;quot;);
+ server.send(200, "text/plain", "hello from esp8266!");
  digitalWrite(led, 0);
 }
 
@@ -190,7 +167,7 @@ void handleNotFound(){
  message += server.args();
  message += "\n";
  for (uint8_t i=0; i<server.args(); i++){
- message += " " + server.argName(i) + ": " + server.arg(i) + "\n";
+  message += " " + server.argName(i) + ": " + server.arg(i) + "\n";
  }
  server.send(404, "text/plain", message);
  digitalWrite(led, 0);
@@ -201,33 +178,33 @@ void setup(void){
  digitalWrite(led, 0);
  Serial.begin(115200);
  WiFi.begin(ssid, password);
- Serial.println(&amp;quot;&amp;quot;);
+ Serial.println("");
 
  // Wait for connection
- while (WiFi.status() != WL\_CONNECTED) {
- delay(500);
- Serial.print(&amp;quot;.&amp;quot;);
+ while (WiFi.status() != WL_CONNECTED) {
+  delay(500);
+  Serial.print(".");
  }
- Serial.println(&amp;quot;&amp;quot;);
- Serial.print(&amp;quot;Connected to &amp;quot;);
+ Serial.println("");
+ Serial.print("Connected to ");
  Serial.println(ssid);
- Serial.print(&amp;quot;IP address: &amp;quot;);
+ Serial.print("IP address: ");
  Serial.println(WiFi.localIP());
 
- if (mdns.begin(&amp;quot;esp8266&amp;quot;, WiFi.localIP())) {
- Serial.println(&amp;quot;MDNS responder started&amp;quot;);
+ if (mdns.begin("esp8266", WiFi.localIP())) {
+  Serial.println("MDNS responder started");
  }
 
- server.on(&amp;quot;/&amp;quot;, handleRoot);
+ server.on("/", handleRoot);
 
- server.on(&amp;quot;/inline&amp;quot;, \[\](){
- server.send(200, &amp;quot;text/plain&amp;quot;, &amp;quot;this works as well&amp;quot;);
+ server.on("/inline", [](){
+  server.send(200, "text/plain", "this works as well");
  });
 
  server.onNotFound(handleNotFound);
 
  server.begin();
- Serial.println(&amp;quot;HTTP server started&amp;quot;);
+ Serial.println("HTTP server started");
 }
 
 void loop(void){

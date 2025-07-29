@@ -4,7 +4,7 @@ category: retro computing
 date: "2015-08-16T16:57:24+00:00"
 guid: http://retro.moe/?p=955
 tag:
-- c64
+- commodore 64
 - intro
 - sdkbox
 title: C64 SDKBOX intro at Casual Connect 2015 SF
@@ -26,7 +26,5 @@ The demo ran during the 1st day of the conference on a NTSC C64-SX.
 
 [![sdkbox_demo](/wp-content/uploads/2015/08/sdkbox_demo-e1439744233637.jpg?w=1000)](/wp-content/uploads/2015/08/sdkbox_demo.jpg)
 
-Download the source code
-from [here](https://github.com/ricardoquesada/c64-casual-connect-15). Download
-the binary
-from [here](https://github.com/ricardoquesada/c64-casual-connect-15/raw/master/bin/cc15.prg).
+- Download the source code from [here](https://github.com/ricardoquesada/c64-casual-connect-15).
+- Download the binary from [here](https://github.com/ricardoquesada/c64-casual-connect-15/raw/master/bin/cc15.prg).

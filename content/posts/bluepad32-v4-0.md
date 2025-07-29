@@ -14,19 +14,16 @@ tag:
 
 Bluepad32 v4.0-beta.0 is released and contains many new features:
 
-- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
-  support.
+- [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/) support.
 - BLE Service that allows a BLE client (mobile application) to configure
-  Bluepad32. (BLE Client is still WIP)
-- [More polished documentation](https://bluepad32.readthedocs.io/), hosted in
-  readthedocs
-- Better directory structure (easier to find files)
+  Bluepad32. (BLE Client is still WIP).
+- [More polished documentation](https://bluepad32.readthedocs.io/), hosted in readthedocs.
+- Better directory structure (easier to find files).
 - Easier way to create your own platform.
 - Examples for raw ESP-IDF, Pico W and Linux, which use the new way of creating
   platform.
 - [Github](https://github.com/ricardoquesada/bluepad32) is not the official
-  repo, and [Gitlab](http://gitlab.com/ricardoquesada/bluepad32) is the backup (
-  before it was the other way round).
+  repo, and [Gitlab](http://gitlab.com/ricardoquesada/bluepad32) is the backup (before it was the other way round).
 - Some minor improvements in different places, and many bug fixes, that were
   discovered by just switching to [CLion IDE.](https://www.jetbrains.com/clion/)
 

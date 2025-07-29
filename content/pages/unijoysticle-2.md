@@ -36,12 +36,11 @@ Purchase them from my [Tindie store](https://www.tindie.com/stores/riq):
 
 [![](/images/tindie_logo.png)](https://www.tindie.com/stores/riq)
 
-I also trade them. One of my products for one of yours. Interested ? Contact me
-at:
+I also trade them. One of my products for one of yours.
+Interested? Contact me at:
 
 - Email: [unijoysticle@gmail.com](mailto:unijoysticle@gmail.com)
-- Blue
-  Sky: [https://bsky.app/profile/ricardoquesada.bsky.social](https://bsky.app/profile/ricardoquesada.bsky.social)
+- Blue Sky: [https://bsky.app/profile/ricardoquesada.bsky.social](https://bsky.app/profile/ricardoquesada.bsky.social)
 - Mastodon: [https://mastodon.social/@ricardoquesada](https://mastodon.social/@ricardoquesada)
 - Twitter: [https://twitter.com/ricardoquesada](https://twitter.com/ricardoquesada)
 
@@ -84,10 +83,8 @@ Supports most, if not all, modern Bluetooth controllers:
 ## Documentation
 
 - [User Guide](https://unijoysticle.readthedocs.io/en/latest/)
-- List
-  of [supported gamepads](https://bluepad32.readthedocs.io/en/latest/supported_gamepads/)
-- List
-  of [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
+- List of [supported gamepads](https://bluepad32.readthedocs.io/en/latest/supported_gamepads/)
+- List of [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
 
 ## Open Source / Open Hardware
 
@@ -95,6 +92,5 @@ Supports most, if not all, modern Bluetooth controllers:
 
 The entire project is open source / open hardware:
 
-- [Firmware source code](https://github.com/ricardoquesada/bluepad32) (uses
-  Bluepad32 firmware)
+- [Firmware source code](https://github.com/ricardoquesada/bluepad32) (uses Bluepad32 firmware)
 - [Schematic / Layout](https://gitlab.com/ricardoquesada/unijoysticle2)

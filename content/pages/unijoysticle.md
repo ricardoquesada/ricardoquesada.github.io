@@ -93,17 +93,13 @@ priority.
 
 Features:
 
-- UniJoystiCle mode: Use this mode to play [The Uni
-  Games](https://github.com/ricardoquesada/c64-the-uni-games) and any other
+- UniJoystiCle mode: Use this mode to play [The Uni Games](https://github.com/ricardoquesada/c64-the-uni-games) and any other
   game that can be played in rotating the joystick, like the Bike event in
   [Summer Games II](http://gamebase64.com/game.php?id=7547&d=18&h=0).
 - D-pad mode: To play the rest of the games,
-  like [Commando](http://gamebase64.com/game.php?id=1602&d=18&h=0), [Bruce Lee](http://gamebase64.com/game.php?id=1135&d=18&h=0),
-  etc.
+  like [Commando](http://gamebase64.com/game.php?id=1602&d=18&h=0), [Bruce Lee](http://gamebase64.com/game.php?id=1135&d=18&h=0), etc.
     - D-pad + Game Controller: To play the rest of the games using a real Game
-      Controller. Ideal
-      for [Giana Sisters](http://gamebase64.com/game.php?id=3275&d=18&h=0), [Super Bread Box](http://gamebase64.com/game.php?id=24140&d=18&h=0),
-      etc.
+      Controller. Ideal for [Giana Sisters](http://gamebase64.com/game.php?id=3275&d=18&h=0), [Super Bread Box](http://gamebase64.com/game.php?id=24140&d=18&h=0), etc.
 - Commando mode: Control both joysticks at the same time from just one Game
   Controller.
 - Gyruss mode: A novel way to
@@ -163,10 +159,8 @@ Unicycle"_](http://www.epicthings.com/control-your-videogames-with-a-unicycle/)
 ### Option C) DIY
 
 - Free!
-- All
-  the [schematics + PCB + firmware files are available for FREE](https://github.com/ricardoquesada/unijoysticle/tree/master/schematic)
-- The Bill Of Material (BOM) is
-  here: [DOCUMENTATION.md](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md#building-the-wifi-device)
+- All the [schematics + PCB + firmware files are available for FREE](https://github.com/ricardoquesada/unijoysticle/tree/master/schematic)
+- The Bill Of Material (BOM) is here: [DOCUMENTATION.md](https://github.com/ricardoquesada/unijoysticle/blob/master/DOCUMENTATION.md#building-the-wifi-device)
 
 To order it, contact me
 at: [https://twitter.com/ricardoquesada](https://twitter.com/ricardoquesada)

@@ -4,6 +4,7 @@ category: retro computing
 date: "2020-12-31T18:20:10+00:00"
 guid: http://retro.moe/?p=2335
 tag:
+- quico
 - circuitpython
 - sn76489
 title: 'Building Quico: improved sound, gamepad, and more (part III)'
@@ -11,8 +12,7 @@ url: /2020/12/31/building-quico-improved-sound-and-more-part-iii/
 
 ---
 
-This is the third blog-post regarding "building a video-game console for (my)
-kids".
+This is the third blog-post regarding "building a video-game console for (my) kids".
 See [Part II: chiptune,](/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/)
 and [Part I: gamepad](/2020/11/24/bluepad32-gamepad-support-for-esp32/).
 
@@ -23,8 +23,7 @@ and [Part I: gamepad](/2020/11/24/bluepad32-gamepad-support-for-esp32/).
 We have name: Quico. From now on, I'll refer to this project as "Quico":
 
 - Quico ( _/ˈkiko/_), short for _Kids Console_ (or _Kids Computer_)
-- Also, one of the main characters
-  of [El Chavo del Ocho](https://es.wikipedia.org/wiki/El_Chavo_del_8)
+- Also, one of the main characters of [El Chavo del Ocho](https://es.wikipedia.org/wiki/El_Chavo_del_8)
 
 ## Sound Shield
 

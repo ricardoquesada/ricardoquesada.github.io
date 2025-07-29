@@ -30,20 +30,17 @@ For Arduino, the boards that have
 the [NINA-W10x](https://www.u-blox.com/en/product/nina-w10-series-open-cpu) (
 ESP32) co-processor are supported, like:
 
-- [Arduino Nano RP2040 Connect](https://store.arduino.cc/usa/nano-rp2040-connect-with-headers) (
-  great board, get one if you haven't already)
+- [Arduino Nano RP2040 Connect](https://store.arduino.cc/usa/nano-rp2040-connect-with-headers) (great board, get one if you haven't already)
 - [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot)
 - [Arduino MKR WiFi 1010](https://store.arduino.cc/usa/mkr-wifi-1010)
 - [Arduino MKR VIDOR 4000 WiFi](https://store.arduino.cc/usa/mkr-vidor-4000)
 - [Arduino Uno WiFi Rev 2](https://store.arduino.cc/usa/arduino-uno-wifi-rev2)
-- ...and probably a few more. If it has the NINA-W10x co-processor, it is
-  supported.
+- ...and probably a few more. If it has the NINA-W10x co-processor, it is supported.
 
 And similar for CircuitPython, the boards that have the AirLift (ESP32)
 co-processor are supported, like:
 
-- [Adafruit MatrixPortal M4](https://www.adafruit.com/product/4745) (great to
-  create [a video-game console](/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/))
+- [Adafruit MatrixPortal M4](https://www.adafruit.com/product/4745) (great to create [a video-game console](/2020/12/13/designing-a-modern-retro-console-for-my-kids-adding-chiptune-music/))
 - [Adafruit Metro M4 Express AirLift](https://www.adafruit.com/product/4000)
 - [Adafruit PyPortal](https://www.adafruit.com/product/4116)
 - [Adafruit PyBadge](https://www.adafruit.com/product/4200)
@@ -62,8 +59,7 @@ Both Arduino and CircuitPython use the co-processor mostly as WiFi modules. In
 order to use WiFi, you would use:
 
 - [WiFiNINA library](https://www.arduino.cc/en/Reference/WiFiNINA), in Arduino
-- [ESP32SPI library](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/api.html),
-  in CircuitPython
+- [ESP32SPI library](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/api.html), in CircuitPython
 
 These two libraries (WiFiNINA and ESP32SPI) have the same functionality. In fact
 they are compatible. The only difference is that WiFININA is written in C++ ,
@@ -151,7 +147,7 @@ official [CircuitPython Community Library Bundle](https://circuitpython.readthed
 You can install it like any other CircuitPython library.
 Install [circup](https://circup.readthedocs.io/en/latest/) and then do:
 
-```
+```shell
 $ circup install bluepad32
 ```
 
@@ -183,8 +179,7 @@ the [WiFiNINA library.](https://www.arduino.cc/en/Reference/WiFiNINA)
 
 Makes sense, it is consistent:
 
-- Module
-  name: [NINA-W10x](https://www.u-blox.com/en/product/nina-w10-series-open-cpu)
+- Module name: [NINA-W10x](https://www.u-blox.com/en/product/nina-w10-series-open-cpu)
 - Firmware name: [Arduino NINA-W10x firmware](http://Arduino NINA-W102 firmware)
 - Library name: [WiFiNINA](https://www.arduino.cc/en/Reference/WiFiNINA)
 
@@ -197,14 +192,10 @@ firmware, and the library name is called ESP32SPI.
 It is confusing:
 
 - Module name: [AirLift](https://www.adafruit.com/product/4201)
-- Firmware
-  name: [Adafruit NINA-W10x firmware](https://github.com/adafruit/nina-fw) (fork
-  of Arduino's).
-- Library
-  name: [ESP32SPI](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/api.html)
+- Firmware name: [Adafruit NINA-W10x firmware](https://github.com/adafruit/nina-fw) (fork of Arduino's).
+- Library name: [ESP32SPI](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/api.html)
 
-(Adafruit, if you are reading, I'd rename them to "AirLift firmware", and "
-AirLift library").
+(Adafruit, if you are reading, I'd rename them to "AirLift firmware", and "AirLift library").
 
 Whether it is a NINA-W10x, an AirLift module or an ESP32-WROOM32, all of them
 have the ESP32 chip inside. And all of them can run the NINA firmware, or the
@@ -220,5 +211,5 @@ incompatibility that I found, is that the MOSI pin (from SPI) is different.
 GPIO 12 is strapping pin, and at boot time it is used internally by the
 ESP32. [It seems that it was causing some interference with some modules](https://github.com/adafruit/nina-fw/commit/9e76479a7e1e11682009078c45ad307cb96c1066#diff-c04b1ff645810e3a002a1166ab130c6fd92b997e695b9bdf61008fd83015326a).
 
-And just because of that change (different MOSI pins) I needed to create a "
-Bluepad32 firmware for NINA" and a "Bluepad32 firmware for AirLift".
+And just because of that change (different MOSI pins) I needed to create a
+"Bluepad32 firmware for NINA" and a "Bluepad32 firmware for AirLift".

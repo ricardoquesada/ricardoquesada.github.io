@@ -54,8 +54,7 @@ The SN76489 is a "chiptune" music chip that was used in many video game consoles
 and computers back in the 80's. It is the ideal candidate for the "modern retro
 console" because:
 
-- It is easy to get
-  one: [Ebay](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=sn76489&_sacat=0), [Aliexpress](https://www.aliexpress.com/af/sn76489.html?d=y&origin=n&SearchText=sn76489&catId=0&initiative_id=SB_20201212230428)
+- It is easy to get one: [Ebay](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2047675.m570.l1313&_nkw=sn76489&_sacat=0), [Aliexpress](https://www.aliexpress.com/af/sn76489.html?d=y&origin=n&SearchText=sn76489&catId=0&initiative_id=SB_20201212230428)
 - It is cheap: ~$1
 - It is easy to program
 - Songs don't take that much space
@@ -98,16 +97,11 @@ from [Aidan Lawrence](https://github.com/AidanHockey5):
 
 **BOM:**
 
-- 1
-  x [SN76489](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=sn76489&_sacat=0)
-- 1
-  x [74HC595](https://www.digikey.com/en/products/detail/texas-instruments/SN74HC595N/277246)
-- 1
-  x [3.579545MHz oscillator](https://www.digikey.com/en/products/detail/ecs-inc/ECS-100AX-035/827253)
-- 1
-  x [LM386 audio amplifier module](https://www.amazon.com/gp/product/B01FDD3FYQ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
-- 1
-  x [3-watt, 8-ohm speaker](https://www.amazon.com/gp/product/B07YX9QLLN/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
+- 1 x [SN76489](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=sn76489&_sacat=0)
+- 1 x [74HC595](https://www.digikey.com/en/products/detail/texas-instruments/SN74HC595N/277246)
+- 1 x [3.579545MHz oscillator](https://www.digikey.com/en/products/detail/ecs-inc/ECS-100AX-035/827253)
+- 1 x [LM386 audio amplifier module](https://www.amazon.com/gp/product/B01FDD3FYQ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+- 1 x [3-watt, 8-ohm speaker](https://www.amazon.com/gp/product/B07YX9QLLN/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
 I chose a 3.579545Mhz oscillator to be compatible with IBM PC Jr / Tandy 1000.
 But you can choose any oscillator up to 4.0 Mhz.
@@ -145,7 +139,7 @@ to [play VGM music files](https://www.smspower.org/Music/VGMFileFormat).
 
 And they way to use it is very simple:
 
-```
+```python
 import music76489
 
 m = music76489.Music76489()
@@ -159,7 +153,7 @@ The complete source code of the game
 that [appears in the video](https://www.youtube.com/watch?v=G_Fzt8RlbFc) is
 here:
 
-- [code\_snake.py](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/tools/circuitpython/code_snake.py)
+- [code_snake.py](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/tools/circuitpython/code_snake.py)
 
 ### Creating your own song
 

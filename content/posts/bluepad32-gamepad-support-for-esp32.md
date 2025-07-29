@@ -39,8 +39,8 @@ read: [Adding new platforms.](https://gitlab.com/ricardoquesada/bluepad32/-/blob
   Amiga / etc.
 - [MatrixPortal M4](https://www.youtube.com/watch?v=dbEbiJZd4n8): Gamepad
   support for the [Adafruit AirLift](https://www.adafruit.com/product/4745)
-  family of boards
-- [ULX3S](https://www.crowdsupply.com/radiona/ulx3s): An FPGA-based computer
+  family of boards.
+- [ULX3S](https://www.crowdsupply.com/radiona/ulx3s): An FPGA-based computer.
 
 Just add an ESP32 to your project, and control it with a gamepad!
 
@@ -80,8 +80,7 @@ changes from upstream, etc.
 So what I did was to:
 
 - take the Unijoysticle 2 firmware
-- make many changes to it to make
-  it [super easy to integrate](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/docs/adding_new_platform.md)
+- make many changes to it to make it [super easy to integrate](https://gitlab.com/ricardoquesada/bluepad32/-/blob/master/docs/adding_new_platform.md)
 - rename it to avoid confusion (Bluepad32 is the new name)
 - host it in a new [git repo](https://gitlab.com/ricardoquesada/bluepad32)
 

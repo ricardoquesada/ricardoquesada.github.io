@@ -8,14 +8,16 @@ url: /2006/09/07/buscando-el-record/
 
 ---
 
-![](http://photos1.blogger.com/blogger2/5806/4075/200/cronometro.0.jpg)Hace
-algunos días que tenía ganas de saber en cuanto tiempo podía llegar en mono al
-trabajo. Algunas semanas atras, yendo más o menos tranquilo, haciendo alguna
+![](http://photos1.blogger.com/blogger2/5806/4075/200/cronometro.0.jpg)
+
+Hace algunos días que tenía ganas de saber en cuanto tiempo podía llegar en mono
+al trabajo.
+Algunas semanas atras, yendo más o menos tranquilo, haciendo alguna
 piruetita, slaloms, saltitos y demás, había tardado 35 minutos. El lunes (o
 martes) pasado, yendo por el camino largo (yendo por Santa Fé y no por Las
 Heras) tardé 28 minutos. Entonces, supuse, que tomando el camino corto tendría
 que tomarme aproximadamente 25 minutos. Así que hoy a la mañana me levanté
-dispuesto a batir el record!  
+dispuesto a batir el record!
 
 La consigna era llegar en el menor tiempo posible de puerta a puerta. El
 cronometro se prendía cuando salía de casa, y lo paraba cuando llegaba a la

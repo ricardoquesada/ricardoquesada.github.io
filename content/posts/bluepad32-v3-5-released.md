@@ -26,7 +26,7 @@ and many fixes & improvements here and there.
 ### Mouse support
 
 ![](https://lh3.googleusercontent.com/pw/AM-JKLXCbot-0O4NAF-2BWhf62lrRxDvdhXbfFaWhrWXQ_Hv_mAPRj1e-XF4-SxpoX_sTzBEcr_PDMqlsOz4ePWibi3h7IrfaevQW_jxMRlG2j0wnROhzf37BvG6IRvA1PPveChSrSLBy7yndHY2eMiJB1-NNA=-no)
-Some of the supported mice
+<small>*Some of the supported mice.*</small>
 
 Mouse support has been added both at the "core" level, and at a "platform"
 level.
@@ -41,7 +41,7 @@ understand.
 
 {{< youtube cE4u50y5TOI >}}
 
-Using mouse on the Amiga 500
+<small>*Using mouse on the Amiga 500.*</small>
 
 See the complete list of supported mice
 here: [supported mice](https://gitlab.com/ricardoquesada/bluepad32/-/blob/main/docs/supported_mice.md)
@@ -54,7 +54,9 @@ terminal (e.g: via a USB cable).
 Now, it is possible to interact with the serial terminal. Just connect the
 device with a USB cable, and type:
 
-`minicom -D /dev/ttyUSB0`
+```shell
+minicom -D /dev/ttyUSB0
+```
 
 [![](https://asciinema.org/a/506468.svg)](https://asciinema.org/a/506468)
 
