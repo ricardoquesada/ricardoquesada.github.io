@@ -10,7 +10,7 @@ title: Nuevo mono!
 url: /2006/08/08/nuevo-mono/
 
 ---
-[![](http://photos1.blogger.com/blogger2/5806/4075/200/00009-bis.jpg)](http://photos1.blogger.com/blogger2/5806/4075/1600/00009-bis.jpg)  
+![](http://photos1.blogger.com/blogger2/5806/4075/1600/00009-bis.jpg)
 
 Si! El viernes 4, por la mañana, fuí a buscar mi mono al correo, mi super mono.
 Ah... que felicidad :).

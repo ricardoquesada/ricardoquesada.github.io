@@ -6,8 +6,8 @@ tag:
 - kh36
 date: "2007-10-30T22:22:00+00:00"
 guid: http://www.monociclo.com.ar/?p=40
-title: Monociclenado en Manhattan
-url: /2007/10/30/monociclenado-en-manhattan/
+title: Monocicleando en Manhattan
+url: /2007/10/30/monocicleando-en-manhattan/
 
 ---
 

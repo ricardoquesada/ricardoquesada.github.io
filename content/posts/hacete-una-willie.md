@@ -12,9 +12,26 @@ url: /2006/09/20/hacete-una-willie/
 ---
 
 Monociclear, de por sí, ya es divertido, y a esta diversión se le suma lo que la
-gente me dice. Por ejemplo, me dicen seguido cosas del estilo: "che, ¿no te
-alcanzó para la otra mitad?", "¿La pagaste un cuotas a la bici?", "¿Te robaron
-la otra parte?". Otros, cada tanto me idolatran diciendome: "ídolo", "capo", "
-cuando sea grande quiero se como vos", "grande maestro", "Ehhhhh, groso", etc.
+gente me dice. Por ejemplo, me dicen seguido cosas del estilo:
+
+> "che, ¿no te alcanzó para la otra mitad?"
+> 
+> "¿La pagaste un cuotas a la bici?"
+> 
+> "¿Te robaron la otra parte?"
+ 
+Otros, cada tanto me idolatran diciendome:
+
+> "ídolo"
+> 
+> "capo"
+> 
+> "cuando sea grande quiero se como vos"
+> 
+> "grande maestro"
+> 
+> "Ehhhhh, groso"
+ 
 Hoy me dijeron una frase muy original y divertida:  
-"Che, ¡hacete una willie!" ;-)  
+
+> "Che, ¡hacete una willie!" ;-)  
