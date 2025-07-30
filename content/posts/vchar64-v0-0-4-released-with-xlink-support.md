@@ -4,13 +4,17 @@ category: retro computing
 date: "2015-07-20T14:41:24+00:00"
 guid: http://towp8.com/?p=931
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: VChar64 v0.0.4 released, with xlink support
 url: /2015/07/20/vchar64-v0-0-4-released-with-xlink-support/
 
 ---
-[![c64logo](/wp-content/uploads/2015/02/c64logo.png)](/wp-content/uploads/2015/02/c64logo.png)[VChar64](https://github.com/ricardoquesada/vchar64) v0.0.4 released! And thanks to Henning Bekel, VChar64 now supports [xlink](http://henning-bekel.de/xlink/).
+
+[![c64logo](/wp-content/uploads/2015/02/c64logo.png)](/wp-content/uploads/2015/02/c64logo.png)[VChar64](https://github.com/ricardoquesada/vchar64)
+
+v0.0.4 released! And thanks to Henning Bekel, VChar64 now
+supports [xlink](http://henning-bekel.de/xlink/).
 
 {{< youtube ZaSR_mxRfmo >}}
 

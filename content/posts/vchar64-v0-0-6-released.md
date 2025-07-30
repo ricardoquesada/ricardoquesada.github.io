@@ -4,13 +4,16 @@ category: retro computing
 date: "2015-08-25T07:35:31+00:00"
 guid: http://retro.moe/?p=965
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: VChar64 v0.0.6 released
 url: /2015/08/25/vchar64-v0-0-6-released/
 
 ---
-VChar64 v0.0.6 released. You can download it from here:![logo512](/wp-content/uploads/2015/08/logo512.png?w=150)
+
+![logo512](/wp-content/uploads/2015/08/logo512.png?w=150)
+
+VChar64 v0.0.6 released. You can download it from here:
 
 - Win32: [vchar64-0.0.6.zip](https://www.dropbox.com/s/npitf789mp5gvsl/vchar-0.0.6.zip?dl=0)
 - Mac: [vchar64-0.0.6.dmg](https://www.dropbox.com/s/3jrf82edlxvjzn9/vchar64-0.0.6.dmg?dl=0)

@@ -6,6 +6,8 @@ title: Otro buen video de Monociclos Antartic
 url: /2010/02/22/otro-buen-video-de-monociclos-antartic/
 
 ---
-Los chicos de [Monociclos Antartic](http://www.antarticmonociclos.com.ar/) hicieron este muy buen video:
+
+Los chicos de [Monociclos Antartic](http://www.antarticmonociclos.com.ar/)
+hicieron este muy buen video:
 
 {{< youtube Dr8B_RhUcNc >}}

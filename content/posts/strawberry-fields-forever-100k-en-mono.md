@@ -4,14 +4,14 @@ category: unicycle
 date: "2013-05-23T02:33:19+00:00"
 guid: http://www.monociclo.com.ar/?p=523
 tag:
-  - strawberry-fields
-  - unicycle
+- strawberry-fields
+- unicycle
 title: 'Strawberry Fields Forever: 100k en mono'
 url: /2013/05/22/strawberry-fields-forever-100k-en-mono/
 
 ---
-![Strawberry Fields Forever](/images/strawberry_2013_ricardo.jpg)
 
+![Strawberry Fields Forever](/images/strawberry_2013_ricardo.jpg)
 <small>*Después de haber terminado la subida más empinada del recorrido.*</small>
 
 El domingo pasado fue el paseo [Strawberry Fields Forever](http://www.strawberryfields.org/about-the-ride/routes/).

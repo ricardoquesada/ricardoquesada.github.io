@@ -4,12 +4,13 @@ category: retro computing
 date: "2019-12-23T07:19:03+00:00"
 guid: http://retro.moe/?p=2257
 tag:
-  - nintendo
-  - unijoysticle
+- nintendo
+- unijoysticle
 title: 'Unijoysticle 2: Nintendo controllers and more!'
 url: /2019/12/22/unijoysticle-2-nintendo-controllers-and-more/
 
 ---
+
 {{< youtube 8X7lPOL6b6A >}}
 
 Unijoysticle 2 Christmas 2019 update, with support for:

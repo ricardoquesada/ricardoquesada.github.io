@@ -4,12 +4,13 @@ category: retro computing
 date: "2015-11-05T00:14:14+00:00"
 guid: http://retro.moe/?p=985
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: VChar64 v0.0.8 released
 url: /2015/11/04/vchar64-v0-0-8-released/
 
 ---
+
 VChar64 v0.0.8 is available for download:
 
 - Mac: [vchar64-0.0.8.dmg](https://github.com/ricardoquesada/vchar64/releases/download/0.0.8/vchar64-0.0.8-mac.dmg)

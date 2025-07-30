@@ -4,14 +4,17 @@ category: retro computing
 date: "2016-01-06T01:44:26+00:00"
 guid: http://retro.moe/?p=1227
 tag:
-  - commodore 64
-  - commodore 128
-  - vchar64
+- commodore 64
+- commodore 128
+- vchar64
 title: VChar64 v0.0.10 released
 url: /2016/01/05/vchar64-v0-0-10-released/
 
 ---
-VChar64 v0.0.10 is available for download: [![logo512](/wp-content/uploads/2015/08/logo512.png)](/wp-content/uploads/2015/08/logo512.png)
+
+[![logo512](/wp-content/uploads/2015/08/logo512.png)](/wp-content/uploads/2015/08/logo512.png)
+
+VChar64 v0.0.10 is available for download:
 
 - Mac: [vchar64-0.0.10.dmg.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.dmg.zip)
 - Win32: [vchar64-0.0.10.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.10/vchar64-0.0.10.win32.zip)

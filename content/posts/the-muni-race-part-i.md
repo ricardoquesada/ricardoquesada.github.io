@@ -4,17 +4,20 @@ category: retro computing
 date: "2015-09-07T16:01:16+00:00"
 guid: http://retro.moe/?p=973
 tag:
-  - 8-bit
-  - the muni race
-  - commodore 64
-  - unicycle
+- 8-bit
+- the muni race
+- commodore 64
+- unicycle
 title: The Muni Race - Part I
 url: /2015/09/07/the-muni-race-part-i/
 
 ---
-A while ago, in 2008, I started coding a [unicycle video game](https://github.com/ricardoquesada/unigames) for the PC.
+
+A while ago, in 2008, I started coding
+a [unicycle video game](https://github.com/ricardoquesada/unigames) for the PC.
 I never finished it, but I always wanted to code one.
-And a few months ago I started coding the game again, but instead of coding it for the PC,
+And a few months ago I started coding the game again, but instead of coding it
+for the PC,
 I decided to code it for the Commodore 64.
 
 I want to code the game in a retro style.

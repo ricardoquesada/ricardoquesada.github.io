@@ -3,15 +3,20 @@ author: ricardoquesada
 date: "2015-02-10T20:45:23+00:00"
 category: retro computing
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: 'VChar64: character editor for the Commodore 64'
 url: /2015/02/10/vchar64-character-editor-for-the-commodore-64/
 
 ---
-[![c64logo](/wp-content/uploads/2015/02/c64logo.png)](/wp-content/uploads/2015/02/c64logo.png) I started to code a unicycle game for the Commodore 64. The first thing that I realized was that I needed an game editor, so I started to code one: VChar64.
 
-Today I released v0.0.1 which has basic functionality but the functionality that it has, just work. You can download it from here:
+[![c64logo](/wp-content/uploads/2015/02/c64logo.png)](/wp-content/uploads/2015/02/c64logo.png)
+
+I started to code a unicycle game for the Commodore 64. The first thing that I
+realized was that I needed an game editor, so I started to code one: VChar64.
+
+Today I released v0.0.1 which has basic functionality but the functionality that
+it has, just work. You can download it from here:
 
 - Download: [https://github.com/ricardoquesada/vchar64](https://github.com/ricardoquesada/vchar64)
 

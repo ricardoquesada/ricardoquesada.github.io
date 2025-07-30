@@ -7,6 +7,7 @@ title: Salida número 6 en San Francisco
 url: /2011/11/19/salida-numero-6-en-san-francisco/
 
 ---
+
 Finalmente llegué a la playa de la costa oeste!
 
 Fue un recorrido de unos 24km, con algunas lindas subidas y bajadas.

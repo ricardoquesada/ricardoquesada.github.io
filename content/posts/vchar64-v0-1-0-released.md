@@ -4,12 +4,13 @@ category: retro computing
 date: "2016-07-15T13:16:41+00:00"
 guid: http://retro.moe/?p=1778
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: VChar64 v0.1.0 released
 url: /2016/07/15/vchar64-v0-1-0-released/
 
 ---
+
 This is mostly a bug-fix release, focused on improving the workflow.
 
 Download:
@@ -22,15 +23,16 @@ Download:
 
 Changes:
 
-- \[NEW\] Export: saves exported addresses in vcharproj file. Increased version to 3
-- \[BUGFIX\] Compiles on Ubuntu 16.04
-- \[BUGFIX\] Export: Export As shows most recent export addresses
-- \[BUGFIX\] Export: generates an Undo event only if it is different than previous state
-- \[BUGFIX\] Save: sets the Undo Stack as clean, but doesn't clear it
-- \[BUGFIX\] Save: saved files are appended to the recent files entry
-- \[BUGFIX\] Recent Files: Non existing entries appear as disabled
-- \[BUGFIX\] Multicolor: radios are enabled/disabled accordingly
-- \[BUGFIX\] Multicolor: copy & paste updates multicolor as well
+- [NEW] Export: saves exported addresses in vcharproj file. Increased version to 3
+- [BUGFIX] Compiles on Ubuntu 16.04
+- [BUGFIX] Export: Export As shows most recent export addresses
+- [BUGFIX] Export: generates an Undo event only if it is different than previous
+  state
+- [BUGFIX] Save: sets the Undo Stack as clean, but doesn't clear it
+- [BUGFIX] Save: saved files are appended to the recent files entry
+- [BUGFIX] Recent Files: Non existing entries appear as disabled
+- [BUGFIX] Multicolor: radios are enabled/disabled accordingly
+- [BUGFIX] Multicolor: copy & paste updates multicolor as well
 
 Changes in the binaries:
 

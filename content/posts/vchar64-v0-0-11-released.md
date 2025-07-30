@@ -4,12 +4,13 @@ category: retro computing
 date: "2016-02-01T08:40:35+00:00"
 guid: http://retro.moe/?p=1240
 tag:
-  - commodore 64
-  - vchar64
+- commodore 64
+- vchar64
 title: VChar64 v0.0.11 released
 url: /2016/02/01/vchar64-v0-0-11-released/
 
 ---
+
 VChar64 v0.0.11 was released.
 
 - Win32: [vchar64-0.0.11.win32.zip](https://github.com/ricardoquesada/vchar64/releases/download/0.0.11/vchar64-0.0.11.win32.zip)

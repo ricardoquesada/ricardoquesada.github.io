@@ -7,5 +7,8 @@ title: Video de monociclistas argentinos
 url: /2006/11/04/video-de-monociclistas-argentinos/
 
 ---
-Gardelito hizo este video mostrando las habilidades de algunos monociclistas argentinos. Lindo video.
+
+Gardelito hizo este video mostrando las habilidades de algunos monociclistas
+argentinos. Lindo video.
+
 {{< youtube WmpQTGzDwPg >}}

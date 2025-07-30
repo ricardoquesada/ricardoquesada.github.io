@@ -7,7 +7,9 @@ title: Pedazo de monociclo
 url: /2009/11/13/pedazo-de-monociclo/
 
 ---
-El usuario [unisk8r](http://www.unicyclist.com/forums/member.php?u=4660) de unicylist.com se armó un lindo monociclo con:
+
+El usuario [unisk8r](http://www.unicyclist.com/forums/member.php?u=4660) de
+unicylist.com se armó un lindo monociclo con:
 
 - cuadro en V
 - freno a disco

@@ -17,10 +17,8 @@ documented
 in [Part I](/2016/03/14/repairing-the-commodore-1581-floppy-disk-drive-part-1/)).
 
 So I ordered a WD1772 replacement and the IC socket, I developed some basic
-desoldering skills, watched
-some [desoldering](https://www.youtube.com/watch?v=239okViumdA) [videos](https://www.youtube.com/watch?v=t2j_8LvpTNk),
-and also got a
-cheap [desoldering iron from Radio Shack](https://www.radioshack.com/products/radioshack-45-watt-desoldering-iron?variant=5717855877):
+desoldering skills, watched some [desoldering](https://www.youtube.com/watch?v=239okViumdA) [videos](https://www.youtube.com/watch?v=t2j_8LvpTNk),
+and also got a cheap [desoldering iron from Radio Shack](https://www.radioshack.com/products/radioshack-45-watt-desoldering-iron?variant=5717855877):
 
 ![](/images/repairing-the-commodore-1581-floppy-disk-drive-part-2-desoldering-iron.jpg)
 
@@ -30,8 +28,7 @@ I was able to remove all the solder from the pins in a few minutes.
 
 The desolder iron just takes some time to reach the necessary temperature,
 but besides that, it seems to be a great tool for occasional desoldering tasks
-(a hobbyist desoldering
-iron [cost more than $250](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4)).
+(a hobbyist desoldering iron [cost more than $250](https://www.amazon.com/Hakko-FR300-05-P-Desoldering-Tool/dp/B00KWM69C4)).
 
 ![](/images/repairing-the-commodore-1581-floppy-disk-drive-part-2-soldered.jpg)
 ![](/images/repairing-the-commodore-1581-floppy-disk-drive-part-2-desoldered.jpg)

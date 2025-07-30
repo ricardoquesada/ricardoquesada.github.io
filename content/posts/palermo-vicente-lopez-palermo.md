@@ -2,20 +2,21 @@
 author: ricardoquesada
 category: unicycle
 tag:
-  - kh36
-  - buenos aires
+- kh36
+- buenos aires
 date: "2009-09-15T19:52:00+00:00"
 guid: http://www.monociclo.com.ar/?p=97
 title: Palermo - Vicente Lopez - Palermo
 url: /2009/09/15/palermo-vicente-lopez-palermo/
 
 ---
+
 ![](/images/palermo-vicente-lopez-palermo.jpg)
 
 Ayer hice un lindo paseo de Palermo hasta Vicente Lopez ida y vuelta.  
 Fueron unos 26 km aproximadamente.
 
-Camino:  
+Camino:
 
 1. Arranqué en la plaza Alemania
 1. Crucé el Rosedal

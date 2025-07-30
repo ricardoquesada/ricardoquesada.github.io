@@ -14,6 +14,7 @@ url: /2008/04/24/y-el-mono/
 ---
 
 Donde esta el mono, che ?  
+
 Bueno, no tuve mucho tiempo de monociclear... entre aquello y esto... en fin...
 el domingo pasado iba a salir a andar, pero no pudo ser... quizás sea el domingo
 próximo. Ah... cumpli 2 años de monoclista... epa!

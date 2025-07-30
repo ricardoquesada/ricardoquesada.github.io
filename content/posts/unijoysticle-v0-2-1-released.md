@@ -4,18 +4,20 @@ category: retro computing
 date: "2016-06-30T23:05:01+00:00"
 guid: http://retro.moe/?p=1771
 tag:
-  - unijoysticle
+- unijoysticle
 title: UniJoystiCle v0.2.1 released
 url: /2016/06/30/unijoysticle-v0-2-1-released/
 
 ---
+
 ![](/images/unijoysticle-v0-2-1-released-battery.jpg)
 <small>*v0.2.1 powered from a battery. Can be powered from USB as well.*</small>
 
 Changes in v0.2.1:
 
 - Commodore 64 works Ok when the UniJoystiCle board is unpowered.
-  The issue was that the 4066 chips were in an unknown state when they were unpowered.
+  The issue was that the 4066 chips were in an unknown state when they were
+  unpowered.
   In v0.2.1 the 4066 ICs get power from the C64 Joy #2 port.
 - Smaller holes for the DC Jack making it compatible with "common" DC Jacks.
 

@@ -4,11 +4,12 @@ category: unicycle
 date: "2009-04-16T20:48:00+00:00"
 guid: http://www.monociclo.com.ar/?p=78
 tag:
-  - maraton
+- maraton
 title: Nuevo monociclo. Ajata Marathon 28"
 url: /2009/04/16/nuevo-monociclo-ajata-marathon-28/
 
 ---
+
 ![](/images/nuevo-monociclo-ajata-marathon-28.jpg)
 
 Si, tengo un nuevo monociclo, con el cual voy a participar de la
