@@ -101,8 +101,7 @@ many things could go wrong.
 
 ![](/images/le_chuck_wip.jpg)
 
-<small>*Embroidering Le Chuck in my
-Brother [NQ3550w machine][brother_nq3550w].*</small>
+<small>*Embroidering Le Chuck in my Brother [NQ3550w machine][brother_nq3550w].*</small>
 
 ## 8. Trimming stabilizer and threads
 
@@ -138,11 +137,11 @@ And VCF West was great, as always.
 
 ![](/images/le_chuck_amiga.jpg)
 
-<small>*The "My First Amiga" booth at VCF West*</small>
+<small>*The "My First Amiga" booth at VCF West.*</small>
 
 ## T-shirt stats
 
-* Total Stitches: 50346
+* Total Stitches: 50,346
 * Unique colors: 9
 * Total thread use: 237.3m (top), 118.65m (bobbin)
 * Dimensions: 147mm x 247.8mm
