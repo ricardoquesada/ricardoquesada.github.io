@@ -104,7 +104,7 @@ many things could go wrong.
 <small>*Embroidering Le Chuck in my
 Brother [NQ3550w machine][brother_nq3550w].*</small>
 
-## 8. Trimming stabilizer and hreads
+## 8. Trimming stabilizer and threads
 
 ![](/images/le_chuck_back.jpg)
 
@@ -119,13 +119,13 @@ Once you finish with the embroidery, there are two remaining tedious tasks:
 
 ![](/images/le_chuck_bug.jpg)
 
-<small>*Bug.*</small>
+<small>*Bug, which I fixed by embroidering a "pixel" on top of it.*</small>
 
 > Tip: Always place your t-shirts in a mesh while washing them in the washing
 > machine.
 > {.note}
 
-As [before][thimbleweed], a fixed the "bug" by embroidering a "pixel" on top of
+As [before][thimbleweed], I fixed the "bug" by embroidering a "pixel" on top of
 it.
 
 ## Success!
