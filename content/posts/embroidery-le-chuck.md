@@ -17,10 +17,10 @@ This past weekend, I had two events:
 * [Vintage Computer Festival West][vcfwest], at the Computer History Museum.
 * And we hosted a party at home.
 
-So I decided that nothing better that to embroider Le Chuck,
+So I decided that nothing better than to embroider Le Chuck,
 from Monkey Island 2.
 
-Here are the steps that I did to embroider it.
+These are the steps that I followed to embroider it:
 
 ## 1. Grab the Sprite and simplify it
 
@@ -29,7 +29,7 @@ I took the sprite from [The Legend of Monkey Island][monkey_island_site] site.
 ![](/images/le_chuck_sprite_original.png)
 <small>*Original sprite has 13 different colors.*</small>
 
-I slightly modified it so that instead of using 13 colors, it uses 9.
+I slightly modified it so that it uses 9 colors instead of the original 13.
 I used [GIMP][gimp] to modify it.
 
 ## 2. Edit it with Pixem
@@ -120,9 +120,9 @@ Once you finish with the embroidery, there are two remaining tedious tasks:
 
 <small>*Bug, which I fixed by embroidering a "pixel" on top of it.*</small>
 
-> Tip: Always place your t-shirts in a mesh while washing them in the washing
+> Tip: Always put your T-shirt inside a mesh bag before putting it in the washer
 > machine.
-> {.note}
+{.note}
 
 As [before][thimbleweed], I fixed the "bug" by embroidering a "pixel" on top of
 it.
