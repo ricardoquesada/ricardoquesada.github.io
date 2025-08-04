@@ -7,6 +7,7 @@ tag:
 - embroidery
 - monkey island
 - machine embroidery
+- vcf west
 ---
 
 ![](/images/le_chuck_tshirt_finish.jpg)
@@ -14,12 +15,12 @@ tag:
 This past weekend, I had two events:
 
 * [Vintage Computer Festival West][vcfwest], at the Computer History Museum.
-* And we hosted a party at home
+* And we hosted a party at home.
 
-So I decided that nothing better that to embroider Le Chuck, from Monkey Island
-2.
+So I decided that nothing better that to embroider Le Chuck,
+from Monkey Island 2.
 
-Here are the steps that I did:
+Here are the steps that I did to embroider it.
 
 ## 1. Grab the Sprite and simplify it
 
@@ -31,18 +32,24 @@ I took the sprite from [The Legend of Monkey Island][monkey_island_site] site.
 I slightly modified it so that instead of using 13 colors, it uses 9.
 I used [GIMP][gimp] to modify it.
 
-## 2. Pixem it
+## 2. Edit it with Pixem
 
 ![](/images/le_chuck_pixem.png)
-<small>*Using Pixem to define the order of the pixels, among other
-things*.</small>
+<small>*Using Pixem to define the order of the pixels, among other things*.</small>
 
 I created the path-of-pixels (order in which the pixels are going to be
 embroidered) in Pixem, my custom editor.
 
+I also set:
+
+- Pixel size: 4.2mm x 4.2mm
+- Pull compensation: 0.2mm
+- Min jump stitch length: 10mm, which in hindsight was too much. 
+  More about this in a future blog post.
+
 And from Pixem, I exported an SVG file with Ink/Stitch metadata.
 
-## 3. Ink/Stitch it
+## 3. Validate it with Ink/Stitch
 
 ![](/images/le_chuck_inkscape.png)
 <small>*Using Inkscape + Ink/Stitch to validate and generate embroidery
@@ -79,7 +86,15 @@ easier to cut and remove the stabilizers in the end.
 I also used a [water-soluble embroidery topping][embroidery_topping] to make the
 pixels look better.
 
-## 5. Embroider it!
+## 6. Choosing the correct color threads
+
+![](/images/le_chuck_threads.jpg)
+<small>*Threads used for Le Chuck.*</small>
+
+> Tip: Do not underestimate the task of choosing the right color threads.
+{.note}
+
+## 7. Embroider it!
 
 And then I just embroidered it. I had to babysit the embroidery process since
 many things could go wrong.
@@ -89,7 +104,18 @@ many things could go wrong.
 <small>*Embroidering Le Chuck in my
 Brother [NQ3550w machine][brother_nq3550w].*</small>
 
-## 6. Fixing "bugs"
+## 8. Trimming stabilizer and hreads
+
+![](/images/le_chuck_back.jpg)
+
+<small>*The t-shirt, from the "wrong" side after trimming the stabilizer and threads*</small>
+
+Once you finish with the embroidery, there are two remaining tedious tasks:
+
+- Trimming the "extra" stabilizer
+- Trimming the threads that are "hanging" usually due to jump stitches
+
+## 9. Fixing "bugs"
 
 ![](/images/le_chuck_bug.jpg)
 
@@ -102,7 +128,7 @@ Brother [NQ3550w machine][brother_nq3550w].*</small>
 As [before][thimbleweed], a fixed the "bug" by embroidering a "pixel" on top of
 it.
 
-## 7. Success!
+## Success!
 
 ![](/images/le_chuck_person.jpg)
 
@@ -114,7 +140,7 @@ And VCF West was great, as always.
 
 <small>*The "My First Amiga" booth at VCF West*</small>
 
-## 8. T-shirt stats
+## T-shirt stats
 
 * Total Stitches: 50346
 * Unique colors: 9
