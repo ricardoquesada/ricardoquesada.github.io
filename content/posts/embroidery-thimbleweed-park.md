@@ -32,7 +32,7 @@ The reasons to reduce the colors from 41 to 10 are:
 
 ![thimbleweed_park_sprite](/images/thimbleweed_park_sprite.png)
 
-*Original sprite taken from [here][refining_ransome]*.
+<small>*Original sprite taken from [here][refining_ransome]*.</small>
 
 ## 2. Create the path
 
@@ -67,7 +67,7 @@ Although, I might increase it a bit to reduce the number of jump stitches.
 
 ![thimbleweed_park_pixem](/images/thimbleweed_park_pixem.png)
 
-*Pixem, the editor I created.*
+<small>*Pixem, the editor I created.*</small>
 
 ## 3. Use Ink/Stitch to generate the PES file
 
@@ -88,7 +88,7 @@ If I'm satisfied with what I see, then I do:
 
 ![thimbleweed_park_inkscape](/images/thimbleweed_park_inkscape.png)
 
-*Inkscape with the Ink/Stitch plugin.*
+<small>*Inkscape with the Ink/Stitch plugin.*</small>
 
 ## 4. Prepare the T-shirt
 
@@ -107,8 +107,7 @@ many things could go wrong.
 
 ![thimbleweed_park_machine](/images/thimbleweed_park_machine.jpg)
 
-*Embroidering Ransome the Clown using my
-Brother [NQ3550w machine][brother_nq3550w].*
+<small>*Embroidering Ransome the Clown using my Brother [NQ3550w machine][brother_nq3550w].*</small>
 
 ## 6. Fixing "bugs"
 
@@ -123,7 +122,7 @@ t-shirt.
 
 ![thimbleweed_park_fix](/images/thimbleweed_park_fix.jpg)
 
-*Patching the t-shirt.*
+<small>*Patching the t-shirt.*</small>
 
 ## 7. Success!
 
