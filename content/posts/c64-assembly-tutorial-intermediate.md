@@ -9,15 +9,19 @@ tag:
 
 # Introduction
 
-This tutorial describes the different tips and tricks used to create this chipdisk:
+This is an "intermediate level" tutorial. It assumes that you already know 
+Commodore 64 assembly, how to program sprites and other basic graphics tricks.
+
+In particular, this tutorial describes the different tips and tricks used to
+create this chipdisk:
 
 {{< youtube dzeQ2irb04k >}}
 
-Alternative, if you cannot watch the video, download the d64 file from here:
+Alternative, if you cannot watch the video, download the d64 file from here: [chipdisk-nac.d64](https://github.com/c64scene-ar/chipdisk-nac-vol.1/raw/master/bin/chipdisk-nac.d64)
+ 
+Okay, let's start.
 
--   [chipdisk-nac.d64](https://github.com/c64scene-ar/chipdisk-nac-vol.1/raw/master/bin/chipdisk-nac.d64)
-
-Okay, let's start. Playing a sid on a Commodore 64 is very simple:
+Playing a sid on a Commodore 64 is simple:
 
 ```asm
 setup:
@@ -56,9 +60,9 @@ but everything else. Let's see why.
 
 > I guess you already know how to use sprites and graphics modes. If you
 > still do not know, go to [Bringing Sprites in good
-> Shape](http://dustlayer.com/vic-ii/2013/4/28/vic-ii-for-beginners-part-5-bringing-sprites-in-shape)
+> Shape](https://web.archive.org/web/20240116111113/https://dustlayer.com/vic-ii/2013/4/28/vic-ii-for-beginners-part-5-bringing-sprites-in-shape)
 > and [Screen Modes Cheaper by the
-> Dozen](http://dustlayer.com/vic-ii/2013/4/26/vic-ii-for-beginners-screen-modes-cheaper-by-the-dozen)
+> Dozen](https://web.archive.org/web/20231126221847/https://dustlayer.com/vic-ii/2013/4/26/vic-ii-for-beginners-screen-modes-cheaper-by-the-dozen)
 {.note}
 
 Let's start with the basics. There are 64k RAM available, but when we
@@ -2699,4 +2703,4 @@ Do you have questions? Do you want to collaborate with PVM? We're here:
     and here [Synthetic instructions](https://wiki.nesdev.com/w/index.php/Synthetic_instructions).
     And also here: [CodeBase64](http://codebase64.org/)
 
-[^7]: For more information about Bad Lines go to [Beyond the Screen: Rasters and Cycles](http://dustlayer.com/vic-ii/2013/4/25/vic-ii-for-beginners-beyond-the-screen-rasters-cycle)
+[^7]: For more information about Bad Lines go to [Beyond the Screen: Rasters and Cycles](https://web.archive.org/web/20231126221847/https://dustlayer.com/vic-ii/2013/4/25/vic-ii-for-beginners-beyond-the-screen-rasters-cycle)
