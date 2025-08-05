@@ -9,7 +9,11 @@ tag:
 
 # Introduction
 
-Hi. First download the Chipdisk to get an idea of what it covers:
+This tutorial describes the different tips and tricks used to create this chipdisk:
+
+{{< youtube dzeQ2irb04k >}}
+
+Alternative, if you cannot watch the video, download the d64 file from here:
 
 -   [chipdisk-nac.d64](https://github.com/c64scene-ar/chipdisk-nac-vol.1/raw/master/bin/chipdisk-nac.d64)
 
