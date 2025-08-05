@@ -18,15 +18,15 @@ the Unijoysticle.
 
 {{< youtube vCj45OX43JE >}}
 
-(
-Note: [Spanish version of the video is here](https://www.youtube.com/watch?v=0pEDP2tvvQc))
+> Note: [Spanish version of the video is here](https://www.youtube.com/watch?v=0pEDP2tvvQc)
+{.node}
 
 ## How does it work
 
 ![](https://lh3.googleusercontent.com/pw/AL9nZEW1jK6IsMJQrHdXyUQtQ2jVnDTAlWXk8G6kQvQT29BoMz0-0LXujgGXfnAHvCBB1Bsy9WG5JEOhvlBItmWf_HOl115fwNGnTTd1IMNns1dfZeJLLGnNt8aot6KIbwbmKJLuOZi-eYgzk84GfuVOrji_rw=-no?authuser=0)
 
 I strongly suggest viewing the video (see above) which contains technical
-info [starting at 1:24](https://youtu.be/vCj45OX43JE?t=84)
+info [starting at 1:24](https://youtu.be/vCj45OX43JE?t=84).
 
 As a summary, it works like this:
 

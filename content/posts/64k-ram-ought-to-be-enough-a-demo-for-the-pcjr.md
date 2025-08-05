@@ -17,11 +17,8 @@ url: /2018/09/26/64k-ram-ought-to-be-enough-a-demo-for-the-pcjr/
 _Updated 2018–10–08_
 
 {{< youtube uakDpJns9LA >}}
-
-A demo for the IBM PCjr by [Pungas de Villa Martelli](http://pungas.space).
-It was presented at [Flashparty 2018](http://flashparty.dx.am/)
-and [won the Demo](http://flashparty.dx.am/index.php?option=com_content&view=article&id=37:results-fp-2018&catid=2&lang=en&Itemid=134)
-category.
+<small>*A demo for the IBM PCjr by [Pungas de Villa Martelli](http://pungas.space).
+It was presented at [Flashparty 2018](http://flashparty.dx.am/) and [won the Demo](http://flashparty.dx.am/index.php?option=com_content&view=article&id=37:results-fp-2018&catid=2&lang=en&Itemid=134) category.*</small>
 
 ## Requirements
 
@@ -191,8 +188,8 @@ the video card expects it. And it will be displayed automatically.
 From a technical point of view, nothing interesting really happens in Part II.
 It is just a simple horizontal scroll that consumes almost all the CPU cycles.
 
-_\[Note: Additional effects were planned for this part, but we didn’t have the
-time\]_
+> Note: Additional effects were planned for this part, but we didn’t have the time.
+{.note}
 
 It uses a 320x200 @ 16 colors video mode. In order to enable this video mode in
 a 64k-only PCjr you have to do:
@@ -205,12 +202,13 @@ mov   word [0x0415],128  ;make BIOS set_video_modo believe that we
                          ; us set video mode 9
 ```
 
-_**Bug:** the graphic won’t look that good on 64k-only PCjr. We tested this idea
-about 2 months before the deadline with a random graphic, and it looked Ok. So
-we though it was possible to use 32k video modes on the 64k-only PCjr. But one
-day before the release we noticed that the graphic didn’t look that good. And
-unfortunately we couldn’t fix it yet. Not sure whether this is a hardware
-limitation (it shouldn’t be, in theory), or not. We’ll try to fix this soon._
+> Bug: the graphic won’t look that good on 64k-only PCjr. We tested this idea
+  about 2 months before the deadline with a random graphic, and it looked Ok. So
+  we thought it was possible to use 32k video modes on the 64k-only PCjr. But one
+  day before the release we noticed that the graphic didn’t look that good. And
+  unfortunately we couldn’t fix it yet. Not sure whether this is a hardware
+  limitation (it shouldn’t be, in theory), or not. We’ll try to fix this soon.
+{.warning}
 
 ## Part III
 
@@ -218,10 +216,11 @@ limitation (it shouldn’t be, in theory), or not. We’ll try to fix this soon.
 ![Moon](https://lh3.googleusercontent.com/i3b4XkNM_YgJOdkMtB-FUg1bsgnJIDe0gY0rD3pEPIdu_QhmHI-QgSR-9p0TFn3jbjWMqeEy2lOwiaXjKvqoM-8j_sqXCYScRfBe_aTfo2Khu1v5WgbqkVI7S9j0XjOHXytdIOEUQQI=-no)
 ![Still there](https://lh3.googleusercontent.com/NGYFNnYBO6G8Lg6QOfYERmV6WKaZ-VcwJafIuHMcV1bXkkGeBvJqoP4Pc5QnNWCF-Byi63_yxadzSmHywlW2oXk6c-_s6qBhjFN0vBbkBaZs6HhKhFDseyiQJiPg0IAi09Qcizg_E-g=-no)
 
-_\[Note: Originally, we wanted to add some 3d effects in Part III. But after
-doing some performance tests with basic 2D polygons, we decided it was not worth
-it. The PCjr was too slow for what we wanted to do. We reused part of that code
-for the Vector Fonts.\]_
+> Note: Originally, we wanted to add some 3d effects in Part III. But after
+  doing some performance tests with basic 2D polygons, we decided it was not worth
+  it. The PCjr was too slow for what we wanted to do. We reused part of that code
+  for the Vector Fonts.
+{.note}
 
 ### Vector fonts
 
@@ -254,7 +253,7 @@ basically it.
 ## Easter Egg
 
 ![Easter Egg](https://lh3.googleusercontent.com/zQdb6LGUoqZPppQeiL0y99YER7aoGiy4Q_RWfhtoyMuxADTadncsruPckS3oVOmkAdhnwMcrfJDGzRTpRWiU6lrkvtDS0IvUpTnBPSNAgYKHsUT1crA7j-nciMm6VPQkEFMUBTuJAyI=-no)
-<small>_Easter Egg_</small>
+<small>_Easter Egg._</small>
 
 The final part is pure PCjr BIOS code.
 
@@ -297,7 +296,7 @@ but we failed and couldn’t fix the bug.
 <small>_Looks OKish from far away..._</small>
 
 ![](https://lh3.googleusercontent.com/PX80RCtJlleydn%5F12eINRx0hb33IhUfvNaFmjW-WbJm2c0qaBejXYtzmcpn4yc-z2pqn-o0KZPQl3qi8LIgiH1awNpt0-nRfk%5F1lcLVkla0AzF3rYdnSl%5FdRWg79McJsU4M2PFHEO4w=-no)
-<small>_Zoom in_</small>
+<small>_Zoom in_.</small>
 
 So we shipped the demo with this embarrassing bug. A few days after the party,
 and after discussing
@@ -324,8 +323,7 @@ See “ [PCjr Technical Reference](https://archive.org/details/IBMPCJrTechnicalR
 Section 2–55 for further details).
 
 ![](https://lh3.googleusercontent.com/gAwOHkkjrfOGeoiCKItDsYUxj6LV_puAqNreLwDhPr_7LY-XCVxb9G8mnJTOmAsUY3N3XDOKIl8nooV1GGR1qCHI_r4KyLznjUvE6C7vblTRbX-GeYwOECdznilZcyShnMFUKOzUKWA=-no)
-
-Monochrome when in 64K RAM only
+<small>*Monochrome when in 64K RAM only.*</small>
 
 We tried to disable the “even/odd” decoder by setting “Mode Control 1”’s
 High-Bandwidth register to 0. But that brings other issues. We still don’t know

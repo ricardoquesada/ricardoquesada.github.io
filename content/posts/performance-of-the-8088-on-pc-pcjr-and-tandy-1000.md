@@ -13,7 +13,7 @@ url: /2018/03/04/performance-of-the-8088-on-pc-pcjr-and-tandy-1000/
 
 ---
 
-![](https://lh3.googleusercontent.com/Qm6Ynexbr8lJUggbCcZoKQaPX-qKyrA5Ef4_Feu7mju1M6vVhiN86NjNpmXBZlO_AdAu0KWVWACqK_oWMEPGkgeSSwOBsSV804i3WS0dFML6LqpMY7o3dwlV6oBs0dSJfjM1D5vnjYQ=-no)
+![](/images/performance-of-the-8088-on-pc-pcjr-and-tandy-1000.jpg)
 
 It's well-known that you
 should [measure the performance of your code](https://github.com/jagregory/abrash-zen-of-asm/blob/master/src/chapter-04.md),
