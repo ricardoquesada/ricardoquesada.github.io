@@ -24,6 +24,6 @@ Techniques used:
 * Acrylic painting
 * Machine sewing
 * Hand sewing
-* Cardboard, hot glue, felt
+* Cardboard, wool yarn, hot glue, felt and more
 
 I spent between 10 and 20 hours working on it with the help of the rest of the family.
