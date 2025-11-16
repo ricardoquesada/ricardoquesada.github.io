@@ -1,6 +1,6 @@
 ---
 date: '2025-11-02T10:09:14-08:00'
-title: 'Paper Mache - Pibe Cabeza '
+title: 'Halloween 2025 costume - Pibe Cabeza'
 tag:
   - Paper Mache
   - Halloween
