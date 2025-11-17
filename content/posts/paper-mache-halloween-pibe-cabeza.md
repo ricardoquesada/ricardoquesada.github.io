@@ -27,3 +27,5 @@ Techniques used:
 * Cardboard, wool yarn, hot glue, felt and more
 
 I spent between 10 and 20 hours working on it with the help of the rest of the family.
+
+*This post is 100% AI-free.*

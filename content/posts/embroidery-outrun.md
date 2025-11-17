@@ -31,3 +31,5 @@ The problems with my new "smart" algorithm, are:
 ![outrun_bugs](/images/embroidery-outrun-bugs.jpg)
 
 Unfortunately I learned about the "connecting blocks" bug while I was embroidering Outrun.
+
+*This post is 100% AI-free.*
