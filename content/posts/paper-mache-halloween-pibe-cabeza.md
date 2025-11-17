@@ -10,7 +10,7 @@ tag:
 
 {{< youtube DU8p45mAgxc >}}
 
-My hand-made costume that I did for Halloween 2025.
+For Halloween 2025, I made myself a costume.
 
 He is "El Pibe Cabeza", a local superhero that saves kids from bullies.
 
