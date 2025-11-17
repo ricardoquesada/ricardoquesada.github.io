@@ -18,12 +18,14 @@ In any case, a friend of mine and a very good tennis player is moving abroad so 
 
 ![international_tennis](/images/international_tennis_frame.jpg)
 
-Even though this looks like an "easy" embroidery, the tricky part was the different pixel sizes:
+Even though this looks like an "easy" embroider, the tricky part was the different pixel sizes:
 
 ![international_tennis](/images/international_tennis_pixem.png)
 
 I used the "layers" features from Pixem, where one layer had one pixel size, and the other a smaller one.
 But in order to export the layers correctly I had to use some GIMP editing.
+
+I like the result: no puckering, clean, looks nice.
 
 *This post is 100% AI-free.*
 
