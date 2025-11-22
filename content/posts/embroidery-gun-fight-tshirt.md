@@ -2,11 +2,11 @@
 author: ricardoquesada
 category: embroidery
 tag:
-- embroidery
-- machine embroidery
-- gun fight
-date: '2025-07-02T10:15:32-07:00'
-title: 'Machine-Embroidering Gun Fight Arcade in two T-shirts'
+  - embroidery
+  - machine embroidery
+  - gun fight
+date: "2025-07-02T10:15:32-07:00"
+title: "Machine-Embroidering Gun Fight Arcade in two T-shirts"
 url: /embroidering-gun-fight-tshirt/
 ---
 
@@ -63,18 +63,12 @@ the [Angler Fish](/posts/embroidery-angler-fish-blinking-led/).
   linen. It was challenging to remove the stickiness. I should try a non-fusible
   stabilizer next time.
 
-*This post is 100% AI-free.*
+_This post is 100% AI-free._
 
 [pes_file_format]: https://docs.fileformat.com/misc/pes/
-
 [brother_nq3550w]: https://www.brother-usa.com/products/nq3550w
-
 [fusible_stabilizer]: https://www.amazon.com/dp/B08D6PMW6C?ref_=pe_386300_442618370_TE_sc_as_ri_0&th=1
-
 [GIMP]: https://www.gimp.org/
-
 [inkstitch]: https://www.inkstitch.org
-
 [inkscape]: https://www.inkscape.org
-
 [needle_75]: https://www.madeirausa.com/education/the-basics-of-75-11-needles-and-when-to-use-them
