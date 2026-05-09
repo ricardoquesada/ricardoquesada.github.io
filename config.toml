@@ -1,5 +1,5 @@
 baseURL = "https://retro.moe"
-languageCode = "en"
+locale = "en"
 copyright = "© Ricardo Quesada"
 title = "RETRO.MOE"
 theme = "PaperMod"
