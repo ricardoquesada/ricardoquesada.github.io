@@ -56,7 +56,8 @@ I am excited to announce the release of **Regenerator 2000**, a modern take on t
 
 You can find more information, download the latest release (v0.5.0), and contribute to the project on the official GitHub page:
 
-**[https://github.com/ricardoquesada/regenerator2000](https://github.com/ricardoquesada/regenerator2000)**
+- GitHub: **[https://github.com/ricardoquesada/regenerator2000](https://github.com/ricardoquesada/regenerator2000)**
+- Documentation: **[https://retro.moe/regenerator2000/](https://retro.moe/regenerator2000/)**
 
 Happy hacking!
 
