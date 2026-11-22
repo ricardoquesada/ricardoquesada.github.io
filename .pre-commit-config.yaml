@@ -1,0 +1,91 @@
+# Pre-commit configuration for retro.moe (Hugo + PaperMod GitHub Pages site).
+#
+# Architectural boundaries:
+# - `themes/` contains upstream git submodules and is excluded from all hooks.
+# - `layouts/rss.xml` is a Hugo Go template rather than standalone XML, so `check-xml`
+#   is intentionally omitted.
+# - `check-added-large-files` allows up to 6 MB to accommodate high-resolution craft
+#   and hardware photos in `static/images/` while blocking accidental videos or archives.
+
+default_install_hook_types: [pre-commit]
+minimum_pre_commit_version: "3.2.0"
+
+exclude: '^themes/'
+
+repos:
+  # 1. Repository safety, cross-platform portability, config validation, and text hygiene
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-illegal-windows-names
+      - id: check-symlinks
+      - id: destroyed-symlinks
+      - id: check-added-large-files
+        args: ["--maxkb=6144"]
+      - id: detect-private-key
+      - id: fix-byte-order-marker
+      - id: check-executables-have-shebangs
+      - id: check-shebang-scripts-are-executable
+      - id: check-yaml
+      - id: check-toml
+      - id: check-json
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+      - id: trailing-whitespace
+        args: ["--markdown-linebreak-ext=md"]
+      - id: end-of-file-fixer
+
+  # 2. GitHub Actions workflow static analysis (.github/workflows/*.yml)
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.7
+    hooks:
+      - id: actionlint
+
+  # 3. Hugo site invariants and clean production build verification
+  - repo: local
+    hooks:
+      - id: forbid-generated-and-os-files
+        name: forbid generated Hugo output and OS metadata files
+        entry: Generated Hugo artifacts (public/, resources/, .hugo_build.lock) and .DS_Store files must not be committed
+        language: fail
+        files: '(^|/)\.DS_Store$|^(public|resources)/|^\.hugo_build\.lock$'
+
+      - id: check-hugo-taxonomies
+        name: check Hugo singular taxonomies (tag/category)
+        description: Ensure post frontmatter uses singular tag/category keys defined in config.toml.
+        language: system
+        files: '^content/.*\.md$'
+        entry: |
+          python3 -c '
+          import re, sys
+          bad = []
+          for p in sys.argv[1:]:
+              t = open(p, encoding="utf-8").read()
+              m = re.match(r"\A---\r?\n(.*?)\r?\n---(?:\r?\n|\Z)", t, re.S)
+              if m:
+                  for k, fix in (("tags", "tag"), ("categories", "category")):
+                      if re.search(rf"^{k}\s*:", m.group(1), re.M):
+                          bad.append(f"{p}: use singular \"{fix}:\" instead of \"{k}:\" (see config.toml [taxonomies])")
+              m = re.match(r"\A\+\+\+\r?\n(.*?)\r?\n\+\+\+(?:\r?\n|\Z)", t, re.S)
+              if m:
+                  for k, fix in (("tags", "tag"), ("categories", "category")):
+                      if re.search(rf"^{k}\s*=", m.group(1), re.M):
+                          bad.append(f"{p}: use singular \"{fix} =\" instead of \"{k} =\" (see config.toml [taxonomies])")
+          if bad:
+              print("\n".join(bad), file=sys.stderr)
+              sys.exit(1)
+          '
+
+      - id: hugo-build
+        name: hugo build check
+        description: Verify the Hugo site builds cleanly into a temporary directory without mutating public/.
+        entry: >-
+          bash -c 'set -euo pipefail;
+          tmp=$(mktemp -d);
+          trap "rm -rf \"$tmp\"" EXIT;
+          hugo --gc --minify --noBuildLock --destination "$tmp"'
+        language: system
+        pass_filenames: false
+        files: '^(config\.toml|content/|layouts/|archetypes/|assets/|static/)'
