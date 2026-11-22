@@ -74,7 +74,7 @@ url = "mailto:unijoysticle@gmail.com"
 
 [params.homeInfoParams]
 Title = "Welcome to Retro Moe"
-Content = "👋 I'm Ricardo Quesada and I do stuff: Retro computing, software & game development, microcontrollers & electronics, machine embroidery, demo scene, unicycling and more.\nSome of my work: [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d) (game engine), [Bluepad32](https://github.com/ricardoquesada/bluepad32) (gamepad host for micro controllers), [Unijoysticle](/unijoysticle2) (use modern gamepads in retro computers), [The Uni Games](/unijoysticle/) (video game that is controlled using a real unicycle), [Tenes Empandas Graciela](https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela) (Risk-clone), [Regenerator 2000](/regenerator2000/) (interactive 6502 disassembler), [VChar64](https://github.com/ricardoquesada/vchar64) (font editor), [some intros/demos](https://csdb.dk/scener/?id=27743)."
+Content = "👋 I'm Ricardo Quesada and I do stuff: Retro computing, software & game development, microcontrollers & electronics, machine embroidery, demo scene, unicycling and more.\nSome of my work: [Cocos2d](https://en.wikipedia.org/wiki/Cocos2d) (game engine), [Bluepad32](/bluepad32/) (gamepad host for micro controllers), [Unijoysticle](/unijoysticle2) (use modern gamepads in retro computers), [The Uni Games](/unijoysticle/) (video game that is controlled using a real unicycle), [Tenes Empandas Graciela](https://en.wikipedia.org/wiki/Ten%C3%A9s_Empanadas_Graciela) (Risk-clone), [Regenerator 2000](/regenerator2000/) (interactive 6502 disassembler), [VChar64](https://github.com/ricardoquesada/vchar64) (font editor), [some intros/demos](https://csdb.dk/scener/?id=27743)."
 
 [params.editPost]
 URL = "https://github.com/ricardoquesada/ricardoquesada.github.io/tree/main/content"
@@ -92,29 +92,34 @@ url = "/regenerator2000/"
 weight = 1
 
 [[menu.main]]
+name = "Bluepad32"
+url = "/bluepad32/"
+weight = 2
+
+[[menu.main]]
 name = "Unijoysticle™"
 url = "/unijoysticle/"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "Unijoysticle™ 2"
 url = "/unijoysticle2/"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Store"
 url = "https://www.tindie.com/stores/riq/"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Archive"
 url = "/all/"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "🔍"
 url = "/search/"
-weight = 6
+weight = 7
 
 [params.assets]
 favicon = "/favicon.ico"

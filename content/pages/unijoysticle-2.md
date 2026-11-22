@@ -83,8 +83,8 @@ Supports most, if not all, modern Bluetooth controllers:
 ## Documentation
 
 - [User Guide](https://unijoysticle.readthedocs.io/en/latest/)
-- List of [supported gamepads](https://bluepad32.readthedocs.io/en/latest/supported_gamepads/)
-- List of [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
+- List of [supported gamepads](/bluepad32/supported_gamepads/)
+- List of [supported mice](/bluepad32/supported_mice/)
 
 ## Open Source / Open Hardware
 

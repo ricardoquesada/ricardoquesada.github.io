@@ -36,7 +36,7 @@ In addition to that, the firmware (Bluepad32) was updated to support:
 
 - Mouse support: this was #1 feature request!
     - List of supported mice is
-      here: [supported mice](https://bluepad32.readthedocs.io/en/latest/supported_mice/)
+      here: [supported mice](/bluepad32/supported_mice/)
     - Supports up to two mice connected at the same time. Finally, you can
       play [Lemmings in two-player mode](https://lemmings.fandom.com/wiki/Lemmings_two-player)!
 - Console support: useful to change settings in runtime like:
