@@ -10,7 +10,7 @@ If template and Hugo are out of sync, it might trigger errors
 
 ```sh
 cd ${SRC}/themes/PaperMod
-git pull origin main
+git pull origin master
 ```
 
 ### Write a new blog post
